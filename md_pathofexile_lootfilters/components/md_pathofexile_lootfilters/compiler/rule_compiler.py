@@ -15,8 +15,8 @@ class RuleCompiler:
         self._logger.trace("Compiler initialized", separator=self._separator)
 
     def compile(self, rule: Rule) -> str:
-        self._logger.debug(f"Compiling rule {rule.block_type}", separator=self._separator)
-        lines: List[str] = [rule.block_type.value]
+        self._logger.debug(f"Compiling rule {rule.rule_type}", separator=self._separator)
+        lines: List[str] = [rule.rule_type.value]
         for renderer in self._renderers:
             renderer.render(lines, rule)
         return "\n".join(lines) + "\n"

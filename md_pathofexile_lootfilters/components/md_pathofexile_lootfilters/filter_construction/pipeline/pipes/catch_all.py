@@ -1,6 +1,6 @@
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import BlockType
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
     ItemGroup
@@ -21,7 +21,7 @@ class AddCatchAllRules(IPipe):
         self._section_description: str = "Catches any item not processed by earlier rules. For debugging and development."
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
-        catch_all_block: Rule = data.rule_factory.get_catch_all_block(BlockType.SHOW)
+        catch_all_block: Rule = data.rule_factory.get_catch_all_block(RuleType.SHOW)
         catch_all_block.style = data.style_preset_registry.get_style(ItemGroup.CatchAll, ItemTier.NoTier)
 
         rule_section: RuleSection = RuleSection(

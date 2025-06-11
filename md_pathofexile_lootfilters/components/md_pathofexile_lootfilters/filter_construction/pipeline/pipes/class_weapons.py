@@ -2,7 +2,7 @@ from typing import List
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import BlockType
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord, \
     ConditionOperator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
@@ -44,8 +44,8 @@ class AddClassWeaponsRules(IPipe):
 
         combined_conditions = [class_condition] + area_level_conditions
 
-        show_rule = data.rule_factory.get_rule(BlockType.SHOW, conditions=combined_conditions, style=style)
-        hide_rule = data.rule_factory.get_rule(BlockType.HIDE, conditions=[class_condition], style=None)
+        show_rule = data.rule_factory.get_rule(RuleType.SHOW, conditions=combined_conditions, style=style)
+        hide_rule = data.rule_factory.get_rule(RuleType.HIDE, conditions=[class_condition], style=None)
 
         rules.extend([show_rule, hide_rule])
 

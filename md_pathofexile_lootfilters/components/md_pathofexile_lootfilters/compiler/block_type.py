@@ -1,6 +1,6 @@
 import enum
 
 
-class BlockType(enum.Enum):
+class RuleType(enum.Enum):
     SHOW = "Show"
     HIDE = "Hide"
