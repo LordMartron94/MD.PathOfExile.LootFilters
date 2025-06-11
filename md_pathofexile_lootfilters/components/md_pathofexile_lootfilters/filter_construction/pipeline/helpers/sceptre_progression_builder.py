@@ -9,10 +9,6 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import WeaponTypeClass
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
-    ItemGroup
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    ItemTier
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import \
     ItemProgressionItem
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
@@ -21,7 +17,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     determine_styles
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.item_progression_builder import \
     ItemProgressionBuilder
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
+
 
 class SceptreProgressionBuilder:
     def __init__(self):

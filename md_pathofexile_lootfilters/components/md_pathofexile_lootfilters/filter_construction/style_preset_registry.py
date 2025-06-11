@@ -40,10 +40,11 @@ class StylePresetRegistry:
 
     def _get_main_weaponry_style_t1(self) -> Style:
         style = (
+            #192 155 0 255
             self._style_builder
-            .with_background_color(40, 40, 40, 200)
+            .with_background_color(40, 40, 40, 255)
             .with_border_color(192, 155, 0, 255)
-            .with_text_color(255, 245, 230, 255)
+            .with_text_color(192, 155, 0, 255)
             .with_font_size(35)
             .build(clear_after=True)
         )
@@ -52,10 +53,10 @@ class StylePresetRegistry:
     def _get_main_weaponry_style_t2(self) -> Style:
         style = (
             self._style_builder
-            .with_background_color(40, 40, 40, 200)
+            .with_background_color(40, 40, 40, 255)
             .with_border_color(120, 160, 220, 255)
-            .with_text_color(230, 240, 255, 255)
-            .with_font_size(22)
+            .with_text_color(120, 160, 220, 255)
+            .with_font_size(27)
             .build(clear_after=True)
         )
         return style or self._get_error_style()
@@ -63,10 +64,10 @@ class StylePresetRegistry:
     def _get_main_weaponry_style_t3(self) -> Style:
         style = (
             self._style_builder
-            .with_background_color(40, 40, 40, 200)
+            .with_background_color(40, 40, 40, 255)
             .with_border_color(150, 100,  60, 255)
-            .with_text_color(245, 240, 230, 255)
-            .with_font_size(15)
+            .with_text_color(150, 100,  60, 255)
+            .with_font_size(20)
             .build(clear_after=True)
         )
         return style or self._get_error_style()

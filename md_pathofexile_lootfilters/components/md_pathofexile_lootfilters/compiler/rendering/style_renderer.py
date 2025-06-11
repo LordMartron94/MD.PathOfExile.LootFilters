@@ -27,7 +27,9 @@ class StyleRenderer(Renderer):
     def _render_basic_colors(self, lines: List[str], style: Style) -> None:
         bg = style.background_color
         tc = style.text_color
+        bd = style.border_color
         self._adder(lines, "SetBackgroundColor", bg.red, bg.green, bg.blue, bg.alpha)
+        self._adder(lines, "SetBorderColor", bd.red, bd.green, bd.blue, bd.alpha)
         self._adder(lines, "SetTextColor", tc.red, tc.green, tc.blue, tc.alpha)
         self._adder(lines, "SetFontSize", style.font_size)
 
