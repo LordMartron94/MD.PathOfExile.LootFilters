@@ -34,6 +34,42 @@ class StylePresetRegistry:
     def _initialize_lookup(self) -> None:
         self._lookup[(ItemGroup.CatchAll, ItemTier.NoTier)] = self._get_catch_all_style()
         self._lookup[(ItemGroup.EarlyWeaponry, ItemTier.NoTier)] = self._get_early_weaponry_style()
+        self._lookup[(ItemGroup.Weaponry, ItemTier.Tier1)] = self._get_main_weaponry_style_t1()
+        self._lookup[(ItemGroup.Weaponry, ItemTier.Tier2)] = self._get_main_weaponry_style_t2()
+        self._lookup[(ItemGroup.Weaponry, ItemTier.Tier3)] = self._get_main_weaponry_style_t3()
+
+    def _get_main_weaponry_style_t1(self) -> Style:
+        style = (
+            self._style_builder
+            .with_background_color(40, 40, 40, 200)
+            .with_border_color(192, 155, 0, 255)
+            .with_text_color(255, 245, 230, 255)
+            .with_font_size(35)
+            .build(clear_after=True)
+        )
+        return style or self._get_error_style()
+
+    def _get_main_weaponry_style_t2(self) -> Style:
+        style = (
+            self._style_builder
+            .with_background_color(40, 40, 40, 200)
+            .with_border_color(120, 160, 220, 255)
+            .with_text_color(230, 240, 255, 255)
+            .with_font_size(22)
+            .build(clear_after=True)
+        )
+        return style or self._get_error_style()
+
+    def _get_main_weaponry_style_t3(self) -> Style:
+        style = (
+            self._style_builder
+            .with_background_color(40, 40, 40, 200)
+            .with_border_color(150, 100,  60, 255)
+            .with_text_color(245, 240, 230, 255)
+            .with_font_size(15)
+            .build(clear_after=True)
+        )
+        return style or self._get_error_style()
 
     def _get_early_weaponry_style(self) -> Style:
         style = (self._style_builder

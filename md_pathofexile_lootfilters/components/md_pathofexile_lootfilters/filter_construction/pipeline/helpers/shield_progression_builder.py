@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Tuple
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.shield_base_type import ShieldBaseType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
@@ -11,6 +11,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import ItemTier
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import ItemProgressionItem
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import FilterConstructionPipelineContext
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_weapon_tier_style import \
+    determine_styles
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.item_progression_builder import ItemProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
@@ -98,12 +100,12 @@ class ShieldProgressionBuilder:
         ]
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
-        style = self._determine_style(data)
+        normal, magic, rare = determine_styles(data)
         rules = self._builder.get_progression_rules(
             data.condition_factory,
             data.rule_factory,
             self._item_progression,
-            style, style, style
+            normal, magic, rare
         )
 
         exclude_condition = data.condition_factory.create_condition(
@@ -130,10 +132,3 @@ class ShieldProgressionBuilder:
         rules.append(exclude_rule)
 
         return rules
-
-    @staticmethod
-    def _determine_style(data: FilterConstructionPipelineContext) -> Style:
-        return data.style_preset_registry.get_style(
-            ItemGroup.EarlyWeaponry,
-            ItemTier.NoTier
-        )

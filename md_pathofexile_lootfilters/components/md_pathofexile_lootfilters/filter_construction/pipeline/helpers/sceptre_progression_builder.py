@@ -17,6 +17,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     ItemProgressionItem
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
     FilterConstructionPipelineContext
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_weapon_tier_style import \
+    determine_styles
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.item_progression_builder import \
     ItemProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
@@ -51,8 +53,8 @@ class SceptreProgressionBuilder:
         ]
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
-        style = self._determine_style(data)
-        rules = self._builder.get_progression_rules(data.condition_factory, data.rule_factory, self._item_progression, style, style, style)
+        normal, magic, rare = determine_styles(data)
+        rules = self._builder.get_progression_rules(data.condition_factory, data.rule_factory, self._item_progression, normal, magic, rare)
 
         exclude_condition = data.condition_factory.create_condition(ConditionKeyWord.Class, operator=None, value=WeaponTypeClass.Sceptres.value)
         rarity_conditions = ConditionGroupFactory.from_exact_values(
@@ -70,10 +72,3 @@ class SceptreProgressionBuilder:
 
         rules.append(exclude_rule)
         return rules
-
-    @staticmethod
-    def _determine_style(data: FilterConstructionPipelineContext) -> Style:
-        return data.style_preset_registry.get_style(
-            ItemGroup.EarlyWeaponry,
-            ItemTier.NoTier
-        )
