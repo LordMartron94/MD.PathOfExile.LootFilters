@@ -47,7 +47,7 @@ class AddClassWeaponsRules(IPipe):
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
         # 1) Determine style
         style: Style = data.style_preset_registry.get_style(
-            ItemGroup.Equipment,
+            ItemGroup.Weaponry,
             ItemTier.NoTier
         )
 

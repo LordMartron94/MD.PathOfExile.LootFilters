@@ -33,7 +33,7 @@ class StylePresetRegistry:
 
     def _initialize_lookup(self) -> None:
         self._lookup[(ItemGroup.CatchAll, ItemTier.NoTier)] = self._get_catch_all_style()
-        self._lookup[(ItemGroup.Equipment, ItemTier.NoTier)] = self._get_equipment_style()
+        self._lookup[(ItemGroup.Weaponry, ItemTier.NoTier)] = self._get_equipment_style()
 
     def _get_equipment_style(self) -> Style:
         style = (self._style_builder
