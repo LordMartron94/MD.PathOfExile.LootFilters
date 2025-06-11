@@ -9,6 +9,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     ExcludeNonAssociatedWeaponry
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.sceptre_progression_builder import \
     SceptreProgressionBuilder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.shield_progression_builder import \
+    ShieldProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
     FilterConstructionPipelineContext
 )
@@ -31,6 +33,7 @@ class AddClassWeaponsRules(IPipe):
 
         self._exclude_non_associated_weaponry: ExcludeNonAssociatedWeaponry = ExcludeNonAssociatedWeaponry()
         self._sceptre_progression: SceptreProgressionBuilder = SceptreProgressionBuilder()
+        self._shield_progression: ShieldProgressionBuilder = ShieldProgressionBuilder()
 
         self._section_heading = section_heading
         self._section_description = (
@@ -40,6 +43,7 @@ class AddClassWeaponsRules(IPipe):
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
         rules = self._exclude_non_associated_weaponry.get_exclusion_rules(data)
         rules.extend(self._sceptre_progression.get_progression_rules(data))
+        rules.extend(self._shield_progression.get_progression_rules(data))
 
         self._register_section(data, rules)
 
