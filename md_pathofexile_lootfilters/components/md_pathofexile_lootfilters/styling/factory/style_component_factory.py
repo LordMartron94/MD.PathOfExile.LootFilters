@@ -3,10 +3,16 @@ from typing import Optional
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.color import Color
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.minimap_icon import MinimapIcon
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.play_effect import PlayEffect
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.custom_alert_sound import CustomAlertSound
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.play_alert_sound import PlayAlertSound
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.utils.literals import ColorLiteral, MinimapShapeLiteral
 
 
 class StyleComponentFactory:
+    """
+    Factory for creating styling-related components with sensible defaults and validation.
+    """
+
     @staticmethod
     def create_minimap_icon(
             size: int = 0,
@@ -90,3 +96,35 @@ class StyleComponentFactory:
         :return: a validated Color instance
         """
         return Color(red=red, green=green, blue=blue, alpha=alpha)
+
+    @staticmethod
+    def create_custom_alert_sound(
+            file_name: str,
+            volume: int,
+            optional: Optional[bool] = False
+    ) -> CustomAlertSound:
+        """
+        Create a CustomAlertSound for alerting with a sound file.
+
+        :param file_name: name of the alert sound file
+        :param volume: playback volume (0-300)
+        :param optional: whether this sound is optional
+        :return: a validated CustomAlertSound instance
+        """
+        return CustomAlertSound(file_name=file_name, volume=volume, optional=optional)
+
+    @staticmethod
+    def create_play_alert_sound(
+            id: int,
+            volume: int,
+            positional: Optional[bool] = False
+    ) -> PlayAlertSound:
+        """
+        Create a PlayAlertSound to trigger an in-game alert.
+
+        :param id: alert sound ID (1-16)
+        :param volume: playback volume (0-300)
+        :param positional: whether the sound should be positional
+        :return: a validated PlayAlertSound instance
+        """
+        return PlayAlertSound(id=id, volume=volume, positional=positional)

@@ -28,6 +28,9 @@ class FilterCompiler:
         self._add_font_size(lines, style)
         self._add_minimap_icon(lines, style)
         self._add_play_effect(lines, style)
+        self._add_play_alert_sound(lines, style)
+        self._add_custom_alert_sound(lines, style)
+        self._add_drop_sound_settings(lines, style)
 
         return self._assemble_output(lines)
 
@@ -38,15 +41,18 @@ class FilterCompiler:
         block_json = pprint.pformat(block.model_dump(mode='json'))
         style_json = pprint.pformat(style.model_dump(mode='json'))
         self._logger.debug(
-            f"Transforming single block:\n{block_json}\nStyle:\n{style_json}"
+            f"Transforming single block:\n{block_json}\nStyle:\n{style_json}",
+            separator=self._separator
         )
 
     @staticmethod
     def _add_keyword_line(lines: list[str], keyword: str, *values) -> None:
         """
-        Add a line with given keyword and values if none of the values are None.
+        Add a line with given keyword and values if none of the values are None or empty.
         """
-        lines.append(f"\t{keyword} {' '.join(str(v) for v in values)}")
+        parts = [str(v) for v in values if v is not None and v != ""]
+        if parts:
+            lines.append(f"\t{keyword} {' '.join(parts)}")
 
     def _add_background_color(self, lines: list[str], style: Style) -> None:
         bg = style.background_color
@@ -64,21 +70,38 @@ class FilterCompiler:
         self._add_keyword_line(lines, "SetFontSize", style.font_size)
 
     def _add_minimap_icon(self, lines: list[str], style: Style) -> None:
-        """
-        Add MinimapIcon line when style.minimap_icon is present.
-        """
-        icon = style.minimap_icon
-        if icon:
-            self._add_keyword_line(lines, "MinimapIcon", icon.size, icon.colour, icon.shape)
+        if style.minimap_icon:
+            mi = style.minimap_icon
+            self._add_keyword_line(lines, "MinimapIcon", mi.size, mi.colour, mi.shape)
 
     def _add_play_effect(self, lines: list[str], style: Style) -> None:
-        """
-        Add PlayEffect line when style.play_effect is present.
-        """
-        effect = style.play_effect
-        if effect:
-            token = effect.colour + ("Temp" if effect.temp else "")
+        if style.play_effect:
+            pe = style.play_effect
+            token = pe.colour + ("Temp" if pe.temp else "")
             self._add_keyword_line(lines, "PlayEffect", token)
+
+    def _add_play_alert_sound(self, lines: list[str], style: Style) -> None:
+        if style.play_alert_sound:
+            pas = style.play_alert_sound
+            flag = "Positional" if pas.positional else None
+            self._add_keyword_line(lines, "PlayAlertSound", pas.id, pas.volume, flag)
+
+    def _add_custom_alert_sound(self, lines: list[str], style: Style) -> None:
+        if style.custom_alert_sound:
+            cas = style.custom_alert_sound
+            flag = "Optional" if cas.optional else None
+            self._add_keyword_line(lines, "CustomAlertSound", cas.file_name, cas.volume, flag)
+
+    def _add_drop_sound_settings(self, lines: list[str], style: Style) -> None:
+        # Handle drop sound toggles
+        if style.disable_drop_sound:
+            self._add_keyword_line(lines, "DisableDropSound")
+        if style.enable_drop_sound:
+            self._add_keyword_line(lines, "EnableDropSound")
+        if style.disable_drop_sound_if_alert_sound:
+            self._add_keyword_line(lines, "DisableDropSoundIfAlertSound")
+        if style.enable_drop_sound_if_alert_sound:
+            self._add_keyword_line(lines, "EnableDropSoundIfAlertSound")
 
     @staticmethod
     def _assemble_output(lines: list[str]) -> str:
