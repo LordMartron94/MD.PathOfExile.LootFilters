@@ -1,5 +1,6 @@
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLoggerBuilder, HoornLogger, \
     LogType
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.app import App
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import APP_NAME, MAX_SEPARATOR_LENGTH, \
     DEBUG_MODE, VERBOSE
 
@@ -22,8 +23,7 @@ min_log: LogType = LogType.TRACE \
 
 logger: HoornLogger = logger_builder.get_logger(min_level=min_log)
 
+app: App = App(logger)
 
 if __name__ == "__main__":
-    logger.debug("Hello.")
-    logger.save()
-
+    app.run()
