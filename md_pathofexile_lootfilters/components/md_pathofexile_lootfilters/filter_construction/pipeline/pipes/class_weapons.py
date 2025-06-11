@@ -3,7 +3,7 @@ from typing import List
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import BlockType
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.condition import ConditionKeyWord, \
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord, \
     ConditionOperator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import AREA_LEVEL_LOOKUP, Act

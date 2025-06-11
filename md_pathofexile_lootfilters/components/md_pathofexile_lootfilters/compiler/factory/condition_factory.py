@@ -1,6 +1,6 @@
 from typing import Any, Optional, List
 
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.condition import Condition, \
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import Condition, \
     ConditionOperator, ConditionKeyWord
 
 
