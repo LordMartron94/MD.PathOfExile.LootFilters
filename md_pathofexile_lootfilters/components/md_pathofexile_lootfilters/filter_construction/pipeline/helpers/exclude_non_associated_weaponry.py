@@ -37,12 +37,19 @@ class ExcludeNonAssociatedWeaponry:
             data: FilterConstructionPipelineContext
     ) -> List[Condition]:
         values = [item.value for item in UNASSOCIATED_EQUIPMENT]
+
+        rarity_conditions = ConditionGroupFactory.from_exact_values(
+            data.condition_factory,
+            keyword=ConditionKeyWord.Rarity,
+            values=["Normal", "Magic", "Rare"]
+        )
+
         base_conditions = ConditionGroupFactory.from_exact_values(
             data.condition_factory,
             keyword=ConditionKeyWord.Class,
             values=values,
             operator=ConditionOperator.exact_match,
-            extra_conditions=ConditionGroupFactory.for_act_area_levels(
+            extra_conditions=rarity_conditions + ConditionGroupFactory.for_act_area_levels(
                 data.condition_factory,
                 Act.Act1
             )
@@ -58,6 +65,6 @@ class ExcludeNonAssociatedWeaponry:
         return ShowHideRuleBuilder.build(
             rule_factory=data.rule_factory,
             show_conditions=class_conditions,
-            hide_conditions=[class_conditions[0]],
+            hide_conditions=class_conditions[0:2],
             show_style=style
         )
