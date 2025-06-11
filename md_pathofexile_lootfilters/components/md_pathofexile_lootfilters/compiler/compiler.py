@@ -4,6 +4,8 @@ from typing import List, Optional
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.condition import Condition
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
+    RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
@@ -17,7 +19,7 @@ class FilterCompiler:
         self._separator = self.__class__.__name__
         self._logger.trace("Successfully initialized.", separator=self._separator)
 
-    def transform_single_block(
+    def transform_single_rule(
             self,
             rule: Rule
     ) -> str:
@@ -39,13 +41,19 @@ class FilterCompiler:
 
         return self._assemble_output(lines)
 
-    def transform_batch_blocks(
+    def transform_batch_rule_sections(
             self,
-            rules: List[Rule]
+            rule_sections: List[RuleSection]
     ) -> List[str]:
         output: List[str] = []
-        for rule in rules:
-            output.append(self.transform_single_block(rule))
+
+        for rule_section in rule_sections:
+            output.append(f"# ===== {rule_section.heading} =====")
+            output.append(f"# {rule_section.description}")
+
+            for rule in rule_section.rules:
+                output.append(self.transform_single_rule(rule))
+
         return output
 
     def _log_inputs(self, block: Rule, style: Optional[Style]) -> None:

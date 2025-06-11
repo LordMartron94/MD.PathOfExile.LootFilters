@@ -5,7 +5,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.cla
     get_associated_weapons, WeaponType, get_unassociated_weapons
 
 APP_NAME: str = "MD.PathOfExile.LootFilters"
-MAX_SEPARATOR_LENGTH: int = 50
+MAX_SEPARATOR_LENGTH: int = 80
 
 DEBUG_MODE: bool = False
 VERBOSE: bool = False

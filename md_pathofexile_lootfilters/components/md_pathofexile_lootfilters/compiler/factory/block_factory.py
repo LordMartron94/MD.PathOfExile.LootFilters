@@ -7,7 +7,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
-class BlockFactory:
+class RuleFactory:
     """
     Factory for building loot filter blocks to be used downstream.
     """
