@@ -10,7 +10,7 @@ logger_builder: HoornLoggerBuilder = HoornLoggerBuilder(
 )
 
 (logger_builder
- .build_console_output()
+ .build_gui_output(base_batch_size=1000, max_batch_size=5000)
  .build_file_based_output(
     max_logs_to_keep=25
 ))
