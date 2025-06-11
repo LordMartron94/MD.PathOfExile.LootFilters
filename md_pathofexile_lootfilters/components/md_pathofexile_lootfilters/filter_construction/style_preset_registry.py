@@ -33,6 +33,19 @@ class StylePresetRegistry:
 
     def _initialize_lookup(self) -> None:
         self._lookup[(ItemGroup.CatchAll, ItemTier.NoTier)] = self._get_catch_all_style()
+        self._lookup[(ItemGroup.Equipment, ItemTier.NoTier)] = self._get_equipment_style()
+
+    def _get_equipment_style(self) -> Style:
+        style = (self._style_builder
+                 .with_background_color(255, 255, 0, 200)
+                 .with_border_color(128, 128, 0, 255)
+                 .with_text_color(0, 0, 0, 255)
+                 .with_font_size(40)).build(clear_after=True)
+
+        if style is None:
+            return self._get_error_style()
+
+        return style
 
     def _get_catch_all_style(self) -> Style:
         style = (self._style_builder

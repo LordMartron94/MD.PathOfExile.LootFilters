@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import List
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import BuildType, \
-    get_associated_equipments, EquipmentType, get_unassociated_equipments
+    get_associated_weapons, WeaponType, get_unassociated_weapons
 
 APP_NAME: str = "MD.PathOfExile.LootFilters"
 MAX_SEPARATOR_LENGTH: int = 50
@@ -17,5 +17,5 @@ OUTPUT_DIRECTORIES: List[Path] = [
 
 SELECTED_BUILD_TYPE: BuildType = BuildType.MeleeSpellcaster
 
-ASSOCIATED_EQUIPMENT: List[EquipmentType] = get_associated_equipments(SELECTED_BUILD_TYPE)
-UNASSOCIATED_EQUIPMENT: List[EquipmentType] = get_unassociated_equipments(SELECTED_BUILD_TYPE)
+ASSOCIATED_EQUIPMENT: List[WeaponType] = get_associated_weapons(SELECTED_BUILD_TYPE)
+UNASSOCIATED_EQUIPMENT: List[WeaponType] = get_unassociated_weapons(SELECTED_BUILD_TYPE)

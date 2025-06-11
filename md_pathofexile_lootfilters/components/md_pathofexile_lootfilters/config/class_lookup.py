@@ -2,7 +2,7 @@ import enum
 from typing import Dict, List
 
 
-class EquipmentType(enum.Enum):
+class WeaponType(enum.Enum):
     OneHandedAxes = "One Hand Axes"
     OneHandedMaces = "One Hand Maces"
     OneHandedSwords = "One Hand Swords"
@@ -25,25 +25,24 @@ class BuildType(enum.Enum):
     MeleeSpellcaster = "Melee Spellcaster"
 
 
-_ASSOCIATED_EQUIPMENTS_LOOKUP: Dict[BuildType, List[EquipmentType]] = {
+_ASSOCIATED_WEAPONS_LOOKUP: Dict[BuildType, List[WeaponType]] = {
     BuildType.MeleeSpellcaster: [
-        EquipmentType.Sceptres,
-        EquipmentType.Shields,
-        EquipmentType.RuneDaggers
+        WeaponType.Sceptres,
+        WeaponType.Shields,
     ]
 }
 
 
-def get_associated_equipments(build_type: BuildType) -> List[EquipmentType]:
+def get_associated_weapons(build_type: BuildType) -> List[WeaponType]:
     """
     Return the list of EquipmentTypes associated with a given BuildType.
     """
-    return _ASSOCIATED_EQUIPMENTS_LOOKUP.get(build_type, [])
+    return _ASSOCIATED_WEAPONS_LOOKUP.get(build_type, [])
 
 
-def get_unassociated_equipments(build_type: BuildType) -> List[EquipmentType]:
+def get_unassociated_weapons(build_type: BuildType) -> List[WeaponType]:
     """
     Return the list of EquipmentTypes not associated with the given BuildType.
     """
-    associated = set(get_associated_equipments(build_type))
-    return [equip for equip in EquipmentType if equip not in associated]
+    associated = set(get_associated_weapons(build_type))
+    return [equip for equip in WeaponType if equip not in associated]
