@@ -1,0 +1,26 @@
+import enum
+
+
+class SceptreBaseType(enum.Enum):
+    DriftwoodSceptre = "Driftwood Sceptre"
+    DarkwoodSceptre = "Darkwood Sceptre"
+    BronzeSceptre = "Bronze Sceptre"
+    QuartzSceptre = "Quartz Sceptre"
+    IronSceptre = "Iron Sceptre"
+    OchreSceptre = "Ochre Sceptre"
+    RitualSceptre = "Ritual Sceptre"
+    ShadowSceptre = "Shadow Sceptre"
+    GrinningFetish = "Grinning Fetish"
+    HornedSceptre = "Horned Sceptre"
+    Sekhem = "Sekhem"
+    CrystalSceptre = "Crystal Sceptre"
+    LeadSceptre = "Lead Sceptre"
+    BloodSceptre = "Blood Sceptre"
+    RoyalSceptre = "Royal Sceptre"
+    AbyssalSceptre = "Abyssal Sceptre"
+    StagSceptre = "Stag Sceptre"
+    KaruiSceptre = "Karui Sceptre"
+    TyrantSekhem = "Tyrant's Sekhem"
+    OpalSceptre = "Opal Sceptre"
+    PlatinumSceptre = "Platinum Sceptre"
+    VaalSceptre = "Vaal Sceptre"

@@ -5,6 +5,9 @@ import pydantic
 
 class ConditionKeyWord(enum.Enum):
     AreaLevel = "AreaLevel"
+    Rarity = "Rarity"
+    BaseType = "BaseType"
+    ItemLevel = "ItemLevel"
     Class = "Class"
 
 class ConditionOperator(enum.Enum):

@@ -33,14 +33,15 @@ class StylePresetRegistry:
 
     def _initialize_lookup(self) -> None:
         self._lookup[(ItemGroup.CatchAll, ItemTier.NoTier)] = self._get_catch_all_style()
-        self._lookup[(ItemGroup.Weaponry, ItemTier.NoTier)] = self._get_equipment_style()
+        self._lookup[(ItemGroup.EarlyWeaponry, ItemTier.NoTier)] = self._get_early_weaponry_style()
 
-    def _get_equipment_style(self) -> Style:
+    def _get_early_weaponry_style(self) -> Style:
         style = (self._style_builder
-                 .with_background_color(255, 255, 0, 200)
-                 .with_border_color(128, 128, 0, 255)
-                 .with_text_color(0, 0, 0, 255)
-                 .with_font_size(40)).build(clear_after=True)
+                 .with_background_color(40, 30, 20, 180)
+                 .with_border_color(100, 100, 90, 255)
+                 .with_text_color(230, 220, 200, 255)
+                 .with_font_size(25)
+                 .build(clear_after=True))
 
         if style is None:
             return self._get_error_style()
