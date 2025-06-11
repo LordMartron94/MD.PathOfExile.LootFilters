@@ -45,8 +45,18 @@ class ConditionGroupFactory:
         """
         Retrieves the list of conditions constraining area levels for a given Act.
         """
-        max_level = AREA_LEVEL_LOOKUP[act]
+        min_level, max_level = AREA_LEVEL_LOOKUP[act]
         return condition_factory.create_complex_area_level_condition(
-            min_area_level=0,
+            min_area_level=min_level,
             max_area_level=max_level
+        )
+
+    @staticmethod
+    def between_acts(condition_factory: ConditionFactory, start_act: Act, end_act: Act) -> List[Condition]:
+        min_level_start, _ = AREA_LEVEL_LOOKUP[start_act]
+        _, max_level_end = AREA_LEVEL_LOOKUP[end_act]
+
+        return condition_factory.create_complex_area_level_condition(
+            min_area_level=min_level_start,
+            max_area_level=max_level_end
         )
