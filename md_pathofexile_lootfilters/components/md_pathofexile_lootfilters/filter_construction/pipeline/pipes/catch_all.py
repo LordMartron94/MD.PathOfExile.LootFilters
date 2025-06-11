@@ -23,6 +23,7 @@ class AddCatchAllRules(IPipe):
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
         catch_all_block: Rule = data.rule_factory.get_catch_all_block(RuleType.SHOW)
         catch_all_block.style = data.style_preset_registry.get_style(ItemGroup.CatchAll, ItemTier.NoTier)
+        catch_all_block.comment = "Catches everything not captured earlier (above)."
 
         rule_section: RuleSection = RuleSection(
             heading=self._section_heading,

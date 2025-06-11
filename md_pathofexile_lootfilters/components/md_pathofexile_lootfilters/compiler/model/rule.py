@@ -11,3 +11,4 @@ class Rule(pydantic.BaseModel):
     rule_type: RuleType
     conditions: List[Condition] = []
     style: Optional[Style] = None
+    comment: Optional[str] = None

@@ -16,7 +16,13 @@ class RuleCompiler:
 
     def compile(self, rule: Rule) -> str:
         self._logger.debug(f"Compiling rule {rule.rule_type}", separator=self._separator)
-        lines: List[str] = [rule.rule_type.value]
+
+        first_line: str = rule.rule_type.value
+
+        if rule.comment is not None:
+            first_line += f" # --- {rule.comment}"
+
+        lines: List[str] = [first_line]
         for renderer in self._renderers:
             renderer.render(lines, rule)
         return "\n".join(lines) + "\n"
