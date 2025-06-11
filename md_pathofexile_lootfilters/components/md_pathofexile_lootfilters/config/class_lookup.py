@@ -6,6 +6,7 @@ class WeaponTypeClass(enum.Enum):
     OneHandedAxes = "One Hand Axes"
     OneHandedMaces = "One Hand Maces"
     OneHandedSwords = "One Hand Swords"
+    ThrustingOneHandedSwords = "Thrusting One Hand Swords"
     Bows = "Bows"
     Claws = "Claws"
     Daggers = "Daggers"
