@@ -11,17 +11,17 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.mo
 
 def determine_styles(data: FilterConstructionPipelineContext) -> Tuple[Style, Style, Style]:
     normal = data.style_preset_registry.get_style(
-        ItemGroup.Weaponry,
+        ItemGroup.WeaponryAndEquipment,
         ItemTier.LowTier1
     )
 
     magic = data.style_preset_registry.get_style(
-        ItemGroup.Weaponry,
+        ItemGroup.WeaponryAndEquipment,
         ItemTier.MidTier3
     )
 
     rare = data.style_preset_registry.get_style(
-        ItemGroup.Weaponry,
+        ItemGroup.WeaponryAndEquipment,
         ItemTier.MidTier1
     )
 

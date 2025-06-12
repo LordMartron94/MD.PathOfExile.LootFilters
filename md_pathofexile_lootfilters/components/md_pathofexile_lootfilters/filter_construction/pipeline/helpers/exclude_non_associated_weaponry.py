@@ -38,9 +38,9 @@ class ExcludeNonAssociatedWeaponry:
         Retrieves style presets for each rarity of EarlyWeaponry.
         """
         return [
-            ("Normal", data.style_preset_registry.get_style(ItemGroup.EarlyWeaponry, ItemTier.LowTier3)),
-            ("Magic", data.style_preset_registry.get_style(ItemGroup.EarlyWeaponry, ItemTier.LowTier2)),
-            ("Rare", data.style_preset_registry.get_style(ItemGroup.EarlyWeaponry, ItemTier.LowTier1)),
+            ("Normal", data.style_preset_registry.get_style(ItemGroup.EarlyWeaponryAndEquipment, ItemTier.LowTier3)),
+            ("Magic", data.style_preset_registry.get_style(ItemGroup.EarlyWeaponryAndEquipment, ItemTier.LowTier2)),
+            ("Rare", data.style_preset_registry.get_style(ItemGroup.EarlyWeaponryAndEquipment, ItemTier.LowTier1)),
         ]
 
     def _get_base_class_conditions(self) -> List[Condition]:

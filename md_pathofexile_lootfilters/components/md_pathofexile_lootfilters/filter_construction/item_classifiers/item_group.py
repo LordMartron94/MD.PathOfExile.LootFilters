@@ -2,6 +2,6 @@ import enum
 
 
 class ItemGroup(enum.Enum):
-    EarlyWeaponry = "EarlyWeaponry"
-    Weaponry = "Weaponry"
+    EarlyWeaponryAndEquipment = "EarlyWeaponryAndEquipment"
+    WeaponryAndEquipment = "WeaponryAndEquipment"
     CatchAll = "CatchAll"

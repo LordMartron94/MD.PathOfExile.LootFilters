@@ -1,9 +1,9 @@
 {
   "item_groups": {
-    "EarlyWeaponry": {
+    "EarlyWeaponryAndEquipment": {
       "background_color": {"red": 40, "green": 30, "blue": 20, "alpha": 180 }
     },
-    "Weaponry": {
+    "WeaponryAndEquipment": {
       "background_color": { "red": 57, "green": 57, "blue": 57, "alpha": 255 }
     }
   },
