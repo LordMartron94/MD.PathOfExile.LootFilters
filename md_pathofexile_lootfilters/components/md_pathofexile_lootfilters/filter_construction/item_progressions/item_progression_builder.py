@@ -77,22 +77,21 @@ class ItemProgressionBuilder:
         )
 
         rules: List[Rule] = []
-        for rarity in ("Magic", "Rare"):
-            rarity_cond = self._condition_factory.create_condition(
-                ConditionKeyWord.Rarity, operator=None, value=rarity
-            )
-            # assemble conditions, appending any extras for this rarity
-            conditions = [base, rarity_cond, level_min, level_max]
-            additional = extra_conditions.get(rarity, [])
-            conditions.extend(additional)
+        rarity_cond = self._condition_factory.create_condition(
+            ConditionKeyWord.Rarity, operator=None, value="Rare"
+        )
 
-            rules.append(
-                self._rule_factory.get_rule(
-                    RuleType.SHOW,
-                    conditions,
-                    styles[rarity],
-                )
+        conditions = [base, rarity_cond, level_min, level_max]
+        additional = extra_conditions.get("Rare", [])
+        conditions.extend(additional)
+
+        rules.append(
+            self._rule_factory.get_rule(
+                RuleType.SHOW,
+                conditions,
+                styles["Rare"],
             )
+        )
         return rules
 
     def _build_class_show_rule(
@@ -110,7 +109,7 @@ class ItemProgressionBuilder:
         rarity_normal = ConditionGroupFactory.from_exact_values(
             self._condition_factory,
             ConditionKeyWord.Rarity,
-            values=["Normal"],
+            values=["Normal", "Magic"],
         )
         return self._rule_factory.get_rule(
             RuleType.SHOW,
