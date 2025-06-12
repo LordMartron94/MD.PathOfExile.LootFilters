@@ -4,6 +4,7 @@ from typing import Any, Optional
 import pydantic
 
 class ConditionKeyWord(enum.Enum):
+    BaseEvasion = "BaseEvasion"
     AreaLevel = "AreaLevel"
     Rarity = "Rarity"
     BaseType = "BaseType"

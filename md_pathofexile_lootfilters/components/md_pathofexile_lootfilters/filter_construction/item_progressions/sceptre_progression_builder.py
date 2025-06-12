@@ -13,7 +13,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     FilterConstructionPipelineContext
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_weapon_tier_style import \
     determine_styles
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.item_progression_builder import \
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.item_progression_builder import \
     ItemProgressionBuilder
 
 

@@ -21,6 +21,9 @@ class WeaponTypeClass(enum.Enum):
     Wands = "Wands"
     Warstaves = "Warstaves"
 
+class ArmorTypeClass(enum.Enum):
+    BodyArmor = "Body Armours"
+
 
 class BuildType(enum.Enum):
     MeleeSpellcaster = "Melee Spellcaster"

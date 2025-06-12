@@ -6,13 +6,15 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.body_armor_progression_builder import \
+    BodyArmorProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.exclude_non_associated_weaponry import \
     ExcludeNonAssociatedWeaponry
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.sceptre_progression_builder import \
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.sceptre_progression_builder import \
     SceptreProgressionBuilder
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.shield_progression_builder import \
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.shield_progression_builder import \
     ShieldProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
     FilterConstructionPipelineContext
@@ -39,6 +41,7 @@ class AddClassWeaponsRules(IPipe):
         self._exclude_non_associated_weaponry: ExcludeNonAssociatedWeaponry = ExcludeNonAssociatedWeaponry(condition_factory, rule_factory)
         self._sceptre_progression: SceptreProgressionBuilder = SceptreProgressionBuilder(condition_factory, rule_factory)
         self._shield_progression: ShieldProgressionBuilder = ShieldProgressionBuilder(condition_factory, rule_factory)
+        self._body_armor_progression: BodyArmorProgressionBuilder = BodyArmorProgressionBuilder(condition_factory, rule_factory)
 
         self._section_heading = section_heading
         self._section_description = (
@@ -49,6 +52,7 @@ class AddClassWeaponsRules(IPipe):
         rules = self._exclude_non_associated_weaponry.get_exclusion_rules(data)
         rules.extend(self._sceptre_progression.get_progression_rules(data))
         rules.extend(self._shield_progression.get_progression_rules(data))
+        rules.extend(self._body_armor_progression.get_progression_rules(data))
 
         self._register_section(data, rules)
 
