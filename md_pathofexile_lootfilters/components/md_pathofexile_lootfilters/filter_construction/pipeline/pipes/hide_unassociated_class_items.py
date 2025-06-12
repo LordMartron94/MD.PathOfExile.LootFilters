@@ -36,7 +36,7 @@ class HideUnassociatedClassItems(IPipe):
 
         self._section_heading = section_heading
         self._section_description = (
-            "Hides all equipment and weaponry unassociated with the class build."
+            "Hides all equipment and weaponry unassociated with the class build (only normals, magics, and rares). (Except for during Act 1)"
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
