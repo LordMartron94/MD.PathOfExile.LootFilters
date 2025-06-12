@@ -28,6 +28,12 @@ class ArmorTypeClass(enum.Enum):
     BodyArmor = "Body Armours"
     Helmets = "Helmets"
 
+class FlaskTypeClass(enum.Enum):
+    Life = "Life Flasks"
+    Mana = "Mana Flasks"
+    Hybrid = "Hybrid Flasks"
+    Utility = "Utility Flasks"
+
 
 class BuildType(enum.Enum):
     MeleeSpellcaster = "Melee Spellcaster"

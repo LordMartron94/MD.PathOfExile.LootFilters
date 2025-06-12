@@ -9,6 +9,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
     ConditionOperator, Condition
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import FlaskTypeClass
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import ItemProgressionItem
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import FilterConstructionPipelineContext
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import determine_flask_style
@@ -23,9 +24,9 @@ class FlaskProgressionBuilder:
     ):
         self._condition_factory = condition_factory
         self._rule_factory = rule_factory
-        # progression per flask class group
-        self._progressions: Dict[Tuple[str, ...], List[ItemProgressionItem]] = {
-            ("Life Flasks", "Mana Flasks"): [
+
+        self._progressions: Dict[Tuple[FlaskTypeClass, ...], List[ItemProgressionItem]] = {
+            (FlaskTypeClass.Life, FlaskTypeClass.Mana): [
                 ItemProgressionItem(base_type=FlaskBaseType.Small,      start_area=0, end_area=9),
                 ItemProgressionItem(base_type=FlaskBaseType.Medium,     start_area=0, end_area=13),
                 ItemProgressionItem(base_type=FlaskBaseType.Large,      start_area=0, end_area=17),
@@ -39,13 +40,33 @@ class FlaskProgressionBuilder:
                 ItemProgressionItem(base_type=FlaskBaseType.Divine,     start_area=0, end_area=68),
                 ItemProgressionItem(base_type=FlaskBaseType.Eternal,    start_area=0, end_area=68),
             ],
-            ("Hybrid Flasks",): [
+            (FlaskTypeClass.Hybrid,): [
                 ItemProgressionItem(base_type=FlaskBaseType.Small,      start_area=0, end_area=20),
                 ItemProgressionItem(base_type=FlaskBaseType.Medium,     start_area=0, end_area=30),
                 ItemProgressionItem(base_type=FlaskBaseType.Large,      start_area=0, end_area=40),
                 ItemProgressionItem(base_type=FlaskBaseType.Colossal,   start_area=0, end_area=50),
                 ItemProgressionItem(base_type=FlaskBaseType.Sacred,     start_area=0, end_area=60),
                 ItemProgressionItem(base_type=FlaskBaseType.Hallowed,   start_area=0, end_area=67),
+            ],
+            (FlaskTypeClass.Utility,): [
+                ItemProgressionItem(base_type=FlaskBaseType.Quicksilver, start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Bismuth,     start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Stibnite,    start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Amethyst,    start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Ruby,        start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Sapphire,    start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Topaz,       start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Silver,      start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Aquamarine,  start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Granite,     start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Jade,        start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Quartz,      start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Sulphur,     start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Basalt,      start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Diamond,     start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Gold,        start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Corundum,    start_area=0, end_area=69),
+                ItemProgressionItem(base_type=FlaskBaseType.Iron,        start_area=0, end_area=69),
             ],
         }
 
@@ -56,21 +77,24 @@ class FlaskProgressionBuilder:
         """
         Build SHOW and HIDE rules for all flask progression groups.
         """
-        style = determine_flask_style(data)
+        normal_style = determine_flask_style(data)
+        utility_style = determine_flask_style(data, is_utility_flask=True)
         rules: List[Rule] = []
 
         for classes, progression in self._progressions.items():
+            style = utility_style if FlaskTypeClass.Utility in classes else normal_style
+
             class_condition = self._build_class_condition(classes)
             rules.extend(self._build_show_rules(class_condition, progression, style))
             rules.append(self._build_hide_rule(class_condition))
 
         return rules
 
-    def _build_class_condition(self, classes: Tuple[str, ...]) -> Condition:
+    def _build_class_condition(self, classes: Tuple[FlaskTypeClass, ...]) -> Condition:
         return self._condition_factory.create_condition(
             ConditionKeyWord.Class,
             operator=ConditionOperator.exact_match,
-            value=QuotedValueListBuilder.build(classes),
+            value=QuotedValueListBuilder.build([flask_class.value for flask_class in classes]),
         )
 
     def _build_show_rules(

@@ -27,5 +27,8 @@ def determine_weaponry_and_equipment_styles(data: FilterConstructionPipelineCont
 
     return normal, magic, rare
 
-def determine_flask_style(data: FilterConstructionPipelineContext) -> Style:
+def determine_flask_style(data: FilterConstructionPipelineContext, is_utility_flask: bool = False) -> Style:
+    if is_utility_flask:
+        return data.style_preset_registry.get_style(ItemGroup.Flasks, ItemTier.HighTier2)
+
     return data.style_preset_registry.get_style(ItemGroup.Flasks, ItemTier.HighTier3)
