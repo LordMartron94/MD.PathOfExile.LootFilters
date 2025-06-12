@@ -36,7 +36,7 @@ class App:
         self._filter_constructor.construct_filter()
 
     def _initialize_commands(self) -> None:
-        self._cli.add_command(["build_filter", "bg"], description="Builds the filter.", action=self._build_filter)
+        self._cli.add_command(["build_filter", "bf"], description="Builds the filter.", action=self._build_filter)
         self._logger.debug("Successfully initialized CLI commands.", separator=self._separator)
 
     def _exit(self) -> None:

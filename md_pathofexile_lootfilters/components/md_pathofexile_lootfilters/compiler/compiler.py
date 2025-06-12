@@ -1,5 +1,5 @@
 import pprint
-from typing import List, Optional
+from typing import List, Optional, Tuple
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
@@ -49,6 +49,15 @@ class FilterCompiler:
             rule_sections: List[RuleSection]
     ) -> List[str]:
         output: List[str] = []
+
+        headings: List[Tuple[str, str]] = [(rs.heading, rs.description) for rs in rule_sections]
+
+        output.append("# ===== TABLE OF CONTENTS ===== ")
+        output.append("")
+        for heading in headings:
+            output.append(f"# {heading[0]}: {heading[1]}")
+
+        output.append("")
 
         for rule_section in rule_sections:
             output.append(f"# ===== {rule_section.heading} =====")
