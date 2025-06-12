@@ -22,7 +22,11 @@ class WeaponTypeClass(enum.Enum):
     Warstaves = "Warstaves"
 
 class ArmorTypeClass(enum.Enum):
+    Belts = "Belts"
+    Boots = "Boots"
+    Gloves = "Gloves"
     BodyArmor = "Body Armours"
+    Helmets = "Helmets"
 
 
 class BuildType(enum.Enum):

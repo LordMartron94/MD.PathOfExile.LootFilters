@@ -6,8 +6,14 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.belt_progression_builder import \
+    BeltProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.body_armor_progression_builder import \
     BodyArmorProgressionBuilder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.boot_progression_builder import \
+    BootProgressionBuilder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.helmet_progression_builder import \
+    HelmetProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.exclude_non_associated_weaponry import \
@@ -21,7 +27,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 )
 
 
-class AddClassWeaponsRules(IPipe):
+class AddItemProgressions(IPipe):
     """
     Adds rules to hide all class-unrelated weapons except those found in Act 1,
     leveraging shared utility builders for maintainability.
@@ -42,10 +48,13 @@ class AddClassWeaponsRules(IPipe):
         self._sceptre_progression: SceptreProgressionBuilder = SceptreProgressionBuilder(condition_factory, rule_factory)
         self._shield_progression: ShieldProgressionBuilder = ShieldProgressionBuilder(condition_factory, rule_factory)
         self._body_armor_progression: BodyArmorProgressionBuilder = BodyArmorProgressionBuilder(condition_factory, rule_factory)
+        self._boot_progression: BootProgressionBuilder = BootProgressionBuilder(condition_factory, rule_factory)
+        self._helmet_progression: HelmetProgressionBuilder = HelmetProgressionBuilder(condition_factory, rule_factory)
+        self._belt_progression: BeltProgressionBuilder = BeltProgressionBuilder(condition_factory, rule_factory)
 
         self._section_heading = section_heading
         self._section_description = (
-            "Hides all class-unrelated weaponry -- except for those found in act 1."
+            "Builds all the item progressions for the campaign. (everything shown in act 1; normals and magics hidden beyond the first act)"
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
@@ -53,6 +62,9 @@ class AddClassWeaponsRules(IPipe):
         rules.extend(self._sceptre_progression.get_progression_rules(data))
         rules.extend(self._shield_progression.get_progression_rules(data))
         rules.extend(self._body_armor_progression.get_progression_rules(data))
+        rules.extend(self._boot_progression.get_progression_rules(data))
+        rules.extend(self._helmet_progression.get_progression_rules(data))
+        rules.extend(self._belt_progression.get_progression_rules(data))
 
         self._register_section(data, rules)
 

@@ -63,7 +63,7 @@ class ItemProgressionBuilder:
         """Generate SHOW rules for Magic and Rare variants of a base-type + level-range, including any extra conditions."""
         # common conditions
         base = self._condition_factory.create_condition(
-            ConditionKeyWord.BaseType, operator=None, value=item.base_type.value
+            ConditionKeyWord.BaseType, operator=None, value=f"\"{item.base_type.value}\""
         )
         level_min = self._condition_factory.create_condition(
             ConditionKeyWord.ItemLevel,
