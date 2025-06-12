@@ -2,12 +2,10 @@ from typing import List
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.sceptre_base_type import \
     SceptreBaseType
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_group_factory import \
-    ConditionGroupFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
+    ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import WeaponTypeClass
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import \
     ItemProgressionItem
@@ -20,8 +18,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 
 
 class SceptreProgressionBuilder:
-    def __init__(self):
-        self._builder = ItemProgressionBuilder()
+    def __init__(self, condition_factory: ConditionFactory, rule_factory: RuleFactory):
+        self._builder = ItemProgressionBuilder(condition_factory, rule_factory)
 
         self._item_progression: List[ItemProgressionItem] = [
             ItemProgressionItem(base_type=SceptreBaseType.DriftwoodSceptre, start_level=1, end_level=4),
@@ -50,21 +48,9 @@ class SceptreProgressionBuilder:
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         normal, magic, rare = determine_styles(data)
-        rules = self._builder.get_progression_rules(data.condition_factory, data.rule_factory, self._item_progression, normal, magic, rare)
-
-        exclude_condition = data.condition_factory.create_condition(ConditionKeyWord.Class, operator=None, value=WeaponTypeClass.Sceptres.value)
-        rarity_conditions = ConditionGroupFactory.from_exact_values(
-            data.condition_factory,
-            ConditionKeyWord.Rarity,
-            values=["Normal", "Magic", "Rare"]
-        )
-        area_conditions = ConditionGroupFactory.between_acts(
-            data.condition_factory,
-            Act.Act1,
-            Act.Act10
-        )
-
-        exclude_rule = data.rule_factory.get_rule(RuleType.HIDE,  area_conditions + rarity_conditions + [exclude_condition], None)
-
-        rules.append(exclude_rule)
+        rules = self._builder.build(self._item_progression, WeaponTypeClass.Sceptres, {
+            "Normal": normal,
+            "Magic": magic,
+            "Rare": rare,
+        })
         return rules

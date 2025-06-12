@@ -1,5 +1,8 @@
 from typing import List
 
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
+    ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_group_factory import \
     ConditionGroupFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import Condition, \
@@ -19,10 +22,14 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.mo
 
 
 class ExcludeNonAssociatedWeaponry:
+    def __init__(self, condition_factory: ConditionFactory, rule_factory: RuleFactory):
+        self._condition_factory = condition_factory
+        self._rule_factory = rule_factory
+
     def get_exclusion_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         style = self._determine_style(data)
-        class_conditions = self._build_class_conditions(data)
-        show, hide = self._build_show_hide_rules(data, class_conditions, style)
+        class_conditions = self._build_class_conditions()
+        show, hide = self._build_show_hide_rules(class_conditions, style)
         return [show, hide]
 
     @staticmethod
@@ -32,38 +39,36 @@ class ExcludeNonAssociatedWeaponry:
             ItemTier.LowTier3
         )
 
-    @staticmethod
     def _build_class_conditions(
-            data: FilterConstructionPipelineContext
+            self
     ) -> List[Condition]:
         values = [item.value for item in UNASSOCIATED_EQUIPMENT]
 
         rarity_conditions = ConditionGroupFactory.from_exact_values(
-            data.condition_factory,
+            self._condition_factory,
             keyword=ConditionKeyWord.Rarity,
             values=["Normal", "Magic", "Rare"]
         )
 
         base_conditions = ConditionGroupFactory.from_exact_values(
-            data.condition_factory,
+            self._condition_factory,
             keyword=ConditionKeyWord.Class,
             values=values,
             operator=ConditionOperator.exact_match,
             extra_conditions=rarity_conditions + ConditionGroupFactory.for_act_area_levels(
-                data.condition_factory,
+                self._condition_factory,
                 Act.Act1
             )
         )
         return base_conditions
 
-    @staticmethod
     def _build_show_hide_rules(
-            data: FilterConstructionPipelineContext,
+            self,
             class_conditions: List[Condition],
             style: Style
     ):
         return ShowHideRuleBuilder.build(
-            rule_factory=data.rule_factory,
+            rule_factory=self._rule_factory,
             show_conditions=class_conditions,
             hide_conditions=class_conditions[0:2],
             show_style=style

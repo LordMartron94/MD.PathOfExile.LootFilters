@@ -26,17 +26,12 @@ class FilterConstructor:
         self._separator: str = self.__class__.__name__
 
         self._compiler: FilterCompiler = FilterCompiler(logger)
-
-        _rule_factory: RuleFactory = RuleFactory(logger)
-        _condition_factory: ConditionFactory = ConditionFactory()
         _style_preset_registry: StylePresetRegistry = StylePresetRegistry(logger)
 
         self._pipeline = FilterConstructionPipeline(logger)
         self._pipeline.build_pipeline()
 
         self._pipeline_context = FilterConstructionPipelineContext(
-            rule_factory=_rule_factory,
-            condition_factory=_condition_factory,
             style_preset_registry=_style_preset_registry
         )
 

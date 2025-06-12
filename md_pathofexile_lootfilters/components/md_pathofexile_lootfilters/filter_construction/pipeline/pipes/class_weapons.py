@@ -2,6 +2,9 @@ from typing import List
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
+    ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
@@ -25,15 +28,17 @@ class AddClassWeaponsRules(IPipe):
     def __init__(
             self,
             logger: HoornLogger,
+            condition_factory: ConditionFactory,
+            rule_factory: RuleFactory,
             pipeline_prefix: str,
             section_heading: str
     ):
         self._logger = logger
         self._separator = f"{pipeline_prefix}.{self.__class__.__name__}"
 
-        self._exclude_non_associated_weaponry: ExcludeNonAssociatedWeaponry = ExcludeNonAssociatedWeaponry()
-        self._sceptre_progression: SceptreProgressionBuilder = SceptreProgressionBuilder()
-        self._shield_progression: ShieldProgressionBuilder = ShieldProgressionBuilder()
+        self._exclude_non_associated_weaponry: ExcludeNonAssociatedWeaponry = ExcludeNonAssociatedWeaponry(condition_factory, rule_factory)
+        self._sceptre_progression: SceptreProgressionBuilder = SceptreProgressionBuilder(condition_factory, rule_factory)
+        self._shield_progression: ShieldProgressionBuilder = ShieldProgressionBuilder(condition_factory, rule_factory)
 
         self._section_heading = section_heading
         self._section_description = (

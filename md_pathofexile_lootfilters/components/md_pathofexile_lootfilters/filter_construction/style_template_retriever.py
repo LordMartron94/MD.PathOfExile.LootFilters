@@ -45,7 +45,7 @@ class StyleTemplateRetriever:
 
         self._transformer = StyleTransformer(style_builder, handlers, logger, self._separator)
 
-        # Pre-build error & catch-all styles
+        # Pre-build error and catch-all styles
         self._error_style = self._transformer.transform(self._error_raw) or self._fatal("error")
         self._catch_all_style = self._transformer.transform(self._catch_all_raw) or self._fatal("catch_all")
 
