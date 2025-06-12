@@ -5,6 +5,9 @@
     },
     "WeaponryAndEquipment": {
       "background_color": { "red": 57, "green": 57, "blue": 57, "alpha": 255 }
+    },
+    "Flasks": {
+      "background_color": {"red": 102, "green": 51, "blue": 153, "alpha": 200 }
     }
   },
   "item_tiers": {

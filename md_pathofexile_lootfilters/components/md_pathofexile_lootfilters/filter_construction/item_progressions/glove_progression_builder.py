@@ -17,8 +17,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     ItemProgressionItem
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
     FilterConstructionPipelineContext
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_weapon_tier_style import \
-    determine_styles
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
+    determine_weaponry_and_equipment_styles
 
 
 class GloveProgressionBuilder:
@@ -75,7 +75,7 @@ class GloveProgressionBuilder:
         ]
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
-        normal, magic, rare = determine_styles(data)
+        normal, magic, rare = determine_weaponry_and_equipment_styles(data)
 
         extra_conditions = [
             self._condition_factory.create_condition(ConditionKeyWord.BaseEvasion, operator=ConditionOperator.exact_match, value=0)

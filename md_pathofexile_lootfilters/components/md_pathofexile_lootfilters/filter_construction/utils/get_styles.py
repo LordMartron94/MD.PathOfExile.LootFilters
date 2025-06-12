@@ -9,7 +9,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
-def determine_styles(data: FilterConstructionPipelineContext) -> Tuple[Style, Style, Style]:
+def determine_weaponry_and_equipment_styles(data: FilterConstructionPipelineContext) -> Tuple[Style, Style, Style]:
     normal = data.style_preset_registry.get_style(
         ItemGroup.WeaponryAndEquipment,
         ItemTier.LowTier1
@@ -26,3 +26,6 @@ def determine_styles(data: FilterConstructionPipelineContext) -> Tuple[Style, St
     )
 
     return normal, magic, rare
+
+def determine_flask_style(data: FilterConstructionPipelineContext) -> Style:
+    return data.style_preset_registry.get_style(ItemGroup.Flasks, ItemTier.HighTier3)

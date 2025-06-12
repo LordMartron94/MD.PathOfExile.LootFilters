@@ -14,8 +14,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     ItemProgressionItem
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
     FilterConstructionPipelineContext
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_weapon_tier_style import \
-    determine_styles
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
+    determine_weaponry_and_equipment_styles
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.item_progression_builder import \
     ItemProgressionBuilder
 
@@ -50,7 +50,7 @@ class SceptreProgressionBuilder:
         ]
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
-        normal, magic, rare = determine_styles(data)
+        normal, magic, rare = determine_weaponry_and_equipment_styles(data)
         item_progression_config: ItemProgressionConfig = ItemProgressionConfig(
             class_rule=ClassRuleConfig(
                 show_acts=(Act.Act1, Act.Act1),

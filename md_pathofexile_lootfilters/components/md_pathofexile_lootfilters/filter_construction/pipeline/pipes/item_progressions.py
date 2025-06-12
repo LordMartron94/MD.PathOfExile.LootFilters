@@ -12,6 +12,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     BodyArmorProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.boot_progression_builder import \
     BootProgressionBuilder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.flask_progression_builder import \
+    FlaskProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.helmet_progression_builder import \
     HelmetProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.sceptre_progression_builder import \
@@ -48,6 +50,7 @@ class AddItemProgressions(IPipe):
         self._boot_progression: BootProgressionBuilder = BootProgressionBuilder(condition_factory, rule_factory)
         self._helmet_progression: HelmetProgressionBuilder = HelmetProgressionBuilder(condition_factory, rule_factory)
         self._belt_progression: BeltProgressionBuilder = BeltProgressionBuilder(condition_factory, rule_factory)
+        self._flask_progression: FlaskProgressionBuilder = FlaskProgressionBuilder(condition_factory, rule_factory)
 
         self._section_heading = section_heading
         self._section_description = (
@@ -62,6 +65,7 @@ class AddItemProgressions(IPipe):
         rules.extend(self._boot_progression.get_progression_rules(data))
         rules.extend(self._helmet_progression.get_progression_rules(data))
         rules.extend(self._belt_progression.get_progression_rules(data))
+        rules.extend(self._flask_progression.get_progression_rules(data))
 
         self._register_section(data, rules)
 
