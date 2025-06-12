@@ -5,7 +5,10 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import WeaponTypeClass
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.configs import \
+    RarityRuleConfig, ClassRuleConfig, ItemProgressionConfig
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import \
     ItemProgressionItem
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
@@ -101,9 +104,21 @@ class ShieldProgressionBuilder:
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         normal, magic, rare = determine_styles(data)
-        rules = self._builder.build(self._item_progression, WeaponTypeClass.Shields, {
-            "Normal": normal,
-            "Magic": magic,
-            "Rare": rare,
-        })
-        return rules
+        item_progression_config: ItemProgressionConfig = ItemProgressionConfig(
+            class_rule=ClassRuleConfig(
+                show_rarities=["Normal", "Magic"],
+                show_acts=(Act.Act1, Act.Act1),
+                show_style=normal,
+                hide_rarities=["Normal", "Magic", "Rare"],
+                hide_acts=(Act.Act2, Act.Act10),
+            ),
+            rarity_rules=[
+                RarityRuleConfig("Rare", rare, (Act.Act1, Act.Act10), extra_conditions=[]),
+            ]
+        )
+
+        return self._builder.build(
+            self._item_progression,
+            WeaponTypeClass.Shields,
+            item_progression_config
+        )

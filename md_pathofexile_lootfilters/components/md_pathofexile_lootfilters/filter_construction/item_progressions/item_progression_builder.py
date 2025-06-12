@@ -1,5 +1,5 @@
 import enum
-from typing import List, Dict, Optional
+from typing import List
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
@@ -8,20 +8,15 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_group_factory import \
     ConditionGroupFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord, \
-    ConditionOperator, Condition
+    ConditionOperator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.configs import \
+    ClassRuleConfig, RarityRuleConfig, ItemProgressionConfig
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import \
     ItemProgressionItem
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
 class ItemProgressionBuilder:
-    """
-    Orchestrates creation of progression rules for items and class filters,
-    with optional extra conditions for each rarity's showing.
-    """
-
     def __init__(
             self,
             condition_factory: ConditionFactory,
@@ -34,107 +29,92 @@ class ItemProgressionBuilder:
             self,
             items: List[ItemProgressionItem],
             associated_class: enum.Enum,
-            styles: Dict[str, Style],
-            rarity_extra_conditions: Optional[Dict[str, List[Condition]]] = None,
+            config: ItemProgressionConfig,
     ) -> List[Rule]:
-        """
-        Build rules for each progression item (Magic/Rare)
-        and the class-level Normal show/exclude rules.
-
-        rarity_extra_conditions: optional mapping from rarity name to extra Condition instances.
-        """
-        extra_conditions = rarity_extra_conditions or {}
         rules: List[Rule] = []
         for item in items:
-            rules.extend(
-                self._build_item_rarity_rules(item, styles, extra_conditions)
-            )
+            for rc in config.rarity_rules:
+                rules.append(self._make_item_rule(item, rc))
 
-        rules.append(self._build_class_show_rule(associated_class, styles["Normal"]))
-        rules.append(self._build_class_exclude_rule(associated_class))
+        rules.append(self._make_class_show(associated_class, config.class_rule))
+        rules.append(self._make_class_hide(associated_class, config.class_rule))
         return rules
 
-    def _build_item_rarity_rules(
+    def _make_item_rule(
             self,
             item: ItemProgressionItem,
-            styles: Dict[str, Style],
-            extra_conditions: Dict[str, List],
-    ) -> List[Rule]:
-        """Generate SHOW rules for Magic and Rare variants of a base-type + level-range, including any extra conditions."""
-        # common conditions
+            rc: RarityRuleConfig,
+    ) -> Rule:
         base = self._condition_factory.create_condition(
-            ConditionKeyWord.BaseType, operator=None, value=f"\"{item.base_type.value}\""
+            ConditionKeyWord.BaseType, operator=None, value=f'"{item.base_type.value}"'
         )
-        level_min = self._condition_factory.create_condition(
+        lvl_min = self._condition_factory.create_condition(
             ConditionKeyWord.ItemLevel,
             operator=ConditionOperator.greater_than_or_equal,
             value=item.start_level,
         )
-        level_max = self._condition_factory.create_condition(
+        lvl_max = self._condition_factory.create_condition(
             ConditionKeyWord.ItemLevel,
             operator=ConditionOperator.less_than_or_equal,
             value=item.end_level,
         )
-
-        rules: List[Rule] = []
-        rarity_cond = self._condition_factory.create_condition(
-            ConditionKeyWord.Rarity, operator=None, value="Rare"
+        rarity = self._condition_factory.create_condition(
+            ConditionKeyWord.Rarity, operator=None, value=rc.rarity_name
         )
 
-        conditions = [base, rarity_cond, level_min, level_max]
-        additional = extra_conditions.get("Rare", [])
-        conditions.extend(additional)
-
-        rules.append(
-            self._rule_factory.get_rule(
-                RuleType.SHOW,
-                conditions,
-                styles["Rare"],
+        act_conds = []
+        if rc.acts:
+            act_conds = ConditionGroupFactory.between_acts(
+                self._condition_factory, rc.acts[0], rc.acts[1]
             )
-        )
-        return rules
 
-    def _build_class_show_rule(
+        conds = [base, rarity, lvl_min, lvl_max] + act_conds + rc.extra_conditions
+        return self._rule_factory.get_rule(RuleType.SHOW, conds, rc.style)
+
+    def _make_class_show(
             self,
             associated_class: enum.Enum,
-            normal_style: Style,
+            crc: ClassRuleConfig,
     ) -> Rule:
-        """Show Normal items in the early acts for this class."""
-        class_cond = self._condition_factory.create_condition(
+        cls_cond = self._condition_factory.create_condition(
             ConditionKeyWord.Class, operator=None, value=associated_class.value
         )
-        act_conditions = ConditionGroupFactory.for_act_area_levels(
-            self._condition_factory, Act.Act1
-        )
-        rarity_normal = ConditionGroupFactory.from_exact_values(
+        show_rarity_group = ConditionGroupFactory.from_exact_values(
             self._condition_factory,
             ConditionKeyWord.Rarity,
-            values=["Normal", "Magic"],
+            values=crc.show_rarities,
+        )
+        act_group = ConditionGroupFactory.between_acts(
+            self._condition_factory,
+            crc.show_acts[0],
+            crc.show_acts[1],
         )
         return self._rule_factory.get_rule(
             RuleType.SHOW,
-            [class_cond] + act_conditions + rarity_normal,
-            normal_style,
+            [cls_cond] + show_rarity_group + act_group,
+            crc.show_style,
             )
 
-    def _build_class_exclude_rule(
+    def _make_class_hide(
             self,
             associated_class: enum.Enum,
+            crc: ClassRuleConfig,
     ) -> Rule:
-        """Hide items outside act range or with undesired rarities."""
-        class_cond = self._condition_factory.create_condition(
+        cls_cond = self._condition_factory.create_condition(
             ConditionKeyWord.Class, operator=None, value=associated_class.value
         )
-        exclude_areas = ConditionGroupFactory.between_acts(
-            self._condition_factory, Act.Act2, Act.Act10
-        )
-        exclude_rarities = ConditionGroupFactory.from_exact_values(
+        hide_group = ConditionGroupFactory.from_exact_values(
             self._condition_factory,
             ConditionKeyWord.Rarity,
-            values=["Normal", "Magic", "Rare"],
+            values=crc.hide_rarities,
+        )
+        hide_act_group = ConditionGroupFactory.between_acts(
+            self._condition_factory,
+            crc.hide_acts[0],
+            crc.hide_acts[1],
         )
         return self._rule_factory.get_rule(
             RuleType.HIDE,
-            exclude_areas + exclude_rarities + [class_cond],
+            hide_group + hide_act_group + [cls_cond],
             style=None,
             )
