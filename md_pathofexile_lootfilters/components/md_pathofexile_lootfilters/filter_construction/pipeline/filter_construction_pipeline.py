@@ -5,6 +5,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
     ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.catch_all import \
     AddCatchAllRules
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.hide_unassociated_class_items import \
+    HideUnassociatedClassItems
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.item_progressions import \
     AddItemProgressions
 
@@ -20,5 +22,6 @@ class FilterConstructionPipeline(AbPipeline):
         self._logger.trace("Successfully initialized.", separator=self._separator)
 
     def build_pipeline(self):
-        self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8000] Item Progressions"))
+        self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Unassociated Class-Items"))
+        self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Item Progressions"))
         self._add_step(AddCatchAllRules(self._logger, self._rule_factory, self._pipeline_prefix, "[9999] Catch All"))

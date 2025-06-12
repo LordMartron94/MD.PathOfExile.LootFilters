@@ -14,14 +14,12 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     BootProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.helmet_progression_builder import \
     HelmetProgressionBuilder
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
-    RuleSection
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.exclude_non_associated_weaponry import \
-    ExcludeNonAssociatedWeaponry
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.sceptre_progression_builder import \
     SceptreProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.shield_progression_builder import \
     ShieldProgressionBuilder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
+    RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
     FilterConstructionPipelineContext
 )
@@ -44,7 +42,6 @@ class AddItemProgressions(IPipe):
         self._logger = logger
         self._separator = f"{pipeline_prefix}.{self.__class__.__name__}"
 
-        self._exclude_non_associated_weaponry: ExcludeNonAssociatedWeaponry = ExcludeNonAssociatedWeaponry(condition_factory, rule_factory)
         self._sceptre_progression: SceptreProgressionBuilder = SceptreProgressionBuilder(condition_factory, rule_factory)
         self._shield_progression: ShieldProgressionBuilder = ShieldProgressionBuilder(condition_factory, rule_factory)
         self._body_armor_progression: BodyArmorProgressionBuilder = BodyArmorProgressionBuilder(condition_factory, rule_factory)
@@ -58,7 +55,7 @@ class AddItemProgressions(IPipe):
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
-        rules = self._exclude_non_associated_weaponry.get_exclusion_rules(data)
+        rules = []
         rules.extend(self._sceptre_progression.get_progression_rules(data))
         rules.extend(self._shield_progression.get_progression_rules(data))
         rules.extend(self._body_armor_progression.get_progression_rules(data))
