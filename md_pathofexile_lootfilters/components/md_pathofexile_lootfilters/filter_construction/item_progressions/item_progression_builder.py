@@ -36,7 +36,7 @@ class ItemProgressionBuilder:
             for rc in config.rarity_rules:
                 rules.append(self._make_item_rule(item, rc))
 
-        rules.append(self._make_class_show(associated_class, config.class_rule))
+        rules.extend(self._make_class_show(associated_class, config.class_rule))
         rules.append(self._make_class_hide(associated_class, config.class_rule))
         return rules
 
@@ -75,25 +75,34 @@ class ItemProgressionBuilder:
             self,
             associated_class: enum.Enum,
             crc: ClassRuleConfig,
-    ) -> Rule:
+    ) -> List[Rule]:
         cls_cond = self._condition_factory.create_condition(
             ConditionKeyWord.Class, operator=None, value=associated_class.value
         )
-        show_rarity_group = ConditionGroupFactory.from_exact_values(
-            self._condition_factory,
-            ConditionKeyWord.Rarity,
-            values=crc.show_rarities,
-        )
+
         act_group = ConditionGroupFactory.between_acts(
             self._condition_factory,
             crc.show_acts[0],
             crc.show_acts[1],
         )
-        return self._rule_factory.get_rule(
-            RuleType.SHOW,
-            [cls_cond] + show_rarity_group + act_group,
-            crc.show_style,
+
+        rules: List[Rule] = []
+
+        for rarity, style in crc.show_rarities.items():
+            show_rarity_group = ConditionGroupFactory.from_exact_values(
+                self._condition_factory,
+                ConditionKeyWord.Rarity,
+                values=[rarity],
             )
+
+            rules.append(self._rule_factory.get_rule(
+                RuleType.SHOW,
+                [cls_cond] + show_rarity_group + act_group,
+                style,
+                )
+            )
+
+        return rules
 
     def _make_class_hide(
             self,

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import Condition
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
@@ -18,9 +18,8 @@ class RarityRuleConfig:
 @dataclass(frozen=True)
 class ClassRuleConfig:
     """Configuration for class‐level show/hide rules."""
-    show_rarities: List[str]
     show_acts: Tuple[Act, Act]
-    show_style: Style
+    show_rarities: Dict[str, Style]
     hide_rarities: List[str]
     hide_acts: Tuple[Act, Act]
 

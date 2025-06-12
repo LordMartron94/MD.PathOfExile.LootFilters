@@ -83,9 +83,11 @@ class GloveProgressionBuilder:
 
         item_progression_config: ItemProgressionConfig = ItemProgressionConfig(
             class_rule=ClassRuleConfig(
-                show_rarities=["Normal", "Magic"],
                 show_acts=(Act.Act1, Act.Act1),
-                show_style=normal,
+                show_rarities={
+                    "Normal": normal,
+                    "Magic": magic,
+                },
                 hide_rarities=["Normal", "Magic", "Rare"],
                 hide_acts=(Act.Act2, Act.Act10),
             ),
