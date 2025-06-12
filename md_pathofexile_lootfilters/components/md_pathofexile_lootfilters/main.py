@@ -21,9 +21,9 @@ min_log: LogType = LogType.TRACE \
         if DEBUG_MODE \
     else LogType.INFO
 
-logger: HoornLogger = logger_builder.get_logger(min_level=min_log)
-
-app: App = App(logger)
-
 if __name__ == "__main__":
+    logger: HoornLogger = logger_builder.get_logger(min_level=min_log)
+
+    app: App = App(logger)
+
     app.run()

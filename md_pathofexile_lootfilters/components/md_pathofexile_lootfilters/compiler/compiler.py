@@ -10,6 +10,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.r
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.rule_compiler import RuleCompiler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.utils.keyword_line_adder import \
     KeywordLineAdder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import VERBOSE
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
@@ -59,6 +60,9 @@ class FilterCompiler:
         return output
 
     def _log_inputs(self, block: Rule, style: Optional[Style]) -> None:
+        if not VERBOSE:
+            return
+
         block_json = pprint.pformat(block.model_dump(mode='json'))
         style_json = pprint.pformat(style.model_dump(mode='json')) if style else None
         self._logger.debug(

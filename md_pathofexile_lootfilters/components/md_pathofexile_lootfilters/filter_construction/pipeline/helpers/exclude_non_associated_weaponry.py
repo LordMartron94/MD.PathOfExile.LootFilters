@@ -29,7 +29,7 @@ class ExcludeNonAssociatedWeaponry:
     def _determine_style(data: FilterConstructionPipelineContext) -> Style:
         return data.style_preset_registry.get_style(
             ItemGroup.EarlyWeaponry,
-            ItemTier.NoTier
+            ItemTier.Tier3
         )
 
     @staticmethod
