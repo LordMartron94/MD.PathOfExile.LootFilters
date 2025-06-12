@@ -27,49 +27,49 @@
     "High-Tier 1": {
       "border_color": { "red": 220, "green": 220, "blue": 220, "alpha": 255 },
       "text_color":   { "red": 220, "green": 220, "blue": 220, "alpha": 255 },
-      "font_size": 35
+      "font_size": 40
     },
     "High-Tier 2": {
       "border_color": { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
       "text_color":   { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
-      "font_size": 32
+      "font_size": 38
     },
     "High-Tier 3": {
       "border_color": { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
       "text_color":   { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
-      "font_size": 30
+      "font_size": 36
     },
 
     "Mid-Tier 1": {
       "border_color": { "red": 205, "green": 127, "blue": 50,  "alpha": 255 },
       "text_color":   { "red": 205, "green": 127, "blue": 50,  "alpha": 255 },
-      "font_size": 27
+      "font_size": 34
     },
     "Mid-Tier 2": {
       "border_color": { "red": 184, "green": 115, "blue": 51,  "alpha": 255 },
       "text_color":   { "red": 184, "green": 115, "blue": 51,  "alpha": 255 },
-      "font_size": 25
+      "font_size": 32
     },
     "Mid-Tier 3": {
       "border_color": { "red": 139, "green": 69,  "blue": 19,  "alpha": 255 },
       "text_color":   { "red": 139, "green": 69,  "blue": 19,  "alpha": 255 },
-      "font_size": 22
+      "font_size": 28
     },
 
     "Low-Tier 1": {
       "border_color": { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
       "text_color":   { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
-      "font_size": 20
+      "font_size": 24
     },
     "Low-Tier 2": {
       "border_color": { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
       "text_color":   { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
-      "font_size": 17
+      "font_size": 22
     },
     "Low-Tier 3": {
       "border_color": { "red":  96, "green":  96, "blue":  96,  "alpha": 255 },
       "text_color":   { "red":  96, "green":  96, "blue":  96,  "alpha": 255 },
-      "font_size": 15
+      "font_size": 17
     }
   },
   "error": {
