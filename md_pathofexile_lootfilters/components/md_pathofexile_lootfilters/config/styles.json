@@ -8,6 +8,9 @@
     },
     "Flasks": {
       "background_color": {"red": 102, "green": 51, "blue": 153, "alpha": 200 }
+    },
+    "Jewelry": {
+      "background_color": {"red": 255, "green": 215, "blue": 0, "alpha": 200 }
     }
   },
   "item_tiers": {

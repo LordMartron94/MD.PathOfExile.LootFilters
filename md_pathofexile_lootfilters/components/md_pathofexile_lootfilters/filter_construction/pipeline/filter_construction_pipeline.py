@@ -9,6 +9,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     HideUnassociatedClassItems
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.item_progressions import \
     AddItemProgressions
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.jewelry_highlights import \
+    AddJewelryHighlights
 
 
 class FilterConstructionPipeline(AbPipeline):
@@ -24,4 +26,5 @@ class FilterConstructionPipeline(AbPipeline):
     def build_pipeline(self):
         self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Unassociated Class-Items"))
         self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Item Progressions"))
+        self._add_step(AddJewelryHighlights(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8300] Jewelry Highlights"))
         self._add_step(AddCatchAllRules(self._logger, self._rule_factory, self._pipeline_prefix, "[9999] Catch All"))
