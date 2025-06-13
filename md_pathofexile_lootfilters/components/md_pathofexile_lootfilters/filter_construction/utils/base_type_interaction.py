@@ -34,6 +34,9 @@ class BaseTypeCategory(enum.Enum):
     supplies = "Supplies"
     essences = "Essences"
 
+    # LEAGUE SPECIFIC
+    gold = "Gold"
+
 def sanitize_data_columns(data: pd.DataFrame) -> pd.DataFrame:
     cleaned = data.copy()
     cleaned.columns = (

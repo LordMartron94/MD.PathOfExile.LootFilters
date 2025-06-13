@@ -11,3 +11,4 @@ class ItemGroup(enum.Enum):
     Supplies                  = "Supplies"
     CatchAll                  = "CatchAll"
     Essences                  = "Essences"
+    Gold                      = "Gold"

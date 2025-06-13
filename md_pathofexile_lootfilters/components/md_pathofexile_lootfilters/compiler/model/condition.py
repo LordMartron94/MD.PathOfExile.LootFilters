@@ -10,6 +10,7 @@ class ConditionKeyWord(enum.Enum):
     BaseType = "BaseType"
     ItemLevel = "ItemLevel"
     Class = "Class"
+    StackSize = "StackSize"
 
 class ConditionOperator(enum.Enum):
     equal = "="

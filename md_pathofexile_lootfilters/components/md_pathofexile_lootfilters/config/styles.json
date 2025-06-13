@@ -31,6 +31,10 @@
     "Essences": {
       "background_color": { "red":   0, "green":   0, "blue": 255, "alpha": 255 },
       "minimap_shape":   "Hexagon"
+    },
+    "Gold": {
+      "background_color": { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
+      "minimap_shape":   "Diamond"
     }
   },
   "item_tiers": {

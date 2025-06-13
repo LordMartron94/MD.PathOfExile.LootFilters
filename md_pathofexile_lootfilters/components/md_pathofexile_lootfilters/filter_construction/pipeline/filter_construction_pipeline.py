@@ -13,6 +13,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     AddItemProgressions
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.jewelry_highlights import \
     AddJewelryHighlights
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.league_specific import \
+    AddLeagueSpecificDrops
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.misc_currency_tiering import \
     AddMiscCurrenciesTiering
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.orb_tiering import \
@@ -30,6 +32,7 @@ class FilterConstructionPipeline(AbPipeline):
         self._logger.trace("Successfully initialized.", separator=self._separator)
 
     def build_pipeline(self):
+        self._add_step(AddLeagueSpecificDrops(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[6000] League Specific Drops"))
         self._add_step(AddOrbTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7100] Currencies - Orbs (Campaign)"))
         self._add_step(AddEssenceTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7200] Currencies - Essences (Campaign)"))
         self._add_step(AddMiscCurrenciesTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7300] Currencies - Misc (Campaign)"))
