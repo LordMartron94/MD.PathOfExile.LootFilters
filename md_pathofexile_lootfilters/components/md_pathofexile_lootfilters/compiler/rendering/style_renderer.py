@@ -53,7 +53,7 @@ class StyleRenderer(Renderer):
         cas = style.custom_alert_sound
         if cas:
             flag = "Optional" if cas.optional else None
-            self._adder(lines, "CustomAlertSound", cas.file_name, cas.volume, flag)
+            self._adder(lines, "CustomAlertSound", f'"{cas.file_name}"', cas.volume, flag)
 
     def _render_drop_toggles(self, lines: List[str], style: Style) -> None:
         if style.disable_drop_sound:

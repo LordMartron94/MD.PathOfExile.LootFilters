@@ -20,28 +20,48 @@
     "God-Tier 1": {
       "border_color": { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
       "text_color":   { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
-      "font_size": 45
+      "font_size": 45,
+      "sound": {
+        "file": "Maven_divine1.ogg",
+        "volume": 150
+      }
     },
     "God-Tier 2": {
       "border_color": { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
       "text_color":   { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
-      "font_size": 42
+      "font_size": 42,
+      "sound": {
+        "file": "Maven_amazing.ogg",
+        "volume": 150
+      }
     },
     "God-Tier 3": {
       "border_color": { "red": 205, "green": 173, "blue":   0, "alpha": 255 },
       "text_color":   { "red": 205, "green": 173, "blue":   0, "alpha": 255 },
-      "font_size": 40
+      "font_size": 40,
+      "sound": {
+        "file": "Maven_beautiful.ogg",
+        "volume": 150
+      }
     },
 
     "High-Tier 1": {
       "border_color": { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
       "text_color":   { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
-      "font_size": 40
+      "font_size": 40,
+      "sound": {
+        "file": "Mathil-vulgarity_6veryvaluable.mp3",
+        "volume": 100
+      }
     },
     "High-Tier 2": {
       "border_color": { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
       "text_color":   { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
-      "font_size": 38
+      "font_size": 38,
+      "sound": {
+        "file": "Mathil_6veryvaluable.mp3",
+        "volume": 100
+      }
     },
     "High-Tier 3": {
       "border_color": { "red": 128, "green": 128, "blue": 128, "alpha": 255 },

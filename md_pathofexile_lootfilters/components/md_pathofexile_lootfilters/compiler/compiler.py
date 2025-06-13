@@ -36,11 +36,10 @@ class FilterCompiler:
             logger=logger
         )
 
-    def transform_single_rule(self, rule: Rule) -> str:
+    def _transform_single_rule(self, rule: Rule) -> str:
         """
         Convert a Rule and its Style into filter text using the injected RuleCompiler.
         """
-        # Retain original detailed logging
         self._log_inputs(rule, rule.style)
         return self._compiler.compile(rule)
 
@@ -64,7 +63,7 @@ class FilterCompiler:
             output.append(f"# {rule_section.description}")
 
             for rule in rule_section.rules:
-                output.append(self.transform_single_rule(rule))
+                output.append(self._transform_single_rule(rule))
 
         return output
 
