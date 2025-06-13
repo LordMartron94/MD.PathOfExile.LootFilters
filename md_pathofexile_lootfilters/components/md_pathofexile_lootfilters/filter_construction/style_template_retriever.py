@@ -5,6 +5,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     ColorHandler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.custom_sound_handler import \
     CustomSoundHandler
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.effect_handler import \
+    EffectHandler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.font_size_handler import \
     FontSizeHandler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.minimap_handler import \
@@ -46,7 +48,8 @@ class StyleTemplateRetriever:
             "text_color":       ColorHandler(style_builder.with_text_color,      logger, self._separator),
             "font_size":        FontSizeHandler(),
             "sound":            CustomSoundHandler(style_builder.with_custom_alert_sound, logger, self._separator),
-            "minimap":          MinimapHandler(logger, self._separator)
+            "minimap":          MinimapHandler(logger, self._separator),
+            "effect":           EffectHandler(logger, self._separator)
         }
 
         self._transformer = StyleTransformer(style_builder, handlers, logger, self._separator)

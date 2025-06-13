@@ -33,7 +33,8 @@
       "minimap": {
         "size": "large",
         "color": "Pink"
-      }
+      },
+      "effect": "Pink"
     },
     "God-Tier 2": {
       "border_color": { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
@@ -46,7 +47,8 @@
       "minimap": {
         "size": "large",
         "color": "Pink"
-      }
+      },
+      "effect": "Pink"
     },
     "God-Tier 3": {
       "border_color": { "red": 205, "green": 173, "blue":   0, "alpha": 255 },
@@ -59,7 +61,8 @@
       "minimap": {
         "size": "large",
         "color": "Pink"
-      }
+      },
+      "effect": "Pink"
     },
 
     "High-Tier 1": {
@@ -73,7 +76,8 @@
       "minimap": {
         "size": "medium",
         "color": "Red"
-      }
+      },
+      "effect": "Red"
     },
     "High-Tier 2": {
       "border_color": { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
@@ -86,12 +90,14 @@
       "minimap": {
         "size": "medium",
         "color": "Red"
-      }
+      },
+      "effect": "Red"
     },
     "High-Tier 3": {
       "border_color": { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
       "text_color":   { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
-      "font_size": 36
+      "font_size": 36,
+      "effect": "Red"
     },
 
     "Mid-Tier 1": {
