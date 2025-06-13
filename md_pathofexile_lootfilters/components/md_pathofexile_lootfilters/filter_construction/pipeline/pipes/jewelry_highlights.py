@@ -77,8 +77,13 @@ class AddJewelryHighlights(IPipe):
 
     def _get_rule(self, style: Style, base: enum.Enum, rarity: str) -> Rule:
         type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base.value}"')
-        area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
         rarity_condition = self._condition_factory.create_condition(ConditionKeyWord.Rarity, operator=ConditionOperator.exact_match, value=f'"{rarity}"')
+
+        if rarity == "Normal":
+            area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act1)
+        elif rarity == "Magic":
+            area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act2)
+        else: area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
 
         return self._rule_factory.get_rule(
             rule_type=RuleType.SHOW,
