@@ -4,18 +4,12 @@ from typing import List, Dict
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_group_factory import \
-    ConditionGroupFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord, \
-    ConditionOperator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    ItemTier, get_tier_from_rarity_and_use
+    get_tier_from_rarity_and_use
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
@@ -25,7 +19,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
     determine_orb_style
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.tier_currency_rule import \
+    get_tier_currency_rule
 
 
 class AddOrbTiering(IPipe):
@@ -76,25 +71,11 @@ class AddOrbTiering(IPipe):
             tier = get_tier_from_rarity_and_use(rarity, usefulness)
             tier_counts[tier.value] += 1
             style      = determine_orb_style(data, tier)
-            rules.append(self._get_rule(style, row.basetype, tier))
+            rules.append(get_tier_currency_rule(self._rule_factory, self._condition_factory, style, row.basetype, tier))
 
         self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
 
         return rules
-
-    def _get_rule(self, style: Style, base: str, tier: ItemTier) -> Rule:
-        type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base}"')
-        area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
-
-        rule = self._rule_factory.get_rule(
-            rule_type=RuleType.SHOW,
-            conditions=[type_condition] + area_conditions,
-            style=style,
-        )
-
-        rule.comment = f"Tier: \"{tier.value}\""
-
-        return rule
 
     def _register_section(
             self,
