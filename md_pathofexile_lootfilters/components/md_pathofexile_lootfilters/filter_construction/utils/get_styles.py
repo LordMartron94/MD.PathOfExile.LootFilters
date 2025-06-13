@@ -1,8 +1,11 @@
+import enum
 from typing import Tuple, Dict
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.jewelry_base_type import RingBaseType, \
     AmuletBaseType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.orb_base_type import OrbBaseType
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.utility_base_type import \
+    GeneralCurrencyBaseType, SupplyBaseType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
     ItemGroup
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
@@ -152,5 +155,31 @@ def determine_orb_style(data: FilterConstructionPipelineContext, orb_base: OrbBa
 
     return data.style_preset_registry.get_style(
         ItemGroup.Orbs,
+        tier
+    ), tier
+
+def determine_currency_style(data: FilterConstructionPipelineContext, currency_base_type: enum.Enum) -> Tuple[Style, ItemTier]:
+    base_tier_map: Dict[enum.Enum, ItemTier] = {
+        # MID
+        SupplyBaseType.ArmourersScrap:       ItemTier.MidTier1,
+        SupplyBaseType.BlacksmithsWhetstone: ItemTier.MidTier1,
+
+        SupplyBaseType.GemcuttersPrism:      ItemTier.MidTier2,
+
+        SupplyBaseType.GlassblowersBauble:   ItemTier.MidTier3,
+
+        # LOW
+        GeneralCurrencyBaseType.Wisdom:      ItemTier.LowTier1,
+        GeneralCurrencyBaseType.Portal:      ItemTier.LowTier1
+    }
+
+    tier = base_tier_map.get(currency_base_type, None)
+    if tier is None:
+        raise RuntimeError(f"No default tier for currency {currency_base_type}")
+
+    item_group = ItemGroup.GeneralCurrencies if isinstance(currency_base_type, GeneralCurrencyBaseType) else ItemGroup.Supplies
+
+    return data.style_preset_registry.get_style(
+        item_group,
         tier
     ), tier
