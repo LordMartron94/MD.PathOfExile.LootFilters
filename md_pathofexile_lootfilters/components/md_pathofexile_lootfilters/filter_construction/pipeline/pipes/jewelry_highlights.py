@@ -1,6 +1,6 @@
 import pprint
 from collections import defaultdict
-from typing import List
+from typing import List, Dict
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
@@ -24,7 +24,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
     filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
-    determine_jewelry_style
+    determine_style
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
@@ -74,7 +74,7 @@ class AddJewelryHighlights(IPipe):
                 tier_value = getattr(row, col)
                 tier       = parse_tier_value(tier_value)
                 tier_counts[tier.value] += 1
-                style      = determine_jewelry_style(data, tier)
+                style      = determine_style(data, tier, BaseTypeCategory.rings)  # either rings or amulets here is fine.
                 rules.append(self._get_rule(style, row.basetype, rarity, tier))
 
         self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)

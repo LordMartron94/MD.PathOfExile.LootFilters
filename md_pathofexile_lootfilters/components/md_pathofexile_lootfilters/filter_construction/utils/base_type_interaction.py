@@ -32,6 +32,7 @@ class BaseTypeCategory(enum.Enum):
     misc = "Misc Currencies"
     orbs = "Orbs"
     supplies = "Supplies"
+    essences = "Essences"
 
 def sanitize_data_columns(data: pd.DataFrame) -> pd.DataFrame:
     cleaned = data.copy()

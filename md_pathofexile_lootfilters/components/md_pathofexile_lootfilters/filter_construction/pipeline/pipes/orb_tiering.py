@@ -8,8 +8,6 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    get_tier_from_rarity_and_use
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
@@ -17,8 +15,6 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 )
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
     filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
-    determine_orb_style
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.tier_currency_rule import \
     get_tier_currency_rule
 
@@ -66,12 +62,7 @@ class AddOrbTiering(IPipe):
         tier_counts: Dict[str, int] = defaultdict(int)
 
         for row in cleaned.itertuples(index=False):
-            rarity = getattr(row, "rarity__1_6")
-            usefulness = getattr(row, "usefulness__1_6")
-            tier = get_tier_from_rarity_and_use(rarity, usefulness)
-            tier_counts[tier.value] += 1
-            style      = determine_orb_style(data, tier)
-            rules.append(get_tier_currency_rule(self._rule_factory, self._condition_factory, style, row.basetype, tier))
+            rules.append(get_tier_currency_rule(self._rule_factory, self._condition_factory, row, tier_counts, data, BaseTypeCategory.orbs))
 
         self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
 

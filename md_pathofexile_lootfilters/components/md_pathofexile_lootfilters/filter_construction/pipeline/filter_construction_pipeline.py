@@ -5,6 +5,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
     ConditionFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.catch_all import \
     AddCatchAllRules
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.essence_tiering import \
+    AddEssenceTiering
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.hide_unassociated_class_items import \
     HideUnassociatedClassItems
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.item_progressions import \
@@ -29,7 +31,8 @@ class FilterConstructionPipeline(AbPipeline):
 
     def build_pipeline(self):
         self._add_step(AddOrbTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7100] Currencies - Orbs (Campaign)"))
-        self._add_step(AddMiscCurrenciesTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7200] Currencies - Misc (Campaign)"))
+        self._add_step(AddEssenceTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7200] Currencies - Essences (Campaign)"))
+        self._add_step(AddMiscCurrenciesTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7300] Currencies - Misc (Campaign)"))
         self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Unassociated Class-Items"))
         self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Item Progressions"))
         self._add_step(AddJewelryHighlights(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8300] Jewelry Highlights"))

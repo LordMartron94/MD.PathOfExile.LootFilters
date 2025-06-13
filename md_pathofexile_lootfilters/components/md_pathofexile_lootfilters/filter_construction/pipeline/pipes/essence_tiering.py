@@ -19,7 +19,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     get_tier_currency_rule
 
 
-class AddMiscCurrenciesTiering(IPipe):
+class AddEssenceTiering(IPipe):
     def __init__(
             self,
             logger: HoornLogger,
@@ -36,7 +36,7 @@ class AddMiscCurrenciesTiering(IPipe):
 
         self._section_heading = section_heading
         self._section_description = (
-            "Tiers the miscellaneous currencies based on rarity and value."
+            "Tiers the essences based on rarity and value."
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
@@ -50,24 +50,16 @@ class AddMiscCurrenciesTiering(IPipe):
         )
         return data
 
-    # noinspection PyUnresolvedReferences
     def _get_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         rules = []
 
-        misc_currencies = filter_rows_by_category(BaseTypeCategory.misc, data.base_type_data)
-        supplies = filter_rows_by_category(BaseTypeCategory.supplies, data.base_type_data)
-
-        mapping = {
-            BaseTypeCategory.misc: misc_currencies,
-            BaseTypeCategory.supplies: supplies,
-        }
+        essences = filter_rows_by_category(BaseTypeCategory.essences, data.base_type_data)
 
         tier_counts: Dict[str, int] = defaultdict(int)
+        cleaned = sanitize_data_columns(essences)
 
-        for item_base_type_category, rows in mapping.items():
-            cleaned = sanitize_data_columns(rows)
-            for row in cleaned.itertuples(index=False):
-                rules.append(get_tier_currency_rule(self._rule_factory, self._condition_factory, row, tier_counts, data, item_base_type_category))
+        for row in cleaned.itertuples(index=False):
+            rules.append(get_tier_currency_rule(self._rule_factory, self._condition_factory, row, tier_counts, data, BaseTypeCategory.essences))
 
         self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
 

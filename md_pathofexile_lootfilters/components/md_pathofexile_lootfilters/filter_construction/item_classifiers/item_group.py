@@ -10,3 +10,4 @@ class ItemGroup(enum.Enum):
     Orbs                      = "Orbs"
     Supplies                  = "Supplies"
     CatchAll                  = "CatchAll"
+    Essences                  = "Essences"

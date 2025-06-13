@@ -27,6 +27,10 @@
     "Supplies": {
       "background_color": { "red":  34, "green": 139, "blue":  34, "alpha": 255 },
       "minimap_shape":   "Triangle"
+    },
+    "Essences": {
+      "background_color": { "red":   0, "green":   0, "blue": 255, "alpha": 255 },
+      "minimap_shape":   "Hexagon"
     }
   },
   "item_tiers": {
