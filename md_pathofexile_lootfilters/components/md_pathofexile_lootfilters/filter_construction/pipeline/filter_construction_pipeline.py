@@ -19,6 +19,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     AddMiscCurrenciesTiering
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.orb_tiering import \
     AddOrbTiering
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.skill_gems import \
+    AddSkillGems
 
 
 class FilterConstructionPipeline(AbPipeline):
@@ -32,6 +34,7 @@ class FilterConstructionPipeline(AbPipeline):
         self._logger.trace("Successfully initialized.", separator=self._separator)
 
     def build_pipeline(self):
+        self._add_step(AddSkillGems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[5000] Skill Gems"))
         self._add_step(AddLeagueSpecificDrops(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[6000] League Specific Drops"))
         self._add_step(AddOrbTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7100] Currencies - Orbs (Campaign)"))
         self._add_step(AddEssenceTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7200] Currencies - Essences (Campaign)"))

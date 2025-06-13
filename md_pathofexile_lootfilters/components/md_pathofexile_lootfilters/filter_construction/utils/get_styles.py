@@ -44,6 +44,7 @@ def determine_style(data: FilterConstructionPipelineContext, tier: ItemTier, cur
         BaseTypeCategory.amulets: ItemGroup.Jewelry,
         BaseTypeCategory.orbs: ItemGroup.Orbs,
         BaseTypeCategory.gold: ItemGroup.Gold,
+        BaseTypeCategory.skill_gems: ItemGroup.SkillGems,
     }
 
     group = mapping.get(currency_type, None)

@@ -12,3 +12,4 @@ class ItemGroup(enum.Enum):
     CatchAll                  = "CatchAll"
     Essences                  = "Essences"
     Gold                      = "Gold"
+    SkillGems                 = "SkillGems"

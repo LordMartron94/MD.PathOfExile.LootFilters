@@ -35,6 +35,10 @@
     "Gold": {
       "background_color": { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
       "minimap_shape":   "Diamond"
+    },
+    "SkillGems": {
+      "background_color": { "red": 255, "green": 105, "blue": 180, "alpha": 255 },
+      "minimap_shape":   "Kite"
     }
   },
   "item_tiers": {

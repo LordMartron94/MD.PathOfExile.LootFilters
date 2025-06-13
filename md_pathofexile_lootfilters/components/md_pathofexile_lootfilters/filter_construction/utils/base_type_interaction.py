@@ -17,6 +17,7 @@ class BaseTypeCategory(enum.Enum):
     boots = "Boots"
     gloves = "Gloves"
     helmets = "Helmets"
+    skill_gems = "Skill Gems"
 
     # FLASKS
     life_flasks = "Life Flasks"
