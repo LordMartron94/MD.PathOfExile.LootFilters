@@ -2,6 +2,7 @@ from typing import Tuple, Dict
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.jewelry_base_type import RingBaseType, \
     AmuletBaseType
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.orb_base_type import OrbBaseType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
     ItemGroup
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
@@ -39,7 +40,7 @@ def determine_ring_style(
         data: FilterConstructionPipelineContext,
         ring_base: RingBaseType,
         rarity: str,
-) -> Style:
+) -> Tuple[Style, ItemTier]:
     # 1) map each base to its default (Normal) tier
     base_tier_map: Dict[RingBaseType, ItemTier] = {
         # HIGH
@@ -65,7 +66,7 @@ def determine_ring_style(
         RingBaseType.Iron:     ItemTier.LowTier3,
     }
 
-    base_tier = base_tier_map.get(ring_base)
+    base_tier = base_tier_map.get(ring_base, None)
     if base_tier is None:
         raise RuntimeError(f"No default tier for ring {ring_base}")
 
@@ -75,13 +76,13 @@ def determine_ring_style(
     return data.style_preset_registry.get_style(
         ItemGroup.Jewelry,
         final_tier
-    )
+    ), final_tier
 
 def determine_amulet_style(
         data: FilterConstructionPipelineContext,
         amulet_base: AmuletBaseType,
         rarity: str,
-) -> Style:
+) -> Tuple[Style, ItemTier]:
     # 1) map each base to its default (Normal) tier
     base_tier_map: Dict[AmuletBaseType, ItemTier] = {
         # HIGH
@@ -103,9 +104,9 @@ def determine_amulet_style(
         AmuletBaseType.Coral:    ItemTier.LowTier2,
     }
 
-    base_tier = base_tier_map.get(amulet_base)
+    base_tier = base_tier_map.get(amulet_base, None)
     if base_tier is None:
-        raise RuntimeError(f"No default tier for ring {amulet_base}")
+        raise RuntimeError(f"No default tier for amulet {amulet_base}")
 
     final_tier = get_new_tier(base_tier, rarity)
 
@@ -113,4 +114,43 @@ def determine_amulet_style(
     return data.style_preset_registry.get_style(
         ItemGroup.Jewelry,
         final_tier
-    )
+    ), final_tier
+
+def determine_orb_style(data: FilterConstructionPipelineContext, orb_base: OrbBaseType) -> Tuple[Style, ItemTier]:
+    base_tier_map: Dict[OrbBaseType, ItemTier] = {
+        # GOD
+        OrbBaseType.Vaal: ItemTier.GodTier3,
+
+        # HIGH
+        OrbBaseType.Exalted: ItemTier.HighTier1,
+        OrbBaseType.Regret: ItemTier.HighTier1,
+        OrbBaseType.Chaos: ItemTier.HighTier1,
+
+        OrbBaseType.Regal: ItemTier.HighTier2,
+        OrbBaseType.Binding: ItemTier.HighTier2,
+
+        OrbBaseType.Alchemy: ItemTier.HighTier3,
+
+        # MID
+        OrbBaseType.Chromatic: ItemTier.MidTier1,
+        OrbBaseType.Jewellers: ItemTier.MidTier1,
+        OrbBaseType.Fusing: ItemTier.MidTier1,
+        OrbBaseType.Scouring: ItemTier.MidTier1,
+
+        OrbBaseType.Chance: ItemTier.MidTier2,
+
+        OrbBaseType.Alteration: ItemTier.MidTier3,
+
+        # LOW
+        OrbBaseType.Augmentation: ItemTier.LowTier1,
+        OrbBaseType.Transmutation: ItemTier.LowTier1
+    }
+
+    tier = base_tier_map.get(orb_base, None)
+    if tier is None:
+        raise RuntimeError(f"No default tier for orb {orb_base}")
+
+    return data.style_preset_registry.get_style(
+        ItemGroup.Orbs,
+        tier
+    ), tier

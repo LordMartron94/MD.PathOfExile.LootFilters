@@ -11,6 +11,9 @@
     },
     "Jewelry": {
       "background_color": {"red": 255, "green": 215, "blue": 0, "alpha": 200 }
+    },
+    "Orbs": {
+      "background_color": {"red": 0, "green": 170, "blue": 255, "alpha": 200 }
     }
   },
   "item_tiers": {

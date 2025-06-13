@@ -1,4 +1,5 @@
 import enum
+from typing import Optional
 
 
 class ItemTier(enum.Enum):
@@ -16,19 +17,30 @@ class ItemTier(enum.Enum):
     LowTier3 = "Low-Tier 3"
     NoTier = "NoTier"
 
-def get_new_tier(old_tier: ItemTier, rarity: str):
-    # 2) define the full tier‐ladder to climb
+def get_new_tier(
+        old_tier: ItemTier,
+        rarity: Optional[str] = None,
+        bump: Optional[int] = None
+) -> ItemTier:
+    """
+    Calculate a new ItemTier by moving up or down the tier ladder.
+    By default, bump is determined by rarity:
+      Normal -> -2, Magic -> -1, Rare -> 0.
+    Clients can override bump directly by supplying the `bump` parameter.
+    """
     tier_order = [
-        ItemTier.LowTier1, ItemTier.LowTier2, ItemTier.LowTier3,
-        ItemTier.MidTier1, ItemTier.MidTier2, ItemTier.MidTier3,
-        ItemTier.HighTier1, ItemTier.HighTier2, ItemTier.HighTier3,
-        ItemTier.GodTier1, ItemTier.GodTier2,  ItemTier.GodTier3,
+        t for t in reversed(list(ItemTier))
+        if t is not ItemTier.NoTier
     ]
 
-    # 3) how many steps to climb for each rarity
-    bump = {"Normal": 0, "Magic": 1, "Rare": 2}[rarity]
+    if bump is None:
+        rarity_bumps = {"Normal": -2, "Magic": -1, "Rare": 0}
+        bump = rarity_bumps.get(rarity, 0)
 
-    idx = tier_order.index(old_tier)
-    final_tier = tier_order[min(idx + bump, len(tier_order) - 1)]
+    try:
+        idx = tier_order.index(old_tier)
+    except ValueError:
+        return ItemTier.NoTier
 
-    return final_tier
+    new_idx = min(max(idx + bump, 0), len(tier_order) - 1)
+    return tier_order[new_idx]

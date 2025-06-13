@@ -6,4 +6,5 @@ class ItemGroup(enum.Enum):
     WeaponryAndEquipment = "WeaponryAndEquipment"
     Flasks = "Flasks"
     Jewelry = "Jewelry"
+    Orbs = "Orbs"
     CatchAll = "CatchAll"

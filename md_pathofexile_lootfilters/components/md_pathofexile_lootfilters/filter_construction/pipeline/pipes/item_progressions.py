@@ -28,11 +28,6 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 
 
 class AddItemProgressions(IPipe):
-    """
-    Adds rules to hide all class-unrelated weapons except those found in Act 1,
-    leveraging shared utility builders for maintainability.
-    """
-
     def __init__(
             self,
             logger: HoornLogger,

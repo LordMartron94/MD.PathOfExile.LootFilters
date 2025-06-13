@@ -3,8 +3,7 @@ from typing import List
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.jewelry_base_type import RingBaseType, \
-    AmuletBaseType
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.orb_base_type import OrbBaseType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
@@ -23,11 +22,11 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     FilterConstructionPipelineContext
 )
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
-    determine_ring_style, determine_amulet_style
+    determine_orb_style
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
-class AddJewelryHighlights(IPipe):
+class AddOrbTiering(IPipe):
     def __init__(
             self,
             logger: HoornLogger,
@@ -44,7 +43,7 @@ class AddJewelryHighlights(IPipe):
 
         self._section_heading = section_heading
         self._section_description = (
-            "Highlights the rings and amulets associated with our build."
+            "Tiers the orbs based on rarity and value."
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
@@ -61,30 +60,19 @@ class AddJewelryHighlights(IPipe):
     def _get_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         rules = []
 
-        for rarity in ("Normal", "Magic", "Rare"):
-            for _, ring_base in enumerate(RingBaseType):
-                style, tier = determine_ring_style(data, ring_base, rarity)
-                rules.append(self._get_rule(style, ring_base, rarity, tier))
-
-            for _, amulet_base in enumerate(AmuletBaseType):
-                style, tier = determine_amulet_style(data, amulet_base, rarity)
-                rules.append(self._get_rule(style, amulet_base, rarity, tier))
+        for _, orb_base in enumerate(OrbBaseType):
+            style, tier = determine_orb_style(data, orb_base)
+            rules.append(self._get_rule(style, orb_base, tier))
 
         return rules
 
-    def _get_rule(self, style: Style, base: enum.Enum, rarity: str, tier: ItemTier) -> Rule:
+    def _get_rule(self, style: Style, base: enum.Enum, tier: ItemTier) -> Rule:
         type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base.value}"')
-        rarity_condition = self._condition_factory.create_condition(ConditionKeyWord.Rarity, operator=ConditionOperator.exact_match, value=f'"{rarity}"')
-
-        if rarity == "Normal":
-            area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act1)
-        elif rarity == "Magic":
-            area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act2)
-        else: area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
+        area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
 
         rule = self._rule_factory.get_rule(
             rule_type=RuleType.SHOW,
-            conditions=[type_condition, rarity_condition] + area_conditions,
+            conditions=[type_condition] + area_conditions,
             style=style,
         )
 
