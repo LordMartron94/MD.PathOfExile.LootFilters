@@ -34,6 +34,9 @@ class FlaskTypeClass(enum.Enum):
     Hybrid = "Hybrid Flasks"
     Utility = "Utility Flasks"
 
+class OtherTypeClass(enum.Enum):
+    Tincture = "Tinctures"
+
 
 class BuildType(enum.Enum):
     MeleeSpellcaster = "Melee Spellcaster"

@@ -2,10 +2,13 @@ from typing import List
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import OtherTypeClass
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.helpers.exclude_non_associated_weaponry import \
@@ -32,6 +35,9 @@ class HideUnassociatedClassItems(IPipe):
         self._logger = logger
         self._separator = f"{pipeline_prefix}.{self.__class__.__name__}"
 
+        self._condition_factory = condition_factory
+        self._rule_factory = rule_factory
+
         self._exclude_non_associated_weaponry: ExcludeNonAssociatedWeaponry = ExcludeNonAssociatedWeaponry(condition_factory, rule_factory)
 
         self._section_heading = section_heading
@@ -41,6 +47,7 @@ class HideUnassociatedClassItems(IPipe):
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
         rules = self._exclude_non_associated_weaponry.get_exclusion_rules(data)
+        rules.append(self._exclude_tinctures())
 
         self._register_section(data, rules)
 
@@ -49,6 +56,14 @@ class HideUnassociatedClassItems(IPipe):
             separator=self._separator
         )
         return data
+
+    def _exclude_tinctures(self) -> Rule:
+        class_condition = self._condition_factory.create_condition(ConditionKeyWord.Class, operator=None, value=OtherTypeClass.Tincture.value)
+        return self._rule_factory.get_rule(
+            rule_type=RuleType.HIDE,
+            conditions=[class_condition],
+            style=None
+        )
 
     def _register_section(
             self,
