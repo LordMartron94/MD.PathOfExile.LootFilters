@@ -1,83 +1,83 @@
 {
   "item_groups": {
     "EarlyWeaponryAndEquipment": {
-      "background_color": {"red": 40, "green": 30, "blue": 20, "alpha": 180 }
+      "background_color": { "red":  40, "green":  30, "blue":  20, "alpha": 255 }
     },
     "WeaponryAndEquipment": {
-      "background_color": { "red": 57, "green": 57, "blue": 57, "alpha": 255 }
+      "background_color": { "red":  57, "green":  57, "blue":  57, "alpha": 255 }
     },
     "Flasks": {
-      "background_color": {"red": 102, "green": 51, "blue": 153, "alpha": 200 }
+      "background_color": { "red":  80, "green":   0, "blue":  80, "alpha": 255 }
     },
     "Jewelry": {
-      "background_color": {"red": 255, "green": 215, "blue": 0, "alpha": 200 }
+      "background_color": { "red": 100, "green":  60, "blue":   0, "alpha": 255 }
     },
     "Orbs": {
-      "background_color": {"red": 0, "green": 170, "blue": 255, "alpha": 200 }
+      "background_color": { "red":   0, "green": 100, "blue": 150, "alpha": 255 }
     }
   },
   "item_tiers": {
     "God-Tier 1": {
-      "border_color": { "red": 255, "green": 215, "blue": 0,   "alpha": 255 },
-      "text_color":   { "red": 255, "green": 215, "blue": 0,   "alpha": 255 },
+      "border_color": { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
+      "text_color":   { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
       "font_size": 45
     },
     "God-Tier 2": {
-      "border_color": { "red": 238, "green": 201, "blue": 0,   "alpha": 255 },
-      "text_color":   { "red": 238, "green": 201, "blue": 0,   "alpha": 255 },
+      "border_color": { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
+      "text_color":   { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
       "font_size": 42
     },
     "God-Tier 3": {
-      "border_color": { "red": 184, "green": 134, "blue": 11,  "alpha": 255 },
-      "text_color":   { "red": 184, "green": 134, "blue": 11,  "alpha": 255 },
+      "border_color": { "red": 205, "green": 173, "blue":   0, "alpha": 255 },
+      "text_color":   { "red": 205, "green": 173, "blue":   0, "alpha": 255 },
       "font_size": 40
     },
 
     "High-Tier 1": {
-      "border_color": { "red": 220, "green": 220, "blue": 220, "alpha": 255 },
-      "text_color":   { "red": 220, "green": 220, "blue": 220, "alpha": 255 },
+      "border_color": { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
+      "text_color":   { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
       "font_size": 40
     },
     "High-Tier 2": {
-      "border_color": { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
-      "text_color":   { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
+      "border_color": { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
+      "text_color":   { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
       "font_size": 38
     },
     "High-Tier 3": {
-      "border_color": { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
-      "text_color":   { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
+      "border_color": { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
+      "text_color":   { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
       "font_size": 36
     },
 
     "Mid-Tier 1": {
-      "border_color": { "red": 205, "green": 127, "blue": 50,  "alpha": 255 },
-      "text_color":   { "red": 205, "green": 127, "blue": 50,  "alpha": 255 },
+      "border_color": { "red": 205, "green": 127, "blue":  50, "alpha": 255 },
+      "text_color":   { "red": 205, "green": 127, "blue":  50, "alpha": 255 },
       "font_size": 34
     },
     "Mid-Tier 2": {
-      "border_color": { "red": 184, "green": 115, "blue": 51,  "alpha": 255 },
-      "text_color":   { "red": 184, "green": 115, "blue": 51,  "alpha": 255 },
+      "border_color": { "red": 184, "green": 115, "blue":  51, "alpha": 255 },
+      "text_color":   { "red": 184, "green": 115, "blue":  51, "alpha": 255 },
       "font_size": 32
     },
     "Mid-Tier 3": {
-      "border_color": { "red": 139, "green": 69,  "blue": 19,  "alpha": 255 },
-      "text_color":   { "red": 139, "green": 69,  "blue": 19,  "alpha": 255 },
+      "border_color": { "red": 160, "green":  82, "blue":  45, "alpha": 255 },
+      "text_color":   { "red": 160, "green":  82, "blue":  45, "alpha": 255 },
       "font_size": 28
     },
 
     "Low-Tier 1": {
-      "border_color": { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
-      "text_color":   { "red": 160, "green": 160, "blue": 160, "alpha": 255 },
+      "border_color": { "red": 112, "green": 128, "blue": 144, "alpha": 255 },
+      "text_color":   { "red": 112, "green": 128, "blue": 144, "alpha": 255 },
       "font_size": 24
     },
     "Low-Tier 2": {
-      "border_color": { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
-      "text_color":   { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
+      "border_color": { "red": 105, "green": 105, "blue": 105, "alpha": 255 },
+      "text_color":   { "red": 105, "green": 105, "blue": 105, "alpha": 255 },
       "font_size": 22
     },
     "Low-Tier 3": {
-      "border_color": { "red":  96, "green":  96, "blue":  96,  "alpha": 255 },
-      "text_color":   { "red":  96, "green":  96, "blue":  96,  "alpha": 255 },
+      "border_color": { "red":  64, "green":  64, "blue":  64, "alpha": 255 },
+      "text_color":   { "red":  64, "green":  64, "blue":  64, "alpha": 255 },
       "font_size": 17
     }
   },
