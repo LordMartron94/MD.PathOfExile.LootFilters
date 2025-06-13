@@ -14,6 +14,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     BootProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.flask_progression_builder import \
     FlaskProgressionBuilder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.glove_progression_builder import \
+    GloveProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.helmet_progression_builder import \
     HelmetProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.sceptre_progression_builder import \
@@ -39,12 +41,18 @@ class AddItemProgressions(IPipe):
         self._logger = logger
         self._separator = f"{pipeline_prefix}.{self.__class__.__name__}"
 
+        # Weaponry
         self._sceptre_progression: SceptreProgressionBuilder = SceptreProgressionBuilder(condition_factory, rule_factory)
         self._shield_progression: ShieldProgressionBuilder = ShieldProgressionBuilder(condition_factory, rule_factory)
+
+        # Main Equipment
         self._body_armor_progression: BodyArmorProgressionBuilder = BodyArmorProgressionBuilder(condition_factory, rule_factory)
-        self._boot_progression: BootProgressionBuilder = BootProgressionBuilder(condition_factory, rule_factory)
         self._helmet_progression: HelmetProgressionBuilder = HelmetProgressionBuilder(condition_factory, rule_factory)
+        self._boot_progression: BootProgressionBuilder = BootProgressionBuilder(condition_factory, rule_factory)
+        self._glove_progression: GloveProgressionBuilder = GloveProgressionBuilder(condition_factory, rule_factory)
         self._belt_progression: BeltProgressionBuilder = BeltProgressionBuilder(condition_factory, rule_factory)
+
+        # Other
         self._flask_progression: FlaskProgressionBuilder = FlaskProgressionBuilder(condition_factory, rule_factory)
 
         self._section_heading = section_heading
@@ -54,12 +62,19 @@ class AddItemProgressions(IPipe):
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
         rules = []
+
+        # Weaponry
         rules.extend(self._sceptre_progression.get_progression_rules(data))
         rules.extend(self._shield_progression.get_progression_rules(data))
+
+        # Main Equipment
         rules.extend(self._body_armor_progression.get_progression_rules(data))
-        rules.extend(self._boot_progression.get_progression_rules(data))
         rules.extend(self._helmet_progression.get_progression_rules(data))
+        rules.extend(self._boot_progression.get_progression_rules(data))
+        rules.extend(self._glove_progression.get_progression_rules(data))
         rules.extend(self._belt_progression.get_progression_rules(data))
+
+        # Other
         rules.extend(self._flask_progression.get_progression_rules(data))
 
         self._register_section(data, rules)
