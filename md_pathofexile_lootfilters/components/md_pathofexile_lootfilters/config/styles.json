@@ -1,19 +1,24 @@
 {
   "item_groups": {
     "EarlyWeaponryAndEquipment": {
-      "background_color": { "red":  40, "green":  30, "blue":  20, "alpha": 255 }
+      "background_color": { "red":  40, "green":  30, "blue":  20, "alpha": 255 },
+      "minimap_shape": "Square"
     },
     "WeaponryAndEquipment": {
-      "background_color": { "red":  57, "green":  57, "blue":  57, "alpha": 255 }
+      "background_color": { "red":  57, "green":  57, "blue":  57, "alpha": 255 },
+      "minimap_shape": "Cross"
     },
     "Flasks": {
-      "background_color": { "red":  80, "green":   0, "blue":  80, "alpha": 255 }
+      "background_color": { "red":  80, "green":   0, "blue":  80, "alpha": 255 },
+      "minimap_shape": "Raindrop"
     },
     "Jewelry": {
-      "background_color": { "red": 100, "green":  60, "blue":   0, "alpha": 255 }
+      "background_color": { "red": 100, "green":  60, "blue":   0, "alpha": 255 },
+      "minimap_shape": "Circle"
     },
     "Orbs": {
-      "background_color": { "red":   0, "green": 100, "blue": 150, "alpha": 255 }
+      "background_color": { "red":   0, "green": 100, "blue": 150, "alpha": 255 },
+      "minimap_shape": "Pentagon"
     }
   },
   "item_tiers": {
@@ -24,6 +29,10 @@
       "sound": {
         "file": "Maven_divine1.ogg",
         "volume": 150
+      },
+      "minimap": {
+        "size": "large",
+        "color": "Pink"
       }
     },
     "God-Tier 2": {
@@ -33,6 +42,10 @@
       "sound": {
         "file": "Maven_amazing.ogg",
         "volume": 150
+      },
+      "minimap": {
+        "size": "large",
+        "color": "Pink"
       }
     },
     "God-Tier 3": {
@@ -42,6 +55,10 @@
       "sound": {
         "file": "Maven_beautiful.ogg",
         "volume": 150
+      },
+      "minimap": {
+        "size": "large",
+        "color": "Pink"
       }
     },
 
@@ -52,6 +69,10 @@
       "sound": {
         "file": "Mathil-vulgarity_6veryvaluable.mp3",
         "volume": 100
+      },
+      "minimap": {
+        "size": "medium",
+        "color": "Red"
       }
     },
     "High-Tier 2": {
@@ -61,6 +82,10 @@
       "sound": {
         "file": "Mathil_6veryvaluable.mp3",
         "volume": 100
+      },
+      "minimap": {
+        "size": "medium",
+        "color": "Red"
       }
     },
     "High-Tier 3": {

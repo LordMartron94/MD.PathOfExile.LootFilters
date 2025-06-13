@@ -1,4 +1,4 @@
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.color_handler import \
@@ -7,6 +7,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     CustomSoundHandler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.font_size_handler import \
     FontSizeHandler
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.minimap_handler import \
+    MinimapHandler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.style_component_handler import \
     StyleComponentHandler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.loading.style_config_loader import \
@@ -44,6 +46,7 @@ class StyleTemplateRetriever:
             "text_color":       ColorHandler(style_builder.with_text_color,      logger, self._separator),
             "font_size":        FontSizeHandler(),
             "sound":            CustomSoundHandler(style_builder.with_custom_alert_sound, logger, self._separator),
+            "minimap":          MinimapHandler(logger, self._separator)
         }
 
         self._transformer = StyleTransformer(style_builder, handlers, logger, self._separator)
@@ -66,7 +69,20 @@ class StyleTemplateRetriever:
             return None
 
         merged = {**raw_group, **raw_tier}
+        merged = self._move_minimap_shape(merged)
         return self._transformer.transform(merged)
+
+    @staticmethod
+    def _move_minimap_shape(merged_dict: Dict) -> Dict:
+        keys: List[str] = list(merged_dict.keys())
+
+        altered_merged_dict: Dict = merged_dict.copy()
+
+        if "minimap" in keys:
+            altered_merged_dict["minimap"]["shape"] = altered_merged_dict["minimap_shape"]
+            del altered_merged_dict["minimap_shape"]
+
+        return altered_merged_dict
 
     def get_error_style(self) -> Style:
         return self._error_style
