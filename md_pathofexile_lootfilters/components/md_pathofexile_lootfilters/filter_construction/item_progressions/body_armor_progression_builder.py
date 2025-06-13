@@ -29,7 +29,7 @@ class BodyArmorProgressionBuilder:
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         _item_progression: List[ItemProgressionItem] = get_item_progression_for_category(BaseTypeCategory.body_armor, data.base_type_data)
-        normal, magic, rare = determine_weaponry_and_equipment_styles(data)
+        normal, magic, rare, _ = determine_weaponry_and_equipment_styles(data)
 
         extra_conditions = [
             self._condition_factory.create_condition(ConditionKeyWord.BaseEvasion, operator=ConditionOperator.exact_match, value=0)

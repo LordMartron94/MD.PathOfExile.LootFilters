@@ -21,6 +21,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     AddOrbTiering
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.skill_gems import \
     AddSkillGems
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.unique_highlights import \
+    HighlightUniques
 
 
 class FilterConstructionPipeline(AbPipeline):
@@ -39,7 +41,8 @@ class FilterConstructionPipeline(AbPipeline):
         self._add_step(AddOrbTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7100] Currencies - Orbs (Campaign)"))
         self._add_step(AddEssenceTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7200] Currencies - Essences (Campaign)"))
         self._add_step(AddMiscCurrenciesTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7300] Currencies - Misc (Campaign)"))
-        self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Unassociated Class-Items"))
-        self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Item Progressions"))
-        self._add_step(AddJewelryHighlights(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8300] Jewelry Highlights"))
+        self._add_step(HighlightUniques(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8000] Unique Highlights (Campaign)"))
+        self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Unassociated Class-Items (Campaign)"))
+        self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Item Progressions (Campaign)"))
+        self._add_step(AddJewelryHighlights(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8300] Jewelry Highlights (Campaign)"))
         self._add_step(AddCatchAllRules(self._logger, self._rule_factory, self._pipeline_prefix, "[9999] Catch All"))
