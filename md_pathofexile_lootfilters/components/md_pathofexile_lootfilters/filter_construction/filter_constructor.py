@@ -1,13 +1,16 @@
+import pprint
+import time
 import traceback
 from pathlib import Path
 from typing import List
 
+import numpy as np
+import pandas
+
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.compiler import FilterCompiler
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
-    ConditionFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import OUTPUT_DIRECTORIES
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import OUTPUT_DIRECTORIES, FILTER_NAME, \
+    CONFIG_DIR
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.filter_construction_pipeline import \
     FilterConstructionPipeline
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
@@ -31,9 +34,19 @@ class FilterConstructor:
         self._pipeline = FilterConstructionPipeline(logger)
         self._pipeline.build_pipeline()
 
+        base_type_data = pandas.read_csv(
+            CONFIG_DIR / "base_types.csv",
+            keep_default_na=True)
+
+        base_type_data = base_type_data.astype(object)
+        base_type_data = base_type_data.replace({ np.nan: None })
+
         self._pipeline_context = FilterConstructionPipelineContext(
-            style_preset_registry=_style_preset_registry
+            style_preset_registry=_style_preset_registry,
+            base_type_data=base_type_data
         )
+
+        self._logger.debug(f"Dataframe:\n{pprint.pformat(self._pipeline_context.base_type_data)}", separator=self._separator)
 
         self._logger.trace("Successfully initialized.", separator=self._separator)
 
@@ -42,7 +55,7 @@ class FilterConstructor:
         transformed_str: List[str] = self._compiler.transform_batch_rule_sections(context.generated_rules)
 
         for output_dir in OUTPUT_DIRECTORIES:
-            filter_path: Path = output_dir / "MD.TestFilter.filter"
+            filter_path: Path = output_dir / FILTER_NAME
 
             try:
                 with open(filter_path, "w") as filter_file:

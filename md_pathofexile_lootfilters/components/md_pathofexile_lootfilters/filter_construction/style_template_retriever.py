@@ -83,7 +83,8 @@ class StyleTemplateRetriever:
 
         if "minimap" in keys:
             altered_merged_dict["minimap"]["shape"] = altered_merged_dict["minimap_shape"]
-            del altered_merged_dict["minimap_shape"]
+
+        del altered_merged_dict["minimap_shape"]
 
         return altered_merged_dict
 

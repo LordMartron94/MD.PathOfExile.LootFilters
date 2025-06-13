@@ -1,10 +1,9 @@
-import enum
+import pprint
+from collections import defaultdict
 from typing import List
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.jewelry_base_type import RingBaseType, \
-    AmuletBaseType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
@@ -16,14 +15,16 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    ItemTier
+    ItemTier, parse_tier_value
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
     FilterConstructionPipelineContext
 )
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
+    filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
-    determine_ring_style, determine_amulet_style
+    determine_jewelry_style
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
@@ -58,22 +59,30 @@ class AddJewelryHighlights(IPipe):
         )
         return data
 
+    # noinspection PyUnresolvedReferences
     def _get_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         rules = []
 
-        for rarity in ("Normal", "Magic", "Rare"):
-            for _, ring_base in enumerate(RingBaseType):
-                style, tier = determine_ring_style(data, ring_base, rarity)
-                rules.append(self._get_rule(style, ring_base, rarity, tier))
+        jewelry = filter_rows_by_category([BaseTypeCategory.rings, BaseTypeCategory.amulets], data.base_type_data)
+        cleaned = sanitize_data_columns(jewelry)
 
-            for _, amulet_base in enumerate(AmuletBaseType):
-                style, tier = determine_amulet_style(data, amulet_base, rarity)
-                rules.append(self._get_rule(style, amulet_base, rarity, tier))
+        tier_counts: Dict[str, int] = defaultdict(int)
+
+        for rarity in ("Normal", "Magic", "Rare"):
+            col = f"{rarity}_Tier".lower()
+            for row in cleaned.itertuples(index=False):
+                tier_value = getattr(row, col)
+                tier       = parse_tier_value(tier_value)
+                tier_counts[tier.value] += 1
+                style      = determine_jewelry_style(data, tier)
+                rules.append(self._get_rule(style, row.basetype, rarity, tier))
+
+        self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
 
         return rules
 
-    def _get_rule(self, style: Style, base: enum.Enum, rarity: str, tier: ItemTier) -> Rule:
-        type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base.value}"')
+    def _get_rule(self, style: Style, base: str, rarity: str, tier: ItemTier) -> Rule:
+        type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base}"')
         rarity_condition = self._condition_factory.create_condition(ConditionKeyWord.Rarity, operator=ConditionOperator.exact_match, value=f'"{rarity}"')
 
         if rarity == "Normal":

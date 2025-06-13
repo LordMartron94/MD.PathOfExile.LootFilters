@@ -1,9 +1,9 @@
-import enum
-from typing import List
+import pprint
+from collections import defaultdict
+from typing import List, Dict
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.base_types.orb_base_type import OrbBaseType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
@@ -15,12 +15,14 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    ItemTier
+    ItemTier, get_tier_from_rarity_and_use
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
     FilterConstructionPipelineContext
 )
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
+    filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
     determine_orb_style
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
@@ -57,17 +59,31 @@ class AddOrbTiering(IPipe):
         )
         return data
 
+    # noinspection PyUnresolvedReferences
     def _get_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         rules = []
 
-        for _, orb_base in enumerate(OrbBaseType):
-            style, tier = determine_orb_style(data, orb_base)
-            rules.append(self._get_rule(style, orb_base, tier))
+        rows = filter_rows_by_category(BaseTypeCategory.orbs, data.base_type_data)
+        cleaned = sanitize_data_columns(rows)
+
+        self._logger.debug(f"Cleaned: \n{cleaned.to_string()}", separator=self._separator)
+
+        tier_counts: Dict[str, int] = defaultdict(int)
+
+        for row in cleaned.itertuples(index=False):
+            rarity = getattr(row, "rarity__1_6")
+            usefulness = getattr(row, "usefulness__1_6")
+            tier = get_tier_from_rarity_and_use(rarity, usefulness)
+            tier_counts[tier.value] += 1
+            style      = determine_orb_style(data, tier)
+            rules.append(self._get_rule(style, row.basetype, tier))
+
+        self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
 
         return rules
 
-    def _get_rule(self, style: Style, base: enum.Enum, tier: ItemTier) -> Rule:
-        type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base.value}"')
+    def _get_rule(self, style: Style, base: str, tier: ItemTier) -> Rule:
+        type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base}"')
         area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
 
         rule = self._rule_factory.get_rule(

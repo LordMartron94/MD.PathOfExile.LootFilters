@@ -10,10 +10,15 @@ MAX_SEPARATOR_LENGTH: int = 80
 DEBUG_MODE: bool = False
 VERBOSE: bool = False
 
+ROOT: Path = Path(__file__).parent.parent.parent.parent
+CONFIG_DIR: Path =  ROOT / "md_pathofexile_lootfilters" / "components" / "md_pathofexile_lootfilters" / "config"
+
 OUTPUT_DIRECTORIES: List[Path] = [
     Path(r"X:\MD.PathOfExile.LootFilters\output"),
     Path(r"C:\Users\LordMartron\Documents\My Games\Path of Exile")
 ]
+
+FILTER_NAME: str = "MD.TestFilter.filter"
 
 SELECTED_BUILD_TYPE: BuildType = BuildType.MeleeSpellcaster
 

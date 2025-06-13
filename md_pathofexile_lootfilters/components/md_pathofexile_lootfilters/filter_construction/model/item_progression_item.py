@@ -5,7 +5,7 @@ import pydantic
 
 
 class ItemProgressionItem(pydantic.BaseModel):
-    base_type: enum.Enum
+    base_type: str | enum.Enum
     start_level: Optional[int] = None
     end_level: Optional[int] = None
     start_area: Optional[int] = None

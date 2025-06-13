@@ -20,7 +20,7 @@
       "background_color": { "red":   0, "green": 100, "blue": 150, "alpha": 255 },
       "minimap_shape": "Pentagon"
     },
-    "GeneralCurrencies": {
+    "MiscCurrencies": {
       "background_color": { "red": 255, "green": 140, "blue":   0, "alpha": 255 },
       "minimap_shape":   "Star"
     },

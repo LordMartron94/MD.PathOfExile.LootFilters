@@ -71,7 +71,7 @@ class ItemProgressionBuilder:
         return self._condition_factory.create_condition(
             ConditionKeyWord.BaseType,
             operator=None,
-            value=f'"{item.base_type.value}"',
+            value=f'"{item.base_type if isinstance(item.base_type, str) else item.base_type.value}"',
         )
 
     def _create_rarity_condition(self, rc: RarityRuleConfig) -> Condition:

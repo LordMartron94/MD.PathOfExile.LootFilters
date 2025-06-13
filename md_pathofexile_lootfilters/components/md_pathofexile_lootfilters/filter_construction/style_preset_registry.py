@@ -3,6 +3,7 @@ from typing import Dict, Tuple, Optional
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.json_storage import JsonStorageHandler
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import CONFIG_DIR
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
     ItemGroup
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
@@ -22,7 +23,7 @@ class StylePresetRegistry:
 
         _style_builder: StyleBuilder = StyleBuilder(logger)
 
-        _styles_path: Path = Path(__file__).parent.parent / "config" / "styles.json"
+        _styles_path: Path = CONFIG_DIR / "styles.json"
         _config_loader: JsonStyleConfigLoader = JsonStyleConfigLoader(JsonStorageHandler(logger, _styles_path))
         self._style_template_retriever: StyleTemplateRetriever = StyleTemplateRetriever(logger, _config_loader, _style_builder)
 

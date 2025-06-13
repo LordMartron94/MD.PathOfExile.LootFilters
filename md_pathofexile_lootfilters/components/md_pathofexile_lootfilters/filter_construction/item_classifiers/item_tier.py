@@ -1,5 +1,6 @@
 import enum
-from typing import Optional
+import math
+from typing import Tuple
 
 
 class ItemTier(enum.Enum):
@@ -17,30 +18,58 @@ class ItemTier(enum.Enum):
     LowTier3 = "Low-Tier 3"
     NoTier = "NoTier"
 
-def get_new_tier(
-        old_tier: ItemTier,
-        rarity: Optional[str] = None,
-        bump: Optional[int] = None
-) -> ItemTier:
-    """
-    Calculate a new ItemTier by moving up or down the tier ladder.
-    By default, bump is determined by rarity:
-      Normal -> -2, Magic -> -1, Rare -> 0.
-    Clients can override bump directly by supplying the `bump` parameter.
-    """
-    tier_order = [
-        t for t in reversed(list(ItemTier))
-        if t is not ItemTier.NoTier
-    ]
+# ----- Configuration constants -----
+_MIN_INPUT: float         = 1.0
+_MAX_INPUT: float         = 6.0
+_NUM_TIERS: int           = 12
+_USEFULNESS_WEIGHT: float = 0.7
+_RARITY_WEIGHT: float     = 0.3
+_PRIMARY_NAMES: Tuple[str, ...] = ("LowTier", "MidTier", "HighTier", "GodTier")
 
-    if bump is None:
-        rarity_bumps = {"Normal": -2, "Magic": -1, "Rare": 0}
-        bump = rarity_bumps.get(rarity, 0)
 
+def get_tier_from_rarity_and_use(rarity: float, usefulness: float) -> ItemTier:
+    """
+    Maps rarity & usefulness (1.0–6.0 each) to one of 12 ItemTier values,
+    using a 70/30 weighted sum plus equal-interval classification.
+    """
+    # 1) Validate inputs
+    if not (_MIN_INPUT <= rarity <= _MAX_INPUT and _MIN_INPUT <= usefulness <= _MAX_INPUT):
+        raise ValueError(
+            f"rarity/usefulness must be between {_MIN_INPUT} and {_MAX_INPUT}; "
+            f"got rarity={rarity}, usefulness={usefulness}"
+        )
+
+    # 2) Weighted-sum score
+    score = _USEFULNESS_WEIGHT * usefulness + _RARITY_WEIGHT * rarity
+
+    # 3) Normalize score into [0, 1), then scale to tier-index [0, NUM_TIERS]
+    span = _MAX_INPUT - _MIN_INPUT
+    normalized = (score - _MIN_INPUT) / span
+    raw_idx = math.floor(normalized * _NUM_TIERS)
+    idx = max(0, min(raw_idx, _NUM_TIERS - 1))
+
+    # 4) Primary tier (0–3) and sub-index (0–2)
+    primary_idx = idx // 3
+    sub_idx     = idx % 3
+    sub_tier    = 3 - sub_idx
+
+    # 5) Lookup by NAME, not by VALUE
+    tier_key = f"{_PRIMARY_NAMES[primary_idx]}{sub_tier}"
+    return getattr(ItemTier, tier_key)
+
+def parse_tier_value(tier_value: str) -> ItemTier:
+    """
+    Parses a tier’s string value into its corresponding ItemTier member.
+
+    :param tier_value: The exact string value of one of the ItemTier members.
+    :return: The matching ItemTier member.
+    :raises ValueError: If tier_value doesn’t match any ItemTier.value.
+    """
     try:
-        idx = tier_order.index(old_tier)
-    except ValueError:
-        return ItemTier.NoTier
-
-    new_idx = min(max(idx + bump, 0), len(tier_order) - 1)
-    return tier_order[new_idx]
+        return ItemTier(tier_value)
+    except ValueError as err:
+        valid = [t.value for t in ItemTier]
+        raise ValueError(
+            f"Invalid tier value {tier_value!r}. "
+            f"Expected one of: {valid}"
+        ) from err
