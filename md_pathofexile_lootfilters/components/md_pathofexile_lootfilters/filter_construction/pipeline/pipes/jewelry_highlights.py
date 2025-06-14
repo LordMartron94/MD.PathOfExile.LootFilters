@@ -77,6 +77,26 @@ class AddJewelryHighlights(IPipe):
                 style      = determine_style(data, tier, BaseTypeCategory.rings)  # either rings or amulets here is fine.
                 rules.append(self._get_rule(style, row.basetype, rarity, tier))
 
+        # Hide rule
+        act_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
+        rarity_conditions = ConditionGroupFactory.from_exact_values(
+            self._condition_factory,
+            ConditionKeyWord.Rarity,
+            operator=ConditionOperator.exact_match,
+            values=["Normal", "Magic", "Rare"]
+        )
+
+        classes = ["Rings", "Amulets"]
+
+        class_conditions = ConditionGroupFactory.from_exact_values(
+            self._condition_factory,
+            ConditionKeyWord.Class,
+            operator=ConditionOperator.exact_match,
+            values=classes
+        )
+
+        rules.append(self._rule_factory.get_rule(RuleType.HIDE, conditions=class_conditions + rarity_conditions + act_conditions, style=None))
+
         self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
 
         return rules
