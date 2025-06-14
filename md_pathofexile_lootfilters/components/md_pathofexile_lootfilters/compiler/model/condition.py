@@ -11,6 +11,7 @@ class ConditionKeyWord(enum.Enum):
     ItemLevel = "ItemLevel"
     Class = "Class"
     StackSize = "StackSize"
+    Sockets = "Sockets"
 
 class ConditionOperator(enum.Enum):
     equal = "="

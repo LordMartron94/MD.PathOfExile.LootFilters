@@ -40,7 +40,7 @@ def determine_flask_style(data: FilterConstructionPipelineContext, is_utility_fl
 
     return data.style_preset_registry.get_style(ItemGroup.Flasks, ItemTier.HighTier3)
 
-def determine_style(data: FilterConstructionPipelineContext, tier: ItemTier, currency_type: BaseTypeCategory) -> Style:
+def determine_style(data: FilterConstructionPipelineContext, tier: ItemTier, base_type_category: BaseTypeCategory) -> Style:
     mapping = {
         BaseTypeCategory.supplies: ItemGroup.Supplies,
         BaseTypeCategory.misc: ItemGroup.MiscCurrencies,
@@ -50,12 +50,13 @@ def determine_style(data: FilterConstructionPipelineContext, tier: ItemTier, cur
         BaseTypeCategory.orbs: ItemGroup.Orbs,
         BaseTypeCategory.gold: ItemGroup.Gold,
         BaseTypeCategory.skill_gems: ItemGroup.SkillGems,
+        BaseTypeCategory.vendor_recipes: ItemGroup.VendorRecipes,
     }
 
-    group = mapping.get(currency_type, None)
+    group = mapping.get(base_type_category, None)
 
     if group is None:
-        raise RuntimeError(f"Unknown currency type {currency_type}")
+        raise RuntimeError(f"Unknown currency type {base_type_category}")
 
     return data.style_preset_registry.get_style(
         group,

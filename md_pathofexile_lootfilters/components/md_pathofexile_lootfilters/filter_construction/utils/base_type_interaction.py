@@ -38,6 +38,9 @@ class BaseTypeCategory(enum.Enum):
     # LEAGUE SPECIFIC
     gold = "Gold"
 
+    # OTHER
+    vendor_recipes = "Vendor Recipes"
+
 def sanitize_data_columns(data: pd.DataFrame) -> pd.DataFrame:
     cleaned = data.copy()
     cleaned.columns = (

@@ -25,6 +25,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     AddSkillGems
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.unique_highlights import \
     HighlightUniques
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.vendor_recipe_highlights import \
+    HighlightVendorRecipes
 
 
 class FilterConstructionPipeline(AbPipeline):
@@ -44,8 +46,9 @@ class FilterConstructionPipeline(AbPipeline):
         self._add_step(AddEssenceTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7200] Currencies - Essences (Campaign)"))
         self._add_step(AddMiscCurrenciesTiering(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[7300] Currencies - Misc (Campaign)"))
         self._add_step(HighlightUniques(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8000] Unique Highlights (Campaign)"))
-        self._add_step(ShowUnassociatedRares(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Show Unassociated Class-Item Rares (Campaign)"))
-        self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8150] Hide Unassociated Class-Items (Campaign)"))
-        self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Item Progressions (Campaign)"))
-        self._add_step(AddJewelryHighlights(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8300] Jewelry Highlights (Campaign)"))
+        self._add_step(HighlightVendorRecipes(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Vendor Recipe Highlights (Campaign)"))
+        self._add_step(ShowUnassociatedRares(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Show Unassociated Class-Item Rares (Campaign)"))
+        self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8250] Hide Unassociated Class-Items (Campaign)"))
+        self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8300] Item Progressions (Campaign)"))
+        self._add_step(AddJewelryHighlights(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8400] Jewelry Highlights (Campaign)"))
         self._add_step(AddCatchAllRules(self._logger, self._rule_factory, self._pipeline_prefix, "[9999] Catch All"))
