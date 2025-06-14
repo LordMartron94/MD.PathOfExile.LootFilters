@@ -9,6 +9,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     AddEssenceTiering
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.hide_unassociated_class_items import \
     HideUnassociatedClassItems
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.important_item_highlights import \
+    HighlightImportantItems
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.item_progressions import \
     AddItemProgressions
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipes.jewelry_highlights import \
@@ -49,6 +51,7 @@ class FilterConstructionPipeline(AbPipeline):
         self._add_step(HighlightVendorRecipes(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8100] Vendor Recipe Highlights (Campaign)"))
         self._add_step(ShowUnassociatedRares(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8200] Show Unassociated Class-Item Rares (Campaign)"))
         self._add_step(HideUnassociatedClassItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8250] Hide Unassociated Class-Items (Campaign)"))
+        self._add_step(HighlightImportantItems(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8280] Highlight Important Items (Campaign)"))
         self._add_step(AddItemProgressions(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8300] Item Progressions (Campaign)"))
         self._add_step(AddJewelryHighlights(self._logger, self._condition_factory, self._rule_factory, self._pipeline_prefix, "[8400] Jewelry Highlights (Campaign)"))
         self._add_step(AddCatchAllRules(self._logger, self._rule_factory, self._pipeline_prefix, "[9999] Catch All"))

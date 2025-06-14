@@ -12,7 +12,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
     ConditionOperator, Condition
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import UNASSOCIATED_EQUIPMENT
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import UNASSOCIATED_WEAPONRY
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
     ItemGroup
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
@@ -70,7 +70,7 @@ class ShowUnassociatedRares(IPipe):
         """
         Builds conditions matching all Unassociated Equipment classes.
         """
-        values = [item.value for item in UNASSOCIATED_EQUIPMENT]
+        values = [item.value for item in UNASSOCIATED_WEAPONRY]
         return ConditionGroupFactory.from_exact_values(
             self._condition_factory,
             keyword=ConditionKeyWord.Class,

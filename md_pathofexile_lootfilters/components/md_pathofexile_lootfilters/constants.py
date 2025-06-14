@@ -26,5 +26,5 @@ FILTER_NAME: str = "MD.TestFilter.filter" if BUILD_TEST_FILTER else "MD.SSF-SC&H
 
 SELECTED_BUILD_TYPE: BuildType = BuildType.MeleeSpellcaster
 
-ASSOCIATED_EQUIPMENT: List[WeaponTypeClass] = get_associated_weapons(SELECTED_BUILD_TYPE)
-UNASSOCIATED_EQUIPMENT: List[WeaponTypeClass] = get_unassociated_weapons(SELECTED_BUILD_TYPE)
+ASSOCIATED_WEAPONRY: List[WeaponTypeClass] = get_associated_weapons(SELECTED_BUILD_TYPE)
+UNASSOCIATED_WEAPONRY: List[WeaponTypeClass] = get_unassociated_weapons(SELECTED_BUILD_TYPE)

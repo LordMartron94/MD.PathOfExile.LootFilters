@@ -12,6 +12,7 @@ class ConditionKeyWord(enum.Enum):
     Class = "Class"
     StackSize = "StackSize"
     Sockets = "Sockets"
+    SocketGroup = "SocketGroup"
 
 class ConditionOperator(enum.Enum):
     equal = "="

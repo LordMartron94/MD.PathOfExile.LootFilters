@@ -25,6 +25,11 @@ _NUM_TIERS: int           = 12
 _USEFULNESS_WEIGHT: float = 0.7
 _RARITY_WEIGHT: float     = 0.3
 _PRIMARY_NAMES: Tuple[str, ...] = ("LowTier", "MidTier", "HighTier", "GodTier")
+_ORDERED_TIERS: Tuple[ItemTier, ...] = tuple(
+    getattr(ItemTier, f"{name}{sub}")
+    for name in _PRIMARY_NAMES
+    for sub in (1, 2, 3)
+)
 
 
 def get_tier_from_rarity_and_use(rarity: float, usefulness: float) -> ItemTier:
@@ -73,3 +78,22 @@ def parse_tier_value(tier_value: str) -> ItemTier:
             f"Invalid tier value {tier_value!r}. "
             f"Expected one of: {valid}"
         ) from err
+
+def bump_tier(current: ItemTier, bump: int) -> ItemTier:
+    """
+    Returns a new ItemTier by moving `bump` steps in the ordered tiers list.
+    Positive bump → higher; negative bump → lower.
+    Ends are saturated (i.e. clamped to lowest/highest tier).
+
+    :param current: The starting ItemTier (must not be NoTier).
+    :param bump:   Number of steps to move (can be negative).
+    :return:       The resulting ItemTier.
+    :raises ValueError: If `current` is NoTier.
+    """
+    if current is ItemTier.NoTier:
+        raise ValueError("Cannot bump NoTier")
+
+    idx = _ORDERED_TIERS.index(current) + bump
+
+    idx = max(0, min(idx, len(_ORDERED_TIERS) - 1))
+    return _ORDERED_TIERS[idx]
