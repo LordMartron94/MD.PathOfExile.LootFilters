@@ -1,6 +1,6 @@
 import enum
 import math
-from typing import Tuple
+from typing import Tuple, List
 
 
 class ItemTier(enum.Enum):
@@ -24,12 +24,9 @@ _MAX_INPUT: float         = 6.0
 _NUM_TIERS: int           = 12
 _USEFULNESS_WEIGHT: float = 0.7
 _RARITY_WEIGHT: float     = 0.3
-_PRIMARY_NAMES: Tuple[str, ...] = ("LowTier", "MidTier", "HighTier", "GodTier")
-_ORDERED_TIERS: Tuple[ItemTier, ...] = tuple(
-    getattr(ItemTier, f"{name}{sub}")
-    for name in _PRIMARY_NAMES
-    for sub in (1, 2, 3)
-)
+_ORDERED_TIERS: List[ItemTier] = [
+    tier for tier in reversed(ItemTier) if tier is not ItemTier.NoTier
+]
 
 
 def get_tier_from_rarity_and_use(rarity: float, usefulness: float) -> ItemTier:
@@ -53,14 +50,9 @@ def get_tier_from_rarity_and_use(rarity: float, usefulness: float) -> ItemTier:
     raw_idx = math.floor(normalized * _NUM_TIERS)
     idx = max(0, min(raw_idx, _NUM_TIERS - 1))
 
-    # 4) Primary tier (0–3) and sub-index (0–2)
-    primary_idx = idx // 3
-    sub_idx     = idx % 3
-    sub_tier    = 3 - sub_idx
+    tier = _ORDERED_TIERS[idx]
 
-    # 5) Lookup by NAME, not by VALUE
-    tier_key = f"{_PRIMARY_NAMES[primary_idx]}{sub_tier}"
-    return getattr(ItemTier, tier_key)
+    return tier
 
 def get_tier_from_rarity(rarity: float) -> ItemTier:
     """
@@ -79,14 +71,9 @@ def get_tier_from_rarity(rarity: float) -> ItemTier:
     raw_idx = math.floor(normalized * _NUM_TIERS)
     idx = max(0, min(raw_idx, _NUM_TIERS - 1))
 
-    # 3) Primary tier (0–3) and sub-index (0–2)
-    primary_idx = idx // 3
-    sub_idx     = idx % 3
-    sub_tier    = 3 - sub_idx
+    tier = _ORDERED_TIERS[idx]
 
-    # 4) Lookup by NAME, not by VALUE
-    tier_key = f"{_PRIMARY_NAMES[primary_idx]}{sub_tier}"
-    return getattr(ItemTier, tier_key)
+    return tier
 
 def parse_tier_value(tier_value: str) -> ItemTier:
     """
