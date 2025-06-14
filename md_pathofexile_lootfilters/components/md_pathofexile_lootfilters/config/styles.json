@@ -1,27 +1,27 @@
 {
   "item_groups": {
     "EarlyWeaponryAndEquipment": {
-      "background_color": { "red":  40, "green":  30, "blue":  20, "alpha": 255 },
+      "background_color": { "red":  60, "green":  42, "blue":  33, "alpha": 255 },
       "minimap_shape": "Square"
     },
     "WeaponryAndEquipment": {
-      "background_color": { "red":  57, "green":  57, "blue":  57, "alpha": 255 },
+      "background_color": { "red": 112, "green": 112, "blue": 112, "alpha": 255 },
       "minimap_shape": "Cross"
     },
     "Flasks": {
-      "background_color": { "red":  80, "green":   0, "blue":  80, "alpha": 255 },
+      "background_color": { "red": 106, "green":  13, "blue": 106, "alpha": 255 },
       "minimap_shape": "Raindrop"
     },
     "Jewelry": {
-      "background_color": { "red": 100, "green":  60, "blue":   0, "alpha": 255 },
+      "background_color": { "red": 139, "green":  90, "blue":  43, "alpha": 255 },
       "minimap_shape": "Circle"
     },
     "Orbs": {
-      "background_color": { "red":   0, "green": 100, "blue": 150, "alpha": 255 },
+      "background_color": { "red":   0, "green": 122, "blue": 142, "alpha": 255 },
       "minimap_shape": "Pentagon"
     },
     "MiscCurrencies": {
-      "background_color": { "red": 255, "green": 140, "blue":   0, "alpha": 255 },
+      "background_color": { "red": 224, "green": 123, "blue":   0, "alpha": 255 },
       "minimap_shape":   "Star"
     },
     "Supplies": {
@@ -29,15 +29,15 @@
       "minimap_shape":   "Triangle"
     },
     "Essences": {
-      "background_color": { "red":   0, "green":   0, "blue": 255, "alpha": 255 },
+      "background_color": { "red":   0, "green":   0, "blue": 128, "alpha": 255 },
       "minimap_shape":   "Hexagon"
     },
     "Gold": {
-      "background_color": { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
+      "background_color": { "red": 255, "green": 215, "blue":   0, "alpha": 255 },
       "minimap_shape":   "Diamond"
     },
     "SkillGems": {
-      "background_color": { "red": 255, "green": 105, "blue": 180, "alpha": 255 },
+      "background_color": { "red": 199, "green":  21, "blue": 133, "alpha": 255 },
       "minimap_shape":   "Kite"
     },
     "VendorRecipes": {
@@ -47,8 +47,8 @@
   },
   "item_tiers": {
     "God-Tier 1": {
-      "border_color": { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
-      "text_color":   { "red": 255, "green": 223, "blue":   0, "alpha": 255 },
+      "border_color": { "red": 255, "green": 242, "blue":   0, "alpha": 255 },
+      "text_color":   { "red": 255, "green": 242, "blue":   0, "alpha": 255 },
       "font_size": 45,
       "sound": {
         "file": "Maven_divine1.ogg",
@@ -61,8 +61,8 @@
       "effect": "Pink"
     },
     "God-Tier 2": {
-      "border_color": { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
-      "text_color":   { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
+      "border_color": { "red": 255, "green": 215, "blue":   0, "alpha": 255 },
+      "text_color":   { "red": 255, "green": 215, "blue":   0, "alpha": 255 },
       "font_size": 42,
       "sound": {
         "file": "Maven_amazing.ogg",
@@ -75,8 +75,8 @@
       "effect": "Pink"
     },
     "God-Tier 3": {
-      "border_color": { "red": 205, "green": 173, "blue":   0, "alpha": 255 },
-      "text_color":   { "red": 205, "green": 173, "blue":   0, "alpha": 255 },
+      "border_color": { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
+      "text_color":   { "red": 238, "green": 201, "blue":   0, "alpha": 255 },
       "font_size": 40,
       "sound": {
         "file": "Maven_beautiful.ogg",
@@ -88,10 +88,9 @@
       },
       "effect": "Pink"
     },
-
     "High-Tier 1": {
-      "border_color": { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
-      "text_color":   { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
+      "border_color": { "red": 240, "green": 240, "blue": 240, "alpha": 255 },
+      "text_color":   { "red": 240, "green": 240, "blue": 240, "alpha": 255 },
       "font_size": 40,
       "sound": {
         "file": "Mathil-vulgarity_6veryvaluable.mp3",
@@ -104,8 +103,8 @@
       "effect": "Red"
     },
     "High-Tier 2": {
-      "border_color": { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
-      "text_color":   { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
+      "border_color": { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
+      "text_color":   { "red": 192, "green": 192, "blue": 192, "alpha": 255 },
       "font_size": 38,
       "sound": {
         "file": "Mathil_6veryvaluable.mp3",
@@ -118,12 +117,11 @@
       "effect": "Red"
     },
     "High-Tier 3": {
-      "border_color": { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
-      "text_color":   { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
+      "border_color": { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
+      "text_color":   { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
       "font_size": 36,
       "effect": "Red"
     },
-
     "Mid-Tier 1": {
       "border_color": { "red": 205, "green": 127, "blue":  50, "alpha": 255 },
       "text_color":   { "red": 205, "green": 127, "blue":  50, "alpha": 255 },
@@ -135,37 +133,36 @@
       "font_size": 32
     },
     "Mid-Tier 3": {
-      "border_color": { "red": 160, "green":  82, "blue":  45, "alpha": 255 },
-      "text_color":   { "red": 160, "green":  82, "blue":  45, "alpha": 255 },
+      "border_color": { "red": 139, "green":  69, "blue":  19, "alpha": 255 },
+      "text_color":   { "red": 139, "green":  69, "blue":  19, "alpha": 255 },
       "font_size": 28
     },
-
     "Low-Tier 1": {
-      "border_color": { "red": 112, "green": 128, "blue": 144, "alpha": 255 },
-      "text_color":   { "red": 112, "green": 128, "blue": 144, "alpha": 255 },
+      "border_color": { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
+      "text_color":   { "red": 169, "green": 169, "blue": 169, "alpha": 255 },
       "font_size": 24
     },
     "Low-Tier 2": {
-      "border_color": { "red": 105, "green": 105, "blue": 105, "alpha": 255 },
-      "text_color":   { "red": 105, "green": 105, "blue": 105, "alpha": 255 },
+      "border_color": { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
+      "text_color":   { "red": 128, "green": 128, "blue": 128, "alpha": 255 },
       "font_size": 22
     },
     "Low-Tier 3": {
-      "border_color": { "red":  64, "green":  64, "blue":  64, "alpha": 255 },
-      "text_color":   { "red":  64, "green":  64, "blue":  64, "alpha": 255 },
+      "border_color": { "red":  80, "green":  80, "blue":  80, "alpha": 255 },
+      "text_color":   { "red":  80, "green":  80, "blue":  80, "alpha": 255 },
       "font_size": 17
     }
   },
   "error": {
-    "background_color": { "red": 255, "green": 0, "blue": 0, "alpha": 255 },
-    "border_color": { "red": 0, "green": 0, "blue": 0, "alpha": 255 },
-    "text_color": { "red": 255, "green": 255, "blue": 255, "alpha": 255 },
+    "background_color": { "red": 255, "green":   0, "blue":   0, "alpha": 255 },
+    "border_color":     { "red":   0, "green":   0, "blue":   0, "alpha": 255 },
+    "text_color":       { "red": 255, "green": 255, "blue": 255, "alpha": 255 },
     "font_size": 45
   },
   "catch_all": {
-    "background_color": { "red": 255, "green": 0, "blue": 255, "alpha": 255 },
-    "border_color": { "red": 0, "green": 255, "blue": 255, "alpha": 255 },
-    "text_color": { "red": 0, "green": 0, "blue": 0, "alpha": 255 },
+    "background_color": { "red": 255, "green":   0, "blue": 255, "alpha": 255 },
+    "border_color":     { "red":   0, "green": 255, "blue": 255, "alpha": 255 },
+    "text_color":       { "red":   0, "green":   0, "blue":   0, "alpha": 255 },
     "font_size": 45
   }
 }
