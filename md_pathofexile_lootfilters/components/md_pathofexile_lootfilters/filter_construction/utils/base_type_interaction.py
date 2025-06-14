@@ -6,6 +6,7 @@ import pandas as pd
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import \
     ItemProgressionItem
 
+
 class BaseTypeCategory(enum.Enum):
     # WEAPONRY:
     sceptres = "Sceptres"

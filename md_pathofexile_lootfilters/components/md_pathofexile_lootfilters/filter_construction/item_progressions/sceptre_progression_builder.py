@@ -6,6 +6,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import WeaponTypeClass
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.item_progression_builder import \
+    ItemProgressionBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.configs import \
     ItemProgressionConfig, ClassRuleConfig, RarityRuleConfig
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.item_progression_item import \
@@ -16,8 +18,6 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     get_item_progression_for_category, BaseTypeCategory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
     determine_weaponry_and_equipment_styles
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_progressions.item_progression_builder import \
-    ItemProgressionBuilder
 
 
 class SceptreProgressionBuilder:

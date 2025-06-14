@@ -1,4 +1,3 @@
-import pprint
 from collections import defaultdict
 from typing import List, Dict
 
@@ -13,10 +12,18 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
     FilterConstructionPipelineContext
 )
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.tier_mapping.appending.strategy.single_tier_base_types import \
+    SingleTierBaseTypesAppendingStrategy
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.tier_mapping.constructing.strategy.raw_rarity_and_usefulness_strategy import \
+    RawRarityAndUsefulnessMappingStrategy
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.tier_mapping.tier_rule_applier import \
+    TierRuleApplier
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
-    filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.tier_currency_rule import \
-    get_tier_currency_rule
+    filter_rows_by_category, BaseTypeCategory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.print_tiers import \
+    log_tiers
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.tier_mapping_sorter import \
+    TierMappingSorter
 
 
 class AddSkillGems(IPipe):
@@ -25,6 +32,7 @@ class AddSkillGems(IPipe):
             logger: HoornLogger,
             condition_factory: ConditionFactory,
             rule_factory: RuleFactory,
+            tier_mapping_sorter: TierMappingSorter,
             pipeline_prefix: str,
             section_heading: str
     ):
@@ -33,6 +41,8 @@ class AddSkillGems(IPipe):
 
         self._condition_factory = condition_factory
         self._rule_factory = rule_factory
+        self._tier_mapping_sorter = tier_mapping_sorter
+        self._tier_rule_applier = TierRuleApplier(rule_factory, condition_factory, tier_mapping_sorter)
 
         self._section_heading = section_heading
         self._section_description = (
@@ -50,21 +60,28 @@ class AddSkillGems(IPipe):
         )
         return data
 
-    # noinspection PyUnresolvedReferences
     def _get_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         rules = []
 
         rows = filter_rows_by_category(BaseTypeCategory.skill_gems, data.base_type_data)
-        cleaned = sanitize_data_columns(rows)
-
-        self._logger.debug(f"Cleaned: \n{cleaned.to_string()}", separator=self._separator)
-
         tier_counts: Dict[str, int] = defaultdict(int)
 
-        for row in cleaned.itertuples(index=False):
-            rules.append(get_tier_currency_rule(self._rule_factory, self._condition_factory, row, tier_counts, data, BaseTypeCategory.skill_gems))
+        self._tier_rule_applier.apply(
+            rows,
+            data,
+            BaseTypeCategory.skill_gems,
+            tier_counts,
+            rules,
+            mapping_strategy=RawRarityAndUsefulnessMappingStrategy(),
+            appender_strategy=SingleTierBaseTypesAppendingStrategy(self._rule_factory, self._condition_factory),
+            base_type_accessor="basetype",
+            accessors={
+                "rarity_accessor": "rarity__1_6",
+                "usefulness_accessor": "usefulness__1_6",
+            }
+        )
 
-        self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
+        log_tiers(self._logger, tier_counts, self._separator, "Skill Gems")
 
         return rules
 

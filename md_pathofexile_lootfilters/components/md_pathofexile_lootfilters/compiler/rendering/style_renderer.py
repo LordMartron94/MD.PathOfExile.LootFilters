@@ -2,7 +2,8 @@ from typing import List
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.rendering.renderer import Renderer
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.utils.keyword_line_adder import KeywordLineAdder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.utils.keyword_line_adder import \
+    KeywordLineAdder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 

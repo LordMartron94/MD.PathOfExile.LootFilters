@@ -11,15 +11,15 @@ class BaseTypeRarityAggregator:
     def aggregate(cls, df: pd.DataFrame) -> pd.DataFrame:
         # Pre-compute the weighted component
         df = df.copy()
-        df['weighted'] = df['rarity'] * df['count']
+        df['weighted'] = df['Rarity'] * df['Count']
 
         # Group and compute all metrics
-        agg = df.groupby('base_type').agg(
-            total_count=('count', 'sum'),
-            rarity_avg=('weighted', lambda x: x.sum() / df.loc[x.index, 'count'].sum()),
-            rarity_median=('rarity', 'median'),
-            rarity_max=('rarity', 'max'),
-            rarity_std=('rarity', 'std')
+        agg = df.groupby('Base Type').agg(
+            total_count=('Count', 'sum'),
+            rarity_avg=('weighted', lambda x: x.sum() / df.loc[x.index, 'Count'].sum()),
+            rarity_median=('Rarity', 'median'),
+            rarity_max=('Rarity', 'max'),
+            rarity_std=('Rarity', 'std')
         ).reset_index()
 
         return agg

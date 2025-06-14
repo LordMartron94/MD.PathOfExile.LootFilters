@@ -1,11 +1,14 @@
 from typing import Optional
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.color import Color
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.custom_alert_sound import \
+    CustomAlertSound
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.minimap_icon import MinimapIcon
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.play_alert_sound import \
+    PlayAlertSound
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.play_effect import PlayEffect
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.custom_alert_sound import CustomAlertSound
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.play_alert_sound import PlayAlertSound
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.utils.literals import ColorLiteral, MinimapShapeLiteral
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.utils.literals import ColorLiteral, \
+    MinimapShapeLiteral
 
 
 class StyleComponentFactory:

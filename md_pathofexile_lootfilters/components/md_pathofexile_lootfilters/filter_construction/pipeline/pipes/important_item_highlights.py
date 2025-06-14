@@ -1,4 +1,5 @@
-from typing import List
+from collections import defaultdict
+from typing import List, Dict
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns import IPipe
@@ -16,7 +17,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.cla
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import UNASSOCIATED_WEAPONRY, \
     ASSOCIATED_WEAPONRY
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    bump_tier
+    bump_tier, ItemTier
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
@@ -24,6 +25,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 )
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
     get_weaponry_and_equipment_tier, get_weapon_style_from_tier
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.tier_mapping_sorter import \
+    TierMappingSorter
 
 
 class HighlightImportantItems(IPipe):
@@ -32,6 +35,7 @@ class HighlightImportantItems(IPipe):
             logger: HoornLogger,
             condition_factory: ConditionFactory,
             rule_factory: RuleFactory,
+            tier_mapping_sorter: TierMappingSorter,
             pipeline_prefix: str,
             section_heading: str
     ):
@@ -40,6 +44,7 @@ class HighlightImportantItems(IPipe):
 
         self._condition_factory = condition_factory
         self._rule_factory = rule_factory
+        self._tier_mapping_sorter = tier_mapping_sorter
 
         self._section_heading = section_heading
         self._section_description = (
@@ -50,10 +55,7 @@ class HighlightImportantItems(IPipe):
         class_conditions = self._get_base_class_conditions()
         act_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act2, Act.Act10)
 
-        rules = []
-
-        for rarity in ("Normal", "Magic", "Rare"):
-            rules.extend(self._get_rules(data, class_conditions, act_conditions, rarity))
+        rules = self._get_rules(data, class_conditions, act_conditions)
 
         self._register_section(data, rules)
 
@@ -66,8 +68,7 @@ class HighlightImportantItems(IPipe):
     def _get_rules(self,
                    data: FilterConstructionPipelineContext,
                    class_conditions: List[Condition],
-                   act_conditions: List[Condition],
-                   rarity: str) -> List[Rule]:
+                   act_conditions: List[Condition]) -> List[Rule]:
         rules = []
 
         mapping = {
@@ -75,19 +76,26 @@ class HighlightImportantItems(IPipe):
             4: 2,
             6: 3
         }
+        items: Dict[ItemTier, List[Rule]] = defaultdict(list)
 
-        rarity_condition = self._condition_factory.create_condition(ConditionKeyWord.Rarity, operator=ConditionOperator.exact_match, value=f'"{rarity}"')
-        base_tier = get_weaponry_and_equipment_tier(rarity)
+        for rarity in ("Normal", "Magic", "Rare"):
+            rarity_condition = self._condition_factory.create_condition(ConditionKeyWord.Rarity, operator=ConditionOperator.exact_match, value=f'"{rarity}"')
+            base_tier = get_weaponry_and_equipment_tier(rarity)
 
-        for link_amount in sorted(mapping, reverse=True):
-            socket_condition = self._condition_factory.create_condition(ConditionKeyWord.SocketGroup, ConditionOperator.greater_than_or_equal, value=link_amount)
-            bump_amount = mapping[link_amount]
-            tier = bump_tier(base_tier, bump_amount)
-            style = get_weapon_style_from_tier(data, tier)
-            rule = self._rule_factory.get_rule(rule_type=RuleType.SHOW, conditions=class_conditions + [rarity_condition, socket_condition] + act_conditions, style=style)
-            rule.comment = f"Tier: {tier.value}"
+            for link_amount in sorted(mapping, reverse=True):
+                socket_condition = self._condition_factory.create_condition(ConditionKeyWord.SocketGroup, ConditionOperator.greater_than_or_equal, value=link_amount)
+                bump_amount = mapping[link_amount]
+                tier = bump_tier(base_tier, bump_amount)
+                style = get_weapon_style_from_tier(data, tier)
+                rule = self._rule_factory.get_rule(rule_type=RuleType.SHOW, conditions=class_conditions + [rarity_condition, socket_condition] + act_conditions, style=style)
+                rule.comment = f"Tier: {tier.value}"
 
-            rules.append(rule)
+                items[tier].append(rule)
+
+        sorted_items = self._tier_mapping_sorter.sort(items)
+
+        for _, tier_rules in sorted_items:
+            rules.extend(tier_rules)
 
         return rules
 

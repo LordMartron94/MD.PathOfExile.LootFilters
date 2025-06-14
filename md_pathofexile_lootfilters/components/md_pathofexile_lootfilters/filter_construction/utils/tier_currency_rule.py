@@ -48,24 +48,6 @@ def _get_base_rule(
 
     return rule
 
-
-# noinspection PyUnresolvedReferences
-def get_tier_currency_rule(
-        rule_factory: RuleFactory,
-        condition_factory: ConditionFactory,
-        row: Tuple,
-        tier_counts: Dict[str, int],
-        data: FilterConstructionPipelineContext,
-        type_category: BaseTypeCategory) -> Rule:
-    rarity = getattr(row, "rarity__1_6")
-    usefulness = getattr(row, "usefulness__1_6")
-
-    tier = get_tier_from_rarity_and_use(rarity, usefulness)
-    tier_counts[tier.value] += 1
-    style      = determine_style(data, tier, type_category)
-    return _get_base_rule(rule_factory, condition_factory, style, row.basetype, tier)
-
-
 # noinspection PyUnresolvedReferences
 def get_tier_stack_based_rules(
         rule_factory: RuleFactory,
@@ -94,8 +76,13 @@ def get_tier_unique(
     tier = get_tier_from_rarity(rarity)
     return tier
 
+def get_tier(row: Tuple, rarity_accessor: str | None = None, usefulness_accessor: str | None = None) -> ItemTier:
+    rarity = getattr(row, "rarity__1_6" if not rarity_accessor else rarity_accessor)
+    usefulness = getattr(row, "usefulness__1_6" if not usefulness_accessor else usefulness_accessor)
+    return get_tier_from_rarity_and_use(rarity, usefulness)
+
 # noinspection PyUnresolvedReferences
-def get_tier_rule_unique(
+def get_tier_rule(
         rule_factory: RuleFactory,
         condition_factory: ConditionFactory,
         base_types: List[str],

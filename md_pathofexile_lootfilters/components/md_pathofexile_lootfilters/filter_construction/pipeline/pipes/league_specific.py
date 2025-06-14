@@ -1,4 +1,3 @@
-import pprint
 from collections import defaultdict
 from typing import List, Dict
 
@@ -17,8 +16,10 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 )
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
     filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.print_tiers import \
+    log_tiers
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.tier_currency_rule import \
-    get_tier_currency_rule, get_tier_stack_based_rules
+    get_tier_stack_based_rules
 
 
 class AddLeagueSpecificDrops(IPipe):
@@ -70,7 +71,7 @@ class AddLeagueSpecificDrops(IPipe):
                 1: ItemTier.MidTier3,
             }))
 
-        self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
+        log_tiers(self._logger, tier_counts, self._separator, "League Specific")
 
         return rules
 

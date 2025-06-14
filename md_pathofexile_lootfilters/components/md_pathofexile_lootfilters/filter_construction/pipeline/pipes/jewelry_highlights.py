@@ -1,4 +1,3 @@
-import pprint
 from collections import defaultdict
 from typing import List, Dict
 
@@ -14,18 +13,23 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
     ConditionOperator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    ItemTier, parse_tier_value
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
     RuleSection
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import (
     FilterConstructionPipelineContext
 )
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.tier_mapping.appending.strategy.game_rarity_designation import \
+    GameRarityAppender
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.tier_mapping.constructing.strategy.game_rarity_designation_strategy import \
+    GameRarityDesignationMappingStrategy
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.tier_mapping.tier_rule_applier import \
+    TierRuleApplier
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
-    filter_rows_by_category, BaseTypeCategory, sanitize_data_columns
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
-    determine_style
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
+    filter_rows_by_category, BaseTypeCategory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.print_tiers import \
+    log_tiers
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.tier_mapping_sorter import \
+    TierMappingSorter
 
 
 class AddJewelryHighlights(IPipe):
@@ -34,6 +38,7 @@ class AddJewelryHighlights(IPipe):
             logger: HoornLogger,
             condition_factory: ConditionFactory,
             rule_factory: RuleFactory,
+            tier_mapping_sorter: TierMappingSorter,
             pipeline_prefix: str,
             section_heading: str
     ):
@@ -42,6 +47,8 @@ class AddJewelryHighlights(IPipe):
 
         self._condition_factory = condition_factory
         self._rule_factory = rule_factory
+        self._tier_mapping_sorter = tier_mapping_sorter
+        self._tier_rule_applier = TierRuleApplier(rule_factory, condition_factory, tier_mapping_sorter)
 
         self._section_heading = section_heading
         self._section_description = (
@@ -59,23 +66,32 @@ class AddJewelryHighlights(IPipe):
         )
         return data
 
-    # noinspection PyUnresolvedReferences
     def _get_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         rules = []
 
         jewelry = filter_rows_by_category([BaseTypeCategory.rings, BaseTypeCategory.amulets], data.base_type_data)
-        cleaned = sanitize_data_columns(jewelry)
-
         tier_counts: Dict[str, int] = defaultdict(int)
 
-        for rarity in ("Normal", "Magic", "Rare"):
-            col = f"{rarity}_Tier".lower()
-            for row in cleaned.itertuples(index=False):
-                tier_value = getattr(row, col)
-                tier       = parse_tier_value(tier_value)
-                tier_counts[tier.value] += 1
-                style      = determine_style(data, tier, BaseTypeCategory.rings)  # either rings or amulets here is fine.
-                rules.append(self._get_rule(style, row.basetype, rarity, tier))
+        self._tier_rule_applier.apply(
+            jewelry,
+            data,
+            BaseTypeCategory.rings,
+            tier_counts,
+            rules,
+            mapping_strategy=GameRarityDesignationMappingStrategy(),
+            appender_strategy=GameRarityAppender(self._rule_factory, self._condition_factory,
+                                                 act_mappings={
+                                                     "Normal": (Act.Act1, Act.Act1),
+                                                     "Magic": (Act.Act1, Act.Act2),
+                                                     "Rare": (Act.Act1, Act.Act10),
+                                                 }),
+            base_type_accessor="basetype",
+            accessors={
+                "normal_accessor": "normal_tier",
+                "magic_accessor": "magic_tier",
+                "rare_accessor": "rare_tier",
+            }
+        )
 
         # Hide rule
         act_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
@@ -97,29 +113,9 @@ class AddJewelryHighlights(IPipe):
 
         rules.append(self._rule_factory.get_rule(RuleType.HIDE, conditions=class_conditions + rarity_conditions + act_conditions, style=None))
 
-        self._logger.info(f"Tiers:\n{pprint.pformat(tier_counts)}", separator=self._separator)
+        log_tiers(self._logger, tier_counts, self._separator, "Jewelry")
 
         return rules
-
-    def _get_rule(self, style: Style, base: str, rarity: str, tier: ItemTier) -> Rule:
-        type_condition = self._condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base}"')
-        rarity_condition = self._condition_factory.create_condition(ConditionKeyWord.Rarity, operator=ConditionOperator.exact_match, value=f'"{rarity}"')
-
-        if rarity == "Normal":
-            area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act1)
-        elif rarity == "Magic":
-            area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act2)
-        else: area_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
-
-        rule = self._rule_factory.get_rule(
-            rule_type=RuleType.SHOW,
-            conditions=[type_condition, rarity_condition] + area_conditions,
-            style=style,
-        )
-
-        rule.comment = f"Tier: \"{tier.value}\""
-
-        return rule
 
     def _register_section(
             self,

@@ -13,14 +13,14 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
     MinimapHandler
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.component_handling.style_component_handler import \
     StyleComponentHandler
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.loading.style_config_loader import \
-    StyleConfigLoader
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.transforming.style_transformer import \
-    StyleTransformer
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
     ItemGroup
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
     ItemTier
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.loading.style_config_loader import \
+    StyleConfigLoader
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.transforming.style_transformer import \
+    StyleTransformer
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.factory.style_builder import StyleBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 

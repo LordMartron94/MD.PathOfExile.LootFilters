@@ -1,16 +1,23 @@
 from typing import List, Tuple
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import ConditionFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_group_factory import ConditionGroupFactory
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import Condition, ConditionKeyWord, ConditionOperator
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
+    ConditionFactory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_group_factory import \
+    ConditionGroupFactory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import Condition, \
+    ConditionKeyWord, ConditionOperator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import UNASSOCIATED_WEAPONRY
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.factory.show_hide_rule_builder import ShowHideRuleBuilder
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import ItemGroup
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import ItemTier
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import FilterConstructionPipelineContext
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.factory.show_hide_rule_builder import \
+    ShowHideRuleBuilder
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_group import \
+    ItemGroup
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
+    ItemTier
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
+    FilterConstructionPipelineContext
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
