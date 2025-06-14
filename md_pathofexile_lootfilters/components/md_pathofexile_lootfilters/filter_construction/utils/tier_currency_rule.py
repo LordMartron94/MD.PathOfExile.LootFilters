@@ -11,13 +11,15 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.m
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
-    ItemTier, get_tier_from_rarity_and_use
+    ItemTier, get_tier_from_rarity_and_use, get_tier_from_rarity
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.pipeline.pipeline_context import \
     FilterConstructionPipelineContext
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.base_type_interaction import \
     BaseTypeCategory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.get_styles import \
     determine_style
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.utils.quoted_value_list_builder import \
+    QuotedValueListBuilder
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
 
@@ -25,14 +27,15 @@ def _get_base_rule(
         rule_factory: RuleFactory,
         condition_factory: ConditionFactory,
         style: Style,
-        base: str,
+        base: str | List[str],
         tier: ItemTier,
         extra_conditions: Optional[List[Condition]] = None
 ) -> Rule:
     if extra_conditions is None:
         extra_conditions = []
 
-    type_condition = condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=f'"{base}"')
+    base = base if isinstance(base, list) else [base]
+    type_condition = condition_factory.create_condition(ConditionKeyWord.BaseType, operator=ConditionOperator.exact_match, value=QuotedValueListBuilder.build(base))
     area_conditions = ConditionGroupFactory.between_acts(condition_factory, Act.Act1, Act.Act10)
 
     rule = rule_factory.get_rule(
@@ -82,3 +85,25 @@ def get_tier_stack_based_rules(
         rules.append(_get_base_rule(rule_factory, condition_factory, style, row.basetype, tier, extra_conditions=[stack_condition]))
 
     return rules
+
+def get_tier_unique(
+        row: Tuple,
+        rarity_accessor: str
+) -> ItemTier:
+    rarity = getattr(row, rarity_accessor)
+    tier = get_tier_from_rarity(rarity)
+    return tier
+
+# noinspection PyUnresolvedReferences
+def get_tier_rule_unique(
+        rule_factory: RuleFactory,
+        condition_factory: ConditionFactory,
+        base_types: List[str],
+        tier: ItemTier,
+        tier_counts: Dict[str, int],
+        data: FilterConstructionPipelineContext,
+        type_category: BaseTypeCategory,
+) -> Rule:
+    tier_counts[tier.value] += len(base_types)
+    style      = determine_style(data, tier, type_category)
+    return _get_base_rule(rule_factory, condition_factory, style, base_types, tier)

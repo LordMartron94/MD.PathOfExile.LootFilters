@@ -26,7 +26,7 @@ class SceptreProgressionBuilder:
 
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         _item_progression: List[ItemProgressionItem] = get_item_progression_for_category(BaseTypeCategory.sceptres, data.base_type_data)
-        normal, magic, rare, _ = determine_weaponry_and_equipment_styles(data)
+        normal, magic, rare = determine_weaponry_and_equipment_styles(data)
         item_progression_config: ItemProgressionConfig = ItemProgressionConfig(
             class_rule=ClassRuleConfig(
                 show_acts=(Act.Act1, Act.Act1),

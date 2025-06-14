@@ -14,3 +14,4 @@ class ItemGroup(enum.Enum):
     Gold                      = "Gold"
     SkillGems                 = "SkillGems"
     VendorRecipes             = "VendorRecipes"
+    Uniques                   = "Uniques"

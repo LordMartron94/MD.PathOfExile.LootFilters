@@ -24,10 +24,9 @@ class ShieldProgressionBuilder:
     def __init__(self, condition_factory: ConditionFactory, rule_factory: RuleFactory):
         self._builder = ItemProgressionBuilder(condition_factory, rule_factory)
 
-
     def get_progression_rules(self, data: FilterConstructionPipelineContext) -> List[Rule]:
         _item_progression: List[ItemProgressionItem] = get_item_progression_for_category(BaseTypeCategory.shields, data.base_type_data)
-        normal, magic, rare, _ = determine_weaponry_and_equipment_styles(data)
+        normal, magic, rare = determine_weaponry_and_equipment_styles(data)
         item_progression_config: ItemProgressionConfig = ItemProgressionConfig(
             class_rule=ClassRuleConfig(
                 show_acts=(Act.Act1, Act.Act1),

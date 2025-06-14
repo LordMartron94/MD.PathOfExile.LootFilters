@@ -62,6 +62,32 @@ def get_tier_from_rarity_and_use(rarity: float, usefulness: float) -> ItemTier:
     tier_key = f"{_PRIMARY_NAMES[primary_idx]}{sub_tier}"
     return getattr(ItemTier, tier_key)
 
+def get_tier_from_rarity(rarity: float) -> ItemTier:
+    """
+    Maps rarity (1.0–12.0) to one of 12 ItemTier values
+    """
+    # 1) Validate inputs
+    if not (_MIN_INPUT <= rarity <= 12.0):
+        raise ValueError(
+            f"rarity must be between {_MIN_INPUT} and {_MAX_INPUT}; "
+            f"got rarity={rarity}"
+        )
+
+    # 2) Normalize score into [0, 1), then scale to tier-index [0, NUM_TIERS]
+    span = _MAX_INPUT - _MIN_INPUT
+    normalized = (rarity - _MIN_INPUT) / span
+    raw_idx = math.floor(normalized * _NUM_TIERS)
+    idx = max(0, min(raw_idx, _NUM_TIERS - 1))
+
+    # 3) Primary tier (0–3) and sub-index (0–2)
+    primary_idx = idx // 3
+    sub_idx     = idx % 3
+    sub_tier    = 3 - sub_idx
+
+    # 4) Lookup by NAME, not by VALUE
+    tier_key = f"{_PRIMARY_NAMES[primary_idx]}{sub_tier}"
+    return getattr(ItemTier, tier_key)
+
 def parse_tier_value(tier_value: str) -> ItemTier:
     """
     Parses a tier’s string value into its corresponding ItemTier member.

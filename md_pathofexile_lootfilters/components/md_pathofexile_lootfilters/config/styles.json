@@ -43,6 +43,10 @@
     "VendorRecipes": {
       "background_color": { "red": 210, "green": 180, "blue": 140, "alpha": 255 },
       "minimap_shape":   "UpsideDownHouse"
+    },
+    "Uniques": {
+      "background_color": { "red": 173, "green": 255, "blue":  47, "alpha": 255 },
+      "minimap_shape": "Moon"
     }
   },
   "item_tiers": {

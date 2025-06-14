@@ -18,9 +18,12 @@ OUTPUT_DIRECTORIES: List[Path] = [
     Path(r"C:\Users\LordMartron\Documents\My Games\Path of Exile")
 ]
 
+CURRENT_LEAGUE: str = "Mercenaries"
+
 # ---- Automatic ----
 ROOT: Path = Path(__file__).parent.parent.parent.parent
 CONFIG_DIR: Path =  ROOT / "md_pathofexile_lootfilters" / "components" / "md_pathofexile_lootfilters" / "config"
+DATA_DIR: Path = ROOT / "data"
 
 FILTER_NAME: str = "MD.TestFilter.filter" if BUILD_TEST_FILTER else "MD.SSF-SC&HC-Filter.filter"
 

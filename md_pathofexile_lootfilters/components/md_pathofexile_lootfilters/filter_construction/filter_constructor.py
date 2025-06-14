@@ -41,9 +41,14 @@ class FilterConstructor:
         base_type_data = base_type_data.astype(object)
         base_type_data = base_type_data.replace({ np.nan: None })
 
+        uniques_data = pandas.read_csv(
+            CONFIG_DIR / "uniques.csv"
+        )
+
         self._pipeline_context = FilterConstructionPipelineContext(
             style_preset_registry=_style_preset_registry,
-            base_type_data=base_type_data
+            base_type_data=base_type_data,
+            uniques_data = uniques_data
         )
 
         self._logger.debug(f"Dataframe:\n{pprint.pformat(self._pipeline_context.base_type_data)}", separator=self._separator)
@@ -58,7 +63,7 @@ class FilterConstructor:
             filter_path: Path = output_dir / FILTER_NAME
 
             try:
-                with open(filter_path, "w") as filter_file:
+                with open(filter_path, "w", encoding="utf-8") as filter_file:
                     filter_file.write('\n'.join(transformed_str))
             except Exception as e:
                 tb = traceback.format_exc()

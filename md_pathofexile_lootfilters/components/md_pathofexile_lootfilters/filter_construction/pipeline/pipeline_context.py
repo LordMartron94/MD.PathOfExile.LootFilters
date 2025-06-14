@@ -12,6 +12,7 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_con
 class FilterConstructionPipelineContext(pydantic.BaseModel):
     style_preset_registry: StylePresetRegistry
     base_type_data: pd.DataFrame
+    uniques_data: pd.DataFrame
 
     generated_rules: List[RuleSection] = []
 

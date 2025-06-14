@@ -40,6 +40,7 @@ class BaseTypeCategory(enum.Enum):
 
     # OTHER
     vendor_recipes = "Vendor Recipes"
+    uniques = "Uniques"
 
 def sanitize_data_columns(data: pd.DataFrame) -> pd.DataFrame:
     cleaned = data.copy()
