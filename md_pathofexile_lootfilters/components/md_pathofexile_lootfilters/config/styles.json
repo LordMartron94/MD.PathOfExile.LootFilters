@@ -39,6 +39,10 @@
     "SkillGems": {
       "background_color": { "red": 255, "green": 105, "blue": 180, "alpha": 255 },
       "minimap_shape":   "Kite"
+    },
+    "VendorRecipes": {
+      "background_color": { "red": 210, "green": 180, "blue": 140, "alpha": 255 },
+      "minimap_shape":   "UpsideDownHouse"
     }
   },
   "item_tiers": {

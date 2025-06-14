@@ -103,7 +103,7 @@ class ExcludeNonAssociatedWeaponry:
             self._condition_factory,
             keyword=ConditionKeyWord.Rarity,
             values=hide_rarities
-        )
+        ) + ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
         _, hide_rule = ShowHideRuleBuilder.build(
             rule_factory=self._rule_factory,
             show_conditions=class_conditions + act1_conditions,
