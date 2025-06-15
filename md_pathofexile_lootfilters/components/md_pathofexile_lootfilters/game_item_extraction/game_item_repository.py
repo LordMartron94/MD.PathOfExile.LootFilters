@@ -50,7 +50,7 @@ class GameItemRepository:
         """
         Fetch raw data for a single unique-item type and return its 'lines'.
         """
-        data = self._client.fetch_unique_items(self._league, item_type)
+        data = self._client.fetch_game_items(self._league, item_type)
         return data.get("lines", [])
 
     @staticmethod
