@@ -41,13 +41,13 @@ class ShowUnassociatedRares(IPipe):
 
         self._section_heading = section_heading
         self._section_description = (
-            "Shows each unassociated rare (beyond act 1)."
+            "Shows each unassociated rare (throughout the campaign)."
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
         class_conditions = self._get_base_class_conditions()
         rarity_condition = self._condition_factory.create_condition(ConditionKeyWord.Rarity, operator=ConditionOperator.exact_match, value='"Rare"')
-        act_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act2, Act.Act10)
+        act_conditions = ConditionGroupFactory.between_acts(self._condition_factory, Act.Act1, Act.Act10)
 
         style = data.style_preset_registry.get_style(
             ItemGroup.WeaponryAndEquipment,

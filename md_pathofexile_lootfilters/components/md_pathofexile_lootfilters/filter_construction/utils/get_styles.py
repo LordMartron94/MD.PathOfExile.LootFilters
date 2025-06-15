@@ -13,7 +13,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.mo
 _MAPPING = {
     "Normal": ItemTier.LowTier1,
     "Magic": ItemTier.MidTier3,
-    "Rare": ItemTier.MidTier1
+    "Rare": ItemTier.MidTier1,
+    "Unassociated_Rare": ItemTier.MidTier2
 }
 
 def get_weaponry_and_equipment_tier(rarity: str) -> ItemTier:
