@@ -41,7 +41,7 @@
       "minimap_shape": "Kite"
     },
     "VendorRecipes": {
-      "background_color": { "red": 75, "green": 70, "blue": 65, "alpha": 255 },
+      "background_color": { "red": 85, "green": 70, "blue": 50, "alpha": 255 },
       "minimap_shape": "UpsideDownHouse"
     },
     "Uniques": {
