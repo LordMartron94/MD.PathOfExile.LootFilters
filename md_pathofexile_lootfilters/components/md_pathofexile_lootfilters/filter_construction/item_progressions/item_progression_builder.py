@@ -38,6 +38,10 @@ class ItemProgressionBuilder:
 
         rules.extend(self._make_class_show(associated_class, config.class_rule))
         rules.append(self._make_class_hide(associated_class, config.class_rule))
+
+        if config.appendix_rules:
+            rules.extend(config.appendix_rules)
+
         return rules
 
     def _make_item_rule(

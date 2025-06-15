@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from typing import List, Tuple, Dict
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import Condition
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.styling.model.style import Style
 
@@ -29,3 +30,4 @@ class ItemProgressionConfig:
     """All the bits a client needs to decide what to show/hide and where."""
     rarity_rules: List[RarityRuleConfig]
     class_rule: ClassRuleConfig
+    appendix_rules: List[Rule] | None = None
