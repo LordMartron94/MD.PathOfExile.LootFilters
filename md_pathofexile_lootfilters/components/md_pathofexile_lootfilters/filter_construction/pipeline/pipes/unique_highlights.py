@@ -47,13 +47,15 @@ class HighlightUniques(IPipe):
         self._tier_mapping_sorter = tier_mapping_sorter
         self._tier_rule_applier = TierRuleApplier(rule_factory, condition_factory, tier_mapping_sorter)
 
+        self._aggregator = BaseTypeRarityAggregator()
+
         self._section_heading = section_heading
         self._section_description = (
             "Highlights every unique."
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
-        agg = BaseTypeRarityAggregator.aggregate(data.uniques_data)
+        agg = self._aggregator.aggregate(data.uniques_data)
         agg.to_csv(DATA_DIR / "uniques_intermediary_stats.csv", index=False)
 
         rules = []
@@ -69,7 +71,7 @@ class HighlightUniques(IPipe):
             appender_strategy=SingleTierBaseTypesAppendingStrategy(self._rule_factory, self._condition_factory),
             base_type_accessor="base_type",
             accessors={
-                "rarity_accessor": "rarity_median"
+                "rarity_accessor": "rarity_score"
             }
         )
 
