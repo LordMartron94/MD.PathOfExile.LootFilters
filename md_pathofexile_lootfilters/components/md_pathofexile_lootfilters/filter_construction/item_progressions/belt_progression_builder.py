@@ -37,7 +37,7 @@ class BeltProgressionBuilder:
                     "Magic": magic,
                 },
                 hide_rarities=["Normal", "Magic", "Rare"],
-                hide_acts=(Act.Act2, Act.Act10),
+                hide_acts=(Act.Act1, Act.Act10),
             ),
             rarity_rules=[
                 RarityRuleConfig("Magic", magic, (Act.Act1, Act.Act3), extra_conditions=[]),

@@ -44,7 +44,7 @@ class GloveProgressionBuilder:
                     "Magic": magic,
                 },
                 hide_rarities=["Normal", "Magic", "Rare"],
-                hide_acts=(Act.Act2, Act.Act10),
+                hide_acts=(Act.Act1, Act.Act10),
             ),
             rarity_rules=[
                 RarityRuleConfig("Rare", rare, (Act.Act1, Act.Act10), extra_conditions=extra_conditions),

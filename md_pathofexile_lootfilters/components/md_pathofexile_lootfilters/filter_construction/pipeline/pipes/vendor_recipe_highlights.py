@@ -11,7 +11,10 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.f
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord, \
     ConditionOperator, Condition
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import UNASSOCIATED_WEAPONRY
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.area_lookup import Act
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import ArmorTypeClass
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import UNASSOCIATED_WEAPONRY, \
+    ASSOCIATED_WEAPONRY
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.item_classifiers.item_tier import \
     ItemTier
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
@@ -42,7 +45,7 @@ class HighlightVendorRecipes(IPipe):
 
         self._section_heading = section_heading
         self._section_description = (
-            "Highlights every vendor recipe during the campaign for unassociated class items."
+            "Highlights every vendor recipe during the campaign."
         )
 
     def flow(self, data: FilterConstructionPipelineContext) -> FilterConstructionPipelineContext:
@@ -52,12 +55,17 @@ class HighlightVendorRecipes(IPipe):
             values=["Normal", "Magic", "Rare"]
         )
         class_conditions = self._get_base_class_conditions()
+        act_conditions = ConditionGroupFactory.between_acts(
+            self._condition_factory,
+            Act.Act1,
+            Act.Act10
+        )
         socket_condition = self._condition_factory.create_condition(ConditionKeyWord.Sockets, operator=ConditionOperator.greater_than_or_equal, value="3RGB")
 
         style = determine_style(data, ItemTier.MidTier3, BaseTypeCategory.vendor_recipes)
 
         rules = [
-            self._rule_factory.get_rule(rule_type=RuleType.SHOW, conditions=rarity_conditions + class_conditions + [socket_condition], style=style)
+            self._rule_factory.get_rule(rule_type=RuleType.SHOW, conditions=act_conditions + rarity_conditions + class_conditions + [socket_condition], style=style)
         ]
 
         self._register_section(data, rules)
@@ -72,7 +80,7 @@ class HighlightVendorRecipes(IPipe):
         """
         Builds conditions matching all Unassociated Equipment classes.
         """
-        values = [item.value for item in UNASSOCIATED_WEAPONRY]
+        values = [item.value for item in UNASSOCIATED_WEAPONRY] + [item.value for item in ASSOCIATED_WEAPONRY] + [item.value for _, item in enumerate(ArmorTypeClass)]
         return ConditionGroupFactory.from_exact_values(
             self._condition_factory,
             keyword=ConditionKeyWord.Class,
