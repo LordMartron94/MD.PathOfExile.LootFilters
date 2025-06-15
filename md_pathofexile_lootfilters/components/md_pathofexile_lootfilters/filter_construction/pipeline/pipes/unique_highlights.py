@@ -6,6 +6,8 @@ from md_pathofexile_lootfilters.components.md_common_python.py_common.patterns i
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.condition import ConditionKeyWord, \
+    ConditionOperator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.model.rule import Rule
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import DATA_DIR
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.model.rule_section import \
@@ -68,7 +70,10 @@ class HighlightUniques(IPipe):
             tier_counts,
             rules,
             mapping_strategy=RawRarityMappingStrategy(),
-            appender_strategy=SingleTierBaseTypesAppendingStrategy(self._rule_factory, self._condition_factory),
+            appender_strategy=SingleTierBaseTypesAppendingStrategy(self._rule_factory, self._condition_factory,
+                                                                   extra_conditions=[
+                                                                       self._condition_factory.create_condition(ConditionKeyWord.Rarity, ConditionOperator.exact_match, value='"Unique"')
+                                                                   ]),
             base_type_accessor="base_type",
             accessors={
                 "rarity_accessor": "rarity_tier"

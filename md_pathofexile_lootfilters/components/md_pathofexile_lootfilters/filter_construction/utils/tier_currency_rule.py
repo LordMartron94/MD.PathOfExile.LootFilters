@@ -104,7 +104,8 @@ def get_tier_rule(
         tier_counts: Dict[str, int],
         data: FilterConstructionPipelineContext,
         type_category: BaseTypeCategory,
+        extra_conditions: List[Condition] | None = None,
 ) -> Rule:
     tier_counts[tier.value] += len(base_types)
     style      = determine_style(data, tier, type_category)
-    return _get_base_rule(rule_factory, condition_factory, style, base_types, tier)
+    return _get_base_rule(rule_factory, condition_factory, style, base_types, tier, extra_conditions)
