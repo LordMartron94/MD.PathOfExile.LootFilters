@@ -11,7 +11,7 @@ MAX_SEPARATOR_LENGTH: int = 80
 DEBUG_MODE: bool = False
 VERBOSE: bool = False
 
-BUILD_TEST_FILTER: bool = True
+BUILD_TEST_FILTER: bool = False
 
 OUTPUT_DIRECTORIES: List[Path] = [
     Path(r"X:\MD.PathOfExile.LootFilters\output"),
