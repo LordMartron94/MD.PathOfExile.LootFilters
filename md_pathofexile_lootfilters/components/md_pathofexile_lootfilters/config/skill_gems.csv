@@ -1,663 +1,320 @@
 Base Type,Item Name,Rarity,List Count,Count
-Summon Stone Golem,Summon Stone Golem,6,14,13
-Dark Pact,Dark Pact,9,4,3
-Divine Ire,Divine Ire,10,3,3
-Penance Brand,Penance Brand,7,9,9
-Mana Leech Support,Mana Leech Support,10,2,1
-Lacerate of Butchering,Lacerate of Butchering,8,6,6
-Kinetic Bolt,Kinetic Bolt,8,5,5
-Faster Attacks Support,Faster Attacks Support,4,32,29
-Blink Arrow of Prismatic Clones,Blink Arrow of Prismatic Clones,6,13,13
-Bladestorm of Uncertainty,Bladestorm of Uncertainty,7,10,10
-Wither,Wither,8,5,5
-Vaal Haste,Vaal Haste,10,3,3
-Detonate Dead,Detonate Dead,7,10,8
-Shield Charge,Shield Charge,4,29,24
-Summon Stone Golem of Safeguarding,Summon Stone Golem of Safeguarding,6,15,15
-Bladefall of Volleys,Bladefall of Volleys,7,8,8
-Volatile Dead of Confinement,Volatile Dead of Confinement,8,7,7
-Frozen Legion,Frozen Legion,10,2,2
-Animate Guardian,Animate Guardian,9,4,4
-Cast On Critical Strike Support,Cast On Critical Strike Support,10,2,2
-Vaal Ground Slam,Vaal Ground Slam,5,22,17
-Advanced Traps Support,Advanced Traps Support,10,2,2
-Spectral Throw of Materialising,Spectral Throw of Materialising,8,6,6
-Melee Physical Damage Support,Melee Physical Damage Support,8,7,6
-Spectral Shield Throw,Spectral Shield Throw,7,10,10
-Storm Call,Storm Call,10,3,2
-Trauma Support,Trauma Support,12,1,1
-Stormblast Mine,Stormblast Mine,8,7,7
-Faster Projectiles Support,Faster Projectiles Support,8,5,4
-Vaal Animate Weapon,Vaal Animate Weapon,5,24,21
-Leap Slam of Groundbreaking,Leap Slam of Groundbreaking,7,11,11
-Volley Support,Volley Support,5,19,18
-Pride,Pride,8,5,4
-Glacial Shield Swipe,Glacial Shield Swipe,7,8,6
-Siege Ballista of Splintering,Siege Ballista of Splintering,8,5,5
-Tornado,Tornado,10,2,2
-Alchemist's Mark,Alchemist's Mark,8,5,3
-Chain Hook of Trarthus,Chain Hook of Trarthus,6,12,12
-Infernal Legion Support,Infernal Legion Support,7,9,6
-Chain Hook,Chain Hook,10,2,2
-Lightning Conduit,Lightning Conduit,8,5,5
-Tornado of Elemental Turbulence,Tornado of Elemental Turbulence,8,5,5
-Elemental Focus Support,Elemental Focus Support,7,11,11
-Seismic Trap of Swells,Seismic Trap of Swells,8,6,6
-Summon Carrion Golem of Hordes,Summon Carrion Golem of Hordes,9,4,4
-Ball Lightning of Orbiting,Ball Lightning of Orbiting,5,17,17
-Dark Pact of Trarthus,Dark Pact of Trarthus,6,14,14
-Frost Blades,Frost Blades,7,8,8
-Summon Raging Spirit of Enormity,Summon Raging Spirit of Enormity,7,10,10
-Pyroclast Mine of Sabotage,Pyroclast Mine of Sabotage,10,2,2
-Precision,Precision,6,15,13
-Punishment,Punishment,7,8,7
-Vaal Rejuvenation Totem,Vaal Rejuvenation Totem,6,12,10
-Vaal Reap,Vaal Reap,7,8,7
-Sniper's Mark,Sniper's Mark,7,10,9
-Flame Surge,Flame Surge,8,6,5
-Winter Orb,Winter Orb,10,2,2
-Contagion,Contagion,8,7,7
-Seismic Trap,Seismic Trap,12,1,1
-Spellblade Support,Spellblade Support,10,2,2
-Vaal Arc,Vaal Arc,6,15,15
-Summon Lightning Golem of Hordes,Summon Lightning Golem of Hordes,8,6,6
-Infernal Cry,Infernal Cry,9,4,3
-Essence Drain,Essence Drain,8,7,6
-Swift Affliction Support,Swift Affliction Support,8,5,5
-Wild Strike,Wild Strike,12,1,1
-Spell Totem Support,Spell Totem Support,8,7,6
-Second Wind Support,Second Wind Support,12,1,1
-Arctic Armour,Arctic Armour,8,7,6
-Greater Multiple Projectiles Support,Greater Multiple Projectiles Support,8,6,5
-Summon Raging Spirit,Summon Raging Spirit,7,8,8
-Armageddon Brand of Recall,Armageddon Brand of Recall,7,8,8
-Minion Speed Support,Minion Speed Support,8,5,5
-Blink Arrow,Blink Arrow,6,14,13
-Devour Support,Devour Support,9,4,3
-Energy Blade,Energy Blade,8,5,4
-Frenzy of Onslaught,Frenzy of Onslaught,7,11,11
-Vaal Ice Shot,Vaal Ice Shot,4,26,26
-Prismatic Burst Support,Prismatic Burst Support,9,4,4
-Damage on Full Life Support,Damage on Full Life Support,8,7,7
-Pierce Support,Pierce Support,7,11,8
-Sacred Wisps Support,Sacred Wisps Support,10,3,3
-Ice Spear of Splitting,Ice Spear of Splitting,8,5,5
-Sunder of Trarthus,Sunder of Trarthus,5,23,23
-Cast on Melee Kill Support,Cast on Melee Kill Support,10,2,2
-Chance to Flee Support,Chance to Flee Support,7,8,5
-Trap Support,Trap Support,9,4,4
-Artillery Ballista of Cross Strafe,Artillery Ballista of Cross Strafe,7,9,9
-Nightblade Support,Nightblade Support,8,5,4
-Flame Link,Flame Link,12,1,1
-Molten Strike of the Zenith,Molten Strike of the Zenith,3,50,50
-Rage Support,Rage Support,12,1,1
-Vortex,Vortex,7,8,8
-Locus Mine Support,Locus Mine Support,8,5,5
-Mirage Archer Support,Mirage Archer Support,8,7,6
-Lightning Spire Trap of Overloading,Lightning Spire Trap of Overloading,10,2,2
-Ballista Totem Support,Ballista Totem Support,8,6,4
-Ground Slam,Ground Slam,5,22,20
-Volatility Support,Volatility Support,8,5,5
-Hatred,Hatred,10,3,2
-Lightning Spire Trap,Lightning Spire Trap,10,3,2
-Bear Trap of Skewers,Bear Trap of Skewers,10,3,3
-Puncture,Puncture,7,10,7
-Vaal Molten Strike,Vaal Molten Strike,5,23,20
-Pestilent Strike,Pestilent Strike,12,1,1
-Double Strike,Double Strike,6,13,12
-Vaal Domination,Vaal Domination,5,19,19
-Ancestral Call Support,Ancestral Call Support,6,12,11
-Energy Leech Support,Energy Leech Support,10,3,3
-Charged Dash,Charged Dash,10,2,2
-Crackling Lance,Crackling Lance,10,3,3
-Lightning Warp,Lightning Warp,10,3,3
-Mark On Hit Support,Mark On Hit Support,12,1,1
-Faster Casting Support,Faster Casting Support,8,7,7
-Vaal Blight,Vaal Blight,6,15,15
-Boneshatter of Complex Trauma,Boneshatter of Complex Trauma,3,43,43
-Eye of Winter of Finality,Eye of Winter of Finality,7,10,10
-Cast on Death Support,Cast on Death Support,10,3,2
-Ruthless Support,Ruthless Support,4,34,30
-Scorching Ray,Scorching Ray,9,4,3
-Rain of Arrows of Artillery,Rain of Arrows of Artillery,7,10,10
-Arcane Cloak,Arcane Cloak,10,3,3
-Icicle Mine,Icicle Mine,9,4,4
-Vaal Lightning Trap,Vaal Lightning Trap,4,25,23
-Double Strike of Impaling,Double Strike of Impaling,10,3,3
-Blind Support,Blind Support,9,4,4
-Storm Rain,Storm Rain,12,1,1
-Melee Splash Support,Melee Splash Support,6,14,12
-Spectral Throw,Spectral Throw,6,13,11
-Vaal Righteous Fire,Vaal Righteous Fire,4,27,27
-Siege Ballista of Trarthus,Siege Ballista of Trarthus,5,23,23
-Ancestral Cry,Ancestral Cry,7,9,8
-Vaal Flameblast,Vaal Flameblast,12,1,1
-Leap Slam,Leap Slam,7,11,10
-Frost Shield,Frost Shield,8,5,3
-Enlighten Support,Enlighten Support,8,6,6
-Summon Skeletons,Summon Skeletons,7,9,8
-Voltaxic Burst,Voltaxic Burst,8,5,3
-Chance to Bleed Support,Chance to Bleed Support,3,39,35
-Unleash Support,Unleash Support,9,4,4
-Animate Weapon,Animate Weapon,7,8,6
-Iron Grip Support,Iron Grip Support,10,2,2
-Vaal Blade Vortex,Vaal Blade Vortex,5,18,18
-Endurance Charge on Melee Stun Support,Endurance Charge on Melee Stun Support,8,6,5
-Crackling Lance of Branching,Crackling Lance of Branching,10,2,2
-Galvanic Arrow of Energy,Galvanic Arrow of Energy,10,2,2
-Spell Cascade Support,Spell Cascade Support,7,10,9
-Anger,Anger,7,9,9
-Vaal Spectral Throw,Vaal Spectral Throw,5,20,17
-Cleave of Rage,Cleave of Rage,6,12,10
-Summon Skeletons of Archers,Summon Skeletons of Archers,7,8,8
-Siphoning Trap,Siphoning Trap,8,7,5
-Unearth,Unearth,10,2,1
-Poisonous Concoction,Poisonous Concoction,6,12,10
-Vaal Cold Snap,Vaal Cold Snap,5,21,20
-Rejuvenation Totem,Rejuvenation Totem,10,3,2
-Minefield Support,Minefield Support,12,1,1
-Galvanic Arrow of Surging,Galvanic Arrow of Surging,8,6,6
-Summon Reaper,Summon Reaper,10,3,3
-Blade Trap,Blade Trap,10,2,2
-Sweep,Sweep,9,4,4
-Summon Carrion Golem of Scavenging,Summon Carrion Golem of Scavenging,8,6,6
-Corrupting Cry Support,Corrupting Cry Support,12,1,1
-Purifying Flame,Purifying Flame,7,8,7
-Spectral Helix of Trarthus,Spectral Helix of Trarthus,5,17,17
-Frenzy,Frenzy,10,3,3
-Frostblink,Frostblink,4,28,26
-Vaal Power Siphon,Vaal Power Siphon,5,18,18
-Burning Damage Support,Burning Damage Support,9,4,4
-Armageddon Brand of Volatility,Armageddon Brand of Volatility,7,8,8
-Spirit Offering,Spirit Offering,8,7,7
-Petrified Blood,Petrified Blood,7,8,6
-Lightning Strike of Arcing,Lightning Strike of Arcing,7,9,9
-Spell Echo Support,Spell Echo Support,9,4,3
-Earthshatter of Fragility,Earthshatter of Fragility,5,19,18
-Blood and Sand,Blood and Sand,7,11,10
-Destructive Link,Destructive Link,12,1,1
-Lancing Steel of Spraying,Lancing Steel of Spraying,7,8,8
-Despair,Despair,8,6,6
-Bladestorm,Bladestorm,10,3,3
-Arrogance Support,Arrogance Support,8,7,6
-Detonate Dead of Chain Reaction,Detonate Dead of Chain Reaction,5,20,20
-Frostbite,Frostbite,8,7,5
-Rupture Support,Rupture Support,12,1,1
-Detonate Dead of Scavenging,Detonate Dead of Scavenging,9,4,4
-Enduring Cry,Enduring Cry,6,16,14
-Stun Support,Stun Support,9,4,4
-Volatile Dead,Volatile Dead,7,8,7
-Puncture of Shanking,Puncture of Shanking,8,5,5
-Wave of Conviction of Trarthus,Wave of Conviction of Trarthus,5,21,21
-Summon Holy Relic,Summon Holy Relic,6,12,9
-Steelskin,Steelskin,7,8,7
-Vortex of Projection,Vortex of Projection,6,14,14
-Purity of Fire,Purity of Fire,10,2,2
-Overexertion Support,Overexertion Support,8,6,3
-Frostbolt,Frostbolt,7,9,9
-Lightning Tendrils,Lightning Tendrils,8,6,6
-Frozen Legion of Rallying,Frozen Legion of Rallying,6,12,12
-Fire Trap of Blasting,Fire Trap of Blasting,8,6,6
-Summon Reaper of Eviscerating,Summon Reaper of Eviscerating,8,5,5
-Molten Shell,Molten Shell,7,8,8
-Combustion Support,Combustion Support,5,19,18
-Raise Spectre of Transience,Raise Spectre of Transience,7,8,8
-Vaal Impurity of Lightning,Vaal Impurity of Lightning,8,6,6
-Viper Strike of the Mamba,Viper Strike of the Mamba,5,18,18
-Elemental Proliferation Support,Elemental Proliferation Support,4,25,24
-Poisonous Concoction of Bouncing,Poisonous Concoction of Bouncing,7,9,9
-Rain of Arrows,Rain of Arrows,7,11,8
-Blight of Contagion,Blight of Contagion,10,2,2
-Boneshatter of Carnage,Boneshatter of Carnage,4,26,26
-Lightning Trap,Lightning Trap,7,8,6
-Bladefall,Bladefall,10,3,3
-Perforate of Duality,Perforate of Duality,6,16,15
-Vulnerability,Vulnerability,6,12,11
-Vaal Venom Gyre,Vaal Venom Gyre,5,22,20
-Spark of Unpredictability,Spark of Unpredictability,9,4,4
-Exsanguinate,Exsanguinate,10,3,2
-Vaal Lightning Arrow,Vaal Lightning Arrow,4,26,24
-Empower Support,Empower Support,6,16,16
-Cast when Damage Taken Support,Cast when Damage Taken Support,8,5,4
-Shattering Steel of Ammunition,Shattering Steel of Ammunition,8,7,7
-Ice Trap,Ice Trap,10,3,3
-Enhance Support,Enhance Support,6,13,13
-Lightning Tendrils of Eccentricity,Lightning Tendrils of Eccentricity,10,2,2
-Vaal Blade Flurry,Vaal Blade Flurry,6,15,14
-Berserk,Berserk,8,5,3
-Dual Strike,Dual Strike,8,5,5
-Slower Projectiles Support,Slower Projectiles Support,12,1,1
-Immortal Call,Immortal Call,10,2,2
-Shield Crush of the Chieftain,Shield Crush of the Chieftain,6,15,15
-Splitting Steel,Splitting Steel,7,9,8
-Lancing Steel,Lancing Steel,9,4,3
-Summon Phantasm Support,Summon Phantasm Support,6,14,13
-Contagion of Transference,Contagion of Transference,12,1,1
-Lightning Penetration Support,Lightning Penetration Support,10,3,3
-Cleave,Cleave,8,5,4
-Concentrated Effect Support,Concentrated Effect Support,9,4,4
-Eternal Blessing Support,Eternal Blessing Support,12,1,1
-Galvanic Field of Intensity,Galvanic Field of Intensity,12,1,1
-Vampiric Link,Vampiric Link,12,1,1
-Vengeful Cry,Vengeful Cry,12,1,1
-Hextouch Support,Hextouch Support,10,3,3
-Power Charge On Critical Support,Power Charge On Critical Support,9,4,3
-Explosive Concoction,Explosive Concoction,8,5,5
-Vile Toxins Support,Vile Toxins Support,12,1,1
-Summon Stone Golem of Hordes,Summon Stone Golem of Hordes,6,16,16
-Herald of Agony,Herald of Agony,8,7,7
-Wrath,Wrath,10,3,3
-Pulverise Support,Pulverise Support,9,4,3
-Vaal Smite,Vaal Smite,5,17,17
-Smite,Smite,8,6,6
-Scourge Arrow,Scourge Arrow,12,1,1
-Reave of Refraction,Reave of Refraction,8,5,5
-Desecrate,Desecrate,9,4,4
-Firestorm of Meteors,Firestorm of Meteors,6,12,12
-Eviscerate,Eviscerate,10,3,3
-Wild Strike of Extremes,Wild Strike of Extremes,10,2,2
-Point Blank Support,Point Blank Support,12,1,1
-Bane of Condemnation,Bane of Condemnation,8,7,7
-Tectonic Slam,Tectonic Slam,8,6,4
-Blade Blast of Dagger Detonation,Blade Blast of Dagger Detonation,8,6,6
-Void Manipulation Support,Void Manipulation Support,8,7,6
-Essence Drain of Wickedness,Essence Drain of Wickedness,8,6,6
-Protective Link,Protective Link,10,3,3
-Critical Strike Affliction Support,Critical Strike Affliction Support,10,3,2
-Increased Critical Strikes Support,Increased Critical Strikes Support,7,8,8
-Ice Shot,Ice Shot,8,7,6
-Infernal Blow of Immolation,Infernal Blow of Immolation,7,8,8
-Infernal Blow,Infernal Blow,10,3,2
-Vaal Spark,Vaal Spark,5,24,23
-Vaal Storm Call,Vaal Storm Call,6,16,16
-Glacial Hammer,Glacial Hammer,7,9,9
-Predator Support,Predator Support,8,5,4
-Vitality,Vitality,5,17,16
-Penance Brand of Dissipation,Penance Brand of Dissipation,5,18,18
-Storm Rain of the Conduit,Storm Rain of the Conduit,10,3,3
-Volcanic Fissure,Volcanic Fissure,4,28,26
-Cold to Fire Support,Cold to Fire Support,10,2,2
-Hypothermia Support,Hypothermia Support,8,5,5
-Shockwave Support,Shockwave Support,8,5,5
-Flesh and Stone,Flesh and Stone,7,8,6
-Minion Damage Support,Minion Damage Support,6,12,12
-Volcanic Fissure of Snaking,Volcanic Fissure of Snaking,4,35,35
-Divine Ire of Holy Lightning,Divine Ire of Holy Lightning,8,5,5
-Elemental Damage with Attacks Support,Elemental Damage with Attacks Support,7,11,10
-Flamewood Support,Flamewood Support,8,6,6
-Meat Shield Support,Meat Shield Support,10,2,2
-Frost Bomb of Instability,Frost Bomb of Instability,8,7,7
-Burning Arrow of Vigour,Burning Arrow of Vigour,8,5,5
-Assassin's Mark,Assassin's Mark,8,6,3
-Intensify Support,Intensify Support,12,1,1
-Vaal Impurity of Ice,Vaal Impurity of Ice,9,4,4
-Conversion Trap,Conversion Trap,8,5,5
-Rage Vortex of Berserking,Rage Vortex of Berserking,5,20,19
-Defiance Banner,Defiance Banner,8,5,5
-Sigil of Power,Sigil of Power,10,2,1
-Fire Trap,Fire Trap,7,11,11
-Lightning Arrow,Lightning Arrow,9,4,3
-Maim Support,Maim Support,7,11,9
-Power Siphon,Power Siphon,12,1,1
-Summon Holy Relic of Conviction,Summon Holy Relic of Conviction,8,6,6
-Barrage of Volley Fire,Barrage of Volley Fire,8,7,7
-Fire Penetration Support,Fire Penetration Support,7,8,8
-Scourge Arrow of Menace,Scourge Arrow of Menace,10,2,2
-Summon Lightning Golem,Summon Lightning Golem,7,9,7
-Blink Arrow of Bombarding Clones,Blink Arrow of Bombarding Clones,8,7,7
-Elemental Hit,Elemental Hit,12,1,1
-Automation,Automation,7,9,9
-Summon Ice Golem,Summon Ice Golem,10,3,2
-Split Arrow of Splitting,Split Arrow of Splitting,9,4,4
-Added Fire Damage Support,Added Fire Damage Support,5,18,16
-Vaal Fireball,Vaal Fireball,5,20,18
-Ball Lightning of Static,Ball Lightning of Static,9,4,4
-Fireball,Fireball,7,11,8
-Vaal Impurity of Fire,Vaal Impurity of Fire,8,7,7
-Arc of Oscillating,Arc of Oscillating,10,2,2
-Crushing Fist,Crushing Fist,7,8,6
-Blade Blast of Unloading,Blade Blast of Unloading,6,13,13
-Frost Bomb of Forthcoming,Frost Bomb of Forthcoming,10,2,2
-Multiple Totems Support,Multiple Totems Support,8,5,5
-Determination,Determination,9,4,3
-Cyclone,Cyclone,7,8,8
-Perforate,Perforate,8,7,7
-Vaal Earthquake,Vaal Earthquake,6,16,15
-Feeding Frenzy Support,Feeding Frenzy Support,10,2,2
-Brand Recall,Brand Recall,10,3,3
-Lesser Multiple Projectiles Support,Lesser Multiple Projectiles Support,6,16,15
-Shattering Steel,Shattering Steel,8,7,5
-Infused Channelling Support,Infused Channelling Support,7,9,6
-Culling Strike Support,Culling Strike Support,8,5,5
-Explosive Arrow,Explosive Arrow,10,3,3
-Tornado Shot of Cloudburst,Tornado Shot of Cloudburst,8,7,7
-Shock Nova,Shock Nova,10,2,2
-Spellslinger,Spellslinger,9,4,3
-Heavy Strike of Trarthus,Heavy Strike of Trarthus,5,17,17
-Cremation,Cremation,7,9,9
-Swiftbrand Support,Swiftbrand Support,10,2,2
-Animate Guardian of Smiting,Animate Guardian of Smiting,5,20,20
-Blade Vortex of the Scythe,Blade Vortex of the Scythe,8,5,5
-Sunder,Sunder,5,19,18
-Cremation of the Volcano,Cremation of the Volcano,7,10,10
-Withering Touch Support,Withering Touch Support,12,1,1
-Summon Chaos Golem,Summon Chaos Golem,8,7,7
-Tempest Shield,Tempest Shield,8,5,4
-War Banner,War Banner,9,4,4
-Earthquake,Earthquake,10,3,3
-Flame Surge of Combusting,Flame Surge of Combusting,8,6,6
-Urgent Orders Support,Urgent Orders Support,8,6,5
-Flame Dash of Return,Flame Dash of Return,12,1,1
-Bladefall of Impaling,Bladefall of Impaling,8,5,5
-Artillery Ballista of Focus Fire,Artillery Ballista of Focus Fire,7,11,11
-Summon Skitterbots,Summon Skitterbots,8,5,5
-Knockback Support,Knockback Support,10,2,2
-Animate Weapon of Self Reflection,Animate Weapon of Self Reflection,10,3,3
-Trinity Support,Trinity Support,7,8,6
-Elemental Hit of the Spectrum,Elemental Hit of the Spectrum,6,13,13
-Blade Trap of Greatswords,Blade Trap of Greatswords,8,7,7
-Discharge,Discharge,10,2,2
-Toxic Rain of Withering,Toxic Rain of Withering,7,10,10
-Ball Lightning,Ball Lightning,8,6,6
-Explosive Trap of Shrapnel,Explosive Trap of Shrapnel,8,7,7
-Glacial Hammer of Shattering,Glacial Hammer of Shattering,6,14,14
-Herald of Purity,Herald of Purity,6,12,11
-Earthshatter of Prominence,Earthshatter of Prominence,4,30,30
-Frost Blades of Katabasis,Frost Blades of Katabasis,7,11,11
-Frost Wall,Frost Wall,8,5,4
-Storm Brand of Indecision,Storm Brand of Indecision,9,4,4
-Arrow Nova Support,Arrow Nova Support,9,4,3
-Eye of Winter,Eye of Winter,8,5,5
-Ethereal Knives of Lingering Blades,Ethereal Knives of Lingering Blades,12,1,1
-Frost Bomb,Frost Bomb,7,10,10
-Mirror Arrow of Bombarding Clones,Mirror Arrow of Bombarding Clones,7,9,9
-Intimidating Cry,Intimidating Cry,6,15,14
-Item Rarity Support,Item Rarity Support,8,6,5
-Storm Rain of the Fence,Storm Rain of the Fence,10,2,2
-Unbound Ailments Support,Unbound Ailments Support,8,5,4
-Ground Slam of Earthshaking,Ground Slam of Earthshaking,4,35,35
-Elemental Army Support,Elemental Army Support,12,1,1
-Elemental Weakness,Elemental Weakness,8,7,5
-Perforate of Bloodshed,Perforate of Bloodshed,6,13,13
-Forbidden Rite,Forbidden Rite,10,3,3
-Bladefall of Trarthus,Bladefall of Trarthus,5,18,18
-More Duration Support,More Duration Support,9,4,2
-Firestorm,Firestorm,10,2,2
-Vaal Cleave,Vaal Cleave,5,19,15
-Overcharge Support,Overcharge Support,12,1,1
-Vaal Flicker Strike,Vaal Flicker Strike,4,26,25
-Greater Volley Support,Greater Volley Support,12,1,1
-Bloodlust Support,Bloodlust Support,9,4,3
-Ignite Proliferation Support,Ignite Proliferation Support,12,1,1
-Multistrike Support,Multistrike Support,10,3,3
-Blood Rage,Blood Rage,6,12,12
-Cold Penetration Support,Cold Penetration Support,8,5,5
-Summon Carrion Golem,Summon Carrion Golem,8,6,6
-Blade Trap of Laceration,Blade Trap of Laceration,7,10,10
-Raise Zombie,Raise Zombie,8,7,6
-Cruelty Support,Cruelty Support,5,17,17
-Focused Ballista Support,Focused Ballista Support,10,2,2
-Vaal Double Strike,Vaal Double Strike,6,12,12
-Soul Link,Soul Link,10,2,2
-Artillery Ballista,Artillery Ballista,8,5,4
-Portal,Portal,8,6,6
-Flame Wall,Flame Wall,7,10,10
-Wintertide Brand,Wintertide Brand,9,4,4
-Hexblast of Havoc,Hexblast of Havoc,8,7,7
-Penance Brand of Conduction,Penance Brand of Conduction,8,6,6
-Additional Accuracy Support,Additional Accuracy Support,9,4,3
-Added Cold Damage Support,Added Cold Damage Support,6,14,13
-Clarity,Clarity,7,10,9
-Summon Flame Golem of Hordes,Summon Flame Golem of Hordes,6,15,15
-Swordstorm,Swordstorm,9,4,4
-Focused Channelling Support,Focused Channelling Support,10,3,3
-Purity of Elements,Purity of Elements,10,3,3
-Purifying Flame of Revelations,Purifying Flame of Revelations,12,1,1
-Ice Nova of Deep Freeze,Ice Nova of Deep Freeze,10,2,2
-Hexblast of Contradiction,Hexblast of Contradiction,8,5,5
-Vaal Glacial Hammer,Vaal Glacial Hammer,12,1,1
-Blasphemy Support,Blasphemy Support,10,2,1
-Essence Drain of Desperation,Essence Drain of Desperation,10,3,3
-Iron Will Support,Iron Will Support,12,1,1
-Discipline,Discipline,10,3,3
-Summon Flame Golem,Summon Flame Golem,7,9,7
-Rain of Arrows of Saturation,Rain of Arrows of Saturation,8,6,6
-Splitting Steel of Ammunition,Splitting Steel of Ammunition,8,5,5
-Eye of Winter of Transience,Eye of Winter of Transience,10,3,3
-Flicker Strike,Flicker Strike,8,6,6
-Ethereal Knives of the Massacre,Ethereal Knives of the Massacre,8,5,5
-Malevolence,Malevolence,9,4,3
-Herald of Ash,Herald of Ash,5,18,18
-Dash,Dash,6,12,10
-Orb of Storms,Orb of Storms,10,2,2
-Purity of Ice,Purity of Ice,10,2,1
-Flameblast,Flameblast,8,6,5
-Spark,Spark,9,4,4
-Void Sphere,Void Sphere,10,3,3
-Lifetap Support,Lifetap Support,6,13,13
-Bane,Bane,10,3,2
-Vaal Rain of Arrows,Vaal Rain of Arrows,5,20,20
-Righteous Fire of Arcane Devotion,Righteous Fire of Arcane Devotion,7,10,10
-Expert Retaliation Support,Expert Retaliation Support,12,1,1
-Arcanist Brand,Arcanist Brand,10,2,1
-Blight of Atrophy,Blight of Atrophy,8,7,7
-Shrapnel Ballista,Shrapnel Ballista,8,6,5
-Glacial Cascade of the Fissure,Glacial Cascade of the Fissure,8,7,7
-Ice Trap of Hollowness,Ice Trap of Hollowness,8,5,5
-Storm Brand,Storm Brand,8,6,6
-Archmage Support,Archmage Support,10,3,3
-Added Chaos Damage Support,Added Chaos Damage Support,9,4,4
-Kinetic Bolt of Fragmentation,Kinetic Bolt of Fragmentation,7,11,11
-Explosive Trap,Explosive Trap,8,5,4
-Vaal Volcanic Fissure,Vaal Volcanic Fissure,5,18,17
 Cobra Lash,Cobra Lash,7,8,8
-Incinerate of Expanse,Incinerate of Expanse,12,1,1
-Static Strike,Static Strike,8,5,4
-Holy Flame Totem,Holy Flame Totem,5,21,21
-Herald of Ice,Herald of Ice,8,6,5
-Vaal Caustic Arrow,Vaal Caustic Arrow,5,20,18
-Cremation of Exhuming,Cremation of Exhuming,9,4,4
-Searing Bond,Searing Bond,10,2,2
-Storm Call of Trarthus,Storm Call of Trarthus,6,15,15
-Charged Mines Support,Charged Mines Support,10,2,2
-Wave of Conviction,Wave of Conviction,7,9,8
-Tornado Shot,Tornado Shot,10,3,3
-Ice Crash of Cadence,Ice Crash of Cadence,7,9,9
-Brutality Support,Brutality Support,10,2,2
-Arc,Arc,7,8,7
-Summon Chaos Golem of Hordes,Summon Chaos Golem of Hordes,9,4,4
-Battlemage's Cry,Battlemage's Cry,7,8,7
-Rage Vortex,Rage Vortex,8,5,4
-Vaal Grace,Vaal Grace,8,6,6
-Blade Vortex,Blade Vortex,10,3,2
-Caustic Arrow,Caustic Arrow,7,10,10
-Pinpoint Support,Pinpoint Support,10,2,2
-Vaal Clarity,Vaal Clarity,7,10,8
-Toxic Rain,Toxic Rain,10,2,1
-Less Duration Support,Less Duration Support,9,4,4
-Siege Ballista,Siege Ballista,8,5,5
-Ethereal Knives,Ethereal Knives,9,4,4
-Ice Nova,Ice Nova,7,8,8
-Chance to Poison Support,Chance to Poison Support,6,14,13
-Sacrifice Support,Sacrifice Support,12,1,1
-Bodyswap,Bodyswap,10,2,2
-Rolling Magma,Rolling Magma,5,19,18
-Forbidden Rite of Soul Sacrifice,Forbidden Rite of Soul Sacrifice,10,3,3
-Lacerate of Haemorrhage,Lacerate of Haemorrhage,8,5,5
-Holy Flame Totem of Ire,Holy Flame Totem of Ire,7,10,9
-Swift Assembly Support,Swift Assembly Support,7,11,11
-Smite of Divine Judgement,Smite of Divine Judgement,4,26,26
-Temporal Chains,Temporal Chains,8,6,6
-Raise Zombie of Slamming,Raise Zombie of Slamming,9,4,4
-Bone Offering,Bone Offering,10,2,2
-Multiple Traps Support,Multiple Traps Support,8,7,5
-Cold Snap of Power,Cold Snap of Power,8,7,7
-Spectral Helix,Spectral Helix,8,7,7
-Deadly Ailments Support,Deadly Ailments Support,12,1,1
-Armageddon Brand,Armageddon Brand,7,10,10
-Caustic Arrow of Poison,Caustic Arrow of Poison,7,11,11
-Blade Flurry of Incision,Blade Flurry of Incision,7,10,10
-Ice Crash,Ice Crash,10,2,1
-Conductivity,Conductivity,10,2,2
-Summon Skeletons of Mages,Summon Skeletons of Mages,8,7,7
-Returning Projectiles Support,Returning Projectiles Support,9,4,4
-Decay Support,Decay Support,10,3,3
-Arcane Surge Support,Arcane Surge Support,4,27,27
-Void Sphere of Rending,Void Sphere of Rending,9,4,4
-Dual Strike of Ambidexterity,Dual Strike of Ambidexterity,5,24,24
-Cast when Stunned Support,Cast when Stunned Support,10,2,2
-Shockwave Totem,Shockwave Totem,9,4,4
-Sunder of Earthbreaking,Sunder of Earthbreaking,5,18,17
-Reap,Reap,9,4,4
-Shrapnel Ballista of Steel,Shrapnel Ballista of Steel,7,8,8
-Explosive Concoction of Destruction,Explosive Concoction of Destruction,6,12,12
-Smoke Mine,Smoke Mine,8,7,5
-Rallying Cry,Rallying Cry,8,6,6
-Poacher's Mark,Poacher's Mark,12,1,1
-Spectral Shield Throw of Shattering,Spectral Shield Throw of Shattering,6,16,16
-Immolate Support,Immolate Support,8,6,5
-Zealotry,Zealotry,10,2,1
-Momentum Support,Momentum Support,4,29,25
-Mirror Arrow of Prismatic Clones,Mirror Arrow of Prismatic Clones,7,11,11
-Decoy Totem,Decoy Totem,7,10,8
-Manaforged Arrows Support,Manaforged Arrows Support,8,7,5
-Life Gain on Hit Support,Life Gain on Hit Support,8,6,4
-Haste,Haste,8,6,5
-Corrupting Fever,Corrupting Fever,8,7,7
-Summon Ice Golem of Hordes,Summon Ice Golem of Hordes,10,3,3
-Earthquake of Amplification,Earthquake of Amplification,5,22,22
-Vaal Cyclone,Vaal Cyclone,6,15,15
-Vaal Ice Nova,Vaal Ice Nova,6,12,12
-Crackling Lance of Disintegration,Crackling Lance of Disintegration,10,3,3
-Consecrated Path,Consecrated Path,8,6,6
-Firestorm of Pelting,Firestorm of Pelting,7,9,9
-Raise Zombie of Falling,Raise Zombie of Falling,9,4,4
-Autoexertion,Autoexertion,8,5,5
-Flesh Offering,Flesh Offering,9,4,3
-Blight,Blight,8,7,5
-Added Lightning Damage Support,Added Lightning Damage Support,5,19,19
-Charged Traps Support,Charged Traps Support,12,1,1
+Flesh Offering,Flesh Offering,8,5,4
+Scorching Ray,Scorching Ray,9,4,3
+Vulnerability,Vulnerability,6,13,12
+Herald of Ash,Herald of Ash,5,19,19
+Elemental Hit,Elemental Hit,10,2,2
+Immortal Call,Immortal Call,10,3,3
+Vaal Molten Shell,Vaal Molten Shell,7,9,9
+Spellslinger,Spellslinger,9,4,3
+Infernal Blow,Infernal Blow,8,5,4
+Animate Weapon,Animate Weapon,7,8,6
 Detonate Mines,Detonate Mines,12,1,1
-Soulrend of Reaping,Soulrend of Reaping,10,3,3
-Vaal Absolution,Vaal Absolution,6,12,12
-Spark of the Nova,Spark of the Nova,7,9,9
-Kinetic Blast of Clustering,Kinetic Blast of Clustering,8,7,7
-Frigid Bond Support,Frigid Bond Support,12,1,1
-Dread Banner,Dread Banner,10,3,3
-Absolution,Absolution,7,10,10
-Stormbind,Stormbind,8,6,6
-Impending Doom Support,Impending Doom Support,12,1,1
-Inspiration Support,Inspiration Support,10,3,3
-Viper Strike,Viper Strike,7,10,3
-Boneshatter,Boneshatter,9,4,4
-Fortify Support,Fortify Support,7,11,9
-Volatile Dead of Seething,Volatile Dead of Seething,8,5,5
-Glacial Cascade,Glacial Cascade,8,6,6
-Summon Flame Golem of the Meteor,Summon Flame Golem of the Meteor,5,20,20
-Grace,Grace,7,11,11
-Creeping Frost,Creeping Frost,8,6,5
-Incinerate,Incinerate,8,5,3
-Incinerate of Venting,Incinerate of Venting,8,7,7
-Vaal Burning Arrow,Vaal Burning Arrow,5,20,18
-Dominating Blow of Inspiring,Dominating Blow of Inspiring,7,10,10
-Increased Critical Damage Support,Increased Critical Damage Support,10,3,3
-Tectonic Slam of Cataclysm,Tectonic Slam of Cataclysm,4,27,27
-Molten Strike,Molten Strike,6,12,12
-Hexblast,Hexblast,9,4,4
-Controlled Blaze Support,Controlled Blaze Support,12,1,1
-Blastchain Mine Support,Blastchain Mine Support,7,9,7
-Ambush,Ambush,8,5,4
-Lightning Arrow of Electrocution,Lightning Arrow of Electrocution,8,5,5
-Flameblast of Celerity,Flameblast of Celerity,9,4,4
-Enfeeble,Enfeeble,10,3,3
-Minion Life Support,Minion Life Support,9,4,2
-Shield Crush,Shield Crush,10,3,2
-Vaal Discipline,Vaal Discipline,8,5,5
-Pyroclast Mine,Pyroclast Mine,8,5,5
-Convocation,Convocation,8,5,5
-Close Combat Support,Close Combat Support,6,14,14
-Warlord's Mark,Warlord's Mark,10,2,2
-Venom Gyre,Venom Gyre,8,5,4
-Righteous Fire,Righteous Fire,7,10,9
-Vigilant Strike,Vigilant Strike,10,3,2
-General's Cry,General's Cry,8,7,6
-Reave,Reave,10,2,2
-Purity of Lightning,Purity of Lightning,10,2,1
-Kinetic Blast,Kinetic Blast,12,1,1
-Cold Snap,Cold Snap,8,6,6
-Earthshatter,Earthshatter,4,28,27
-Freezing Pulse,Freezing Pulse,7,11,10
-Galvanic Arrow,Galvanic Arrow,10,3,3
-Burning Arrow,Burning Arrow,6,12,11
-Vaal Detonate Dead,Vaal Detonate Dead,6,16,15
-Innervate Support,Innervate Support,10,2,2
-Summon Ice Golem of Shattering,Summon Ice Golem of Shattering,8,5,5
-Animate Weapon of Ranged Arms,Animate Weapon of Ranged Arms,8,5,5
-Herald of Thunder,Herald of Thunder,7,10,10
-Physical to Lightning Support,Physical to Lightning Support,9,4,4
-Contagion of Subsiding,Contagion of Subsiding,9,4,4
-Consecrated Path of Endurance,Consecrated Path of Endurance,5,20,20
-Fist of War Support,Fist of War Support,7,8,6
-Trap and Mine Damage Support,Trap and Mine Damage Support,8,5,5
+Vaal Firestorm,Vaal Firestorm,8,6,6
+Frostblink,Frostblink,4,30,28
+Eviscerate,Eviscerate,10,3,3
+Alchemist's Mark,Alchemist's Mark,8,6,4
+Devouring Totem,Devouring Totem,9,4,4
+Fire Trap,Fire Trap,6,12,12
 Plague Bearer,Plague Bearer,8,5,5
-Increased Area of Effect Support,Increased Area of Effect Support,8,7,7
-Sadism Support,Sadism Support,10,2,2
-Divine Ire of Disintegration,Divine Ire of Disintegration,8,6,6
-Frostblink of Wintry Blast,Frostblink of Wintry Blast,5,20,20
-Manabond,Manabond,10,3,3
-Barrage,Barrage,9,4,4
-Split Arrow,Split Arrow,7,9,9
-Vaal Lightning Strike,Vaal Lightning Strike,5,23,21
-Arc of Surging,Arc of Surging,8,7,7
-Lacerate,Lacerate,7,11,11
-Efficacy Support,Efficacy Support,7,10,9
-Bear Trap,Bear Trap,8,6,6
-Bodyswap of Sacrifice,Bodyswap of Sacrifice,10,2,2
-Whirling Blades,Whirling Blades,9,4,4
-Hydrosphere,Hydrosphere,8,7,7
-Toxic Rain of Sporeburst,Toxic Rain of Sporeburst,8,7,7
+Vaal Discipline,Vaal Discipline,8,5,5
+Volatile Dead,Volatile Dead,7,8,7
+Vaal Lightning Strike,Vaal Lightning Strike,4,26,24
+Summon Skitterbots,Summon Skitterbots,8,6,6
+Enduring Cry,Enduring Cry,5,17,15
+Icicle Mine,Icicle Mine,8,6,6
+Stormbind,Stormbind,8,7,7
+Sunder,Sunder,5,23,22
+Spectral Shield Throw,Spectral Shield Throw,6,13,13
+Elemental Weakness,Elemental Weakness,7,10,8
+Precision,Precision,5,17,15
+Anger,Anger,7,10,10
+Steelskin,Steelskin,7,10,9
+Glacial Cascade,Glacial Cascade,8,5,5
+Snipe,Snipe,8,5,4
+Automation,Automation,7,9,9
+Vaal Cyclone,Vaal Cyclone,6,15,15
+Brand Recall,Brand Recall,10,3,3
+Poisonous Concoction,Poisonous Concoction,6,13,11
+Vaal Ice Nova,Vaal Ice Nova,6,14,14
+Vampiric Link,Vampiric Link,12,1,1
+Bone Offering,Bone Offering,10,3,3
+Frost Shield,Frost Shield,8,7,5
+Herald of Agony,Herald of Agony,7,8,8
+Armageddon Brand,Armageddon Brand,6,13,13
+Bladefall,Bladefall,9,4,4
+Explosive Concoction,Explosive Concoction,8,6,6
+Smite,Smite,8,6,6
+Vaal Storm Call,Vaal Storm Call,5,18,18
+Dual Strike,Dual Strike,8,5,5
+Decoy Totem,Decoy Totem,7,11,9
+Lightning Spire Trap,Lightning Spire Trap,10,3,2
+Blade Flurry,Blade Flurry,10,2,2
+Detonate Dead,Detonate Dead,7,11,9
+Smoke Mine,Smoke Mine,7,8,6
+Dominating Blow,Dominating Blow,10,3,3
+Frenzy,Frenzy,10,3,3
+Soul Link,Soul Link,10,2,2
+Summon Skeletons,Summon Skeletons,7,11,10
+Purifying Flame,Purifying Flame,7,8,7
+Heavy Strike,Heavy Strike,6,13,13
+Vaal Molten Strike,Vaal Molten Strike,5,24,21
+War Banner,War Banner,9,4,4
+Summon Carrion Golem,Summon Carrion Golem,7,8,8
+Vaal Blade Vortex,Vaal Blade Vortex,5,19,19
+Assassin's Mark,Assassin's Mark,8,7,4
+Blade Blast,Blade Blast,8,5,4
 Storm Burst,Storm Burst,8,5,5
-Ice Spear,Ice Spear,9,4,3
-Spectral Throw of Trarthus,Spectral Throw of Trarthus,4,25,25
-Vicious Projectiles Support,Vicious Projectiles Support,9,4,4
-Stormbind of Teleportation,Stormbind of Teleportation,12,1,1
-Ensnaring Arrow,Ensnaring Arrow,8,6,4
-Cyclone of Tumult,Cyclone of Tumult,10,3,3
-Flameblast of Contraction,Flameblast of Contraction,8,5,5
-Exsanguinate of Transmission,Exsanguinate of Transmission,4,28,28
-Blast Rain of Trarthus,Blast Rain of Trarthus,6,16,16
-Fresh Meat Support,Fresh Meat Support,10,2,2
-Ice Shot of Penetration,Ice Shot of Penetration,7,8,8
-Heavy Strike,Heavy Strike,7,10,9
-Power Siphon of the Archmage,Power Siphon of the Archmage,6,13,13
-Raise Spectre,Raise Spectre,8,5,4
-Ice Nova of Frostbolts,Ice Nova of Frostbolts,5,19,19
-Guardian's Blessing Support,Guardian's Blessing Support,12,1,1
-Controlled Destruction Support,Controlled Destruction Support,10,3,3
+Discipline,Discipline,10,3,3
+Blade Trap,Blade Trap,12,1,1
+Vaal Grace,Vaal Grace,8,7,7
+Infernal Cry,Infernal Cry,8,7,6
+Shrapnel Ballista,Shrapnel Ballista,7,9,8
+Vaal Rain of Arrows,Vaal Rain of Arrows,5,21,21
+Vaal Lightning Arrow,Vaal Lightning Arrow,4,26,24
+Vaal Flameblast,Vaal Flameblast,10,3,3
+Vaal Double Strike,Vaal Double Strike,6,13,13
+Purity of Lightning,Purity of Lightning,10,2,1
+Searing Bond,Searing Bond,10,2,2
+Rage Vortex,Rage Vortex,8,5,4
+Vaal Animate Weapon,Vaal Animate Weapon,5,24,21
+Shield Charge,Shield Charge,4,30,25
+Defiance Banner,Defiance Banner,8,5,5
+Essence Drain,Essence Drain,8,7,6
+Glacial Shield Swipe,Glacial Shield Swipe,7,8,6
+Cleave,Cleave,8,5,4
+Lightning Trap,Lightning Trap,7,8,6
+Lightning Warp,Lightning Warp,10,3,3
+Vaal Glacial Hammer,Vaal Glacial Hammer,12,1,1
+Hatred,Hatred,10,3,2
+Determination,Determination,9,4,3
+Purity of Elements,Purity of Elements,10,3,3
+Reave,Reave,10,2,2
+Artillery Ballista,Artillery Ballista,8,5,4
+Discharge,Discharge,10,3,3
+Herald of Thunder,Herald of Thunder,7,10,10
+Wrath,Wrath,9,4,4
+Punishment,Punishment,7,9,8
+Frostbolt,Frostbolt,7,9,9
+Vaal Fireball,Vaal Fireball,5,23,19
+Boneshatter,Boneshatter,9,4,4
+Malevolence,Malevolence,9,4,3
+Vaal Absolution,Vaal Absolution,7,11,11
+Vaal Venom Gyre,Vaal Venom Gyre,5,22,20
+Earthshatter,Earthshatter,4,31,30
+Reap,Reap,8,5,5
+Tectonic Slam,Tectonic Slam,8,6,4
+Shockwave Totem,Shockwave Totem,9,4,4
+Ice Trap,Ice Trap,10,3,3
+Grace,Grace,7,11,11
+Ice Crash,Ice Crash,10,2,1
+Burning Arrow,Burning Arrow,6,13,12
+Vaal Reave,Vaal Reave,6,16,15
+Temporal Chains,Temporal Chains,8,6,6
+Dash,Dash,6,13,11
 Vaal Arctic Armour,Vaal Arctic Armour,7,11,10
-Devouring Totem,Devouring Totem,10,3,3
+Ancestral Cry,Ancestral Cry,7,11,10
+Vaal Blight,Vaal Blight,6,15,15
+Bladestorm,Bladestorm,9,4,4
+Arctic Armour,Arctic Armour,8,7,6
+Crackling Lance,Crackling Lance,8,7,7
+Galvanic Arrow,Galvanic Arrow,8,5,5
+Kinetic Blast,Kinetic Blast,12,1,1
+Vaal Power Siphon,Vaal Power Siphon,5,20,20
+Penance Brand,Penance Brand,7,9,9
+Divine Ire,Divine Ire,8,5,5
+Eye of Winter,Eye of Winter,8,5,5
+Flame Surge,Flame Surge,8,6,5
+Summon Stone Golem,Summon Stone Golem,6,15,14
+Vaal Reap,Vaal Reap,7,8,7
+Herald of Purity,Herald of Purity,6,14,13
+Summon Ice Golem,Summon Ice Golem,10,3,2
+Manabond,Manabond,8,5,5
+Haste,Haste,8,6,5
+Autoexertion,Autoexertion,8,5,5
+Sniper's Mark,Sniper's Mark,7,10,10
+Herald of Ice,Herald of Ice,8,5,4
+Caustic Arrow,Caustic Arrow,7,10,10
+Absolution,Absolution,6,12,12
+Hydrosphere,Hydrosphere,8,7,7
+Bane,Bane,10,3,2
+Flicker Strike,Flicker Strike,8,6,6
+Shock Nova,Shock Nova,10,3,3
+Voltaxic Burst,Voltaxic Burst,8,5,3
+Volcanic Fissure,Volcanic Fissure,4,28,28
+Animate Guardian,Animate Guardian,10,3,3
+Creeping Frost,Creeping Frost,7,8,7
+Vaal Righteous Fire,Vaal Righteous Fire,4,29,29
+Clarity,Clarity,6,12,11
+Flameblast,Flameblast,8,6,5
+Battlemage's Cry,Battlemage's Cry,7,9,8
+Ensnaring Arrow,Ensnaring Arrow,8,6,4
+Perforate,Perforate,8,7,7
+Frostbite,Frostbite,7,8,6
+Firestorm,Firestorm,10,3,3
+Wither,Wither,8,5,5
+Void Sphere,Void Sphere,10,3,3
+Static Strike,Static Strike,8,7,6
+Freezing Pulse,Freezing Pulse,6,12,11
+Flesh and Stone,Flesh and Stone,7,8,6
+Ice Spear,Ice Spear,8,5,4
+Flammability,Flammability,6,12,12
+Orb of Storms,Orb of Storms,10,2,2
+Shield Crush,Shield Crush,8,5,4
+Swordstorm,Swordstorm,9,4,4
+Spark,Spark,8,5,5
+Vaal Ice Shot,Vaal Ice Shot,4,25,25
+Zealotry,Zealotry,9,4,3
+Blood Rage,Blood Rage,6,12,12
+Blood and Sand,Blood and Sand,6,13,12
+Corrupting Fever,Corrupting Fever,8,7,7
+Vaal Lightning Trap,Vaal Lightning Trap,4,25,23
+Vaal Detonate Dead,Vaal Detonate Dead,6,16,15
+Arcanist Brand,Arcanist Brand,10,2,1
+Dark Pact,Dark Pact,8,5,4
+Kinetic Bolt,Kinetic Bolt,8,6,6
+Destructive Link,Destructive Link,10,2,2
+Leap Slam,Leap Slam,7,11,10
+Storm Brand,Storm Brand,8,7,7
 Galvanic Field,Galvanic Field,12,1,1
-Mirror Arrow,Mirror Arrow,8,7,6
-Seismic Cry,Seismic Cry,6,12,9
-Snipe,Snipe,9,4,3
-Blade Flurry,Blade Flurry,12,1,1
-Flammability,Flammability,7,10,10
-Explosive Trap of Magnitude,Explosive Trap of Magnitude,7,9,9
-Icicle Mine of Sabotage,Icicle Mine of Sabotage,8,5,5
-Flicker Strike of Power,Flicker Strike of Power,7,9,9
-Flame Dash,Flame Dash,5,17,16
-Vaal Firestorm,Vaal Firestorm,8,5,5
-Spectral Shield Throw of Trarthus,Spectral Shield Throw of Trarthus,6,12,12
-Dominating Blow,Dominating Blow,10,2,2
 Blazing Salvo,Blazing Salvo,8,5,5
-Summon Chaos Golem of the Maelström,Summon Chaos Golem of the Maelström,7,9,9
-Absolution of Inspiring,Absolution of Inspiring,5,19,19
-Discharge of Misery,Discharge of Misery,12,1,1
-Vaal Summon Skeletons,Vaal Summon Skeletons,5,19,18
-Vaal Reave,Vaal Reave,6,15,14
+Despair,Despair,8,6,6
+Wintertide Brand,Wintertide Brand,8,6,6
+Shattering Steel,Shattering Steel,8,7,5
+Blade Vortex,Blade Vortex,8,5,4
+Rain of Arrows,Rain of Arrows,7,11,8
+Vaal Summon Skeletons,Vaal Summon Skeletons,5,18,17
+Wild Strike,Wild Strike,12,1,1
+Summon Raging Spirit,Summon Raging Spirit,7,8,8
+Vaal Burning Arrow,Vaal Burning Arrow,5,20,18
+Molten Shell,Molten Shell,7,9,9
+Sweep,Sweep,9,4,4
+Vaal Impurity of Ice,Vaal Impurity of Ice,8,5,5
+Frost Bomb,Frost Bomb,7,10,10
+Vaal Cleave,Vaal Cleave,5,19,15
+Splitting Steel,Splitting Steel,7,9,8
+Rejuvenation Totem,Rejuvenation Totem,9,4,3
+Summon Flame Golem,Summon Flame Golem,7,9,7
+Vortex,Vortex,7,8,8
+General's Cry,General's Cry,8,7,6
+Convocation,Convocation,8,6,6
+Petrified Blood,Petrified Blood,7,8,6
+Siege Ballista,Siege Ballista,8,6,6
+Lightning Conduit,Lightning Conduit,8,5,5
+Unearth,Unearth,10,3,2
+Soulrend,Soulrend,12,1,1
+Poacher's Mark,Poacher's Mark,12,1,1
+Vaal Caustic Arrow,Vaal Caustic Arrow,5,21,18
+Ambush,Ambush,8,7,6
+Pyroclast Mine,Pyroclast Mine,8,6,6
+Incinerate,Incinerate,8,5,3
+Flame Wall,Flame Wall,7,11,11
+Cyclone,Cyclone,7,8,8
+Portal,Portal,8,6,6
+Conductivity,Conductivity,10,3,3
+Siphoning Trap,Siphoning Trap,7,8,7
+Viper Strike,Viper Strike,7,11,4
+Barrage,Barrage,9,4,4
+Purity of Ice,Purity of Ice,10,2,1
+Energy Blade,Energy Blade,8,5,4
+Vaal Rejuvenation Totem,Vaal Rejuvenation Totem,6,12,10
+Stormblast Mine,Stormblast Mine,8,7,7
+Vaal Volcanic Fissure,Vaal Volcanic Fissure,5,19,18
+Cold Snap,Cold Snap,8,6,6
+Frost Wall,Frost Wall,8,5,4
+Cremation,Cremation,7,10,10
+Vaal Impurity of Fire,Vaal Impurity of Fire,8,7,7
+Ground Slam,Ground Slam,4,25,24
+Spectral Helix,Spectral Helix,7,8,8
+Flame Dash,Flame Dash,5,20,19
+Blast Rain,Blast Rain,12,1,1
+Rallying Cry,Rallying Cry,8,7,7
+Frozen Legion,Frozen Legion,10,2,2
+Contagion,Contagion,8,7,7
+Consecrated Path,Consecrated Path,8,6,6
+Vaal Impurity of Lightning,Vaal Impurity of Lightning,8,6,6
+Tornado Shot,Tornado Shot,10,3,3
+Fireball,Fireball,7,11,8
+Vaal Domination,Vaal Domination,5,19,19
+Blight,Blight,7,10,8
+Blink Arrow,Blink Arrow,6,15,13
+Ice Nova,Ice Nova,7,8,8
+Bodyswap,Bodyswap,12,1,1
+Split Arrow,Split Arrow,7,9,9
+Vaal Smite,Vaal Smite,6,16,16
+Bear Trap,Bear Trap,8,6,6
+Enfeeble,Enfeeble,10,3,3
+Molten Strike,Molten Strike,6,12,12
+Intimidating Cry,Intimidating Cry,6,13,12
+Crushing Fist,Crushing Fist,7,8,7
+Puncture,Puncture,7,11,8
+Conversion Trap,Conversion Trap,8,6,6
+Vaal Spark,Vaal Spark,5,24,23
+Lightning Arrow,Lightning Arrow,9,4,3
+Vaal Flicker Strike,Vaal Flicker Strike,4,26,25
 Lightning Strike,Lightning Strike,10,2,2
-Soulrend of the Spiral,Soulrend of the Spiral,10,3,3
-Divine Retribution,Divine Retribution,7,9,8
-Vaal Molten Shell,Vaal Molten Shell,8,7,7
-Blade Blast,Blade Blast,9,4,3
-Lightning Tendrils of Escalation,Lightning Tendrils of Escalation,10,3,3
+Glacial Hammer,Glacial Hammer,7,10,10
+Storm Call,Storm Call,10,3,2
+Explosive Trap,Explosive Trap,8,5,4
+Charged Dash,Charged Dash,10,2,2
+Rolling Magma,Rolling Magma,5,19,18
+Lacerate,Lacerate,6,13,13
+Vaal Haste,Vaal Haste,9,4,4
+Tempest Shield,Tempest Shield,7,8,7
+Ice Shot,Ice Shot,7,8,7
+Seismic Trap,Seismic Trap,12,1,1
+Raise Spectre,Raise Spectre,8,6,5
+Lancing Steel,Lancing Steel,8,5,4
+Protective Link,Protective Link,10,3,3
+Vaal Ground Slam,Vaal Ground Slam,5,23,18
+Pestilent Strike,Pestilent Strike,12,1,1
+Vaal Cold Snap,Vaal Cold Snap,5,19,18
+Chain Hook,Chain Hook,10,3,3
+Storm Rain,Storm Rain,9,4,3
+Tornado,Tornado,10,2,2
+Dread Banner,Dread Banner,10,3,3
+Spirit Offering,Spirit Offering,7,8,8
+Scourge Arrow,Scourge Arrow,10,2,2
+Winter Orb,Winter Orb,10,2,2
+Frost Blades,Frost Blades,8,7,7
+Summon Chaos Golem,Summon Chaos Golem,8,7,7
+Desecrate,Desecrate,8,6,6
+Holy Flame Totem,Holy Flame Totem,5,21,21
+Summon Holy Relic,Summon Holy Relic,6,15,12
+Warlord's Mark,Warlord's Mark,10,2,2
+Vigilant Strike,Vigilant Strike,9,4,3
+Vaal Clarity,Vaal Clarity,7,10,8
+Divine Retribution,Divine Retribution,7,10,9
+Arc,Arc,7,8,7
+Double Strike,Double Strike,6,13,12
+Pride,Pride,8,5,4
+Wave of Conviction,Wave of Conviction,7,9,8
+Vaal Earthquake,Vaal Earthquake,5,17,16
+Seismic Cry,Seismic Cry,6,13,10
+Mirror Arrow,Mirror Arrow,8,7,6
+Purity of Fire,Purity of Fire,10,2,2
+Vitality,Vitality,5,20,19
+Hexblast,Hexblast,9,4,4
+Ethereal Knives,Ethereal Knives,9,4,4
+Whirling Blades,Whirling Blades,8,5,5
+Explosive Arrow,Explosive Arrow,10,2,2
+Toxic Rain,Toxic Rain,10,2,1
+Forbidden Rite,Forbidden Rite,8,5,5
+Berserk,Berserk,8,5,3
+Flame Link,Flame Link,12,1,1
+Vengeful Cry,Vengeful Cry,12,1,1
+Raise Zombie,Raise Zombie,7,8,7
+Vaal Arc,Vaal Arc,5,18,18
+Lightning Tendrils,Lightning Tendrils,8,7,7
+Power Siphon,Power Siphon,12,1,1
+Exsanguinate,Exsanguinate,10,3,2
+Venom Gyre,Venom Gyre,8,5,4
+Righteous Fire,Righteous Fire,7,11,10
+Arcane Cloak,Arcane Cloak,9,4,4
+Summon Lightning Golem,Summon Lightning Golem,7,11,9
+Vaal Blade Flurry,Vaal Blade Flurry,6,16,15
+Summon Reaper,Summon Reaper,10,3,3
+Earthquake,Earthquake,9,4,4
+Sigil of Power,Sigil of Power,10,3,2
+Ball Lightning,Ball Lightning,8,6,6

@@ -23,16 +23,22 @@ class FilterConstructor:
     High-Level API/Class to handle the construction of loot filters.
     """
 
-    def __init__(self, logger: HoornLogger):
+    def __init__(self, logger: HoornLogger, valid_base_types: List[str]):
         self._logger = logger
         self._separator: str = self.__class__.__name__
 
         self._compiler: FilterCompiler = FilterCompiler(logger)
-        _style_preset_registry: StylePresetRegistry = StylePresetRegistry(logger)
+        self._style_preset_registry: StylePresetRegistry = StylePresetRegistry(logger)
+        self._valid_base_types: List[str] = valid_base_types
 
         self._pipeline = FilterConstructionPipeline(logger)
         self._pipeline.build_pipeline()
 
+        self._load_data()
+
+        self._logger.trace("Successfully initialized.", separator=self._separator)
+
+    def _load_data(self):
         base_type_data = pandas.read_csv(
             CONFIG_DIR / "base_types.csv",
             keep_default_na=True)
@@ -49,15 +55,17 @@ class FilterConstructor:
         )
 
         self._pipeline_context = FilterConstructionPipelineContext(
-            style_preset_registry=_style_preset_registry,
+            style_preset_registry=self._style_preset_registry,
             base_type_data=base_type_data,
             uniques_data = uniques_data,
-            skill_gems_data=skill_gems_data
+            skill_gems_data=skill_gems_data,
+            valid_base_types_unique_and_gem=self._valid_base_types
         )
 
         self._logger.debug(f"Dataframe:\n{pprint.pformat(self._pipeline_context.base_type_data)}", separator=self._separator)
 
-        self._logger.trace("Successfully initialized.", separator=self._separator)
+    def reload_data(self) -> None:
+        self._load_data()
 
     def construct_filter(self) -> None:
         context: FilterConstructionPipelineContext = self._pipeline.flow(data=self._pipeline_context)

@@ -17,6 +17,8 @@ class FilterConstructionPipelineContext(pydantic.BaseModel):
 
     generated_rules: List[RuleSection] = []
 
+    valid_base_types_unique_and_gem: List[str] = []
+
     model_config = {
         "arbitrary_types_allowed": True
     }

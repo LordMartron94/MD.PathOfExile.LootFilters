@@ -6,6 +6,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.cla
 
 # ---- Configurable ----
 APP_NAME: str = "MD.PathOfExile.LootFilters"
+APP_VERSION: str = "1.0.0"
+CONTACT: str = "md.career@protonmail.com"
 MAX_SEPARATOR_LENGTH: int = 80
 
 DEBUG_MODE: bool = False
@@ -17,6 +19,8 @@ OUTPUT_DIRECTORIES: List[Path] = [
     Path(r"X:\MD.PathOfExile.LootFilters\output"),
     Path(r"C:\Users\LordMartron\Documents\My Games\Path of Exile")
 ]
+
+PATH_OF_BUILDING_DATA_DIR: Path = Path(r"D:\[02] Modding\[01] Tools\[08] Path of Building\Path of Building Community\Data")
 
 CURRENT_LEAGUE: str = "Hardcore Mercenaries" # -- IMPORTANT for Economy Data retrieval
 
@@ -31,3 +35,5 @@ SELECTED_BUILD_TYPE: BuildType = BuildType.MeleeSpellcaster
 
 ASSOCIATED_WEAPONRY: List[WeaponTypeClass] = get_associated_weapons(SELECTED_BUILD_TYPE)
 UNASSOCIATED_WEAPONRY: List[WeaponTypeClass] = get_unassociated_weapons(SELECTED_BUILD_TYPE)
+
+USER_AGENT: str = f"{APP_NAME}/{APP_VERSION} - (contact: {CONTACT})"

@@ -64,10 +64,33 @@ class AddSkillGems(IPipe):
         )
         return data
 
-    @staticmethod
-    def _prepare_manual_df(data: FilterConstructionPipelineContext) -> pd.DataFrame:
-        # just pull the rows; keep original column names including "Rarity (1-6)" and "Usefulness (1-6)"
-        return filter_rows_by_category(BaseTypeCategory.skill_gems, data.base_type_data)
+    def _prepare_manual_df(self, data: FilterConstructionPipelineContext) -> pd.DataFrame:
+        """
+        Pull only the skill‐gem rows, then restrict to valid base types.
+        Keeps original column names, including "Rarity (1-6)" and "Usefulness (1-6)".
+        """
+        # 1) get only skill gems
+        df_all = filter_rows_by_category(BaseTypeCategory.skill_gems, data.base_type_data)
+
+        # 2) apply valid-base-type filter
+        valid_mask = df_all["BaseType"].isin(data.valid_base_types_unique_and_gem)
+        df_valid = df_all.loc[valid_mask]
+
+        # 3) compute stats
+        total = len(df_all)
+        passed = len(df_valid)
+        excluded = total - passed
+        passed_pct = (passed / total * 100) if total else 0.0
+        excluded_pct = (excluded / total * 100) if total else 0.0
+
+        # 4) log the outcome
+        self._logger.info(
+            f"_prepare_manual_df: {passed} passed, {excluded} excluded "
+            f"(passed={passed_pct:.4f}%; excluded={excluded_pct:.4f}%)",
+            separator=self._separator
+        )
+
+        return df_valid
 
     @staticmethod
     def _prepare_economy_df(data: FilterConstructionPipelineContext) -> pd.DataFrame:
@@ -101,8 +124,8 @@ class AddSkillGems(IPipe):
             combined["Rarity (1-6)"]             # manual-only
         )
         # 2) decide new usefulness
-        combined["usefulness_calc"] = combined["Usefulness (1-6)"].fillna(
-            combined["usefulness__1_6_econ"]
+        combined["usefulness_calc"] = combined["Usefulness (1-6)"].infer_objects(
+            copy=False
         )
         # 3) overwrite manual columns in-place
         combined["Rarity (1-6)"]    = combined["rarity_calc"]

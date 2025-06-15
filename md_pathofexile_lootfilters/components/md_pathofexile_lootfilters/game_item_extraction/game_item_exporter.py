@@ -4,10 +4,14 @@ from typing import Dict, List, Tuple
 import pandas as pd
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.model.game_item import GameItem
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.rarity_calculation.rarity_calculator_interface import IRarityCalculator
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.game_item_repository import GameItemRepository
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.utils.duplicate_aggregator import DuplicateAggregator
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.game_item_repository import \
+    GameItemRepository
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.model.game_item import \
+    GameItem
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.rarity_calculation.rarity_calculator_interface import \
+    IRarityCalculator
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.utils.duplicate_aggregator import \
+    DuplicateAggregator
 
 
 class GameItemExporter:
