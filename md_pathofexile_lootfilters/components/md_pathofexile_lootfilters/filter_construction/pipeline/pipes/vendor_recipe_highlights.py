@@ -60,7 +60,7 @@ class HighlightVendorRecipes(IPipe):
             Act.Act1,
             Act.Act10
         )
-        socket_condition = self._condition_factory.create_condition(ConditionKeyWord.Sockets, operator=ConditionOperator.greater_than_or_equal, value="3RGB")
+        socket_condition = self._condition_factory.create_condition(ConditionKeyWord.SocketGroup, operator=ConditionOperator.greater_than_or_equal, value="3RGB")
 
         style = determine_style(data, ItemTier.MidTier3, BaseTypeCategory.vendor_recipes)
 
