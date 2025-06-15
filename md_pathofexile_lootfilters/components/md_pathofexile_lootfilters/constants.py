@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import List
+from typing import List, Dict
 
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.config.class_lookup import BuildType, \
     get_associated_weapons, WeaponTypeClass, get_unassociated_weapons
@@ -22,7 +22,14 @@ OUTPUT_DIRECTORIES: List[Path] = [
 
 PATH_OF_BUILDING_DATA_DIR: Path = Path(r"D:\[02] Modding\[01] Tools\[08] Path of Building\Path of Building Community\Data")
 
-CURRENT_LEAGUE: str = "Hardcore Mercenaries" # -- IMPORTANT for Economy Data retrieval
+LEAGUE_WEIGHTS: Dict[str, float] = { # -- IMPORTANT for Economy Data retrieval
+    "Hardcore": 1.00,
+    "Hardcore Mercenaries": 0.75,
+    "HC Settlers": 0.50,
+    "Standard": 0.90,
+    "Mercenaries": 0.60,
+    "Settlers": 0.40,
+}
 
 # ---- Automatic ----
 ROOT: Path = Path(__file__).parent.parent.parent.parent

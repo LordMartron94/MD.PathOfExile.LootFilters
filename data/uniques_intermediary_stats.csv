@@ -1,407 +1,489 @@
-Base Type,total_count,rarity_score
-Abyssal Axe,3,10.0
-Agate Amulet,92,3.7768432432432437
-Amber Amulet,44,5.0
-Ambush Mitts,22,5.0
-Ambusher,25,6.3112
-Amethyst Ring,7,9.76
-Ancient Gauntlets,13,6.0
-Ancient Greaves,18,6.033333333333334
-Antique Gauntlets,1,12.0
-Antique Greaves,31,4.0
-Antique Rapier,14,6.0
-Arcanist Gloves,4,10.530000000000001
-Arcanist Slippers,3,10.0
-Archon Kite Shield,4,10.530000000000001
-Assassin Bow,19,5.0
-Assassin's Boots,2,10.0
-Assassin's Garb,4,9.0
-Assassin's Mitts,25,6.545833333333334
-Astral Plate,26,5.578461538461538
-Auric Mace,16,6.0
-Aventail Helmet,65,2.0
-Awl,36,3.0
-Barbute Helmet,28,4.0
-Baroque Round Shield,4,9.0
-Basket Rapier,34,4.0
-Bastard Sword,32,4.0
-Bismuth Flask,8,7.0
-Black Maw Talisman,24,4.0
-Blunt Arrow Quiver,26,4.0
-Bone Armour,11,7.0
-Bone Helmet,9,7.0
-Boot Blade,19,5.0
-Boot Knife,27,4.0
-Branded Kite Shield,16,6.0
-Brass Maul,24,4.0
-Brass Spirit Shield,25,4.0
-Broadhead Arrow Quiver,5,8.0
-Bronze Gauntlets,41,3.0
-Bronze Sceptre,47,3.0
-Bronzescale Boots,32,5.1175
-Bronzescale Gauntlets,55,3.579636363636364
-Buckskin Tunic,33,4.0
-Callous Mask,11,7.0
-Cardinal Round Shield,7,8.0
-Carnal Armour,34,5.378823529411766
-Carnal Boots,2,10.0
-Carnal Mitts,34,5.047058823529412
-Carnal Sceptre,16,6.0
-Carved Wand,37,4.786486486486487
-Cedar Tower Shield,31,4.0
-Chain Belt,107,3.517241379310345
-Chain Gloves,27,4.0
-Champion Kite Shield,1,12.0
-Chiming Spirit Shield,29,4.0
-Citadel Bow,2,12.0
-Citrine Amulet,69,4.520014255167498
-Clasped Boots,48,3.0
-Clasped Mitts,60,4.0
-Cleaver,43,3.0
-Close Helmet,52,2.0
-Cloth Belt,129,5.2506329113924055
-Clutching Talisman,26,4.0
-Cobalt Jewel,44,9.520000000000001
-Coiled Staff,29,4.0
-Colossal Tower Shield,19,6.905263157894738
-Compound Spiked Shield,14,6.0
-Conjurer Boots,6,8.0
-Conjurer Gloves,21,5.0
-Conquest Chainmail,13,6.0
-Copper Plate,36,3.0
-Coral Amulet,113,3.7832258064516138
-Coral Ring,150,2.445217391304348
-Corrugated Buckler,13,6.0
-Corsair Sword,14,6.0
-Crimson Jewel,49,6.872105263157895
-Crude Bow,87,2.7986206896551726
-Crusader Chainmail,17,6.83764705882353
-Crusader Gloves,3,10.0
-Crusader Plate,24,6.242500000000001
-Crystal Belt,3,10.0
-Crystal Sceptre,6,8.920000000000002
-Cutthroat's Garb,25,4.0
-Death Bow,27,5.76
-Decimation Bow,10,6.0
-Decorative Axe,27,4.0
-Deerskin Boots,48,3.0
-Deerskin Gloves,2,10.0
-Desert Brigandine,7,8.0
-Despot Axe,19,5.0
-Destiny Leather,11,6.0
-Destroyer Regalia,20,5.0
-Devout Chainmail,4,9.0
-Diamond Flask,17,5.0
-Diamond Ring,100,3.1426229508196726
-Dragonscale Boots,20,5.0
-Dragonscale Gauntlets,8,7.0
-Dread Maul,10,7.0
-Dream Mace,19,5.0
-Driftwood Wand,59,2.0
-Dusk Blade,2,10.0
-Ebony Tower Shield,23,5.0
-Eelskin Boots,15,6.0
-Eelskin Gloves,13,6.0
-Elder Sword,19,5.0
-Elegant Ringmail,14,6.0
-Elegant Round Shield,12,6.0
-Elegant Sword,18,5.0
-Embroidered Gloves,14,6.0
-Enameled Buckler,5,8.0
-Engraved Greatsword,1,12.0
-Engraved Wand,53,4.0
-Estoc,12,6.0
-Etched Greatsword,24,5.0
-Eternal Burgonet,9,7.0
-Eternal Sword,9,8.346666666666668
-Exquisite Leather,5,8.0
-Ezomyte Axe,48,5.415159574468085
-Ezomyte Blade,17,5.0
-Ezomyte Burgonet,13,7.321538461538463
-Ezomyte Dagger,2,10.0
-Ezomyte Staff,48,5.491113892365457
-Festival Mask,34,4.0
-Fiend Dagger,24,6.0625
-Fingerless Silk Gloves,3,10.0
-Flaying Knife,30,4.0
-Fright Claw,32,4.0
-Fugitive Boots,3,10.0
-Full Dragonscale,14,6.0
-Full Wyrmscale,11,7.0
-Gavel,8,8.0625
-Gilded Sallet,6,8.0
-Gladius,12,6.0
-Glorious Plate,2,10.0
-Gnarled Branch,51,4.341176470588236
-Goat's Horn,35,3.0
-Goathide Boots,25,4.0
-Goathide Gloves,40,3.0
-Gold Amulet,95,4.495000000000001
-Gold Ring,40,5.852
-Golden Mask,63,4.0
-Golden Plate,21,5.0
-Goliath Gauntlets,21,5.0
-Grand Mana Flask,1,12.0
-Granite Flask,21,7.084444444444445
-Great Crown,23,5.0
-Great Helmet,16,6.0
-Great Mallet,26,5.81923076923077
-Greater Mana Flask,16,5.0
-Grinning Fetish,27,4.0
-Gut Ripper,29,6.582142857142857
-Hallowed Hybrid Flask,18,5.0
-Harbinger Bow,16,6.955000000000001
-Harlequin Mask,5,8.0
-Harmonic Spirit Shield,24,5.0
-Headsman Axe,20,5.0
-Heavy Belt,103,5.421333333333333
-Highland Blade,14,6.0
-Holy Chainmail,5,8.0
-Hubris Circlet,24,7.147500000000001
-Hydrascale Gauntlets,1,12.0
-Imbued Wand,74,4.5103448275862075
-Imperial Bow,2,10.0
-Imperial Claw,11,7.990909090909092
-Imperial Maul,1,12.0
-Imperial Skean,22,5.0
-Imperial Staff,45,7.000000000000001
-Infernal Axe,6,8.0
-Infernal Sword,13,6.0
-Iron Circlet,30,5.128
-Iron Flask,3,10.600000000000001
-Iron Gauntlets,48,3.0
-Iron Hat,54,2.0
-Iron Mask,24,4.0
-Iron Ring,213,3.2475471698113214
-Iron Staff,99,3.2833333333333337
-Ironscale Boots,44,3.0
-Ironscale Gauntlets,29,4.0
-Ironwood Buckler,13,6.0
-Jade Amulet,77,4.6814285714285715
-Jade Hatchet,104,1.0
-Jagged Foil,21,5.0
-Jagged Maul,19,5.0
-Jasper Chopper,30,4.0
-Jewelled Foil,1,12.0
-Judgement Staff,8,8.530000000000001
-Karui Chopper,35,4.0
-Karui Sceptre,14,7.750000000000001
-Lacquered Buckler,4,10.0
-Lacquered Garb,21,6.0
-Lacquered Helmet,27,4.0
-Laminated Kite Shield,38,4.539473684210527
-Lapis Amulet,114,4.185542168674699
-Large Hybrid Flask,4,8.0
-Latticed Ringmail,26,4.0
-Leather Belt,116,4.21452934662237
-Leather Cap,70,2.0
-Leather Hood,14,7.140000000000001
-Legion Boots,27,6.0
-Legion Gloves,17,5.0
-Legion Sword,16,5.0
-Lion Pelt,3,10.0
-Lion Sword,2,10.0
-Long Bow,52,2.0
-Lunaris Circlet,21,5.0
-Maelström Staff,3,10.600000000000001
-Majestic Plate,3,10.0
-Meatgrinder,2,10.0
-Mesh Boots,49,3.0
-Mesh Gloves,37,4.957837837837838
-Midnight Blade,10,7.732
-Military Staff,7,8.0
-Mind Cage,5,9.732000000000001
-Mirrored Spiked Shield,10,7.0
-Moonstone Ring,118,4.5136
-Mosaic Kite Shield,30,4.0
-Murder Mitts,3,10.0
-Nailed Fist,45,3.0
-Necromancer Circlet,4,9.0
-Necromancer Silks,17,6.292941176470588
-Nightmare Bascinet,15,7.5440000000000005
-Nubuck Boots,29,4.0
-Nubuck Gloves,34,4.0
-Occultist's Vestment,1,12.0
-Onyx Amulet,66,6.654285714285715
-Opal Ring,8,7.0
-Opal Sceptre,15,6.0
-Ornate Mace,18,6.76
-Ornate Quiver,4,9.0
-Ornate Ringmail,13,6.0
-Ornate Sword,16,6.0
-Painted Buckler,28,4.0
-Painted Tower Shield,3,10.0
-Paua Amulet,46,4.622727272727273
-Paua Ring,110,3.4722222222222228
-Penetrating Arrow Quiver,32,4.0
-Pine Buckler,36,3.0
-Pinnacle Tower Shield,8,7.0
-Plague Mask,24,4.0
-Plank Kite Shield,33,4.0
-Plate Vest,25,4.0
-Plated Greaves,30,4.0
-Platinum Kris,10,7.0
-Platinum Sceptre,27,4.0
-Poleaxe,44,3.0
-Polished Spiked Shield,15,6.0
-Praetor Crown,9,9.396
-Primal Arrow Quiver,11,7.0
-Primordial Staff,15,6.0
-Prismatic Jewel,2,12.0
-Prismatic Ring,120,3.268023931623932
-Prophet Crown,20,7.566666666666667
-Quartz Flask,16,6.0
-Quicksilver Flask,10,7.0
-Ranger Bow,5,8.0
-Raven Mask,3,10.0
-Rawhide Boots,1,12.0
-Rawhide Tower Shield,17,5.0
-Reaver Helmet,6,8.0
-Reaver Sword,32,5.608750000000001
-Recurve Bow,44,3.0
-Regicide Mask,16,6.955000000000001
-Reinforced Greaves,18,5.0
-Reinforced Tower Shield,24,5.0
-Ritual Sceptre,6,8.0
-Rock Breaker,41,3.0
-Rotfeather Talisman,18,5.0
-Rotted Round Shield,26,4.0
-Royal Axe,5,8.0
-Royal Bow,8,7.0
-Royal Sceptre,7,8.0
-Royal Skean,27,5.404444444444445
-Royal Staff,29,4.0
-Ruby Ring,75,4.67380790960452
-Runic Gages,1,12.0
-Rusted Sword,27,4.0
-Rustic Sash,80,4.146923076923077
-Sabre,28,4.0
-Sadist Garb,3,10.600000000000001
-Sage Wand,27,5.146666666666667
-Sage's Robe,21,6.0
-Saint's Hauberk,3,10.0
-Saintly Chainmail,13,7.578461538461539
-Samite Gloves,19,5.0
-Samnite Helmet,24,5.0
-Sanctified Life Flask,11,7.0
-Sanctified Mana Flask,11,7.0
-Sapphire Flask,5,8.0
-Sapphire Ring,45,6.379607843137256
-Satin Gloves,23,6.247826086956522
-Satin Slippers,8,7.0
-Scholar Boots,21,5.0
-Scholar's Robe,7,8.0
-Secutor Helm,27,4.0
-Sentinel Jacket,33,4.0
-Serpentine Staff,14,7.140000000000001
-Serpentscale Boots,4,9.0
-Serpentscale Gauntlets,19,5.0
-Serrated Arrow Quiver,32,4.0
-Shackled Boots,26,4.0
-Shadow Axe,25,4.0
-Shadow Sceptre,10,8.572000000000001
-Shagreen Boots,27,4.0
-Shagreen Gloves,13,6.0
-Sharkskin Boots,1,12.0
-Sharkskin Tunic,1,12.0
-Sharktooth Arrow Quiver,64,3.595625
-Short Bow,70,2.0
-Silk Gloves,1,12.0
-Silk Slippers,35,5.104000000000001
-Silken Hood,28,4.0
-Silken Vest,80,1.0
-Silver Flask,18,5.0
-Simple Robe,50,3.9424
-Sinner Tricorne,10,7.0
-Skinning Knife,37,3.0
-Sledgehammer,32,4.0
-Slink Boots,1,12.0
-Slink Gloves,1,12.0
-Small Cluster Jewel,2,12.0
-Solaris Circlet,21,6.8568421052631585
-Soldier Boots,21,5.0
-Soldier Gloves,24,5.0
-Soldier Helmet,35,4.0
-Sorcerer Boots,11,7.0
-Spidersilk Robe,40,4.515384615384615
-Spike-Point Arrow Quiver,12,6.0
-Spiked Club,34,4.0
-Spine Bow,4,9.0
-Spiraled Wand,32,4.755625
-Stealth Boots,28,5.400000000000001
-Steel Circlet,4,9.0
-Steel Gauntlets,6,8.0
-Steel Kite Shield,1,12.0
-Steel Ring,2,10.0
-Steelhead,25,4.0
-Steelscale Gauntlets,6,8.0
-Steelwood Bow,1,12.0
-Stibnite Flask,10,8.010000000000002
-Stiletto,30,4.0
-Strapped Boots,37,3.0
-Strapped Mitts,79,1.0
-Studded Belt,4,10.530000000000001
-Studded Round Shield,20,5.0
-Stygian Vise,1,12.0
-Sulphur Flask,47,5.336521739130435
-Supreme Spiked Shield,7,8.0
-Tarnished Spirit Shield,46,3.9321739130434783
-Teak Round Shield,5,8.0
-Terror Claw,15,6.0
-Terror Maul,20,5.0
-Thresher Claw,27,4.0
-Throat Stabber,27,4.0
-Tiger Sword,19,5.0
-Timeless Jewel,3,12.0
-Timeworn Claw,30,4.0
-Titan Gauntlets,13,8.0
-Titan Greaves,2,10.0
-Tomahawk,17,5.0
-Topaz Ring,103,4.1292857142857144
-Trapper Boots,12,6.0
-Tribal Circlet,42,3.0
-Tricorne,10,7.0
-Triumphant Lamellar,11,7.0
-Turquoise Amulet,114,5.253690476190476
-Twilight Blade,14,6.0
-Two-Point Arrow Quiver,30,4.0
-Two-Stone Ring,76,5.3822222222222225
-Tyrant's Sekhem,21,5.0
-Unset Ring,145,4.800000000000001
-Ursine Pelt,21,5.0
-Vaal Axe,8,7.0
-Vaal Blade,2,10.0
-Vaal Buckler,10,7.0
-Vaal Claw,18,6.283333333333333
-Vaal Gauntlets,5,9.732000000000001
-Vaal Greaves,3,10.0
-Vaal Hatchet,1,12.0
-Vaal Mask,5,8.0
-Vaal Rapier,2,10.0
-Vaal Regalia,13,7.673846153846155
-Vanguard Belt,21,5.0
-Varnished Coat,8,7.0
-Velvet Gloves,57,2.0
-Velvet Slippers,32,4.0
-Vermillion Ring,1,12.0
-Vile Staff,7,8.0
-Vine Circlet,41,3.0
-Viridian Jewel,32,10.260000000000002
-Void Axe,2,10.0
-Void Sceptre,1,12.0
-War Buckler,10,7.0
-War Hammer,66,3.331818181818182
-War Sword,27,5.404444444444445
-Wereclaw Talisman,2,10.0
-Whalebone Rapier,25,4.0
-Widowsilk Robe,3,10.600000000000001
-Wild Leather,24,4.0
-Wolf Pelt,47,3.0
-Woodsplitter,41,3.0
-Wool Gloves,45,3.0
-Wool Shoes,18,5.0
-Wrapped Mitts,32,4.0
-Wyrmscale Gauntlets,59,4.0
-Zealot Gloves,7,8.879999999999999
-Zealot Helmet,43,3.0
-Zodiac Leather,3,10.600000000000001
+Base Type,total_count,rarity_tier
+Abyssal Axe,876,11
+Agate Amulet,4537,7
+Amber Amulet,3017,7
+Ambush Mitts,1579,10
+Ambusher,2564,9
+Amethyst Flask,1604,7
+Amethyst Ring,4258,10
+Ancient Gauntlets,743,10
+Ancient Greaves,1474,8
+Antique Gauntlets,517,8
+Antique Greaves,1205,5
+Antique Rapier,1032,5
+Arcanist Gloves,949,10
+Arcanist Slippers,976,9
+Archon Kite Shield,1925,10
+Assassin Bow,2013,8
+Assassin's Boots,640,10
+Assassin's Garb,939,7
+Assassin's Mitts,3319,8
+Astral Plate,2397,7
+Auric Mace,912,6
+Aventail Helmet,1272,5
+Awl,1024,5
+Barbute Helmet,1147,6
+Baroque Round Shield,798,6
+Basket Rapier,1076,5
+Bastard Sword,1004,6
+Bismuth Flask,2022,7
+Black Maw Talisman,1229,5
+Blood Raiment,910,10
+Blood Sceptre,376,8
+Blue Pearl Amulet,1051,5
+Blunt Arrow Quiver,1120,9
+Bone Armour,1168,6
+Bone Circlet,1119,8
+Bone Helmet,1689,7
+Boot Blade,1052,5
+Boot Knife,1124,10
+Branded Kite Shield,1132,6
+Brass Maul,989,9
+Brass Spirit Shield,1045,6
+Broadhead Arrow Quiver,635,10
+Bronze Gauntlets,1186,5
+Bronze Sceptre,1145,5
+Bronzescale Boots,1341,10
+Bronzescale Gauntlets,2076,7
+Buckskin Tunic,1165,5
+Burnished Spiked Shield,44,8
+Butcher Axe,214,10
+Cabalist Regalia,256,9
+Callous Mask,1378,7
+Cardinal Round Shield,625,8
+Carnal Armour,2720,10
+Carnal Boots,791,10
+Carnal Mitts,2820,8
+Carnal Sceptre,935,6
+Carved Wand,2205,7
+Cedar Tower Shield,860,7
+Chain Belt,5743,8
+Chain Gloves,1030,6
+Champion Kite Shield,903,5
+Charan's Sword,108,9
+Chiming Spirit Shield,1415,10
+Citadel Bow,1732,9
+Citrine Amulet,5442,7
+Clasped Boots,1240,9
+Clasped Mitts,2194,6
+Cleaver,1090,10
+Close Helmet,1199,5
+Cloth Belt,11047,9
+Clutching Talisman,1230,5
+Cobalt Jewel,27226,8
+Coiled Staff,623,9
+Colossal Tower Shield,2237,6
+Colosseum Plate,529,7
+Compound Spiked Shield,1017,6
+Conjurer Boots,903,7
+Conjurer Gloves,1171,6
+Conquest Chainmail,1095,5
+Copper Plate,1151,5
+Coral Amulet,5404,8
+Coral Ring,4097,8
+Corrugated Buckler,965,6
+Corsair Sword,1102,6
+Crimson Jewel,25366,7
+Crimson Round Shield,116,10
+Crude Bow,2756,8
+Crusader Boots,185,9
+Crusader Chainmail,1461,9
+Crusader Gloves,2152,7
+Crusader Plate,2546,7
+Crystal Belt,1575,7
+Crystal Sceptre,1850,7
+Crystal Wand,225,9
+Cutlass,784,8
+Cutthroat's Garb,1374,5
+Death Bow,2514,7
+Decimation Bow,1205,9
+Decorative Axe,1027,5
+Deerskin Boots,1168,5
+Deerskin Gloves,1006,6
+Deicide Mask,588,7
+Demon Dagger,872,6
+Desert Brigandine,1401,6
+Despot Axe,1163,9
+Destiny Leather,1665,4
+Destroyer Regalia,1006,6
+Devout Chainmail,912,7
+Diamond Flask,1217,5
+Diamond Ring,3524,5
+Dragonscale Boots,1557,8
+Dragonscale Gauntlets,1215,7
+Dread Maul,813,6
+Dream Mace,984,5
+Driftwood Wand,1262,4
+Dusk Blade,1067,6
+Ebony Tower Shield,1598,10
+Eelskin Boots,1042,6
+Eelskin Gloves,1039,7
+Elder Sword,1208,9
+Elegant Foil,46,8
+Elegant Ringmail,2760,8
+Elegant Round Shield,1446,8
+Elegant Sword,1145,10
+Embroidered Gloves,953,7
+Enameled Buckler,521,8
+Engraved Greatsword,302,10
+Engraved Wand,1991,9
+Estoc,1023,5
+Etched Greatsword,1212,6
+Eternal Burgonet,857,8
+Eternal Sword,3114,8
+Exquisite Leather,2411,7
+Ezomyte Axe,2332,9
+Ezomyte Blade,1197,9
+Ezomyte Burgonet,2152,10
+Ezomyte Dagger,1119,11
+Ezomyte Spiked Shield,975,3
+Ezomyte Staff,2994,9
+Ezomyte Tower Shield,460,9
+Fencer Helm,138,10
+Festival Mask,1474,9
+Fiend Dagger,1789,8
+Fingerless Silk Gloves,643,9
+Fishing Rod,250,11
+Flaying Knife,991,6
+Fluted Bascinet,281,9
+Foul Staff,41,11
+Fright Claw,1085,5
+Fugitive Boots,1221,6
+Full Dragonscale,930,6
+Full Scale Armour,26,8
+Full Wyrmscale,1377,4
+Gavel,1697,9
+Gemstone Sword,269,10
+Ghastly Eye Jewel,321,9
+Gilded Sallet,840,8
+Girded Tower Shield,814,6
+Gladiator Plate,1255,5
+Gladius,1268,10
+Glorious Plate,1586,10
+Gnarled Branch,2267,10
+Goat's Horn,1144,5
+Goathide Boots,1625,8
+Goathide Gloves,1220,9
+Gold Amulet,5386,7
+Gold Flask,18,12
+Gold Ring,3611,6
+Golden Buckler,763,7
+Golden Mask,2351,6
+Golden Plate,1758,8
+Goliath Gauntlets,1567,7
+Goliath Greaves,792,9
+Graceful Sword,133,10
+Grand Mana Flask,406,7
+Granite Flask,2936,8
+Great Crown,3367,7
+Great Helmet,1218,9
+Great Mallet,1698,8
+Greater Mana Flask,1214,4
+Greatwolf Talisman,916,2
+Grinning Fetish,1283,10
+Gut Ripper,2075,9
+Hallowed Hybrid Flask,1217,5
+Harbinger Bow,1867,7
+Harlequin Mask,1262,8
+Harmonic Spirit Shield,1228,5
+Headsman Axe,1052,5
+Heavy Belt,9663,7
+Hellion's Paw,505,9
+Highborn Staff,668,10
+Highland Blade,1036,5
+Holy Chainmail,771,7
+Hubris Circlet,3929,7
+Hydrascale Boots,317,10
+Hydrascale Gauntlets,1028,9
+Hypnotic Eye Jewel,296,8
+Imbued Wand,3503,7
+Imperial Bow,1423,9
+Imperial Claw,1886,9
+Imperial Maul,538,8
+Imperial Skean,1493,8
+Imperial Staff,4636,8
+Infernal Axe,979,6
+Infernal Sword,2467,10
+Iron Circlet,2283,6
+Iron Flask,928,11
+Iron Gauntlets,1250,5
+Iron Hat,1244,9
+Iron Mask,888,9
+Iron Ring,7998,6
+Iron Sceptre,39,7
+Iron Staff,2935,8
+Ironscale Boots,1174,9
+Ironscale Gauntlets,1040,6
+Ironwood Buckler,874,7
+Jade Amulet,6284,9
+Jade Hatchet,1189,8
+Jagged Foil,911,6
+Jagged Maul,957,9
+Jasper Chopper,1194,10
+Jewelled Foil,913,6
+Jingling Spirit Shield,429,7
+Judgement Staff,2444,9
+Karui Chopper,1037,6
+Karui Maul,302,7
+Karui Sceptre,1546,9
+Lacquered Buckler,1435,11
+Lacquered Garb,2443,6
+Lacquered Helmet,1828,7
+Laminated Kite Shield,1329,9
+Lapis Amulet,6592,8
+Large Cluster Jewel,2166,3
+Large Hybrid Flask,1210,5
+Latticed Ringmail,1282,9
+Leather Belt,9860,7
+Leather Cap,1276,4
+Leather Hood,1599,8
+Legion Boots,2269,7
+Legion Gloves,2160,6
+Legion Sword,1423,9
+Lion Pelt,1171,5
+Lion Sword,570,8
+Long Bow,1280,8
+Loricated Ringmail,88,7
+Lunaris Circlet,1167,5
+Maelström Staff,1124,10
+Magistrate Crown,1369,10
+Majestic Plate,910,7
+Maple Round Shield,135,11
+Meatgrinder,549,8
+Medium Cluster Jewel,932,1
+Mesh Boots,1210,4
+Mesh Gloves,1983,8
+Midnight Blade,2372,8
+Military Staff,730,7
+Mind Cage,2001,8
+Mirrored Spiked Shield,1312,10
+Moonstone Ring,6593,7
+Mosaic Kite Shield,1233,5
+Murder Boots,2714,8
+Murder Mitts,1404,9
+Murderous Eye Jewel,290,8
+Nailed Fist,1289,9
+Nameless Ring,1547,8
+Necromancer Circlet,2253,10
+Necromancer Silks,1856,7
+Nightmare Bascinet,2188,6
+Nightmare Mace,418,7
+Nubuck Boots,1295,4
+Nubuck Gloves,1208,6
+Occultist's Vestment,1540,8
+Onyx Amulet,13988,7
+Opal Ring,2857,7
+Opal Sceptre,970,6
+Ornate Mace,1117,10
+Ornate Quiver,1106,10
+Ornate Ringmail,1073,5
+Ornate Sword,1208,7
+Painted Buckler,1176,9
+Painted Tower Shield,769,8
+Paua Amulet,3672,8
+Paua Ring,5450,8
+Penetrating Arrow Quiver,991,8
+Phantom Mace,311,7
+Pig-Faced Bascinet,254,9
+Piledriver,150,8
+Pine Buckler,1115,5
+Pinnacle Tower Shield,948,9
+Plague Mask,1021,6
+Plank Kite Shield,1186,9
+Plate Vest,1092,8
+Plated Greaves,1231,4
+Platinum Kris,1092,5
+Platinum Sceptre,1106,6
+Poleaxe,1031,5
+Polished Spiked Shield,1192,6
+Praetor Crown,3857,6
+Primal Arrow Quiver,1292,8
+Primordial Staff,1276,10
+Prismatic Jewel,3928,8
+Prismatic Ring,4532,4
+Prophecy Wand,1005,10
+Prophet Crown,3533,7
+Quarterstaff,1028,6
+Quartz Flask,2071,8
+Quicksilver Flask,1204,4
+Ranger Bow,1010,8
+Raven Mask,996,6
+Rawhide Boots,794,7
+Rawhide Tower Shield,1033,6
+Reaver Helmet,629,9
+Reaver Sword,1893,9
+Recurve Bow,1172,5
+Regicide Mask,1823,10
+Reinforced Greaves,1275,7
+Reinforced Tower Shield,873,11
+Ring,604,7
+Ritual Sceptre,841,7
+Riveted Boots,865,6
+Riveted Gloves,238,8
+Rock Breaker,1079,6
+Rotfeather Talisman,1223,5
+Rotted Round Shield,1036,6
+Royal Axe,855,8
+Royal Bow,1011,6
+Royal Burgonet,976,8
+Royal Sceptre,872,7
+Royal Skean,1405,10
+Royal Staff,1054,8
+Ruby Flask,1424,6
+Ruby Ring,6471,9
+Runic Crown,59,11
+Runic Gages,532,10
+Runic Gauntlets,230,10
+Runic Helm,283,10
+Runic Sabatons,374,8
+Runic Sollerets,116,11
+Rusted Sword,1140,8
+Rustic Sash,4403,8
+Sabre,1092,5
+Sacrificial Garb,972,5
+Sadist Garb,2531,8
+Sage Wand,1865,10
+Sage's Robe,1763,7
+Saint's Hauberk,2418,9
+Saintly Chainmail,2037,7
+Samite Gloves,1195,10
+Samnite Helmet,1187,6
+Sanctified Life Flask,1214,5
+Sanctified Mana Flask,1562,9
+Sapphire Flask,1018,5
+Sapphire Ring,7763,8
+Satin Gloves,2067,10
+Satin Slippers,407,10
+Savant's Robe,875,9
+Scholar Boots,1257,8
+Scholar's Robe,1575,5
+Searching Eye Jewel,307,8
+Secutor Helm,1133,5
+Sentinel Jacket,1563,9
+Serpentine Staff,2479,5
+Serpentscale Boots,570,7
+Serpentscale Gauntlets,871,7
+Serrated Arrow Quiver,996,9
+Shackled Boots,1060,9
+Shadow Axe,1041,6
+Shadow Sceptre,1642,9
+Shagreen Boots,1559,9
+Shagreen Gloves,1043,6
+Sharkskin Boots,841,7
+Sharkskin Tunic,723,7
+Sharktooth Arrow Quiver,1997,8
+Short Bow,1692,9
+Siege Axe,375,11
+Siege Helmet,152,9
+Silk Gloves,1119,4
+Silk Slippers,1365,9
+Silken Hood,1550,10
+Silken Vest,1298,5
+Silver Flask,2166,4
+Simple Robe,3023,6
+Sinner Tricorne,2184,9
+Skinning Knife,1116,10
+Slaughter Knife,362,7
+Sledgehammer,994,9
+Slink Boots,975,9
+Slink Gloves,844,7
+Small Cluster Jewel,5777,7
+Solaris Circlet,2805,10
+Soldier Boots,1574,9
+Soldier Gloves,1397,9
+Soldier Helmet,1132,5
+Sorcerer Boots,1328,8
+Sovereign Spiked Shield,106,10
+Spidersilk Robe,2383,8
+Spike-Point Arrow Quiver,1095,10
+Spiked Club,1118,5
+Spiked Gloves,438,8
+Spine Bow,1330,7
+Spiraled Wand,1931,8
+Stealth Boots,1505,8
+Steel Circlet,1224,10
+Steel Gauntlets,818,11
+Steel Kite Shield,1009,9
+Steel Ring,1432,10
+Steelhead,842,7
+Steelscale Gauntlets,2215,7
+Steelwood Bow,302,8
+Stibnite Flask,1709,9
+Stiletto,1168,9
+Strapped Boots,1177,5
+Strapped Leather,378,7
+Strapped Mitts,1274,9
+Studded Belt,2062,8
+Studded Round Shield,1013,6
+Stygian Vise,1060,4
+Sulphur Flask,3660,7
+Supreme Spiked Shield,952,6
+Tarnished Spirit Shield,1727,8
+Teak Round Shield,860,7
+Terror Claw,1674,7
+Terror Maul,1042,11
+Thresher Claw,1095,5
+Throat Stabber,1090,6
+Tiger Sword,1154,5
+Timeless Jewel,5992,1
+Timeworn Claw,845,6
+Titan Gauntlets,2385,9
+Titan Greaves,1666,9
+Titanium Spirit Shield,1381,7
+Tomahawk,940,6
+Topaz Flask,805,5
+Topaz Ring,7463,9
+Tornado Wand,732,8
+Trapper Boots,632,8
+Tribal Circlet,1188,5
+Tricorne,915,6
+Triumphant Lamellar,2401,8
+Turquoise Amulet,7148,7
+Twilight Blade,1043,5
+Two-Point Arrow Quiver,1681,8
+Two-Stone Ring,6534,6
+Tyrant's Sekhem,968,7
+Unset Amulet,161,9
+Unset Ring,11926,9
+Ursine Pelt,1204,4
+Vaal Axe,1322,10
+Vaal Blade,1299,8
+Vaal Buckler,1055,5
+Vaal Claw,1441,8
+Vaal Gauntlets,1137,9
+Vaal Greaves,989,7
+Vaal Hatchet,981,6
+Vaal Mask,1747,6
+Vaal Rapier,1885,7
+Vaal Regalia,2128,6
+Vaal Sceptre,1250,8
+Vaal Spirit Shield,598,10
+Vanguard Belt,2018,9
+Varnished Coat,1817,9
+Velvet Gloves,1299,8
+Velvet Slippers,1195,10
+Vermillion Ring,232,12
+Vile Staff,841,6
+Vine Circlet,1066,9
+Viridian Jewel,23805,7
+Visored Sallet,395,9
+Void Axe,383,9
+Void Sceptre,2517,8
+War Buckler,1033,9
+War Hammer,2048,6
+War Sword,1167,10
+Wereclaw Talisman,1085,7
+Whalebone Rapier,929,6
+Widowsilk Robe,1449,9
+Wild Leather,1278,9
+Wolf Pelt,1248,5
+Woodsplitter,1184,8
+Wool Gloves,1166,4
+Wool Shoes,1222,4
+Wrapped Mitts,1112,5
+Wyrmscale Boots,929,5
+Wyrmscale Doublet,617,7
+Wyrmscale Gauntlets,2008,7
+Zealot Gloves,1521,10
+Zealot Helmet,1659,7
+Zodiac Leather,2578,9

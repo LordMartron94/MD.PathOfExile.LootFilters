@@ -54,24 +54,18 @@ def get_tier_from_rarity_and_use(rarity: float, usefulness: float) -> ItemTier:
 
     return tier
 
-def get_tier_from_rarity(rarity: float) -> ItemTier:
+def get_tier_from_rarity(rarity: int) -> ItemTier:
     """
     Maps rarity (1.0–12.0) to one of 12 ItemTier values
     """
     # 1) Validate inputs
-    if not (_MIN_INPUT <= rarity <= 12.0):
+    if not (_MIN_INPUT <= rarity <= 12):
         raise ValueError(
-            f"rarity must be between {_MIN_INPUT} and {_MAX_INPUT}; "
+            f"rarity must be between {_MIN_INPUT} and 12; "
             f"got rarity={rarity}"
         )
 
-    # 2) Normalize score into [0, 1), then scale to tier-index [0, NUM_TIERS]
-    span = _MAX_INPUT - _MIN_INPUT
-    normalized = (rarity - _MIN_INPUT) / span
-    raw_idx = math.floor(normalized * _NUM_TIERS)
-    idx = max(0, min(raw_idx, _NUM_TIERS - 1))
-
-    tier = _ORDERED_TIERS[idx]
+    tier = _ORDERED_TIERS[rarity-1]
 
     return tier
 

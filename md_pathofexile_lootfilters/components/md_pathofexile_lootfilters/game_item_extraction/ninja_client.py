@@ -1,3 +1,4 @@
+import pprint
 from pathlib import Path
 from typing import List, Any
 
@@ -157,23 +158,39 @@ class PoeNinjaClient:
         for key in table.keys():
             entry = table[key]
             name = self._parse_entry(entry, source)
-            if name:
+            if name is not None and name != "":
                 names.append(name)
         return names
 
     def _parse_entry(self, entry: Any, source: Path) -> str:
-        if not isinstance(entry, str):
-            bt = getattr(entry, "baseTypeName", "")
-            variant = getattr(entry, "variantId", "")
+        # If it's a raw Lua string, parse as before
+        if isinstance(entry, str):
+            lines = [l.strip() for l in entry.splitlines()
+                     if l.strip() and not l.startswith('--')]
+            return lines[1] if len(lines) > 1 else ""
 
-            if bt == "":
-                self._logger.warning(f"Invalid entry... Not including!", separator=self._separator)
-                return ""
-            if "alt" in variant.lower():
-                self._logger.warning(f"Alt Variant Detected - Not including! type={bt}, source={source.name}", separator=self._separator)
-                return ""
+        entry_dict = dict(entry)
 
-            return bt
+        # Otherwise it's a Lua table–style object
+        # 1. Try the baseTypeName, 2. if that's empty use the name field
+        base_type = getattr(entry, "baseTypeName", None)
+        name = getattr(entry, "name", None)
 
-        lines = [l.strip() for l in entry.splitlines() if l.strip() and not l.startswith('--')]
-        return lines[1] if len(lines) > 1 else ""
+        if not base_type and name:
+            name = name + " Support"
+
+        base = base_type or name
+
+        variant = getattr(entry, "variantId", "")
+
+        if not base:
+            self._logger.warning(f"Rejected: {base} -> {source.name} | (reason: no name)\n{pprint.pformat(entry_dict)}", separator=self._separator)
+            return ""
+
+        if "alt" in variant.lower():
+            self._logger.warning(f"Rejected: {base} -> {source.name} | (reason: variant)\n{pprint.pformat(entry_dict)}", separator=self._separator)
+            return ""
+
+        self._logger.debug(f"Added: {base} -> {source.name}\n{pprint.pformat(entry_dict)}", separator=self._separator)
+
+        return base

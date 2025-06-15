@@ -1,659 +1,1250 @@
 Base Type,Item Name,Rarity,List Count,Count
-Ornate Mace,Frostbreath,6,15,14
-Silken Hood,Starkonja's Head,4,28,28
-Chain Gloves,Shackles of the Wretched,4,28,27
-Sharkskin Tunic,The Rat Cage,12,1,1
-Poleaxe,Wideswing,3,44,44
-Necromancer Silks,Fleshcrafter,12,1,1
-Cardinal Round Shield,Vix Lunaris,8,7,7
-Devout Chainmail,The Fourth Vow,9,4,4
-Lapis Amulet,Marylene's Fallacy,6,13,12
-Grinning Fetish,Earendel's Embrace,4,27,27
-Paua Ring,Soulbound,5,17,16
-Cloth Belt,Replica Soul Tether,10,3,3
-Heavy Belt,Mother's Embrace,10,2,2
-Leather Belt,Umbilicus Immortalis,8,5,5
-Viridian Jewel,Unnatural Instinct,12,1,1
-Regicide Mask,Gorgon's Gaze,10,3,3
-Assassin's Mitts,Storm's Gift,10,3,3
-Nightmare Bascinet,Devoto's Devotion,7,11,11
-Conjurer Gloves,Voidbringer,5,21,21
-Praetor Crown,Ahn's Contempt,9,4,4
-Paua Ring,Praxis,3,45,45
-Turquoise Amulet,Maligaro's Cruelty,5,24,24
-Iron Flask,Vorana's Preparation,10,2,2
-Citadel Bow,Xoph's Inception,12,1,1
-Crimson Jewel,Efficient Training,5,18,18
-Zodiac Leather,Hyrri's Ire,10,2,2
-Cobalt Jewel,Fortress Covenant,12,1,1
-Rotted Round Shield,Wheel of the Stormsail,4,27,26
-Crusader Chainmail,Ambu's Charge,6,15,15
-Ironwood Buckler,Kiloava's Bluster,6,14,13
-Cobalt Jewel,Tempered Mind,12,1,1
-Simple Robe,Thousand Ribbons,7,9,9
-Ancient Greaves,Redblade Tramplers,10,2,2
-Saintly Chainmail,Chains of Command,9,4,4
-Ritual Sceptre,Brutus' Lead Sprinkler,8,6,6
-Ezomyte Burgonet,Abyssus,7,8,8
-Terror Maul,Kongor's Undying Rage,5,20,20
-Two-Stone Ring,Berek's Pass,5,18,17
-Clasped Boots,Sundance,3,48,48
-Great Mallet,Chober Chaber,5,20,19
-Sapphire Ring,Replica Tasalio's Sign,12,1,1
-Crusader Gloves,Repentance,10,3,3
-Sadist Garb,Doppelgänger Guise,12,1,1
-Vine Circlet,Crown of Thorns,3,41,41
-Gold Amulet,Replica Winterheart,10,2,2
-Citrine Amulet,Eye of Innocence,12,1,1
-Timeless Jewel,Militant Faith,12,1,1
-Crystal Sceptre,Nycta's Lantern,12,1,1
-Barbute Helmet,Thrillsteel,4,29,28
-Crimson Jewel,Firesong,12,1,1
-Boot Blade,Widowmaker,5,19,19
-Royal Skean,Replica Heartbreaker,12,1,1
-Coral Ring,Sibyl's Lament,4,35,34
-Slink Boots,Atziri's Step,12,1,1
-Solaris Circlet,Flamesight,12,1,1
-Skinning Knife,Goredrill,3,39,37
-Tomahawk,Moonbender's Wing,5,17,17
-Coral Amulet,Tavukai,8,7,7
-Sage's Robe,Dialla's Malefaction,10,2,2
-Mind Cage,Scold's Bridle,9,4,4
-Coral Amulet,Araku Tiki,3,36,35
-Onyx Amulet,The Eternal Struggle,8,5,5
-Rustic Sash,Faminebind,4,29,28
-Opal Ring,Stormfire,7,8,8
-Reaver Sword,Hiltless,7,11,11
-Imperial Maul,Tidebreaker,12,1,1
-Ezomyte Axe,Wings of Entropy,6,15,15
-Viridian Jewel,Seething Fury,10,3,3
-Onyx Amulet,Eye of Chayula,6,13,12
-Arcanist Slippers,Inya's Epiphany,10,3,3
-Spiked Club,Gorebreaker,4,34,34
-Stiletto,Bloodplay,4,30,30
-Clasped Mitts,Shadows and Dust,4,34,33
-Infernal Axe,Dyadus,8,6,6
-Leather Belt,Wurm's Molt,4,30,29
-Wool Gloves,Sadima's Touch,3,45,45
-Antique Gauntlets,Admiral's Arrogance,12,1,1
-Coiled Staff,Xirgil's Crank,4,29,29
-Meatgrinder,Brain Rattler,10,2,2
-Zealot Helmet,Kitava's Thirst,3,43,43
-Paua Ring,Replica Doedre's Damning,10,2,2
-Leather Hood,Replica Heatshiver,12,1,1
-Lapis Amulet,Voice of the Storm,12,1,1
-Onyx Amulet,Solstice Vigil,12,1,1
-Ornate Mace,Replica Frostbreath,9,4,4
-Simple Robe,Tabula Rasa,3,41,41
-Rawhide Tower Shield,Lycosidae,5,18,17
-Brass Spirit Shield,Sentari's Answer,4,26,25
-Wolf Pelt,Elevore,3,48,47
-Moonstone Ring,Heartbound Loop,5,21,21
-Cobalt Jewel,Healthy Mind,12,1,1
-Crimson Jewel,Fragility,8,7,7
-Silk Gloves,Asenath's Gentle Touch,12,1,1
-Majestic Plate,Utula's Hunger,10,3,3
-Eternal Sword,Dreamfeather,8,5,5
-Colossal Tower Shield,Ahn's Heritage,6,16,16
-Tribal Circlet,Mark of the Red Covenant,3,42,42
-Gold Amulet,Perquil's Toe,4,32,31
-Royal Sceptre,The Black Cane,8,7,7
-Imbued Wand,Moonsorrow,6,15,14
-Elegant Ringmail,Geofri's Sanctuary,6,14,14
-Cloth Belt,Sunblast,12,1,1
-Full Dragonscale,Daresso's Defiance,6,14,14
-Bismuth Flask,The Wise Oak,7,8,8
-Jade Amulet,Willowgift,8,6,6
-Stibnite Flask,Sin's Rebirth,12,1,1
-Eelskin Gloves,Great Old One's Tentacles,6,13,13
-Sapphire Ring,Tasalio's Sign,5,21,21
-Flaying Knife,Mightflay,4,30,30
-Soldier Gloves,Southbound,5,24,24
-Basket Rapier,Aurumvorax,4,35,34
-Amber Amulet,Bloodsoaked Medallion,5,23,23
-Prismatic Ring,Lori's Lantern,3,48,47
-Two-Stone Ring,Call of the Brotherhood,6,14,14
-Crude Bow,Widowhail,5,23,22
-Abyssal Axe,Ngamahu's Flame,10,3,3
-Vaal Gauntlets,Replica Atziri's Acuity,12,1,1
-Topaz Ring,Storm Secret,5,18,17
-Shagreen Boots,Three-step Assault,4,28,27
-Quicksilver Flask,Rotgut,7,10,10
-Boot Knife,Ungil's Gauche,4,27,27
-Imperial Claw,Hand of Thought and Motion,12,1,1
-Carnal Sceptre,Breath of the Council,6,16,16
-Mind Cage,Rime Gaze,12,1,1
-Saint's Hauberk,The Ivory Tower,10,3,3
-Imperial Bow,Windripper,10,2,2
-Close Helmet,The Baron,2,53,52
-Leather Belt,Leash of Oblation,10,3,3
-Strapped Boots,Nomic's Storm,3,37,37
-Moonstone Ring,Shavronne's Revelation,9,4,4
-Silk Slippers,Bones of Ullr,4,33,33
-Archon Kite Shield,Invictus Solaris,10,3,3
-Small Cluster Jewel,Natural Affinity,12,1,1
-Unset Ring,Vivinsect,10,3,2
-Scholar's Robe,Cloak of Flame,8,7,7
-Fright Claw,Mortem Morsu,4,32,32
-Vanguard Belt,Perseverance,5,21,21
-Sapphire Ring,Circle of Fear,12,1,1
-Rusted Sword,Redbeak,4,29,27
-Two-Stone Ring,Berek's Respite,7,9,9
-Royal Bow,Doomfletch,7,8,8
-Cobalt Jewel,Witchbane,12,1,1
-Cutthroat's Garb,Bronn's Lithe,4,25,25
-Shagreen Gloves,Painseeker,6,14,13
-Occultist's Vestment,Shavronne's Wrappings,12,1,1
-Satin Slippers,Scornflux,7,8,8
-Runic Gages,Nightgrip,12,1,1
-Iron Circlet,Asenath's Mark,10,2,2
-Golden Mask,Willclash,4,28,28
-Ancient Gauntlets,Winds of Change,6,13,13
-Great Crown,Geofri's Crest,5,23,23
-Iron Gauntlets,Lochtonial Caress,3,50,48
-Steel Ring,Betrayal's Sting,10,2,2
-Carved Wand,The Poet's Pen,7,9,9
-Iron Ring,Prospero's Protection,3,42,40
-Leather Hood,Heatshiver,6,13,13
-Shadow Axe,Reaper's Pursuit,4,26,25
-Astral Plate,Death's Oath,7,8,8
-Iron Ring,Icefang Orbit,5,22,22
-Imperial Staff,Agnerod North,6,15,15
-Granite Flask,Replica Rumi's Concoction,12,1,1
-Iron Staff,Pillar of the Caged God,3,41,39
-Serpentscale Boots,Mutewind Whispersteps,9,4,4
-Prophet Crown,The Brine Crown,12,1,1
-Unset Ring,Squirming Terror,10,2,2
-Engraved Wand,Midnight Bargain,4,28,28
-Crimson Jewel,Bloodnotch,12,1,1
-Coral Ring,Winterweave,6,12,12
-Satin Gloves,Replica Allelopathy,12,1,1
-Widowsilk Robe,Infernal Mantle,10,2,2
-Iron Flask,Starlight Chalice,12,1,1
-Varnished Coat,Carcass Jack,7,8,8
-Antique Greaves,Torchoak Step,4,31,31
-Zodiac Leather,The Snowblind Grace,12,1,1
-Vermillion Ring,Enmity's Embrace,12,1,1
-Teak Round Shield,The Ghastly Theatre,8,5,5
-Ezomyte Blade,Kondo's Pride,5,17,17
-Cobalt Jewel,To Dust,7,9,9
-Soldier Boots,Alberon's Warpath,5,21,21
-Titan Gauntlets,Veruso's Battering Rams,8,6,6
-Vaal Axe,Hezmana's Bloodlust,7,8,8
-Aventail Helmet,Mindspiral,2,66,65
-Solaris Circlet,Thundersight,10,2,2
-Turquoise Amulet,Warped Timepiece,5,19,19
-Plated Greaves,Stormcharger,4,30,30
-Ezomyte Burgonet,Howlcrack,8,6,5
-Jagged Foil,Fidelitas' Spike,5,22,21
-Studded Belt,The Magnate,10,3,3
-Strapped Mitts,Facebreaker,1,79,79
-Ezomyte Axe,Replica Wings of Entropy,12,1,1
-Diamond Flask,Coralito's Signature,5,17,17
-Greater Mana Flask,Doedre's Elixir,5,18,16
-Mesh Gloves,The Hand of Phrecia,8,7,7
-Cobalt Jewel,Fertile Mind,8,7,7
-Pine Buckler,Crest of Perandus,3,36,36
-Sulphur Flask,Replica Sorrow of the Divine,12,1,1
-Solaris Circlet,Galesight,12,1,1
-Fiend Dagger,The Consuming Dark,5,21,21
-Unset Ring,The Hungry Loop,8,6,6
-Death Bow,Iron Commander,5,21,21
-Timeless Jewel,Lethal Pride,12,1,1
-Imperial Claw,Touch of Anguish,7,10,10
-Agate Amulet,Shaper's Seed,5,18,18
-Throat Stabber,The Wasp Nest,4,28,27
-Crimson Jewel,Might of the Meek,12,1,1
-Deerskin Boots,Deerstalker,3,49,48
-Diamond Ring,Romira's Banquet,4,25,25
-Jade Amulet,Karui Ward,4,29,29
-Elegant Sword,Lakishu's Blade,5,18,18
-Bastard Sword,Shiversting,4,33,32
-Quartz Flask,Forbidden Taste,6,16,16
-Pinnacle Tower Shield,Lioneye's Remorse,7,8,8
-Viridian Jewel,Pacifism,8,6,6
-Velvet Gloves,Doedre's Tenure,2,58,57
-Clutching Talisman,Blightwell,4,27,26
-Granite Flask,Lion's Roar,6,12,12
-Hubris Circlet,Crown of Eyes,8,6,6
-Golden Plate,Greed's Embrace,5,21,21
-Topaz Ring,Kikazaru,2,59,58
-Colossal Tower Shield,Dawnbreaker,10,3,3
-Carnal Armour,The Restless Ward,4,33,33
-Headsman Axe,The Blood Reaper,5,21,20
-Lapis Amulet,Doedre's Tongue,7,9,9
-Moonstone Ring,Valyrium,4,32,32
-Crusader Chainmail,Replica Ambu's Charge,10,2,2
-Terror Claw,Rive,6,15,15
-Unset Ring,Essence Worm,4,34,34
-Cloth Belt,Perandus Blazon,2,63,61
-Leather Cap,Goldrim,2,70,70
-Cobalt Jewel,Replica Powerlessness,12,1,1
-Moonstone Ring,Timeclasp,4,32,31
-War Buckler,Chalice of Horrors,7,11,10
-Jade Hatchet,The Screaming Eagle,1,107,104
-Vaal Hatchet,"Jack, the Axe",12,1,1
-Awl,Wildslash,3,40,36
-Small Cluster Jewel,Kitava's Teachings,12,1,1
-Harbinger Bow,Nuro's Harp,6,13,13
-Conquest Chainmail,Kingsguard,6,14,13
-Paua Amulet,Atziri's Foible,10,2,2
-Turquoise Amulet,Victario's Acuity,3,46,46
-Iron Ring,Venopuncture,4,25,25
-Imbued Wand,Obliteration,3,44,44
-Legion Sword,Hyaon's Fury,5,17,16
-Murder Mitts,Machina Mitts,10,3,3
-Prismatic Ring,Thief's Torment,2,71,70
-Cedar Tower Shield,Trolltimber Spire,4,32,31
-Primal Arrow Quiver,The Poised Prism,7,11,11
-Ezomyte Dagger,Cold Iron Point,10,2,2
-Unset Ring,Profane Proxy,8,6,6
-Lion Pelt,Obscurantis,10,3,3
-Praetor Crown,Voll's Vision,9,4,4
-Mirrored Spiked Shield,Leper's Alms,7,10,10
-Trapper Boots,Brinerot Whalers,6,12,12
-Steel Gauntlets,Meginord's Vise,8,6,6
-Laminated Kite Shield,Victario's Charity,3,37,37
-Driftwood Wand,Lifesprig,2,60,59
-Steelscale Gauntlets,Aurseize,8,6,6
-Spiraled Wand,Reverberation Rod,7,8,7
-Gold Ring,The Highwayman,6,16,14
-Rustic Sash,Feastbind,4,30,30
-Vaal Rapier,Paradoxica,10,2,2
-Onyx Amulet,Hinekora's Sight,10,3,3
-Assassin's Mitts,Snakebite,5,22,21
-Military Staff,Tremor Rod,8,7,7
-Thresher Claw,Cybil's Paw,4,28,27
-Sharktooth Arrow Quiver,Hyrri's Bite,3,43,43
-Silver Flask,Kiara's Determination,5,18,18
-Latticed Ringmail,Icetomb,4,27,26
-Fugitive Boots,Inextricable Fate,10,3,3
-Imperial Staff,Agnerod West,7,9,9
-Painted Tower Shield,Redblade Banner,10,3,3
-Sharktooth Arrow Quiver,Ahuana's Bite,5,21,21
-Serrated Arrow Quiver,Craghead,4,33,32
-Onyx Amulet,Carnage Heart,4,26,26
-Golden Mask,The Three Dragons,4,35,35
-Maelström Staff,Replica Duskdawn,12,1,1
-Chain Belt,Chain of Endurance,3,36,36
-Twilight Blade,Prismatic Eclipse,6,14,14
-Elder Sword,Innsbury Edge,5,19,19
-Crusader Plate,The Iron Fortress,12,1,1
-Cobalt Jewel,Forbidden Flesh,12,1,1
-Painted Buckler,Kaltenhalt,4,29,28
-Cobalt Jewel,Emperor's Wit,12,1,1
-Legion Boots,Gang's Momentum,6,15,15
-Fingerless Silk Gloves,Black Zenith,10,3,3
-Chain Belt,Bated Breath,3,42,42
-Lacquered Garb,Victario's Influence,5,19,19
-Scholar Boots,Shavronne's Pace,5,21,21
-Deerskin Gloves,Maligaro's Virtuosity,10,2,2
-Vile Staff,The Whispering Ice,8,7,7
-Exquisite Leather,Yriel's Fostering,8,5,5
-Nightmare Bascinet,The Bringer of Rain,9,4,4
-Paua Ring,Perandus Signet,10,3,3
-Plate Vest,Bramblejack,4,25,25
-Cobalt Jewel,Replica Reckless Defence,10,2,2
-Death Bow,Death's Harp,8,6,6
-Gut Ripper,Advancing Fortress,5,17,17
-Onyx Amulet,Replica Dragonfang's Flight,6,14,13
-Satin Gloves,Demon Stitcher,5,22,22
-Carved Wand,Ashcaller,4,28,28
-Steel Circlet,Maw of Conquest,9,4,4
-Great Helmet,Veil of the Night,6,16,16
-Amber Amulet,The Anvil,5,22,21
-Ornate Ringmail,Lightbane Raiment,6,13,13
-Ornate Quiver,Maloney's Mechanism,9,4,4
-Necromancer Silks,Vis Mortis,5,17,16
-Dread Maul,Voidhome,7,11,10
-Vaal Claw,Allure,5,17,17
-Cleaver,Dreadarc,3,45,43
-Jade Amulet,Hyrri's Truth,4,33,33
-Ruby Ring,Replica Emberwake,10,2,2
-Wyrmscale Gauntlets,Tanu Ahi,4,33,32
-Great Mallet,Trypanon,8,7,7
-Iron Ring,Blackheart,3,47,46
-Iron Staff,Realmshaper,3,38,37
-Shadow Sceptre,Bitterdream,10,3,3
-Arcanist Gloves,Replica Grip of the Council,12,1,1
-Wild Leather,Foxshade,4,25,24
-Heavy Belt,Siegebreaker,5,23,23
-Supreme Spiked Shield,Jaws of Agony,8,7,7
-Gold Amulet,The Ignomon,4,33,32
-Cobalt Jewel,Fevered Mind,10,3,3
-Grand Mana Flask,Zerphi's Last Breath,12,1,1
-Cobalt Jewel,Primordial Harmony,12,1,1
-Regicide Mask,Crown of the Pale King,6,14,13
-Gnarled Branch,Fencoil,5,22,22
-Viridian Jewel,Self-Flagellation,12,1,1
-Titan Gauntlets,Kaom's Spirit,8,7,7
-Citadel Bow,The Gluttonous Tide,12,1,1
-Ezomyte Staff,The Fulcrum,12,1,1
-Decimation Bow,Infractem,6,12,10
-Conjurer Boots,Rainbowstride,8,6,6
-Rock Breaker,Clayshaper,3,42,41
-Heavy Belt,Kaom's Binding,8,5,5
-Velvet Slippers,Wondertrap,4,34,32
-Imperial Staff,Agnerod East,7,10,10
-Jasper Chopper,The Harvest,4,30,30
-Samnite Helmet,Hrimnor's Resolve,5,24,24
-Dragonscale Gauntlets,Surgebinders,7,8,8
-Sledgehammer,Hrimnor's Hymn,4,33,32
-Topaz Ring,Valako's Sign,5,23,23
-Antique Rapier,Ewar's Mirage,6,14,14
-Agate Amulet,The Aylardex,4,32,32
-Chain Belt,Maligaro's Restraint,7,11,9
-Plank Kite Shield,Springleaf,4,33,33
-Penetrating Arrow Quiver,Drillneck,4,32,32
-Primordial Staff,Femurs of the Saints,6,15,15
-Serpentine Staff,Sire of Shards,6,14,13
-Gavel,Cameria's Maul,7,9,7
-Long Bow,Storm Cloud,2,52,52
-Onyx Amulet,Astramentis,9,4,4
-Unset Ring,Brinerot Mark,10,3,3
-Goathide Gloves,Hrimsorrow,3,40,40
-Silk Slippers,Replica Bones of Ullr,10,2,2
-Ranger Bow,Null's Inclination,8,6,5
-Jade Amulet,The Halcyon,12,1,1
-Blunt Arrow Quiver,Rearguard,4,28,26
-Unset Ring,The Pariah,10,2,2
-Woodsplitter,Limbsplit,3,42,41
-Judgement Staff,Hegemony's Era,10,2,2
-Viridian Jewel,Fluid Motion,7,9,9
-Clasped Mitts,Aukuna's Will,4,27,27
-Jade Amulet,Rashkaldor's Patience,7,8,8
-Paua Amulet,Sidhebreath,3,42,42
-Cloth Belt,Ceinture of Benevolence,5,18,18
-Cobalt Jewel,Reckless Defence,10,2,2
-Heavy Belt,Meginord's Girdle,5,23,23
-Vaal Gauntlets,Doryani's Fist,9,4,4
-Gut Ripper,Replica Advancing Fortress,12,1,1
-Decorative Axe,Relentless Fury,4,28,27
-Opal Sceptre,Balefire,6,15,15
-Bone Helmet,Ancient Skull,7,9,9
-Wyrmscale Gauntlets,Wyrmsign,4,27,27
-Stibnite Flask,Witchfire Brew,7,9,9
-Zealot Gloves,Volkuur's Guidance,8,6,6
-Ezomyte Axe,Sinvicta's Mettle,4,32,32
-Archon Kite Shield,Broken Faith,12,1,1
-Sapphire Ring,Dream Fragments,6,13,13
-Recurve Bow,Roth's Reach,3,45,44
-Onyx Amulet,Impresence,12,1,1
-Lapis Amulet,The Ephemeral Bond,7,9,9
-Maelström Staff,Taryn's Shiver,10,2,2
-Vaal Regalia,The Beast Fur Shawl,7,11,11
-Karui Sceptre,Death's Hand,7,11,11
-Ambush Mitts,Stormseeker,5,22,22
-Cobalt Jewel,Brute Force Solution,8,7,7
-Tarnished Spirit Shield,Brinerot Flag,7,8,8
-Royal Axe,Rigwald's Savagery,8,5,5
-Amethyst Ring,Ming's Heart,10,2,2
-Timeworn Claw,Al Dhih,4,30,30
-Carnal Boots,Corpsewalker,10,2,2
-Granite Flask,Rumi's Concoction,7,8,8
-Crimson Jewel,Immutable Force,10,3,3
-Gladius,Scaeva,6,12,12
-Lacquered Helmet,Black Sun Crest,4,28,27
-Shackled Boots,Veruso's Ambition,4,26,26
-Cloth Belt,Bound Fate,8,7,7
-Topaz Ring,Astral Projector,8,5,5
-Bronze Sceptre,Axiom Perpetuum,3,48,47
-Carnal Mitts,The Embalmer,4,30,30
-Nubuck Boots,Goldwyrm,4,29,29
-Ruby Ring,Emberwake,6,14,13
-Tiger Sword,Terminus Est,5,19,19
-Hallowed Hybrid Flask,The Writhing Jar,5,18,18
-Viridian Jewel,Stormshroud,12,1,1
-Baroque Round Shield,Daresso's Courage,9,4,4
-Serpentine Staff,Cane of Kulemak,12,1,1
-Gold Ring,Andvarius,8,6,6
-Sorcerer Boots,Steppan Eard,7,11,11
-Jagged Maul,Quecholli,5,20,19
-Ambusher,Goblinedge,6,16,16
-Bone Armour,Bloodbond,7,11,11
-Iron Ring,The Warden's Brand,4,31,31
-Leather Belt,Gluttony,8,7,6
-Harlequin Mask,Mind of the Council,8,5,5
-Platinum Sceptre,Singularity,4,27,27
-Stygian Vise,Darkness Enthroned,12,1,1
-Embroidered Gloves,Vixen's Entrapment,6,14,14
-Bronzescale Gauntlets,Slitherpinch,3,38,38
-Vaal Blade,Rebuke of the Vaal,10,2,2
-Elegant Round Shield,The Oppressor,6,13,12
-Nailed Fist,Last Resort,3,46,45
-Karui Sceptre,Maata's Teaching,10,3,3
-Tricorne,Fairgraves' Tricorne,7,10,10
-Iron Mask,Malachai's Simula,4,26,24
-Heavy Belt,Dyadian Dawn,7,10,10
-Steelwood Bow,The Crimson Storm,12,1,1
-Citrine Amulet,The Felbog Fang,12,1,1
-Large Hybrid Flask,Divination Distillate,8,5,4
-Branded Kite Shield,Saffell's Frame,6,16,16
-Widowsilk Robe,Doedre's Skin,12,1,1
-Ancient Greaves,Kahuturoa's Certainty,5,17,16
-Assassin Bow,Chin Sol,5,20,19
-Astral Plate,Blunderbore,5,18,18
-Citrine Amulet,The Jinxed Juju,8,6,6
-Corsair Sword,Ichimonji,6,14,14
-Paua Ring,Doedre's Damning,3,44,44
-Coral Ring,Kaom's Sign,1,108,104
-Cloth Belt,Soul Tether,7,8,8
-Ironscale Boots,Dusktoe,3,46,44
-Crimson Jewel,Grand Spectrum,10,2,2
-Spidersilk Robe,Replica Covenant,12,1,1
-Onyx Amulet,Replica Hinekora's Sight,12,1,1
-Imbued Wand,Piscator's Vigil,6,16,16
-Turquoise Amulet,Badge of the Brotherhood,12,1,1
-Lacquered Garb,Cloak of Defiance,10,2,2
-Lacquered Buckler,Mistwall,10,2,2
-Ornate Sword,Queen's Decree,6,16,16
-Slink Gloves,Mercenary's Lot,12,1,1
-Crimson Jewel,Combat Focus,12,1,1
-Bronzescale Boots,Lioneye's Paws,4,30,30
-Lapis Amulet,Tear of Purity,2,52,52
-Sanctified Life Flask,Blood of the Karui,7,11,11
-Crimson Jewel,Atziri's Reign,10,3,3
-Assassin's Garb,Cospri's Will,9,4,4
-Heavy Belt,Bisco's Leash,6,12,12
-Spidersilk Robe,The Covenant,8,5,5
-Whalebone Rapier,The Goddess Bound,4,25,25
-Brass Maul,Geofri's Baptism,4,25,24
-Leather Belt,Pyroshock Clasp,6,16,16
-Triumphant Lamellar,Cherrubim's Maleficence,7,11,11
-Destroyer Regalia,The Coming Calamity,5,20,20
-Corrugated Buckler,Great Old One's Ward,6,13,13
-Plague Mask,Curtain Call,4,26,24
-Eelskin Boots,Orbala's Stand,6,15,15
-Two-Stone Ring,Berek's Grip,4,28,28
-Sapphire Flask,Taste of Hate,8,5,5
-Goliath Gauntlets,Empire's Grasp,5,21,21
-Samite Gloves,Kalisa's Grace,5,20,19
-War Hammer,Brightbeak,3,40,39
-Dusk Blade,Ephemeral Edge,10,2,2
-Gavel,Mjölner,12,1,1
-Jewelled Foil,Cospri's Malice,12,1,1
-Reinforced Tower Shield,Titucius' Span,5,24,24
-Spiraled Wand,Storm Prison,4,25,25
-Engraved Wand,Eclipse Solaris,4,26,25
-Ambusher,Taproot,7,9,9
-Raven Mask,The Gull,10,3,3
-Royal Skean,Heartbreaker,4,26,26
-Prophet Crown,Speaker's Wreath,7,11,11
-Void Sceptre,Mon'tregul's Grasp,12,1,1
-Cloth Belt,Nevalius Inheritance,8,6,6
-Engraved Greatsword,Rakiata's Dance,12,1,1
-Viridian Jewel,Pure Talent,10,2,2
-Cloth Belt,Soulthirst,7,9,9
-Spike-Point Arrow Quiver,Soul Strike,6,12,12
-Vaal Buckler,Thousand Teeth Temu,7,10,10
-Spidersilk Robe,Soul Mantle,3,36,34
-Crystal Belt,Auxium,10,3,3
-Unset Ring,Malachai's Artifice,5,21,20
-Timeless Jewel,Brutal Restraint,12,1,1
-Polished Spiked Shield,Zeel's Amplifier,6,16,15
-Viridian Jewel,The Golden Rule,10,3,3
-Gilded Sallet,Deidbell,8,6,6
-Compound Spiked Shield,Maligaro's Lens,6,14,14
-Solaris Circlet,Wilma's Requital,5,17,17
-Platinum Kris,Mark of the Doubting Knight,7,10,10
-Tarnished Spirit Shield,Matua Tupuna,3,40,38
-Ruby Ring,Warrior's Legacy,12,1,1
-Moonstone Ring,Tawhanuku's Timing,4,27,26
-Reaver Helmet,Blood Price,8,6,6
-Prophet Crown,The Broken Crown,7,8,8
-War Sword,The Tempestuous Steel,4,29,26
-Crimson Jewel,Inertia,6,12,12
-Silken Vest,Ghostwrithe,1,80,80
-Steel Kite Shield,Emperor's Vigilance,12,1,1
-Eternal Burgonet,Usurper's Penance,7,9,9
-Glorious Plate,Kaom's Heart,10,2,2
-Hubris Circlet,Ylfeban's Trickery,7,8,8
-Hydrascale Gauntlets,Breathstealer,12,1,1
-Desert Brigandine,Lightning Coil,8,7,7
-Viridian Jewel,Hidden Potential,10,3,3
-Rotfeather Talisman,Natural Hierarchy,5,18,18
-Callous Mask,Eye of Malice,7,11,11
-Estoc,Daresso's Passion,6,12,12
-Unset Ring,Voideye,4,35,34
-Cloth Belt,The Druggery,6,16,16
-Diamond Ring,Grattus Signet,3,39,39
-Stealth Boots,Sin Trek,4,27,27
-Sharkskin Boots,The Blood Dance,12,1,1
-Enameled Buckler,Mutewind Pennant,8,5,5
-Shadow Sceptre,Replica Bitterdream,8,7,7
-Sapphire Ring,Snakepit,10,2,2
-Lion Sword,Doomsower,10,2,2
-Bronzescale Boots,Replica Lioneye's Paws,10,2,2
-Iron Staff,Dying Breath,5,23,23
-Cobalt Jewel,Powerlessness,10,2,2
-Prismatic Jewel,Bound By Destiny,12,1,1
-Crude Bow,Silverbranch,2,66,65
-Necromancer Circlet,Chitus' Apex,9,4,4
-Midnight Blade,Rigwald's Command,10,2,2
-Karui Chopper,Kaom's Primacy,4,35,35
-Praetor Crown,Memory Vault,12,1,1
-Chiming Spirit Shield,The Eternal Apple,4,29,29
-Ezomyte Staff,Cane of Unravelling,6,16,16
-Heavy Belt,Belt of the Deceiver,4,28,28
-Mesh Gloves,Triad Grip,4,30,30
-Wereclaw Talisman,Rigwald's Curse,10,2,2
-Ruby Ring,Ngamahu's Sign,5,18,18
-Carnal Mitts,Algor Mortis,9,4,4
-Vaal Regalia,The Queen's Hunger,10,2,2
-Wool Shoes,Wanderlust,5,18,18
-Coral Amulet,Ikiaho's Promise,5,24,24
-Sadist Garb,Tinkerskin,10,2,2
-Secutor Helm,Skullhead,4,27,27
-Sage Wand,Twyzel,4,25,25
-Assassin's Mitts,Blasphemer's Grasp,12,1,1
-Iron Ring,Le Heup of All,3,49,49
-War Hammer,Lavianga's Wisdom,4,27,27
-Ebony Tower Shield,Chernobog's Pillar,5,24,23
-Assassin's Boots,Replica Stampede,10,2,2
-Ezomyte Staff,Soulwrest,4,31,31
-Chain Belt,Ascent From Flesh,5,20,20
-Auric Mace,Callinellus Malleus,6,16,16
-Cobalt Jewel,Unending Hunger,10,3,3
-Void Axe,Kitava's Feast,10,2,2
-Sapphire Ring,Pyre,8,7,7
-Lapis Amulet,Stone of Lazhwar,4,32,31
-Legion Boots,March of the Legion,6,12,12
-Vaal Claw,Replica Allure,12,1,1
-Despot Axe,Debeon's Dirge,5,19,19
-Viridian Jewel,Ancestral Vision,10,2,2
-Crusader Plate,Lioneye's Vision,5,23,23
-Sinner Tricorne,Alpha's Howl,7,10,10
-Titan Greaves,Kaom's Roots,10,2,2
-Serpentscale Gauntlets,Haemophilia,5,19,19
-Harbinger Bow,Slivertongue,10,3,3
-Mesh Boots,Wake of Destruction,3,49,49
-Goat's Horn,Abberath's Horn,3,37,35
-Moonstone Ring,Anathema,9,4,4
-Buckskin Tunic,Ashrend,4,34,33
-Reaver Sword,The Dancing Dervish,5,21,21
-Gold Ring,Ventor's Gamble,5,21,20
-Arcanist Gloves,Grip of the Council,10,3,3
-Copper Plate,Solaris Lorica,3,37,36
-Sanctified Mana Flask,Lavianga's Spirit,7,11,11
-Sulphur Flask,The Sorrow of the Divine,5,20,20
-Soldier Helmet,Honourhome,4,35,35
-Unset Ring,Mark of Submission,3,36,36
-Studded Belt,Ryslatha's Coil,12,1,1
-Sulphur Flask,The Overflowing Chalice,4,26,26
-Bronzescale Gauntlets,Vaal Caress,5,17,17
-Bronze Gauntlets,Giantsbane,3,41,41
-Gold Amulet,Winterheart,4,30,30
-Crystal Sceptre,The Supreme Truth,8,5,5
-Lunaris Circlet,Doedre's Scorn,5,21,21
-Two-Point Arrow Quiver,Skirmish,4,31,30
-Turquoise Amulet,Fury Valve,6,13,13
-Hubris Circlet,Eber's Unification,7,10,10
-Steelhead,Jorrhast's Blacksteel,4,25,25
-Goathide Boots,Victario's Flight,4,27,25
-Diamond Ring,Gifts from Above,3,38,36
-Reinforced Greaves,Windscream,5,19,18
-Fiend Dagger,Arakaali's Fang,10,3,3
-Cobalt Jewel,Combat Focus,12,1,1
-Champion Kite Shield,Aegis Aurora,12,1,1
-Amethyst Ring,Death Rush,9,4,4
-Spine Bow,Reach of the Council,9,4,4
-Stealth Boots,Garukhan's Flight,12,1,1
-Saintly Chainmail,Incandescent Heart,7,9,9
-Infernal Sword,Oro's Sacrifice,6,13,13
-Citrine Amulet,Daresso's Salute,3,45,44
-Black Maw Talisman,Night's Hold,4,25,24
-Lacquered Buckler,Azadi Crest,10,2,2
-Paua Amulet,Replica Atziri's Foible,10,2,2
-Coral Amulet,The Primordial Chain,3,44,43
-Etched Greatsword,Edge of Madness,5,24,24
-Broadhead Arrow Quiver,Steelworm,8,5,5
-Short Bow,Quill Rain,2,72,70
-Ironscale Gauntlets,Flesh and Spirit,4,31,29
-Laminated Kite Shield,Replica Victario's Charity,12,1,1
-Festival Mask,Leer Cast,4,34,34
-Studded Round Shield,The Deep One's Hide,5,20,20
-Sage Wand,Shade of Solaris,10,2,2
-Prismatic Ring,The Taming,10,3,3
-Ursine Pelt,Rat's Nest,5,22,21
-Gnarled Branch,The Blood Thorn,4,29,29
-Sentinel Jacket,Dendrobate,4,33,33
-War Sword,Replica Tempestuous Steel,12,1,1
-Ruby Ring,Mokou's Embrace,3,42,41
-Rustic Sash,Prismweave,5,23,22
-Destiny Leather,Queen of the Forest,6,12,11
-Viridian Jewel,Primordial Eminence,12,1,1
-Sage's Robe,Zahndethus' Cassock,5,19,19
-Amethyst Ring,Coiling Whisper,12,1,1
-Agate Amulet,Extractor Mentis,3,42,42
-Vaal Greaves,Dawnstrider,10,3,3
-Wrapped Mitts,Ondar's Clasp,4,35,32
-Dream Mace,Flesh-Eater,5,20,19
-Imperial Skean,White Wind,5,22,22
-Citrine Amulet,Retaliation Charm,5,17,17
-Mosaic Kite Shield,Rise of the Phoenix,4,30,30
-Vaal Mask,Fractal Thoughts,8,5,5
-Royal Staff,The Stormheart,4,31,29
-Iron Circlet,Wreath of Phrecia,4,30,28
-Coral Amulet,Tainted Pact,9,4,4
-Gut Ripper,Ornament of the East,7,11,11
-Highland Blade,Rigwald's Charge,6,14,14
-Rawhide Boots,Seven-League Step,12,1,1
-Iron Hat,Ezomyte Peak,2,54,54
-Holy Chainmail,Voll's Protector,8,5,5
-Harmonic Spirit Shield,Malachai's Loop,5,24,24
-Zealot Gloves,Replica Volkuur's Guidance,12,1,1
-Eternal Sword,Replica Dreamfeather,9,4,4
-Nubuck Gloves,Oskarm,4,34,34
-Imperial Staff,Agnerod South,7,11,11
-Midnight Blade,Ahn's Might,7,8,8
-Prismatic Jewel,Watcher's Eye,12,1,1
-Full Wyrmscale,Belly of the Beast,7,11,11
-Judgement Staff,The Grey Spire,8,6,6
-Sabre,The Princess,4,30,28
-Dragonscale Boots,Darkray Vectors,5,20,20
-Two-Stone Ring,Rigwald's Crest,7,8,8
-Legion Gloves,Null and Void,5,17,17
-Tyrant's Sekhem,Sign of the Sin Eater,5,22,21
-Leather Belt,Immortal Flesh,2,59,57
-Turquoise Amulet,Ungil's Harmony,7,11,11
-Carnal Armour,Replica Restless Ward,12,1,1
+Spidersilk Robe,The Covenant,6,1817,741
+Mind Cage,Scold's Bridle,7,1099,868
+Murder Boots,Voidwalker,6,2125,995
+Necromancer Circlet,The Devouring Diadem,5,3345,681
+Vaal Mask,Fractal Thoughts,6,2283,1004
+Brass Spirit Shield,Sentari's Answer,6,1907,1045
+Eelskin Gloves,Great Old One's Tentacles,7,1617,1039
+Leather Hood,Heatshiver,4,4344,1213
+Sharkskin Boots,The Blood Dance,7,1388,841
+Solaris Circlet,Galesight,8,599,521
+Scholar's Robe,Cloak of Flame,5,3270,1575
+Assassin's Garb,Cospri's Will,7,1344,939
+Steel Gauntlets,Meginord's Vise,7,1421,814
+Painted Tower Shield,Redblade Banner,8,874,769
+Great Helmet,Veil of the Night,6,1996,1015
+Regicide Mask,Gorgon's Gaze,8,736,626
+Soldier Gloves,Saqawal's Winds,9,441,170
+Ornate Quiver,Maloney's Mechanism,7,1112,947
+Prophet Crown,Crown of the Inward Eye,4,4745,770
+Bronzescale Boots,Replica Lioneye's Paws,10,235,198
+Samite Gloves,Replica Kalisa's Grace,10,269,196
+Arcanist Slippers,Replica Inya's Epiphany,9,402,250
+Varnished Coat,Carcass Jack,4,3812,1612
+Saint's Hauberk,Sporeguard,10,210,141
+Blood Raiment,Replica Eternity Shroud,10,265,236
+Ezomyte Burgonet,Abyssus,4,5309,1204
+Exquisite Leather,Kintsugi,7,1060,576
+Lacquered Buckler,Replica Mistwall,9,357,249
+Hydrascale Gauntlets,Breathstealer,8,656,462
+Vaal Mask,The Vertex,6,2265,743
+Nightmare Bascinet,The Bringer of Rain,6,1964,972
+Mosaic Kite Shield,Rise of the Phoenix,5,3357,1233
+Full Wyrmscale,Belly of the Beast,4,3847,1377
+Runic Gages,Nightgrip,10,295,532
+Solaris Circlet,Thundersight,9,539,470
+Blunt Arrow Quiver,Rearguard,7,1241,923
+Deerskin Gloves,Maligaro's Virtuosity,6,1767,1006
+Destiny Leather,Queen of the Forest,4,3877,1665
+Astral Plate,Death's Oath,5,2817,1316
+Arcanist Gloves,Grip of the Council,8,785,737
+Shackled Boots,Veruso's Ambition,6,1662,1030
+Ancient Greaves,Redblade Tramplers,8,841,607
+Eternal Burgonet,Usurper's Penance,8,910,857
+Baroque Round Shield,Daresso's Courage,6,1688,798
+Crusader Plate,Lioneye's Vision,5,3086,1359
+Conjurer Boots,Rainbowstride,7,1363,903
+Spidersilk Robe,Soul Mantle,4,4685,1486
+Rawhide Tower Shield,Lycosidae,6,1688,1033
+Murder Boots,Replica Voidwalker,9,518,377
+Sinner Tricorne,Replica Alpha's Howl,9,409,374
+Carnal Boots,Corpsewalker,9,548,490
+Arcanist Slippers,Inya's Epiphany,8,810,726
+Sentinel Jacket,Dendrobate,4,3599,1401
+Astral Plate,Blunderbore,7,1173,1081
+Necromancer Circlet,Sandstorm Visage,10,334,309
+Simple Robe,Tabula Rasa,4,3598,1241
+Pinnacle Tower Shield,Lioneye's Remorse,7,1266,832
+War Buckler,Chalice of Horrors,5,2591,1015
+Stealth Boots,Sin Trek,4,4076,1226
+Saintly Chainmail,Chains of Command,7,1270,862
+Assassin's Boots,Replica Stampede,10,256,179
+Nubuck Gloves,Oskarm,6,2326,1208
+Clasped Mitts,Aukuna's Will,6,1640,1035
+Buckskin Tunic,Ashrend,5,3058,1165
+Archon Kite Shield,Broken Faith,10,187,181
+Sadist Garb,Tinkerskin,6,1752,1087
+Elegant Ringmail,Loreweave,4,4430,1215
+Carnal Boots,Dance of the Offered,10,253,120
+Aventail Helmet,Mindspiral,5,2906,1272
+Necromancer Silks,Vis Mortis,5,2664,1332
+Exquisite Leather,Yriel's Fostering,6,1846,1835
+Crusader Chainmail,Ambu's Charge,5,2928,1173
+Silk Gloves,Asenath's Gentle Touch,4,3616,1119
+Embroidered Gloves,Vixen's Entrapment,7,1174,953
+Soldier Gloves,Southbound,4,4034,1227
+Steelscale Gauntlets,Aurseize,7,1475,933
+Elegant Ringmail,Geofri's Sanctuary,6,2255,1199
+Deicide Mask,Heretic's Veil,7,1339,588
+Titanium Spirit Shield,Rathpith Globe,7,1481,590
+Branded Kite Shield,Saffell's Frame,6,2292,1132
+Titan Greaves,Replica Red Trail,10,247,165
+Fingerless Silk Gloves,Black Zenith,9,407,643
+Steel Circlet,Sudden Dawn,10,332,346
+Primal Arrow Quiver,The Poised Prism,7,1462,965
+Zealot Gloves,Volkuur's Guidance,7,1050,1172
+Samnite Helmet,Hrimnor's Resolve,6,2410,1187
+Corrugated Buckler,Great Old One's Ward,6,1673,965
+Dragonscale Gauntlets,Surgebinders,5,2468,1138
+Murder Mitts,Thunderfist,7,1258,462
+Steel Circlet,Maw of Conquest,7,1073,878
+Prophet Crown,The Broken Crown,4,3764,1206
+Prophet Crown,Speaker's Wreath,5,2537,1207
+Silken Hood,Starkonja's Head,3,8436,1229
+Golden Buckler,Atziri's Mirror,5,3263,282
+Lunaris Circlet,Doedre's Scorn,5,2788,1167
+Titan Greaves,Kaom's Roots,6,1649,913
+Runic Gauntlets,Medved's Challenge,10,228,230
+Harmonic Spirit Shield,Malachai's Loop,5,3257,1228
+Dragonscale Boots,Darkray Vectors,5,3434,1217
+Vine Circlet,Crown of Thorns,6,2327,1040
+Secutor Helm,Skullhead,5,3175,1133
+Hubris Circlet,Ylfeban's Trickery,7,1091,902
+Plague Mask,Curtain Call,6,1997,1021
+Legion Boots,March of the Legion,7,1538,1059
+Murder Boots,Bubonic Trail,5,3130,1342
+Fencer Helm,El'Abin's Visage,10,328,138
+Bone Helmet,Maw of Mischief,7,1008,485
+Soldier Helmet,Honourhome,5,2523,1132
+Penetrating Arrow Quiver,Drillneck,6,1899,945
+Satin Gloves,Demon Stitcher,6,2072,1216
+Holy Chainmail,Voll's Protector,7,1485,771
+Reinforced Greaves,Windscream,6,2185,1207
+Saint's Hauberk,Doryani's Prototype,7,1300,871
+Two-Point Arrow Quiver,Asphyxia's Wrath,5,2581,165
+Hubris Circlet,Crown of Eyes,6,2336,1206
+Regicide Mask,Crown of the Pale King,7,1471,956
+Full Dragonscale,Daresso's Defiance,6,1645,930
+Goathide Gloves,Hrimburn,9,462,67
+Latticed Ringmail,Icetomb,5,3270,1248
+Desert Brigandine,Lightning Coil,6,2314,1401
+Bronzescale Boots,Lioneye's Paws,5,2604,1143
+Wrapped Mitts,Ondar's Clasp,5,3037,1112
+Spike-Point Arrow Quiver,Saemus' Gift,7,1032,71
+Reinforced Tower Shield,Titucius' Span,6,1686,872
+Cedar Tower Shield,Trolltimber Spire,7,1423,860
+Conjurer Gloves,Voidbringer,6,2309,1171
+Serpentscale Gauntlets,Haemophilia,7,1160,871
+Hubris Circlet,Eber's Unification,6,2278,1208
+Samite Gloves,Kalisa's Grace,5,2523,999
+Bone Armour,Bloodbond,6,2159,1168
+Iron Circlet,Wreath of Phrecia,6,1660,1091
+Assassin's Mitts,Storm's Gift,6,1823,994
+Saint's Hauberk,The Ivory Tower,6,1794,1406
+Solaris Circlet,Wilma's Requital,7,1383,1135
+Wyrmscale Gauntlets,Tanu Ahi,7,1397,948
+Vaal Regalia,The Queen's Hunger,6,1805,836
+Festival Mask,Leer Cast,5,3014,1245
+Ebony Tower Shield,Chernobog's Pillar,5,2856,1224
+Lacquered Garb,Victario's Influence,5,3062,1327
+Barbute Helmet,Thrillsteel,6,1844,1147
+Carnal Armour,The Restless Ward,5,3302,1397
+Scholar Boots,Shavronne's Pace,4,3761,1223
+Vaal Buckler,Thousand Teeth Temu,5,2415,1055
+Goliath Greaves,The Infinite Pursuit,7,976,102
+Wool Shoes,Wanderlust,4,4286,1222
+Praetor Crown,Ahn's Contempt,5,2503,1202
+Bronzescale Gauntlets,Slitherpinch,4,3621,1225
+Wolf Pelt,Elevore,5,2771,1248
+Iron Circlet,Asenath's Mark,5,2633,857
+Carnal Mitts,Algor Mortis,6,2322,1197
+Soldier Boots,Alberon's Warpath,5,3160,1223
+Goathide Gloves,Hrimsorrow,4,3716,1153
+Sharktooth Arrow Quiver,Hyrri's Bite,5,3312,1124
+Two-Point Arrow Quiver,Skirmish,6,2403,1192
+Assassin's Mitts,Snakebite,5,2949,1216
+Assassin's Boots,The Stampede,8,612,323
+Fugitive Boots,Inextricable Fate,6,2323,1221
+Eelskin Boots,Orbala's Stand,6,1699,1042
+Polished Spiked Shield,Zeel's Amplifier,6,2338,1192
+Ironscale Boots,Dusktoe,5,3189,1138
+Iron Hat,Ezomyte Peak,5,3177,1221
+Conquest Chainmail,Kingsguard,5,2773,1095
+Supreme Spiked Shield,Jaws of Agony,6,1824,952
+Tarnished Spirit Shield,Matua Tupuna,5,2577,1138
+Studded Round Shield,The Deep One's Hide,6,2404,1013
+Visored Sallet,The Peregrine,4,3944,270
+Destroyer Regalia,The Coming Calamity,6,1783,1006
+Bone Circlet,Wraithlord,5,2624,662
+Silken Vest,Ghostwrithe,5,2419,1298
+Vaal Greaves,Dawnstrider,7,1198,989
+Strapped Leather,Briskwrap,4,4086,294
+Triumphant Lamellar,Cherrubim's Maleficence,5,2969,1357
+Deerskin Boots,Deerstalker,5,3494,1168
+Painted Buckler,Kaltenhalt,5,3004,1124
+Mesh Gloves,Triad Grip,5,2917,1231
+Clasped Boots,Sundance,5,3022,1218
+Titan Greaves,The Red Trail,9,572,119
+Glorious Plate,Perfidy,7,1171,670
+Great Crown,Forbidden Shako,3,5858,864
+Wyrmscale Gauntlets,Wyrmsign,5,2487,1060
+Lacquered Helmet,Black Sun Crest,4,5501,1229
+Wool Gloves,Sadima's Touch,4,3680,1166
+Chiming Spirit Shield,The Eternal Apple,6,2131,1076
+Antique Greaves,Torchoak Step,5,2772,1205
+Golden Mask,Willclash,6,1862,1185
+Leather Cap,Goldrim,4,4974,1276
+Wild Leather,Foxshade,5,3048,1230
+Strapped Boots,Nomic's Storm,5,3555,1177
+Callous Mask,Eye of Malice,6,1927,1152
+Velvet Gloves,Doedre's Tenure,4,3767,1253
+Close Helmet,The Baron,5,3130,1199
+Ironscale Gauntlets,Flesh and Spirit,6,1772,1040
+Clasped Mitts,Shadows and Dust,6,2185,1159
+Ambush Mitts,Stormseeker,6,2042,1156
+Sinner Tricorne,Alpha's Howl,5,3024,998
+Cutthroat's Garb,Bronn's Lithe,5,3264,1374
+Goliath Gauntlets,Empire's Grasp,5,2470,1162
+Legion Boots,Gang's Momentum,5,3139,1210
+Nubuck Boots,Goldwyrm,4,4259,1295
+Compound Spiked Shield,Maligaro's Lens,6,2103,1017
+Harlequin Mask,Mind of the Council,7,1310,1015
+Ursine Pelt,Rat's Nest,4,4675,1204
+Crusader Gloves,Repentance,7,1222,793
+Titan Gauntlets,Veruso's Battering Rams,5,2575,1181
+Carnal Mitts,The Embalmer,4,3797,1232
+Murder Mitts,Malachai's Mark,7,1066,344
+Crusader Plate,Iron Heart,7,1089,109
+Steelscale Gauntlets,Tombfist,5,2934,1282
+Murder Mitts,Machina Mitts,9,567,598
+Slink Gloves,Mercenary's Lot,7,1336,844
+Ironwood Buckler,Kiloava's Bluster,7,1133,874
+Pine Buckler,Crest of Perandus,5,2429,1115
+Mirrored Spiked Shield,Font of Thunder,10,268,203
+Plate Vest,Bramblejack,6,2189,1051
+Mesh Boots,Wake of Destruction,4,3730,1210
+Sage's Robe,Zahndethus' Cassock,4,3684,1291
+Colossal Tower Shield,Ahn's Heritage,6,1750,1011
+Strapped Mitts,Facebreaker,4,4546,1253
+Great Crown,Geofri's Crest,4,4327,1223
+Ornate Ringmail,Lightbane Raiment,5,2563,1073
+Golden Mask,The Three Dragons,5,3275,1166
+Laminated Kite Shield,Victario's Charity,5,2661,1127
+Goathide Boots,Victario's Flight,4,3622,1227
+Plated Greaves,Stormcharger,4,3889,1231
+Riveted Boots,Ralakesh's Impatience,6,2085,865
+Assassin's Mitts,Blasphemer's Grasp,7,1386,856
+Chain Gloves,Shackles of the Wretched,6,2046,1030
+Shagreen Boots,Three-step Assault,5,3354,1191
+Gilded Sallet,Deidbell,6,1814,791
+Copper Plate,Solaris Lorica,5,2468,1151
+Rotted Round Shield,Wheel of the Stormsail,6,2114,1036
+Great Crown,Lightpoacher,4,3608,1237
+Nightmare Bascinet,Devoto's Devotion,3,8550,1216
+Silk Slippers,Bones of Ullr,4,3793,1200
+Trapper Boots,Brinerot Whalers,8,966,632
+Serrated Arrow Quiver,Craghead,5,2516,982
+Tricorne,Fairgraves' Tricorne,6,2082,915
+Zealot Helmet,Kitava's Thirst,5,3188,1243
+Iron Gauntlets,Lochtonial Caress,5,3312,1250
+Iron Mask,Malachai's Simula,6,2072,850
+Broadhead Arrow Quiver,Rearguard,7,1050,81
+Rawhide Boots,Seven-League Step,7,1536,794
+Spike-Point Arrow Quiver,Soul Strike,7,1567,905
+Plank Kite Shield,Springleaf,5,2860,1121
+Simple Robe,Thousand Ribbons,6,2388,1135
+Velvet Slippers,Wondertrap,5,3283,1181
+Goathide Boots,Abberath's Hooves,8,619,398
+Bronze Gauntlets,Giantsbane,5,2999,1186
+Archon Kite Shield,Invictus Solaris,8,777,676
+Sadist Garb,Inpulsa's Broken Heart,6,2405,1014
+Widowsilk Robe,Doedre's Skin,8,661,502
+Harlequin Mask,Farrul's Bite,8,599,247
+Slink Boots,Farrul's Chase,9,495,220
+Hydrascale Gauntlets,Farrul's Pounce,9,461,218
+Legion Gloves,Offering to the Serpent,4,4785,1010
+Lacquered Buckler,Mistwall,8,817,785
+Shagreen Gloves,Painseeker,6,1858,1043
+Sinner Tricorne,Assailum,7,1383,812
+Bone Circlet,Plume of Pursuit,8,664,457
+Ambush Mitts,Abhorrent Interrogation,10,317,197
+Titan Greaves,The Infinite Pursuit,9,389,249
+Vaal Spirit Shield,Esh's Mirror,9,522,289
+Ranger Bow,Null's Inclination,8,958,704
+Spine Bow,Voltaxic Rift,7,1164,413
+Despot Axe,Debeon's Dirge,6,1899,983
+Prophecy Wand,Void Battery,5,2990,879
+Assassin Bow,Darkscorn,7,1388,551
+Gladius,Scaeva,6,2376,1055
+Poleaxe,Wideswing,5,2590,1031
+Hellion's Paw,Bloodseeker,8,937,250
+Legion Sword,The Rippling Thoughts,9,500,160
+Sledgehammer,Hrimnor's Hymn,5,2426,975
+Serpentine Staff,Cane of Kulemak,4,4678,1208
+Dusk Blade,Ephemeral Edge,6,2330,1067
+Jasper Chopper,Replica Harvest,10,223,151
+Vaal Rapier,Paradoxica,5,2904,932
+Void Sceptre,Mon'tregul's Grasp,6,2058,952
+Meatgrinder,Brain Rattler,8,685,549
+Reaver Sword,The Dancing Dervish,6,2175,1035
+Vaal Axe,Uul-Netol's Embrace,9,368,78
+Boot Knife,Replica Ungil's Gauche,11,118,72
+Eternal Sword,Replica Dreamfeather,8,945,1010
+Vaal Claw,Replica Allure,11,111,117
+Infernal Sword,Replica Oro's Sacrifice,10,291,176
+Slaughter Knife,Bino's Kitchen Knife,7,1204,362
+Death Bow,Iron Commander,6,2235,1092
+Tornado Wand,Piscator's Vigil,6,2184,185
+Iron Staff,Pillar of the Caged God,6,1756,982
+Sage Wand,Replica Twyzel,10,245,186
+Crystal Sceptre,Nycta's Lantern,6,1688,790
+Void Axe,Kitava's Feast,9,516,383
+Jewelled Foil,Cospri's Malice,6,1872,913
+Vaal Rapier,Replica Paradoxica,7,1529,953
+Ezomyte Staff,The Fulcrum,9,487,479
+Karui Sceptre,Maata's Teaching,9,371,396
+Eternal Sword,Dreamfeather,7,1184,873
+Short Bow,Replica Quill Rain,9,421,248
+Ornate Mace,Replica Frostbreath,10,213,216
+Fiend Dagger,The Consuming Dark,5,3338,1225
+Vaal Claw,Allure,5,2587,1174
+Ritual Sceptre,Brutus' Lead Sprinkler,7,992,841
+Imperial Bow,Lioneye's Glare,6,1784,380
+Infernal Sword,Oro's Sacrifice,5,3118,1301
+Midnight Blade,Razor of the Seventh Sun,8,882,517
+Military Staff,Tremor Rod,7,1187,730
+Spiraled Wand,Tulborn,7,1227,132
+Blood Sceptre,Cerberus Limb,8,793,376
+Crude Bow,Widowhail,7,1286,1334
+Nightmare Mace,Nebuloch,7,1006,418
+Terror Claw,The Scourge,7,1306,762
+Imperial Maul,Tidebreaker,8,634,538
+Basket Rapier,Aurumvorax,5,2791,1076
+Cleaver,Dreadarc,5,2725,1079
+Vaal Sceptre,Doon Cuebiyari,7,1501,904
+Imperial Staff,Agnerod West,6,2150,1155
+Assassin Bow,Chin Sol,5,2989,1354
+Imperial Skean,Divinarius,8,959,266
+Legion Sword,Hyaon's Fury,6,2305,1086
+Vaal Hatchet,"Jack, the Axe",6,1741,981
+Long Bow,Storm Cloud,4,3730,1212
+Eternal Sword,Beltimber Blade,8,945,587
+Death Bow,Replica Iron Commander,9,454,285
+Vaal Claw,Essentia Sanguis,8,647,150
+Elder Sword,Innsbury Edge,6,2368,1024
+Shadow Sceptre,Replica Bitterdream,10,279,303
+Ambusher,Taproot,5,3147,1210
+Tyrant's Sekhem,Sign of the Sin Eater,7,1406,968
+Shadow Sceptre,Bitterdream,6,1756,766
+Spine Bow,Reach of the Council,7,1307,917
+Throat Stabber,The Wasp Nest,6,2404,1090
+Maelström Staff,Taryn's Shiver,7,1454,865
+Flaying Knife,Mightflay,6,2144,991
+Shadow Axe,Reaper's Pursuit,6,2296,1041
+Harbinger Bow,Slivertongue,7,1506,954
+Crystal Sceptre,The Supreme Truth,7,1368,1060
+Royal Staff,The Stormheart,6,2132,1009
+Imbued Wand,Piscator's Vigil,7,1594,1031
+Fiend Dagger,Arakaali's Fang,8,791,564
+Corsair Sword,Ichimonji,6,1956,1102
+Steelhead,Jorrhast's Blacksteel,7,1306,842
+Bronze Sceptre,Axiom Perpetuum,5,3075,1145
+War Hammer,Brightbeak,5,2682,1098
+Estoc,Daresso's Passion,5,2562,1023
+Karui Sceptre,Death's Hand,6,1782,1150
+Reaver Sword,Hiltless,7,1393,834
+Engraved Wand,Midnight Bargain,6,1768,986
+Ornate Sword,Queen's Decree,5,3099,1145
+Midnight Blade,Rigwald's Command,7,1058,840
+Carved Wand,Storm Prison,4,4645,316
+Headsman Axe,The Blood Reaper,5,2547,1052
+Gnarled Branch,The Blood Thorn,6,2214,975
+Shadow Sceptre,The Dark Seer,7,1362,573
+Boot Blade,Widowmaker,5,2816,1052
+Coiled Staff,Xirgil's Crank,8,663,605
+Opal Sceptre,Balefire,6,1755,970
+Ezomyte Axe,Sinvicta's Mettle,6,2183,1154
+Royal Sceptre,The Black Cane,7,1173,872
+Platinum Kris,Mark of the Doubting Knight,5,2616,1092
+Iron Staff,Realmshaper,6,2172,960
+Tiger Sword,Terminus Est,5,3043,1154
+Ezomyte Dagger,Replica Cold Iron Point,11,161,143
+Serpentine Staff,Sire of Shards,5,2950,1271
+Imperial Staff,Agnerod South,6,2030,1109
+Woodsplitter,Limbsplit,5,2952,1142
+Royal Axe,Rigwald's Savagery,8,970,855
+Vaal Blade,Varunastra,8,769,303
+Midnight Blade,Ahn's Might,6,1772,1015
+Ambusher,Goblinedge,6,2176,1173
+Jade Hatchet,The Screaming Eagle,5,3168,1145
+Karui Chopper,Kaom's Primacy,6,2047,1037
+Twilight Blade,Prismatic Eclipse,5,2671,1043
+Imbued Wand,Obliteration,6,2357,1247
+Infernal Axe,Dyadus,6,1862,979
+Terror Maul,Kongor's Undying Rage,6,1703,980
+Harbinger Bow,Nuro's Harp,6,1907,913
+Vile Staff,The Whispering Ice,6,1676,841
+Ezomyte Staff,Cane of Unravelling,5,2588,1254
+Citadel Bow,The Gluttonous Tide,7,1360,1094
+Carved Wand,Ashcaller,7,1485,998
+Long Bow,The Tempest,8,740,68
+Grinning Fetish,Earendel's Embrace,6,2298,1076
+Engraved Wand,Eclipse Solaris,7,1365,902
+Decimation Bow,Infractem,6,2385,1039
+Rock Breaker,Clayshaper,6,2382,1079
+Thresher Claw,Cybil's Paw,5,2437,1095
+Primordial Staff,Femurs of the Saints,5,2564,1220
+Jagged Foil,Fidelitas' Spike,6,1932,911
+Recurve Bow,Roth's Reach,5,3185,1172
+Sage Wand,Twyzel,4,3855,1230
+Timeworn Claw,Al Dhih,6,1897,845
+Gut Ripper,Ornament of the East,6,2099,918
+Tornado Wand,Shimmeron,7,1276,488
+Ezomyte Staff,Soulwrest,6,2164,1261
+Gut Ripper,Advancing Fortress,6,2189,994
+Etched Greatsword,Edge of Madness,6,2311,1212
+Bastard Sword,Shiversting,6,2372,1004
+War Sword,The Tempestuous Steel,6,1957,981
+Boot Knife,Ungil's Gauche,5,2862,1052
+Awl,Wildslash,5,2545,1024
+Crystal Wand,Eclipse Solaris,5,2532,176
+Spiked Club,Gorebreaker,5,2807,1118
+Fright Claw,Mortem Morsu,5,2685,1085
+Jagged Maul,Quecholli,6,1909,930
+Short Bow,Quill Rain,4,3906,1444
+Whalebone Rapier,The Goddess Bound,6,1689,929
+Skinning Knife,Goredrill,5,2812,1098
+Vaal Axe,Hezmana's Bloodlust,7,1131,767
+Crude Bow,Silverbranch,4,3882,1371
+Iron Staff,Dying Breath,6,1913,968
+Spiraled Wand,Storm Prison,7,1523,921
+Carnal Sceptre,Breath of the Council,6,1645,935
+Gnarled Branch,Fencoil,5,2755,1044
+Platinum Sceptre,Singularity,6,2125,1106
+Stiletto,Bloodplay,5,2747,1018
+Gavel,Cameria's Maul,5,2689,1182
+Elegant Sword,Lakishu's Blade,5,2679,1095
+Nailed Fist,Last Resort,5,2650,1060
+Tomahawk,Moonbender's Wing,6,1753,940
+Highland Blade,Rigwald's Charge,5,2555,1036
+Goat's Horn,Abberath's Horn,5,3115,1144
+Imperial Skean,White Wind,4,5379,1227
+Dream Mace,Flesh-Eater,5,2503,984
+Royal Skean,Heartbreaker,5,3274,1232
+Imbued Wand,Moonsorrow,4,3652,1225
+Great Mallet,Chober Chaber,6,2049,959
+Death Bow,Death's Harp,5,2580,958
+Death Bow,Death's Opus,7,1616,179
+Royal Bow,Doomfletch,6,2240,925
+Brass Maul,Geofri's Baptism,6,2400,963
+War Hammer,Lavianga's Wisdom,6,1862,950
+Driftwood Wand,Lifesprig,4,4778,1262
+Rusted Sword,Redbeak,5,2800,1088
+Decorative Axe,Relentless Fury,5,2679,1027
+Jasper Chopper,The Harvest,7,1563,1043
+Sabre,The Princess,5,3131,1092
+Antique Rapier,Ewar's Mirage,5,2577,1032
+Tornado Wand,Tulfall,8,603,49
+Carved Wand,The Poet's Pen,7,1367,891
+Steelwood Bow,The Crimson Storm,8,629,302
+Hellion's Paw,Law of the Wilds,9,467,255
+Ezomyte Axe,Replica Wings of Entropy,10,253,198
+Citadel Bow,Xoph's Inception,9,459,446
+Vaal Axe,Uul-Netol's Kiss,10,290,174
+Sapphire Ring,Call of the Void,7,1104,621
+Studded Belt,Ryslatha's Coil,5,2500,919
+Onyx Amulet,Astramentis,5,3343,937
+Studded Belt,The Magnate,5,2972,898
+Paua Amulet,Zerphi's Heart,9,449,130
+Coral Amulet,Tavukai,7,1259,977
+Sapphire Ring,Replica Tasalio's Sign,9,499,450
+Jade Amulet,Replica Karui Ward,9,545,469
+Coral Amulet,Ngamahu Tiki,8,613,68
+Iron Ring,Circle of Guilt,2,16776,1199
+Unset Ring,Profane Proxy,6,2071,1204
+Leather Belt,Cyclopean Coil,5,3154,1132
+Jade Amulet,Rashkaldor's Patience,6,1646,1011
+Cloth Belt,Olesya's Delight,7,1258,587
+Lapis Amulet,Marylene's Fallacy,5,3098,1211
+Topaz Ring,Kikazaru,4,5727,1260
+Lapis Amulet,Voice of the Storm,9,505,471
+Rustic Sash,Replica Prismweave,9,470,476
+Gold Amulet,Replica Winterheart,10,272,256
+Onyx Amulet,The Eternal Struggle,3,6436,1203
+Paua Ring,Replica Doedre's Damning,9,404,350
+Onyx Amulet,Hinekora's Sight,6,2088,1203
+Paua Amulet,Replica Atziri's Foible,9,422,349
+Ruby Ring,Replica Emberwake,9,515,484
+Paua Ring,Fated End,10,249,186
+Onyx Amulet,Impresence,4,4840,2535
+Unset Ring,Replica Malachai's Artifice,10,262,218
+Paua Amulet,Atziri's Foible,5,2524,1019
+Turquoise Amulet,Ungil's Harmony,4,4407,1209
+Steel Ring,Mark of the Elder,5,3083,908
+Opal Ring,Mark of the Shaper,4,3621,867
+Coral Ring,Sibyl's Lament,4,5008,1235
+Heavy Belt,Bisco's Leash,6,2222,1169
+Paua Ring,Perandus Signet,6,2103,1200
+Cloth Belt,Replica Soul Tether,9,360,384
+Heavy Belt,Survivor's Guilt,9,536,295
+Turquoise Amulet,Fury Valve,6,1843,1123
+Unset Ring,Replica Voideye,10,267,156
+Cloth Belt,Bound Fate,7,1084,957
+Coral Ring,Bloodboil,3,8626,399
+Rustic Sash,Faminebind,5,2657,1230
+Two-Stone Ring,Berek's Respite,6,2197,1211
+Lapis Amulet,Doedre's Tongue,7,1229,1047
+Gold Ring,Andvarius,6,2185,1134
+Two-Stone Ring,Call of the Brotherhood,5,2682,1211
+Heavy Belt,Dyadian Dawn,6,2172,1211
+Diamond Ring,Gifts from Above,5,3254,1233
+Chain Belt,Maligaro's Restraint,6,2273,1173
+Sapphire Ring,Pyre,5,3268,1104
+Opal Ring,Stormfire,5,3214,1209
+Gold Ring,The Highwayman,4,4603,1226
+Ruby Ring,Emberwake,6,2052,1131
+Cloth Belt,Sunblast,6,1679,487
+Gold Amulet,Bisco's Collar,3,6849,401
+Heavy Belt,Meginord's Girdle,4,4676,1251
+Cloth Belt,Perandus Blazon,3,6463,1291
+Rustic Sash,Prismweave,4,4223,1226
+Gold Amulet,Perquil's Toe,6,2347,1225
+Amethyst Ring,Ming's Heart,5,3077,1205
+Jade Amulet,Willowgift,5,3101,1209
+Unset Ring,Malachai's Artifice,3,6130,1225
+Leather Belt,Umbilicus Immortalis,7,1180,937
+Leather Belt,Wurm's Molt,3,6911,1232
+Jade Amulet,Hyrri's Truth,4,4579,1239
+Turquoise Amulet,Warped Timepiece,4,3838,1219
+Wereclaw Talisman,Rigwald's Curse,7,1584,1085
+Cloth Belt,Soulthirst,7,1575,956
+Gold Amulet,The Ascetic,5,2525,401
+Cloth Belt,Soul Tether,7,1515,1015
+Leather Belt,Pyroshock Clasp,5,2914,1213
+Unset Ring,Essence Worm,4,4105,1232
+Iron Ring,Le Heup of All,3,6369,1256
+Jade Amulet,Replica Hyrri's Truth,9,439,328
+Prismatic Ring,Thief's Torment,4,5425,1296
+Chain Belt,Chain of Endurance,6,2354,1208
+Heavy Belt,Siegebreaker,5,3427,1226
+Crystal Belt,Auxium,7,1422,1080
+Iron Ring,Icefang Orbit,5,2787,1223
+Cloth Belt,The Druggery,5,2819,1217
+Chain Belt,Ascent From Flesh,6,2115,1256
+Gold Ring,Ventor's Gamble,1,34857,1251
+Rotfeather Talisman,Natural Hierarchy,5,3361,1223
+Unset Ring,Voideye,5,3361,1239
+Unset Ring,Mark of Submission,4,3912,1252
+Iron Ring,Venopuncture,5,2754,1228
+Amber Amulet,Bloodsoaked Medallion,5,2932,1223
+Diamond Ring,Grattus Signet,5,2453,1064
+Amber Amulet,The Anvil,4,5533,1226
+Citrine Amulet,Daresso's Salute,4,4821,1251
+Amethyst Ring,Death Rush,6,2251,992
+Iron Ring,The Warden's Brand,5,3395,1235
+Cloth Belt,Ceinture of Benevolence,6,1999,1089
+Onyx Amulet,Replica Hinekora's Sight,9,421,332
+Sapphire Ring,Dream Fragments,6,2068,1124
+Paua Ring,Doedre's Damning,4,4063,1245
+Sapphire Ring,Tasalio's Sign,4,3743,1227
+Lapis Amulet,The Ephemeral Bond,4,3683,1211
+Clutching Talisman,Blightwell,5,3339,1230
+Diamond Ring,Romira's Banquet,5,3334,1227
+Turquoise Amulet,Victario's Acuity,4,4626,1252
+Leather Belt,Leash of Oblation,7,1169,920
+Coral Ring,Honoured Alliance,10,288,113
+Two-Stone Ring,Berek's Grip,4,5625,1241
+Leather Belt,Bear's Girdle,8,777,612
+Paua Ring,Praxis,3,6068,1252
+Topaz Ring,Storm Secret,4,4357,1218
+Paua Ring,Soulbound,6,2326,1217
+Paua Amulet,Sidhebreath,3,6695,1257
+Coral Amulet,Araku Tiki,4,4986,1241
+Heavy Belt,Belt of the Deceiver,4,5505,1223
+Moonstone Ring,Timeclasp,4,5678,1238
+Coral Amulet,The Primordial Chain,5,2952,1249
+Leather Belt,Immortal Flesh,3,8172,1282
+Lapis Amulet,Tear of Purity,4,4583,1257
+Citrine Amulet,Retaliation Charm,5,3166,1224
+Two-Stone Ring,Berek's Pass,4,5502,1223
+Topaz Ring,Valako's Sign,5,3166,1228
+Leather Belt,Gluttony,5,3396,1206
+Heavy Belt,Mother's Embrace,7,1339,1065
+Onyx Amulet,Replica Dragonfang's Flight,2,14219,1214
+Rustic Sash,Feastbind,5,2707,1234
+Moonstone Ring,Heartbound Loop,4,5418,1223
+Agate Amulet,Shaper's Seed,4,4808,1217
+Moonstone Ring,Tawhanuku's Timing,5,3539,1227
+Black Maw Talisman,Night's Hold,5,2978,1229
+Agate Amulet,The Aylardex,4,3960,1232
+Citrine Amulet,The Jinxed Juju,6,2115,1201
+Chain Belt,Bated Breath,4,4711,1243
+Iron Ring,Blackheart,3,6774,1252
+Onyx Amulet,Carnage Heart,3,7965,1228
+Agate Amulet,Extractor Mentis,4,5168,1245
+Onyx Amulet,Eye of Chayula,5,2554,1217
+Citrine Amulet,Eye of Innocence,5,2469,1199
+Coral Ring,Kaom's Sign,3,6949,1330
+Jade Amulet,Karui Ward,3,7212,1232
+Prismatic Ring,Lori's Lantern,4,4831,1252
+Ruby Ring,Mokou's Embrace,4,5455,1246
+Ruby Ring,Ngamahu's Sign,5,3431,1223
+Sapphire Ring,Snakepit,6,1659,1128
+Lapis Amulet,Stone of Lazhwar,4,5632,1239
+Gold Amulet,The Ignomon,4,5274,1235
+Moonstone Ring,Valyrium,4,4224,1235
+Gold Amulet,Winterheart,4,3835,1233
+Onyx Amulet,Yoke of Suffering,5,2607,812
+Stygian Vise,Darkness Enthroned,4,4274,1060
+Amethyst Ring,Circle of Nostalgia,2,17689,1197
+Coral Amulet,Ikiaho's Promise,6,1919,1098
+Cloth Belt,Nevalius Inheritance,8,739,752
+Viridian Jewel,Static Electricity,5,2512,248
+Viridian Jewel,Intuitive Leap,5,3048,834
+Cobalt Jewel,Rolling Flames,4,5272,400
+Crimson Jewel,Spire of Stone,6,2354,241
+Cobalt Jewel,Unstable Payload,6,2063,243
+Crimson Jewel,Combat Focus,8,892,319
+Viridian Jewel,Quickening Covenant,7,1259,530
+Viridian Jewel,Lord of Steel,3,6101,406
+Crimson Jewel,Blood Sacrifice,5,2586,297
+Viridian Jewel,Weight of Sin,7,982,123
+Viridian Jewel,Hotheaded,5,2447,351
+Cobalt Jewel,Survival Secrets,4,4284,399
+Cobalt Jewel,Winter's Bounty,6,2382,227
+Cobalt Jewel,To Dust,4,4207,1206
+Cobalt Jewel,The Balance of Terror,4,4760,944
+Crimson Jewel,Ancient Waystones,9,592,80
+Viridian Jewel,Spirit Guards,5,2466,245
+Viridian Jewel,Primordial Eminence,4,4149,813
+Viridian Jewel,Combat Focus,7,1223,334
+Crimson Jewel,Replica Conqueror's Efficiency,7,1195,287
+Cobalt Jewel,Unending Hunger,6,1901,892
+Crimson Jewel,Replica Primordial Might,9,513,349
+Cobalt Jewel,Anatomical Knowledge,5,3286,400
+Cobalt Jewel,Fevered Mind,6,1673,735
+Viridian Jewel,Ring of Blades,4,5576,400
+Crimson Jewel,Divine Inferno,8,923,172
+Timeless Jewel,Elegant Hubris,1,50197,1199
+Crimson Jewel,Thread of Hope,3,9902,823
+Crimson Jewel,Coated Shrapnel,4,4629,400
+Viridian Jewel,Fight for Survival,4,4829,398
+Viridian Jewel,Pugilist,5,2560,254
+Viridian Jewel,Pure Talent,7,1603,744
+Crimson Jewel,Tempered Flesh,7,1274,505
+Crimson Jewel,Replica Fragility,11,107,93
+Viridian Jewel,Poacher's Aim,5,2808,339
+Crimson Jewel,Brawn,3,6766,402
+Cobalt Jewel,Mutated Growth,8,695,97
+Viridian Jewel,Sudden Ignition,6,1890,155
+Crimson Jewel,Winter Burial,4,3884,345
+Cobalt Jewel,Spreading Rot,4,5702,403
+Viridian Jewel,Emperor's Cunning,10,183,88
+Viridian Jewel,Omen on the Winds,4,5347,400
+Viridian Jewel,Hair Trigger,5,2594,299
+Crimson Jewel,The Vigil,5,2484,296
+Crimson Jewel,Wildfire,3,6088,401
+Viridian Jewel,Self-Flagellation,5,3234,1201
+Timeless Jewel,Militant Faith,1,43269,1199
+Cobalt Jewel,Fortress Covenant,7,1057,586
+Viridian Jewel,Fluid Motion,5,3554,1024
+Viridian Jewel,Sacrificial Harvest,7,1201,138
+Cobalt Jewel,Hazardous Research,3,5913,400
+Viridian Jewel,Tempered Spirit,7,1116,431
+Crimson Jewel,Energised Armour,5,3249,899
+Cobalt Jewel,Dead Reckoning,6,2387,823
+Crimson Jewel,Conqueror's Efficiency,3,6118,403
+Cobalt Jewel,Inevitability,4,5079,401
+Cobalt Jewel,Tempered Mind,8,974,491
+Cobalt Jewel,Combat Focus,8,893,302
+Crimson Jewel,Combustibles,8,883,100
+Cobalt Jewel,Apex Mode,8,740,369
+Viridian Jewel,Careful Planning,4,4801,1166
+Viridian Jewel,Cheap Construction,4,4321,399
+Cobalt Jewel,Reckless Defence,4,3767,1201
+Prismatic Jewel,Watcher's Eye,1,80498,1204
+Cobalt Jewel,Grand Spectrum,7,1610,643
+Crimson Jewel,Fragility,5,2631,1206
+Crimson Jewel,Atziri's Reign,7,1392,803
+Crimson Jewel,Rain of Splinters,6,1840,543
+Cobalt Jewel,Healthy Mind,5,2499,834
+Crimson Jewel,Efficient Training,4,5191,1242
+Cobalt Jewel,First Snow,4,4278,400
+Crimson Jewel,Rapid Expansion,4,4700,400
+Cobalt Jewel,Assassin's Haste,4,4676,401
+Viridian Jewel,Conqueror's Longevity,6,2327,227
+Cobalt Jewel,Fertile Mind,4,5062,1209
+Crimson Jewel,Fragile Bloom,4,5195,397
+Viridian Jewel,Growing Agony,4,4258,369
+Crimson Jewel,Weight of the Empire,4,4156,357
+Viridian Jewel,Might and Influence,4,4684,399
+Viridian Jewel,Lioneye's Fall,5,3069,789
+Cobalt Jewel,Replica Reckless Defence,7,1138,1121
+Cobalt Jewel,Forbidden Flesh,3,10050,1199
+Cobalt Jewel,Witchbane,8,807,616
+Crimson Jewel,Inertia,4,4777,1231
+Cobalt Jewel,Brute Force Solution,4,3792,1207
+Cobalt Jewel,Powerlessness,6,2074,1007
+Cobalt Jewel,Brittle Barrier,5,3066,370
+Viridian Jewel,Pacifism,5,3333,1077
+Viridian Jewel,Survival Instincts,5,3541,399
+Crimson Jewel,Survival Skills,5,3153,311
+Cobalt Jewel,Frozen Trail,4,4676,403
+Crimson Jewel,Might of the Meek,6,2071,804
+Small Cluster Jewel,Kitava's Teachings,7,1381,849
+Medium Cluster Jewel,Megalomaniac,1,141580,932
+Sapphire Flask,Taste of Hate,5,3054,1018
+Granite Flask,Replica Rumi's Concoction,9,568,523
+Quartz Flask,Soul Catcher,5,2787,701
+Sanctified Mana Flask,Replica Lavianga's Spirit,9,571,353
+Amethyst Flask,Atziri's Promise,3,8999,796
+Sulphur Flask,Replica Sorrow of the Divine,9,429,431
+Sulphur Flask,The Overflowing Chalice,4,4695,1228
+Granite Flask,Rumi's Concoction,4,4066,1201
+Granite Flask,Lion's Roar,4,3899,1212
+Quartz Flask,Forbidden Taste,4,4095,1214
+Ruby Flask,Coruscating Elixir,6,2190,749
+Greater Mana Flask,Doedre's Elixir,4,4181,1214
+Hallowed Hybrid Flask,The Writhing Jar,5,2945,1217
+Silver Flask,Cinderswallow Urn,3,7801,945
+Sanctified Mana Flask,Lavianga's Spirit,5,3029,1209
+Large Hybrid Flask,Divination Distillate,5,3572,1210
+Diamond Flask,Coralito's Signature,5,2795,1217
+Sanctified Life Flask,Blood of the Karui,5,3119,1214
+Stibnite Flask,Witchfire Brew,5,2656,1165
+Silver Flask,Kiara's Determination,4,4271,1221
+Topaz Flask,Vessel of Vinktar,5,2429,805
+Bismuth Flask,The Wise Oak,5,3581,1210
+Stibnite Flask,Replica Witchfire Brew,10,171,193
+Zodiac Leather,Hyrri's Ire,5,3064,1451
+Champion Kite Shield,Aegis Aurora,5,2608,903
+Necromancer Silks,Fleshcrafter,7,1098,524
+Sadist Garb,Doppelgänger Guise,8,708,430
+Slink Boots,Atziri's Step,6,2357,585
+Ebony Tower Shield,Tukohama's Fortress,9,520,299
+Sage's Robe,Dialla's Malefaction,7,1234,472
+Occultist's Vestment,Shavronne's Wrappings,4,3834,1522
+Glorious Plate,Kaom's Heart,7,1498,701
+Crusader Gloves,Shaper's Touch,5,2562,1015
+Stealth Boots,Garukhan's Flight,8,663,279
+Crusader Plate,The Iron Fortress,7,1303,1078
+Solaris Circlet,Flamesight,8,718,510
+Vaal Gauntlets,Replica Atziri's Acuity,10,213,169
+Zodiac Leather,The Snowblind Grace,8,612,367
+Majestic Plate,Utula's Hunger,7,1029,910
+Crusader Chainmail,Replica Ambu's Charge,9,381,288
+Antique Gauntlets,Admiral's Arrogance,8,899,517
+Praetor Crown,Voll's Vision,6,2119,1065
+Raven Mask,The Gull,6,2006,996
+Devout Chainmail,The Fourth Vow,7,1078,912
+Bone Helmet,Ancient Skull,6,2352,1204
+Glorious Plate,Replica Kaom's Heart,10,283,215
+Archon Kite Shield,Prism Guardian,7,1566,687
+Colossal Tower Shield,Dawnbreaker,3,6013,1226
+Lacquered Garb,Cloak of Defiance,6,1919,1116
+Arcanist Gloves,Replica Grip of the Council,10,297,212
+Satin Gloves,Replica Allelopathy,10,220,277
+Spidersilk Robe,Replica Covenant,10,171,156
+Praetor Crown,Memory Vault,6,1908,961
+Mind Cage,Rime Gaze,6,2044,863
+Prophet Crown,The Brine Crown,8,624,350
+Lacquered Buckler,Azadi Crest,11,169,401
+Carnal Armour,Replica Restless Ward,8,697,603
+Leather Hood,Replica Heatshiver,10,219,258
+Vaal Gauntlets,Doryani's Fist,7,1234,661
+Cardinal Round Shield,Vix Lunaris,8,897,625
+Lion Pelt,Obscurantis,5,2450,1171
+Saintly Chainmail,Incandescent Heart,6,2266,1175
+Mirrored Spiked Shield,Leper's Alms,5,2427,1109
+Silk Slippers,Replica Bones of Ullr,10,241,165
+Satin Slippers,Scornflux,10,192,407
+Ezomyte Burgonet,Howlcrack,10,293,406
+Sharkskin Tunic,The Rat Cage,7,1038,723
+Bronzescale Gauntlets,Vaal Caress,7,1427,851
+Zealot Gloves,Replica Volkuur's Guidance,9,382,242
+Mesh Gloves,The Hand of Phrecia,8,668,752
+Necromancer Circlet,Chitus' Apex,6,2105,1124
+Elegant Round Shield,The Oppressor,7,1608,969
+Tarnished Spirit Shield,Brinerot Flag,8,639,519
+Widowsilk Robe,Infernal Mantle,5,2725,823
+Serpentscale Boots,Mutewind Whispersteps,7,982,570
+Sorcerer Boots,Steppan Eard,8,809,602
+Vaal Regalia,The Beast Fur Shawl,5,2952,1292
+Satin Gloves,Allelopathy,9,525,574
+Teak Round Shield,The Ghastly Theatre,7,1529,860
+Golden Plate,Greed's Embrace,4,3899,1479
+Enameled Buckler,Mutewind Pennant,8,646,521
+Legion Gloves,Null and Void,6,2208,1150
+Ancient Gauntlets,Winds of Change,8,757,569
+Tribal Circlet,Mark of the Red Covenant,5,3361,1188
+Broadhead Arrow Quiver,Steelworm,10,270,484
+Titan Gauntlets,Kaom's Spirit,7,1606,1077
+Reaver Helmet,Blood Price,9,528,629
+Ancient Greaves,Kahuturoa's Certainty,7,1589,867
+Sharktooth Arrow Quiver,Ahuana's Bite,7,1392,823
+Engraved Greatsword,Rakiata's Dance,10,341,302
+Vaal Blade,Rebuke of the Vaal,6,2197,996
+Gavel,Mjölner,7,1007,470
+Ezomyte Dagger,Cold Iron Point,6,1708,976
+Butcher Axe,Actum,10,257,214
+Maelström Staff,Replica Duskdawn,11,106,80
+Nailed Fist,Replica Last Resort,9,376,229
+Eternal Sword,Grelwood Shank,7,995,636
+Imperial Claw,Hand of Thought and Motion,8,782,522
+Imperial Bow,Windripper,6,2138,943
+War Sword,Replica Tempestuous Steel,10,283,186
+Royal Skean,Replica Heartbreaker,10,277,173
+Abyssal Axe,Ngamahu's Flame,6,1767,846
+Gut Ripper,Replica Advancing Fortress,10,289,163
+Lion Sword,Doomsower,8,823,570
+Judgement Staff,Hegemony's Era,7,1540,890
+Judgement Staff,The Grey Spire,7,1153,860
+Ezomyte Blade,Kondo's Pride,5,3046,1078
+Imperial Staff,Agnerod East,5,2497,1116
+Imperial Staff,Agnerod North,5,2461,1122
+Auric Mace,Callinellus Malleus,6,1990,912
+Ornate Mace,Frostbreath,6,2261,901
+Spiraled Wand,Reverberation Rod,6,2328,790
+Terror Claw,Rive,6,1996,912
+Imperial Claw,Touch of Anguish,5,2597,1108
+Great Mallet,Trypanon,8,640,628
+Dread Maul,Voidhome,6,2232,813
+Sage Wand,Shade of Solaris,9,445,259
+Ezomyte Axe,Wings of Entropy,6,1938,980
+Opal Ring,Polaric Devastation,7,1132,781
+Turquoise Amulet,Badge of the Brotherhood,7,1528,975
+Vermillion Ring,Enmity's Embrace,12,50,232
+Jade Amulet,The Halcyon,8,737,263
+Ruby Ring,Warrior's Legacy,8,653,391
+Cloth Belt,The Arkhon's Tools,10,213,491
+Amethyst Ring,Coiling Whisper,11,120,463
+Topaz Ring,Astral Projector,7,1579,997
+Moonstone Ring,Shavronne's Revelation,7,1337,881
+Heavy Belt,Replica Siegebreaker,10,244,180
+Moonstone Ring,Anathema,7,1037,756
+Onyx Amulet,Solstice Vigil,7,1594,701
+Steel Ring,Betrayal's Sting,10,315,524
+Heavy Belt,Kaom's Binding,7,1206,722
+Vanguard Belt,Perseverance,4,5197,1219
+Prismatic Ring,The Taming,4,4106,1144
+Unset Ring,The Pariah,7,1165,706
+Sapphire Ring,Circle of Fear,2,17015,1198
+Unset Ring,Vivinsect,7,1566,744
+Unset Ring,Brinerot Mark,9,556,464
+Citrine Amulet,The Felbog Fang,8,911,567
+Unset Ring,Squirming Terror,11,111,406
+Two-Stone Ring,Rigwald's Crest,6,1817,1079
+Unset Ring,The Hungry Loop,6,2092,1081
+Coral Amulet,Tainted Pact,8,822,766
+Turquoise Amulet,Maligaro's Cruelty,4,4867,1221
+Coral Ring,Winterweave,7,1009,791
+Iron Ring,Prospero's Protection,7,1068,481
+Viridian Jewel,Unnatural Instinct,5,2455,889
+Crimson Jewel,Bloodnotch,6,1851,827
+Viridian Jewel,Ancestral Vision,7,1595,860
+Crimson Jewel,Grand Spectrum,7,1460,550
+Crimson Jewel,Immutable Force,6,1853,861
+Cobalt Jewel,Emperor's Wit,11,130,73
+Viridian Jewel,Stormshroud,7,1293,858
+Timeless Jewel,Glorious Vanity,1,61731,1198
+Timeless Jewel,Brutal Restraint,1,51939,1198
+Timeless Jewel,Lethal Pride,1,60211,1198
+Prismatic Jewel,Bound By Destiny,12,10,45
+Viridian Jewel,Seething Fury,7,1576,675
+Small Cluster Jewel,Natural Affinity,7,1592,825
+Cobalt Jewel,Primordial Harmony,4,5708,827
+Viridian Jewel,The Golden Rule,4,3609,1169
+Cobalt Jewel,Replica Powerlessness,11,118,92
+Crimson Jewel,Firesong,7,1134,706
+Viridian Jewel,Hidden Potential,6,1687,672
+Iron Flask,Starlight Chalice,11,164,127
+Stibnite Flask,Sin's Rebirth,8,697,351
+Grand Mana Flask,Zerphi's Last Breath,7,1084,406
+Iron Flask,Vorana's Preparation,9,365,259
+Quicksilver Flask,Rotgut,4,4779,1204
+Sulphur Flask,The Sorrow of the Divine,4,5027,1217
+Vaal Spirit Shield,Esh's Visage,8,849,138
+Hydrascale Boots,Saqawal's Talons,8,697,201
+Goliath Greaves,Craiceann's Tracks,9,534,141
+Reinforced Tower Shield,Titucus Span,12,20,1
+Goliath Gauntlets,The Celestial Brace,7,1188,405
+Ambush Mitts,Slavedriver's Hand,9,410,103
+Necromancer Circlet,Fenumus' Toxins,9,476,139
+Golden Plate,Craiceann's Carapace,8,915,279
+Strapped Mitts,Architect's Hand,9,475,21
+Archon Kite Shield,The Unshattered Will,8,644,113
+Triumphant Lamellar,Farrul's Fur,6,1814,682
+Magistrate Crown,Craiceann's Chitin,9,489,124
+Silken Hood,Saqawal's Flock,9,516,142
+Latticed Ringmail,Crystal Vault,9,525,34
+Widowsilk Robe,Fenumus' Shroud,9,426,124
+Carnal Mitts,Soul Ascension,8,695,245
+Carnal Armour,Shroud of the Lightless,7,1372,468
+Great Crown,Replica Forbidden Shako,10,223,17
+Sacrificial Garb,Atziri's Splendour,5,3342,972
+Carnal Armour,Stasis Prison,10,213,118
+Dragonscale Boots,Annihilation's Approach,8,602,340
+Wild Leather,Fox's Fortune,9,509,48
+Triumphant Lamellar,Replica Farrul's Fur,9,558,362
+Steel Gauntlets,Deshret's Vise,11,95,4
+Cabalist Regalia,The Apostate,9,367,256
+Siege Helmet,Kaom's Command,9,438,78
+Titan Gauntlets,Craiceann's Pincers,9,479,127
+Royal Burgonet,The Formless Inferno,8,712,102
+Loricated Ringmail,Rotting Legion,7,1390,88
+Ancient Gauntlets,Hateforge,10,188,174
+Savant's Robe,Cloak of Tawm'r Isley,9,386,119
+Hubris Circlet,Indigon,5,2672,613
+Velvet Slippers,Greedtrap,10,274,14
+Slink Boots,Doryani's Delusion,8,637,170
+Plank Kite Shield,The Oak,9,531,65
+Girded Tower Shield,Svalinn,6,1698,814
+War Buckler,Thirst for Horrors,9,371,18
+Crusader Gloves,Hands of the High Templar,7,1037,344
+Zealot Helmet,Ravenous Passion,7,996,416
+Ezomyte Tower Shield,The Surrender,8,900,254
+Strapped Leather,Wildwrap,7,1133,84
+Royal Burgonet,Echoes of Creation,7,1502,560
+Sorcerer Boots,Doryani's Delusion,7,1053,305
+Titan Greaves,Doryani's Delusion,8,752,220
+Magistrate Crown,Mask of the Stitched Demon,10,256,95
+Golden Buckler,Atziri's Reflection,7,989,481
+Plate Vest,Wall of Brambles,8,763,41
+Varnished Coat,The Admiral,9,550,205
+Zodiac Leather,Replica Hyrri's Ire,9,485,324
+Vaal Gauntlets,Atziri's Acuity,7,1020,307
+Sentinel Jacket,Expedition's End,10,315,162
+Colosseum Plate,Pragmatism,7,1103,529
+Wyrmscale Doublet,Gruthkul's Pelt,7,1576,617
+Carnal Armour,Replica Shroud of the Lightless,10,192,134
+Elegant Round Shield,The Squire,8,797,477
+Iron Hat,Ezomyte Hold,9,351,23
+Magistrate Crown,Mask of the Spirit Drinker,9,439,185
+Soldier Boots,Replica Alberon's Warpath,9,565,351
+Savant's Robe,Garb of the Ephemeral,5,2734,756
+Zodiac Leather,Replica Perfect Form,9,441,298
+Fluted Bascinet,Crest of Desire,9,467,281
+Runic Sollerets,Olroth's Charge,11,149,116
+Archon Kite Shield,The Immortal Will,10,208,49
+Callous Mask,The Tempest's Liberation,10,177,32
+Ebony Tower Shield,Replica Tukohama's Fortress,11,103,75
+Praetor Crown,Viridi's Veil,6,2137,629
+Blood Raiment,The Eternity Shroud,8,842,241
+Magistrate Crown,Crown of the Tyrant,9,363,166
+Runic Helm,Faithguard,10,249,283
+Gladiator Plate,The Brass Dome,5,3177,1255
+Great Crown,Geofri's Legacy,9,400,26
+Ezomyte Burgonet,Cowl of the Thermophile,10,260,149
+Elegant Ringmail,Replica Loreweave,8,734,346
+Ornate Quiver,Replica Maloney's Mechanism,10,332,159
+Chiming Spirit Shield,The Scales of Justice,10,224,339
+Vaal Spirit Shield,Apep's Slumber,10,282,127
+Runic Crown,Cadigan's Crown,11,148,59
+Assassin's Mitts,Entropic Devastation,8,613,253
+Steel Kite Shield,Mahuxotl's Machination,9,486,190
+Painted Buckler,Kaltensoul,9,479,52
+Ambush Mitts,Architect's Hand,10,226,123
+Blood Raiment,Saqawal's Nest,7,1327,433
+Wyrmscale Boots,Legacy of Fury,5,3365,929
+Carnal Boots,Omeyocan,8,895,181
+Vaal Spirit Shield,Apep's Supremacy,10,320,44
+Blunt Arrow Quiver,The Shattered Divinity,11,136,26
+Pig-Faced Bascinet,The Devourer of Minds,9,591,254
+Ezomyte Burgonet,Replica Abyssus,8,831,393
+Clasped Boots,Sunspite,9,347,22
+Crusader Boots,Death's Door,9,522,185
+Sovereign Spiked Shield,Qotra's Regulator,10,262,106
+Iron Circlet,Asenath's Chant,5,3096,335
+Crimson Round Shield,Shattershard,10,199,116
+Spike-Point Arrow Quiver,Replica Soul Strike,10,232,119
+Shagreen Boots,Temptation Step,9,408,169
+Royal Burgonet,The Formless Flame,8,741,314
+Hydrascale Boots,Gamblesprint,10,238,116
+Goliath Greaves,The Tempest Rising,7,1403,549
+Ezomyte Tower Shield,The Anticipation,9,596,206
+Solaris Circlet,Cowl of the Ceraunophile,10,284,169
+Hydrascale Gauntlets,Gravebind,8,896,348
+Zealot Gloves,Hand of the Fervent,10,227,107
+Silken Hood,Cowl of the Cryophile,10,301,179
+Steel Kite Shield,Emperor's Vigilance,6,1802,819
+Primal Arrow Quiver,Voidfletcher,8,786,327
+Occultist's Vestment,Infernal Mantle,8,808,18
+Zodiac Leather,The Perfect Form,8,735,138
+Ironscale Boots,Duskblight,9,547,36
+Sorcerer Boots,Skyforth,7,1224,421
+Assassin's Boots,Fenumus' Spinnerets,9,531,138
+Shagreen Boots,Replica Three-step Assault,9,368,199
+Jingling Spirit Shield,Light of Lunaris,7,1144,429
+Archon Kite Shield,Unyielding Flame,10,323,219
+Two-Point Arrow Quiver,Rigwald's Quills,8,870,324
+Spiked Gloves,Ceaseless Feast,8,747,438
+Penetrating Arrow Quiver,Voidfletcher,8,876,46
+Maple Round Shield,The Flawed Refuge,11,168,135
+Callous Mask,The Tempest's Binding,7,1377,194
+Pinnacle Tower Shield,Magna Eclipsis,9,390,116
+Shackled Boots,Dance of the Offered,9,581,30
+Vine Circlet,Martyr's Crown,9,529,26
+Gilded Sallet,Deidbellow,8,668,49
+Simple Robe,Skin of the Loyal,6,2140,647
+Blunt Arrow Quiver,The Fracturing Spinner,9,464,100
+Leather Hood,Frostferno,7,1561,128
+Iron Mask,Malachai's Awakening,9,520,38
+Velvet Gloves,Doedre's Malevolence,8,728,46
+Carnal Mitts,Fenumus' Weave,9,573,146
+Riveted Gloves,Command of the Pit,8,886,238
+Magistrate Crown,Mask of the Tribunal,4,4057,799
+Ezomyte Spiked Shield,Perepiteia,3,8350,975
+Great Helmet,Replica Veil of the Night,9,368,203
+Laminated Kite Shield,Replica Victario's Charity,9,364,202
+Festival Mask,Replica Leer Cast,9,410,229
+Lacquered Helmet,The Fledgling,7,1163,599
+Runic Sabatons,Vorana's March,8,733,374
+Serrated Arrow Quiver,Cragfall,9,352,14
+Tarnished Spirit Shield,Whakatutuki o Matua,8,694,70
+Sharktooth Arrow Quiver,Hyrri's Demise,8,742,50
+Regicide Mask,Akoya's Gaze,10,288,241
+Burnished Spiked Shield,Glitterdisc,8,833,44
+Mind Cage,Hale Negator,8,914,270
+Titanium Spirit Shield,Bitterbind Point,5,3208,791
+Visored Sallet,The Trickster's Smile,10,195,125
+Scholar Boots,Shavronne's Gambit,8,608,34
+Reinforced Greaves,Windshriek,7,993,68
+Dragonscale Gauntlets,Worldcarver,7,1572,77
+Full Scale Armour,Viper's Scales,8,696,26
+Blunt Arrow Quiver,Maloney's Nightfall,6,1821,71
+Siege Helmet,The Formless Flame,7,1395,74
+Broadhead Arrow Quiver,Scorpion's Call,6,1635,70
+Ezomyte Blade,The Living Blade,9,442,119
+Legion Sword,The Surging Thoughts,11,158,33
+Sledgehammer,Hrimnor's Dirge,9,434,19
+Imperial Staff,The Enmity Divine,9,404,104
+Jagged Maul,Panquetzaliztli,9,376,27
+Judgement Staff,Atziri's Rule,9,486,169
+Infernal Sword,Voidforge,7,1087,339
+Judgement Staff,Pledge of Hands,6,1864,409
+Abyssal Axe,Starcaller,12,9,30
+Royal Staff,The Stormwall,8,638,45
+Infernal Sword,Echoforge,10,222,144
+Piledriver,Tawhoa's Felling,8,956,150
+Terror Maul,Replica Kongor's Undying Rage,11,79,62
+Vaal Axe,Atziri's Disfavour,7,1361,303
+Coiled Staff,Dying Breath,9,458,18
+Imperial Claw,Hand of Wisdom and Action,7,1071,237
+Prophecy Wand,Grace of the Goddess,11,167,126
+Cutlass,United in Dream,8,654,284
+Cutlass,Severed in Sleep,7,1526,500
+Siege Axe,Soul Taker,7,1199,363
+Maelström Staff,Disintegrator,8,664,130
+Foul Staff,The Winds of Fate,11,103,41
+Judgement Staff,Legacy of the Rose,12,35,116
+Reaver Sword,The Dancing Duo,9,495,24
+Crude Bow,Silverbough,8,919,51
+Gemstone Sword,Story of the Vaal,9,400,189
+Cleaver,Dreadsurge,10,252,11
+Despot Axe,Kingmaker,9,444,180
+Quarterstaff,The Annihilating Light,6,2286,1028
+Imperial Staff,The Yielding Mortality,11,154,30
+Primordial Staff,The Burden of Shadows,11,168,56
+Siege Axe,Replica Soul Taker,11,165,12
+Great Mallet,Chaber Cairn,8,636,36
+Brass Maul,Geofri's Devotion,9,506,26
+Highborn Staff,Witchhunter's Judgment,9,532,229
+Great Mallet,Replica Trypanon,11,111,75
+Skinning Knife,Sanguine Gambol,10,308,18
+Maelström Staff,Duskdawn,10,210,49
+Vaal Sceptre,Doryani's Catalyst,7,1297,222
+Imperial Bow,Replica Windripper,10,184,100
+Infernal Sword,Starforge,6,2093,507
+Phantom Mace,Serle's Masterwork,7,1234,311
+Iron Staff,Realm Ender,9,554,25
+Karui Maul,Marohi Erqi,7,1461,302
+Gemstone Sword,Fate of the Vaal,10,251,80
+Fishing Rod,Song of the Sirens,11,66,103
+Ranger Bow,Hopeshredder,7,1106,306
+Crystal Wand,Corona Solaris,9,405,49
+Decimation Bow,Replica Infractem,9,371,166
+Sage Wand,Relic of the Pact,10,333,190
+Fishing Rod,Reefbane,11,91,147
+Ambusher,The Hidden Blade,10,280,181
+Void Sceptre,Replica Nebulis,9,361,165
+Eternal Sword,The Goddess Unleashed,11,125,8
+Ornate Sword,Queen's Escape,7,1400,63
+Tornado Wand,Replica Tulfall,10,248,10
+Highborn Staff,The Geomantic Gyre,10,181,26
+Assassin Bow,Arborix,9,478,108
+Woodsplitter,The Cauteriser,8,855,42
+Vaal Sceptre,Yaomac's Accord,10,275,124
+Citadel Bow,Xoph's Nurture,7,992,192
+Gladius,The Iron Mass,10,304,168
+Elegant Sword,The Goddess Scorned,10,188,50
+Charan's Sword,Oni-Goroshi,9,508,108
+Legion Sword,The Saviour,8,809,144
+Gladius,The Redblade,10,253,45
+Imperial Claw,Izaro's Dilemma,9,424,19
+Gnarled Branch,Mirebough,10,316,14
+Gavel,Cameria's Avarice,10,185,45
+Highborn Staff,Martyr of Innocence,8,964,413
+Engraved Wand,Replica Midnight Bargain,10,225,103
+Gnarled Branch,Replica Fencoil,10,283,99
+Royal Bow,Doomfletch's Prism,6,2174,86
+Grinning Fetish,Replica Earendel's Embrace,10,335,207
+Void Sceptre,Nebulis,3,6743,805
+Stiletto,Replica Bloodplay,9,364,150
+Graceful Sword,Nametaker,10,186,133
+Gnarled Branch,Replica Blood Thorn,10,283,135
+Jade Hatchet,The Gryphon,8,620,44
+Elder Sword,Replica Innsbury Edge,9,346,184
+Spiraled Wand,Relic of the Pact,8,683,38
+Demon Dagger,Vulconus,6,1980,872
+Spiraled Wand,Amplification Rod,8,745,50
+Rusted Sword,Dreadbeak,8,777,52
+Void Sceptre,Augyre,7,1416,595
+Iron Sceptre,Spine of the First Claimant,7,1042,39
+Elegant Foil,Chitus' Needle,8,915,46
+Coral Ring,Kaom's Way,5,3058,229
+Unset Ring,Mutewind Seal,8,715,367
+Agate Amulet,Voll's Devotion,7,1278,557
+Jade Amulet,The Pandemonius,6,1714,439
+Amber Amulet,Xoph's Blood,7,1368,317
+Unset Ring,Redblade Band,8,794,358
+Cloth Belt,The Flow Untethered,8,757,176
+Leather Belt,Headhunter,6,1985,633
+Amethyst Ring,Original Sin,10,181,189
+Iron Ring,Voidheart,6,1770,124
+Heavy Belt,Doryani's Invitation,5,3532,639
+Topaz Ring,Nimis,9,527,577
+Heavy Belt,Mageblood,7,1102,682
+Onyx Amulet,Stranglegasp,11,82,67
+Lapis Amulet,Choir of the Storm,7,1187,156
+Studded Belt,Ynda's Stand,9,529,155
+Onyx Amulet,Crystallised Omniscience,7,1123,538
+Vanguard Belt,The Tides of Time,6,1650,669
+Unset Amulet,Uul-Netol's Vow,9,466,161
+Onyx Amulet,Ashes of the Stars,4,4634,821
+Chain Belt,Replica Bated Breath,11,165,69
+Greatwolf Talisman,Eyes of the Greatwolf,2,14547,916
+Paua Amulet,Sacrificial Heart,7,1141,261
+Ring,Kalandra's Touch,7,1120,604
+Turquoise Amulet,Replica Badge of the Brotherhood,10,289,149
+Onyx Amulet,Presence of Chayula,6,2095,375
+Leather Belt,Replica Headhunter,10,257,186
+Paua Amulet,Defiance of Destiny,6,1714,656
+Moonstone Ring,Timetwist,8,721,33
+Unset Ring,Triumvirate Authority,5,2669,919
+Crystal Belt,The Burden of Truth,7,1249,495
+Topaz Ring,Precursor's Emblem,7,1221,591
+Cloth Belt,Arn's Anguish,6,2020,743
+Sapphire Ring,Uzaza's Valley,10,208,93
+Nameless Ring,The Hateful Accuser,6,1901,663
+Two-Stone Ring,Precursor's Emblem,6,2213,569
+Cloth Belt,The Torrent's Reclamation,9,566,116
+Prismatic Ring,Precursor's Emblem,9,512,222
+Sapphire Ring,Precursor's Emblem,7,1217,446
+Topaz Ring,Putembo's Mountain,10,242,82
+Ruby Ring,Precursor's Emblem,8,813,331
+Amethyst Ring,Blackflame,9,553,212
+Cloth Belt,Graven's Secret,6,1871,786
+Prismatic Ring,Circle of Ambition,4,4400,618
+Chain Belt,Coward's Chains,8,659,211
+Topaz Ring,Putembo's Meadow,9,508,111
+Sapphire Ring,Uzaza's Mountain,9,365,129
+Ruby Ring,Ahkeli's Meadow,10,299,100
+Chain Belt,Coward's Legacy,9,576,206
+Agate Amulet,Eternal Damnation,8,620,286
+Onyx Amulet,Aul's Uprising,4,4732,805
+Nameless Ring,The Queller of Minds,8,819,383
+Nameless Ring,The Selfish Shepherd,7,1029,501
+Gold Amulet,The Effigon,9,427,58
+Sapphire Ring,Uzaza's Meadow,8,628,243
+Ruby Ring,Ahkeli's Valley,9,399,134
+Topaz Ring,Putembo's Valley,8,620,203
+Unset Ring,Rotblood Promise,8,757,355
+Gold Amulet,The Untouched Soul,7,987,577
+Leather Belt,Hyperboreus,7,1585,507
+Ruby Ring,Ahkeli's Mountain,8,645,234
+Amber Amulet,Xoph's Heart,8,975,251
+Jade Amulet,Karui Charge,8,916,94
+Rustic Sash,The Retch,8,839,237
+Studded Belt,The Tactician,8,621,36
+Blue Pearl Amulet,Gloomfang,5,2545,1051
+Studded Belt,The Nomad,8,760,54
+Topaz Ring,Circle of Regret,2,20670,1196
+Ruby Ring,Circle of Anguish,2,21643,1197
+Chain Belt,Chains of Emancipation,7,1017,349
+Chain Belt,Auxium,8,625,28
+Coral Amulet,Bloodgrip,10,278,5
+Large Cluster Jewel,Voices,3,7918,2166
+Prismatic Jewel,Emperor's Mastery,11,153,45
+Crimson Jewel,Emperor's Might,9,397,64
+Cobalt Jewel,Rational Doctrine,9,518,339
+Crimson Jewel,That Which Was Taken,1,142330,399
+Viridian Jewel,Replica Cheap Construction,10,279,18
+Prismatic Jewel,The Perandus Pact,7,1622,398
+Crimson Jewel,Warrior's Tale,7,1251,242
+Prismatic Jewel,Sublime Vision,7,1528,763
+Ghastly Eye Jewel,Amanamu's Gaze,9,590,321
+Crimson Jewel,Replica Fragile Bloom,9,400,41
+Cobalt Jewel,Replica Unstable Payload,10,229,27
+Prismatic Jewel,The Light of Meaning,4,4641,852
+Viridian Jewel,The Green Nightmare,9,482,177
+Crimson Jewel,Replica Blood Sacrifice,10,244,23
+Crimson Jewel,Forbidden Flame,2,13699,1197
+Cobalt Jewel,Melding of the Flesh,6,2147,1008
+Crimson Jewel,The Adorned,6,1687,705
+Viridian Jewel,Transcendent Spirit,9,433,189
+Crimson Jewel,The Red Nightmare,8,794,254
+Cobalt Jewel,The Blue Nightmare,8,714,158
+Crimson Jewel,Transcendent Flesh,7,1360,450
+Crimson Jewel,Dissolution of the Flesh,7,1307,761
+Murderous Eye Jewel,Tecrod's Gaze,8,745,290
+Cobalt Jewel,Transcendent Mind,9,438,179
+Viridian Jewel,Replica Pacifism,11,145,78
+Searching Eye Jewel,Ulaman's Gaze,8,768,307
+Small Cluster Jewel,The Interrogation,5,2719,814
+Prismatic Jewel,The Anima Stone,5,2764,621
+Hypnotic Eye Jewel,Kurgal's Gaze,8,735,296
+Viridian Jewel,Impossible Escape,3,7970,813
+Viridian Jewel,Replica Hotheaded,9,551,64
+Viridian Jewel,Replica Pure Talent,9,464,36
+Crimson Jewel,Primordial Might,5,2522,515
+Viridian Jewel,The Green Dream,7,1253,419
+Crimson Jewel,The Red Dream,7,1022,402
+Small Cluster Jewel,One With Nothing,4,3732,838
+Small Cluster Jewel,Calamitous Visions,5,2572,873
+Crimson Jewel,Split Personality,1,32580,880
+Crimson Jewel,Izaro's Turmoil,7,1310,61
+Small Cluster Jewel,The Front Line,6,2289,798
+Small Cluster Jewel,The Siege,6,2168,780
+Cobalt Jewel,Energy From Within,4,3881,518
+Viridian Jewel,Grand Spectrum,5,2767,630
+Cobalt Jewel,Clear Mind,4,5274,302
+Viridian Jewel,Hungry Abyss,8,930,38
+Crimson Jewel,Inspired Learning,4,4767,823
+Cobalt Jewel,The Blue Dream,7,1267,406
+Cobalt Jewel,The Long Winter,5,2866,149
+Crimson Jewel,Mantra of Flames,4,4857,365
+Cobalt Jewel,Nadir Mode,8,946,310
+Viridian Jewel,Chill of Corruption,7,1271,389
+Cobalt Jewel,Corrupted Energy,8,843,59
+Cobalt Jewel,Vaal Sentencing,6,2333,128
+Cobalt Jewel,Endless Misery,4,4204,299
+Crimson Jewel,Fireborn,4,4165,260
+Crimson Jewel,Might in All Forms,4,3798,223
+Viridian Jewel,Apparitions,4,4286,158
+Cobalt Jewel,Violent Dead,4,5051,361
+Viridian Jewel,Cold Steel,4,5082,263
+Cobalt Jewel,Conqueror's Potency,4,5238,308
+Cobalt Jewel,Eldritch Knowledge,3,5967,355
+Cobalt Jewel,Malicious Intent,3,8835,397
+Crimson Jewel,Martial Artistry,4,5679,295
+Crimson Jewel,Shattered Chains,5,2964,110
+Viridian Jewel,Steel Spirit,4,4291,204
+Crimson Jewel,Warlord's Reach,4,5208,249
+Cobalt Jewel,From Dust,4,5025,302
+Cobalt Jewel,Soul's Wick,3,7504,394
+Cobalt Jewel,Fortified Legion,6,2291,87
+Viridian Jewel,Pitch Darkness,6,1981,68
+Cobalt Jewel,Spirited Response,4,4338,219
+Viridian Jewel,Volley Fire,3,9791,396
+Viridian Jewel,Collateral Damage,4,4373,162
+Crimson Jewel,Overwhelming Odds,3,8800,397
+Gold Flask,Wine of the Prophet,12,6,18
+Amethyst Flask,Progenesis,7,1261,808
+Bismuth Flask,Oriath's End,7,1355,812
+Ruby Flask,Dying Sun,4,5652,675
+Sulphur Flask,Bottled Faith,4,3959,784
+Quartz Flask,Soul Ripper,9,379,156
+Iron Flask,Olroth's Resolve,8,646,408
+Iron Flask,Elixir of the Unbroken Circle,10,295,134
+Vanguard Belt,Binds of Bloody Vengeance,11,78,130

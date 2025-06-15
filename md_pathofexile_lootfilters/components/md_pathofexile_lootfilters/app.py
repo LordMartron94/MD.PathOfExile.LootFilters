@@ -4,7 +4,8 @@ from typing import List
 
 from md_pathofexile_lootfilters.components.md_common_python.py_common.cli_framework import CommandLineInterface
 from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import CONFIG_DIR, CURRENT_LEAGUE
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import CONFIG_DIR, \
+    LEAGUE_WEIGHTS
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.filter_constructor import \
     FilterConstructor
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.game_item_exporter import \
@@ -13,6 +14,8 @@ from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_
     GameItemRepository
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.ninja_client import \
     PoeNinjaClient
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.rarity_calculation.gaussian_mixture_rarity_calculator import \
+    GaussianMixtureRarityCalculator
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.rarity_calculation.log_scaled_rarity_calculator import \
     LogScaledRarityCalculator
 
@@ -63,7 +66,7 @@ class App:
 
     def _extract_items(self) -> None:
         client = PoeNinjaClient(self._logger)
-        repo = GameItemRepository(self._logger, client, self._valid_bases, league=CURRENT_LEAGUE, item_types=
+        repo = GameItemRepository(self._logger, client, self._valid_bases, league_weights=LEAGUE_WEIGHTS, item_types=
         {
             CONFIG_DIR / "uniques.csv":
             [
@@ -75,7 +78,7 @@ class App:
                 "SkillGem"
             ]
         })
-        calculator = LogScaledRarityCalculator()
+        calculator = GaussianMixtureRarityCalculator()
         exporter = GameItemExporter(self._logger, repo, calculator)
         exporter.export()
 

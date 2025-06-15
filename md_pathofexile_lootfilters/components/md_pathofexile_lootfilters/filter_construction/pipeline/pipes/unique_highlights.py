@@ -71,7 +71,7 @@ class HighlightUniques(IPipe):
             appender_strategy=SingleTierBaseTypesAppendingStrategy(self._rule_factory, self._condition_factory),
             base_type_accessor="base_type",
             accessors={
-                "rarity_accessor": "rarity_score"
+                "rarity_accessor": "rarity_tier"
             }
         )
 

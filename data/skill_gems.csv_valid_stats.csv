@@ -1,0 +1,535 @@
+name,baseType,weighted_listings,total_listings,max_listings,total_count,leagues_seen,avg_weighted_listings
+Ethereal Knives,Ethereal Knives,11442.4,16912,4675,1723,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2288.48
+Urgent Orders Support,Urgent Orders Support,4984.55,9641,3193,892,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",996.9100000000001
+Unearth,Unearth,7745.550000000002,12581,3837,1292,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1549.1100000000004
+Puncture,Puncture,9725.8,14793,4334,1493,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1945.1599999999999
+Devouring Totem,Devouring Totem,5515.7,9886,3570,1059,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1103.1399999999999
+Caustic Arrow,Caustic Arrow,11982.900000000001,18051,4833,1906,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2396.5800000000004
+Blast Rain,Blast Rain,8234.25,13198,3592,1306,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1646.85
+Flammability,Flammability,13542.199999999999,21007,5314,2034,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2708.4399999999996
+Cold to Fire Support,Cold to Fire Support,7216.900000000003,10613,3128,979,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1443.3800000000006
+Armageddon Brand,Armageddon Brand,8399.6,13948,4129,1478,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1679.92
+Berserk,Berserk,9916.450000000003,16937,4201,1751,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1983.2900000000004
+Artillery Ballista,Artillery Ballista,6637.850000000001,12094,4052,1221,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1327.5700000000002
+Charged Traps Support,Charged Traps Support,4799.249999999999,7922,2055,749,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",959.8499999999998
+Focused Ballista Support,Focused Ballista Support,4032.3999999999996,7237,2326,858,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",806.4799999999999
+Vaal Caustic Arrow,Vaal Caustic Arrow,4161.1,8130,4983,791,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",832.22
+Nightblade Support,Nightblade Support,6577.200000000001,12242,2494,1023,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1315.44
+Eye of Winter,Eye of Winter,5862.850000000001,10691,3687,1127,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1172.5700000000002
+Item Rarity Support,Item Rarity Support,13677.5,20106,5324,2086,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2735.5
+Iron Will Support,Iron Will Support,6601.05,9721,3192,911,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1320.21
+Determination,Determination,16759.15,27629,5113,2905,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3351.8300000000004
+Smoke Mine,Smoke Mine,9022.6,13952,3759,1492,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1804.52
+Enfeeble,Enfeeble,12311.350000000004,18319,5224,1765,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2462.270000000001
+Clarity,Clarity,15067.2,23309,7194,1920,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3013.44
+Reave,Reave,8809.949999999997,13625,3725,1240,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1761.9899999999993
+Glacial Hammer,Glacial Hammer,10242.45,16083,4749,1530,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2048.4900000000002
+Stun Support,Stun Support,5755.000000000001,8692,2783,922,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1151.0000000000002
+Mana Leech Support,Mana Leech Support,6732.75,9911,3583,1081,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1346.55
+Stormblast Mine,Stormblast Mine,8265.099999999999,14800,4390,1464,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1653.0199999999998
+Sigil of Power,Sigil of Power,7130.149999999999,13390,4197,1309,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1426.0299999999997
+Petrified Blood,Petrified Blood,7915.200000000002,14846,4560,1574,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1583.0400000000004
+Seismic Cry,Seismic Cry,6867.200000000001,12898,4488,1269,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1373.44
+Chain Hook,Chain Hook,5931.950000000001,10213,3393,1071,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1186.39
+Blazing Salvo,Blazing Salvo,5755.500000000001,10468,3799,1161,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1151.1000000000001
+Pestilent Strike,Pestilent Strike,6211.55,10891,3475,1083,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1242.31
+Bodyswap,Bodyswap,7154.85,11748,3493,1226,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1430.97
+Plague Bearer,Plague Bearer,7604.150000000001,13122,3750,1389,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1520.8300000000002
+Spectral Helix,Spectral Helix,5436.0,10027,3725,1235,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1087.2
+Intuitive Link,Intuitive Link,4587.0,8818,3541,868,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",917.4
+Swordstorm,Swordstorm,5234.500000000001,10122,3798,1442,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1046.9
+Faster Casting Support,Faster Casting Support,19077.0,26889,8336,2161,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3815.4
+Pride,Pride,12858.050000000003,20685,3547,1897,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2571.6100000000006
+Vulnerability,Vulnerability,11295.85,19053,5013,1750,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2259.17
+Controlled Destruction Support,Controlled Destruction Support,15946.900000000001,21396,6030,1982,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3189.38
+Lightning Spire Trap,Lightning Spire Trap,7302.1500000000015,12073,3566,1188,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1460.4300000000003
+Perforate,Perforate,6863.25,11866,3994,1333,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1372.65
+Arcane Cloak,Arcane Cloak,8559.649999999998,15731,4139,1559,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1711.9299999999996
+Penance Brand,Penance Brand,6658.65,11949,4052,1315,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1331.73
+Awakened Cold Penetration Support,Awakened Cold Penetration Support,6474.149999999999,10258,4280,942,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1294.8299999999997
+Defiance Banner,Defiance Banner,7553.9,11889,2289,1411,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1510.78
+Energy Blade,Energy Blade,5319.85,10547,3747,1089,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1063.97
+Consecrated Path,Consecrated Path,7215.15,11953,3598,1203,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1443.03
+Awakened Vicious Projectiles Support,Awakened Vicious Projectiles Support,6549.100000000002,10347,4374,983,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",1637.2750000000005
+Animate Guardian,Animate Guardian,13022.500000000004,19890,3906,1930,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2604.500000000001
+Spell Echo Support,Spell Echo Support,12349.949999999999,18277,4423,1826,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2469.99
+Wither,Wither,11012.050000000001,17705,4213,1634,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2202.4100000000003
+Tornado Shot,Tornado Shot,14423.550000000005,20936,4136,1907,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2884.710000000001
+Brand Recall,Brand Recall,6248.6,10208,3776,1125,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1249.72
+Bonechill Support,Bonechill Support,7357.350000000001,11275,2557,1108,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1471.4700000000003
+High-Impact Mine Support,High-Impact Mine Support,5514.1,10099,2345,870,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",1378.525
+Blight,Blight,8853.95,14065,3752,1422,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1770.7900000000002
+Life Leech Support,Life Leech Support,8414.8,11792,4145,1143,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",2103.7
+Summon Stone Golem,Summon Stone Golem,18339.3,27660,6412,2332,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3667.8599999999997
+Purity of Fire,Purity of Fire,13756.300000000005,21965,4065,1870,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2751.260000000001
+Mirage Archer Support,Mirage Archer Support,10467.750000000005,15502,3704,1650,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2093.550000000001
+Burning Damage Support,Burning Damage Support,9571.55,14769,3630,1428,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1914.31
+Frost Wall,Frost Wall,8805.85,13614,3908,1448,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1761.17
+Purity of Lightning,Purity of Lightning,10607.000000000002,15685,3990,1394,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2121.4000000000005
+Blind Support,Blind Support,6722.000000000001,9798,3187,1042,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1344.4
+Winter Orb,Winter Orb,9271.85,14316,3688,1373,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1854.3700000000001
+Herald of Purity,Herald of Purity,11497.150000000001,17034,3472,1884,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2299.4300000000003
+Withering Step,Withering Step,9642.599999999999,16199,4459,1723,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1928.5199999999998
+Infernal Legion Support,Infernal Legion Support,5582.749999999999,9166,2805,1056,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1116.5499999999997
+Purifying Flame,Purifying Flame,8027.15,13486,4121,1505,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1605.4299999999998
+Cluster Traps Support,Cluster Traps Support,5734.700000000001,8695,1940,830,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",1433.6750000000002
+Hypothermia Support,Hypothermia Support,12135.750000000002,17063,4399,1633,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2427.1500000000005
+Awakened Added Fire Damage Support,Awakened Added Fire Damage Support,5834.200000000001,9353,4011,840,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",1458.5500000000002
+Absolution,Absolution,6004.450000000001,11030,4014,1291,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1200.89
+Dark Pact,Dark Pact,8808.050000000001,13881,3524,1321,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1761.6100000000001
+Charged Dash,Charged Dash,7258.099999999998,11848,3638,1176,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1451.6199999999994
+Barrage,Barrage,11407.45,16619,4057,1545,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2281.4900000000002
+Frostbite,Frostbite,10557.0,16352,4030,1667,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2111.4
+Kinetic Blast,Kinetic Blast,10201.399999999998,15988,3822,1524,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2040.2799999999995
+Explosive Arrow,Explosive Arrow,9687.4,15505,3658,1563,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1937.48
+Summon Holy Relic,Summon Holy Relic,9248.2,15475,4465,1555,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1849.64
+Slower Projectiles Support,Slower Projectiles Support,8797.750000000002,12668,3358,1088,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1759.5500000000004
+Mark On Hit Support,Mark On Hit Support,7378.15,14453,3213,1664,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1475.6299999999999
+Vaal Glacial Hammer,Vaal Glacial Hammer,862.45,1092,661,158,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",172.49
+Seismic Trap,Seismic Trap,7574.85,12601,3589,1349,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1514.97
+Swift Affliction Support,Swift Affliction Support,11086.7,17415,3555,1559,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2217.34
+Shattering Steel,Shattering Steel,7006.75,11909,3807,1245,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1401.35
+Trinity Support,Trinity Support,8567.65,15762,3774,1566,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1713.53
+Infernal Cry,Infernal Cry,9398.050000000001,15320,4123,1558,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1879.6100000000001
+Multiple Traps Support,Multiple Traps Support,7050.4000000000015,10482,3229,1221,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1410.0800000000004
+Convocation,Convocation,10469.95,14981,4137,1526,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2093.9900000000002
+Vaal Immortal Call,Vaal Immortal Call,512.2,568,387,74,"{'Standard', 'Hardcore'}",256.1
+Arc,Arc,13101.999999999996,19016,5029,1672,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2620.399999999999
+Desecrate,Desecrate,12226.099999999999,18949,4920,1808,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2445.22
+Righteous Fire,Righteous Fire,13819.800000000001,21398,4516,2159,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2763.96
+Culling Strike Support,Culling Strike Support,12151.15,17700,4781,1774,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2430.23
+Burning Arrow,Burning Arrow,10982.1,16805,5301,1534,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2196.42
+Detonate Dead,Detonate Dead,10315.9,16464,4715,1663,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2063.18
+Arcane Surge Support,Arcane Surge Support,16217.5,24141,7677,1859,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3243.5
+Firestorm,Firestorm,10012.950000000004,15988,4739,1634,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2002.5900000000008
+Contagion,Contagion,9943.150000000003,15331,3982,1561,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1988.6300000000006
+Trap Support,Trap Support,6567.399999999999,9817,2959,1022,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1313.4799999999998
+Explosive Trap,Explosive Trap,7627.249999999999,13051,3858,1288,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1525.4499999999998
+Toxic Rain,Toxic Rain,11243.25,17925,4148,1873,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2248.65
+War Banner,War Banner,10392.099999999999,16600,3460,1668,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2078.4199999999996
+Flesh and Stone,Flesh and Stone,11344.8,18016,3118,1789,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2268.96
+Second Wind Support,Second Wind Support,9261.000000000002,13382,2706,1505,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1852.2000000000003
+Exsanguinate,Exsanguinate,7189.299999999999,13595,3966,1410,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1437.86
+Mirror Arrow,Mirror Arrow,27357.15,46452,22629,2187,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",5471.43
+Void Sphere,Void Sphere,6529.15,11571,3794,1218,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1305.83
+Cast while Channelling Support,Cast while Channelling Support,6297.199999999999,9644,2309,866,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",1574.2999999999997
+Elemental Weakness,Elemental Weakness,10360.25,17813,5169,1866,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2072.05
+Brutality Support,Brutality Support,12924.65,20815,3264,1501,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2584.93
+Locus Mine Support,Locus Mine Support,3100.25,6782,2671,866,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",620.05
+Volatile Dead,Volatile Dead,9432.35,14713,3942,1494,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1886.47
+Vaal Discipline,Vaal Discipline,7643.500000000002,11261,2111,1435,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1528.7000000000003
+Tempest Shield,Tempest Shield,13443.6,22903,4741,2158,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2688.7200000000003
+Dash,Dash,13961.900000000001,22037,6940,2059,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2792.38
+Sniper's Mark,Sniper's Mark,14517.200000000003,24168,5858,2309,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2903.4400000000005
+Ancestral Cry,Ancestral Cry,6299.549999999999,11371,3820,1233,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1259.9099999999999
+More Duration Support,More Duration Support,9299.199999999999,15997,3851,2571,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1859.8399999999997
+Divine Ire,Divine Ire,6956.549999999999,11723,3621,1182,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1391.31
+Rage Vortex,Rage Vortex,5626.0,10595,4052,1207,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1125.2
+Deadly Ailments Support,Deadly Ailments Support,7206.2,11609,2798,1112,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1441.24
+Charged Mines Support,Charged Mines Support,4970.25,9158,2464,878,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",994.05
+Essence Drain,Essence Drain,11201.550000000003,16982,3865,1705,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2240.3100000000004
+Ice Nova,Ice Nova,12681.300000000001,20304,6918,1801,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2536.26
+Zealotry,Zealotry,11736.2,18448,3479,1890,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2347.2400000000002
+Frostblink,Frostblink,15049.199999999999,27551,11518,2085,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3009.8399999999997
+Added Lightning Damage Support,Added Lightning Damage Support,17594.3,25541,8055,1906,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3518.8599999999997
+Minion Damage Support,Minion Damage Support,15332.199999999999,22246,5368,1969,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3066.4399999999996
+Raise Zombie,Raise Zombie,15613.75,22675,5479,1938,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3122.75
+Vaal Grace,Vaal Grace,7462.550000000001,11056,2180,1399,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1492.5100000000002
+Ball Lightning,Ball Lightning,9953.9,15350,3815,1556,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1990.78
+Despair,Despair,12856.100000000004,19990,4941,1902,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2571.2200000000007
+Spark,Spark,11888.300000000001,18073,4683,1754,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2377.6600000000003
+Lacerate,Lacerate,9712.549999999997,16269,5169,1467,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1942.5099999999995
+Cobra Lash,Cobra Lash,7028.200000000001,12119,3866,1364,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1405.64
+Awakened Chain Support,Awakened Chain Support,1657.8999999999999,2488,727,276,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",414.47499999999997
+Summon Ice Golem,Summon Ice Golem,16966.350000000002,24253,5422,2095,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3393.2700000000004
+Cremation,Cremation,7720.150000000001,12582,3710,1395,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1544.0300000000002
+Summon Flame Golem,Summon Flame Golem,15792.4,22992,4978,2054,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3158.48
+Rejuvenation Totem,Rejuvenation Totem,9562.8,15563,3874,1499,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1912.56
+Summon Raging Spirit,Summon Raging Spirit,16053.65,24332,5122,2157,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3210.73
+Lightning Arrow,Lightning Arrow,11347.800000000001,17408,4351,1768,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2269.5600000000004
+Static Strike,Static Strike,8677.599999999999,13937,3834,1278,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1735.5199999999998
+Anger,Anger,12077.650000000001,19106,3777,1927,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2415.53
+Flameblast,Flameblast,8603.849999999999,13405,3565,1358,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1720.7699999999998
+Smite,Smite,9782.650000000003,16934,4378,1692,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1956.5300000000007
+Pulverise Support,Pulverise Support,7137.900000000002,11398,2668,938,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1427.5800000000004
+Shield Crush,Shield Crush,6175.550000000001,11574,4081,1325,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1235.1100000000001
+Forbidden Rite,Forbidden Rite,6963.6,12396,3876,1424,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1392.72
+Storm Call,Storm Call,8572.4,13479,3689,1247,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1714.48
+Blade Blast,Blade Blast,6554.05,11142,3509,1227,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1310.81
+Bloodlust Support,Bloodlust Support,6127.8,9147,2494,885,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1225.56
+Cast On Critical Strike Support,Cast On Critical Strike Support,8487.099999999999,12630,3454,1118,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1697.4199999999996
+Discipline,Discipline,14550.549999999997,22539,3985,1967,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2910.1099999999997
+Blade Vortex,Blade Vortex,12186.550000000003,18160,4209,1768,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2437.3100000000004
+Void Manipulation Support,Void Manipulation Support,13495.85,20985,4826,1820,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2699.17
+Faster Projectiles Support,Faster Projectiles Support,7835.750000000001,11206,3709,991,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1567.15
+Vicious Projectiles Support,Vicious Projectiles Support,12186.4,17777,4707,1593,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2437.2799999999997
+Withering Touch Support,Withering Touch Support,5898.400000000001,9504,2343,906,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1179.68
+Summon Skeletons,Summon Skeletons,12249.350000000002,18225,4837,1812,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2449.8700000000003
+Summon Skitterbots,Summon Skitterbots,15441.699999999999,27063,5646,2455,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3088.3399999999997
+Ballista Totem Support,Ballista Totem Support,7284.65,10796,3277,1249,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1456.9299999999998
+Flame Surge,Flame Surge,8472.300000000001,13813,3759,1312,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1694.4600000000003
+Intensify Support,Intensify Support,6376.950000000001,11201,2397,919,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1275.39
+Arctic Armour,Arctic Armour,13549.45,20402,5538,1832,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2709.8900000000003
+Cast when Stunned Support,Cast when Stunned Support,7297.0,12629,2415,1091,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1459.4
+Elemental Focus Support,Elemental Focus Support,16476.300000000003,23572,5671,2037,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3295.2600000000007
+Elemental Damage with Attacks Support,Elemental Damage with Attacks Support,23592.799999999996,35257,7546,2463,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",4718.5599999999995
+Ice Spear,Ice Spear,11648.199999999999,17266,4088,1711,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2329.64
+Assassin's Mark,Assassin's Mark,15481.1,24080,5987,1942,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3096.2200000000003
+Immolate Support,Immolate Support,5706.3,9212,2375,1108,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1141.26
+Lightning Trap,Lightning Trap,8709.6,13757,3650,1416,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1741.92
+Swiftbrand Support,Swiftbrand Support,4296.1,7786,2264,713,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",859.22
+Added Chaos Damage Support,Added Chaos Damage Support,8509.15,11931,4053,1040,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1701.83
+Pierce Support,Pierce Support,11561.349999999999,16692,5728,1576,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2312.2699999999995
+Heavy Strike,Heavy Strike,10467.550000000001,16207,4872,1513,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2093.51
+Viper Strike,Viper Strike,10439.75,16416,4747,1614,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2087.95
+Rolling Magma,Rolling Magma,9901.95,16252,5416,1555,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1980.39
+General's Cry,General's Cry,6554.950000000001,11879,4052,1238,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1310.9900000000002
+Orb of Storms,Orb of Storms,11945.150000000001,17935,5165,1674,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2389.03
+Bladefall,Bladefall,8809.850000000002,13615,3494,1318,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1761.9700000000005
+Critical Strike Affliction Support,Critical Strike Affliction Support,5959.450000000001,9072,2401,956,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1191.89
+Vaal Lightning Warp,Vaal Lightning Warp,602.1,666,556,127,"{'Standard', 'Hardcore'}",301.05
+Ice Shot,Ice Shot,11122.25,16536,4356,1719,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2224.45
+Siphoning Trap,Siphoning Trap,6941.6,11732,3652,1216,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1388.3200000000002
+Shockwave Totem,Shockwave Totem,8570.2,13844,3678,1303,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1714.0400000000002
+Summon Reaper,Summon Reaper,5529.1500000000015,10180,3725,1093,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1105.8300000000004
+Summon Lightning Golem,Summon Lightning Golem,16336.500000000004,24036,5060,2079,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3267.3000000000006
+Fire Trap,Fire Trap,11722.749999999998,19214,4257,1841,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2344.5499999999997
+Malevolence,Malevolence,11146.250000000002,17550,2740,1800,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2229.2500000000005
+Dread Banner,Dread Banner,9759.55,14090,2552,1454,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1951.9099999999999
+Rallying Cry,Rallying Cry,9708.300000000003,15724,4203,1444,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1941.6600000000005
+Spell Cascade Support,Spell Cascade Support,7655.6,11836,3003,1262,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1531.1200000000001
+Vaal Power Siphon,Vaal Power Siphon,8920.400000000001,13907,5322,1225,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1784.0800000000004
+Flame Dash,Flame Dash,20558.4,30571,7743,2664,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",4111.68
+Storm Brand,Storm Brand,9824.35,15604,4400,1697,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1964.8700000000001
+Temporal Chains,Temporal Chains,12018.699999999999,17789,4797,1794,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2403.74
+Detonate Mines,Detonate Mines,4755.25,6704,3943,496,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",951.05
+Shock Nova,Shock Nova,8507.25,13570,3759,1278,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1701.45
+Vortex,Vortex,9629.6,14677,3617,1479,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1925.92
+Whirling Blades,Whirling Blades,13356.050000000003,20479,5303,1825,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2671.2100000000005
+Trap and Mine Damage Support,Trap and Mine Damage Support,9733.400000000001,15746,3189,1626,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1946.6800000000003
+Melee Physical Damage Support,Melee Physical Damage Support,21791.050000000007,31732,7395,2122,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",4358.210000000001
+Lightning Penetration Support,Lightning Penetration Support,11590.750000000002,18256,4128,1404,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2318.1500000000005
+Minion Speed Support,Minion Speed Support,9626.2,14145,4140,1477,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1925.2400000000002
+Cast on Death Support,Cast on Death Support,6563.6,9937,2888,1001,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1312.72
+Creeping Frost,Creeping Frost,9018.95,13974,3686,1537,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1803.7900000000002
+Awakened Ancestral Call Support,Awakened Ancestral Call Support,1391.8999999999999,2152,640,209,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",347.97499999999997
+Minefield Support,Minefield Support,6311.55,10435,2358,827,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1262.31
+Intimidating Cry,Intimidating Cry,7436.45,13924,5165,1378,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1487.29
+Storm Rain,Storm Rain,5588.6,10843,3934,1081,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1117.72
+Returning Projectiles Support,Returning Projectiles Support,5715.000000000001,12364,3564,1134,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1143.0000000000002
+Vaal Animate Weapon,Vaal Animate Weapon,3996.75,7936,5059,755,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",799.35
+Crushing Fist,Crushing Fist,5579.05,11037,4398,1498,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1115.81
+Swift Assembly Support,Swift Assembly Support,6389.8,11011,3571,1184,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1277.96
+Efficacy Support,Efficacy Support,11150.150000000001,16549,4107,1860,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2230.03
+Enlighten Support,Enlighten Support,34702.0,48022,12503,3288,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",6940.4
+Frost Bomb,Frost Bomb,12304.849999999999,19208,5102,1792,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2460.97
+Knockback Support,Knockback Support,5907.2,8871,2895,962,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1181.44
+Spirit Offering,Spirit Offering,9556.750000000002,15191,3941,1408,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1911.3500000000004
+Siege Ballista,Siege Ballista,8857.5,14188,3674,1328,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1771.5
+Searing Bond,Searing Bond,8454.550000000001,13209,3685,1269,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1690.9100000000003
+Cruelty Support,Cruelty Support,6431.4,12150,3893,1258,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1286.28
+Lightning Strike,Lightning Strike,14450.150000000003,26656,5010,2232,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2890.0300000000007
+Frost Blades,Frost Blades,10763.8,17613,4757,1642,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2152.7599999999998
+Raise Spectre,Raise Spectre,18174.6,28520,4702,2452,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3634.9199999999996
+Feeding Frenzy Support,Feeding Frenzy Support,7421.099999999998,11364,2578,1098,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1484.2199999999996
+Summon Carrion Golem,Summon Carrion Golem,12463.199999999997,19191,4147,1947,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2492.6399999999994
+Predator Support,Predator Support,5516.700000000001,8630,2307,889,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1103.3400000000001
+Corrupting Fever,Corrupting Fever,6527.849999999999,11760,3948,1362,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1305.57
+Fist of War Support,Fist of War Support,4990.150000000001,9470,3003,861,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",998.0300000000001
+Rage Support,Rage Support,6073.4,10276,2986,1179,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1214.6799999999998
+Spectral Shield Throw,Spectral Shield Throw,8772.550000000001,15337,4117,1415,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1754.5100000000002
+Lesser Multiple Projectiles Support,Lesser Multiple Projectiles Support,12357.500000000002,17514,6962,1517,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2471.5000000000005
+Vile Toxins Support,Vile Toxins Support,5348.500000000001,8587,2134,721,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1069.7000000000003
+Earthshatter,Earthshatter,7315.500000000002,13803,4466,1294,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1463.1000000000004
+Frost Shield,Frost Shield,6606.650000000001,12333,3995,1220,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1321.3300000000002
+Hydrosphere,Hydrosphere,6778.000000000001,11960,4094,1286,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1355.6000000000001
+Vigilant Strike,Vigilant Strike,8668.95,13685,3855,1381,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1733.7900000000002
+Vampiric Link,Vampiric Link,4576.45,8822,3683,884,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",915.29
+Overcharge Support,Overcharge Support,3070.85,5910,2251,644,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",614.17
+Manaforged Arrows Support,Manaforged Arrows Support,4649.2,9217,3503,1279,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",929.8399999999999
+Flamewood Support,Flamewood Support,2510.9,5300,2376,693,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",502.18
+Devour Support,Devour Support,2548.8000000000006,5304,2446,697,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",509.7600000000001
+Vaal Lightning Arrow,Vaal Lightning Arrow,4285.15,8506,5129,827,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",857.03
+Vaal Molten Strike,Vaal Molten Strike,5931.049999999999,12320,5483,1077,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1186.2099999999998
+Vaal Ice Shot,Vaal Ice Shot,3913.3999999999996,7853,5079,766,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",782.68
+Vaal Smite,Vaal Smite,3632.3,6964,3526,828,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",726.46
+Vengeful Cry,Vengeful Cry,3558.3,8330,4067,846,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",711.6600000000001
+Multiple Totems Support,Multiple Totems Support,7552.650000000001,11488,2532,1261,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1510.5300000000002
+Glacial Shield Swipe,Glacial Shield Swipe,4782.25,9342,3747,1285,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",956.45
+Vaal Lightning Strike,Vaal Lightning Strike,10561.3,18311,3691,1659,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2112.2599999999998
+Arrow Nova Support,Arrow Nova Support,4287.549999999999,7302,2392,910,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",857.5099999999999
+Scorching Ray,Scorching Ray,8928.650000000001,13964,3891,1400,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1785.7300000000002
+Greater Multiple Projectiles Support,Greater Multiple Projectiles Support,17013.45,23399,5684,1991,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3402.69
+Split Arrow,Split Arrow,10340.050000000003,15673,4904,1510,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2068.0100000000007
+Kinetic Bolt,Kinetic Bolt,6285.4,11238,4050,1245,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1257.08
+Animate Weapon,Animate Weapon,9725.400000000001,14789,3764,1504,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1945.0800000000004
+Behead Support,Behead Support,3498.3000000000006,6481,2133,609,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",874.5750000000002
+Flamethrower Trap,Flamethrower Trap,6674.65,11332,3500,1160,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1334.9299999999998
+Purity of Ice,Purity of Ice,10853.449999999997,15849,3762,1483,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2170.6899999999996
+Haste,Haste,13156.900000000001,21124,4222,2050,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2631.38
+Poacher's Mark,Poacher's Mark,10608.950000000003,17206,4883,1570,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2121.7900000000004
+Glacial Cascade,Glacial Cascade,9369.850000000002,14292,3567,1358,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1873.9700000000005
+Point Blank Support,Point Blank Support,5612.950000000001,8424,2582,849,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1122.5900000000001
+Spell Totem Support,Spell Totem Support,9794.45,13938,4615,1459,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1958.89
+Ensnaring Arrow,Ensnaring Arrow,6162.0,10824,3654,1230,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1232.4
+Blink Arrow,Blink Arrow,11504.649999999996,17403,4374,1740,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2300.9299999999994
+Endurance Charge on Melee Stun Support,Endurance Charge on Melee Stun Support,7329.749999999999,11215,3265,1093,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1465.9499999999998
+Generosity Support,Generosity Support,9452.7,14420,3164,1305,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",2363.175
+Prismatic Burst Support,Prismatic Burst Support,3661.2,7352,3368,884,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",732.24
+Blasphemy Support,Blasphemy Support,11350.100000000002,16320,4138,1496,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2270.0200000000004
+Vaal Impurity of Lightning,Vaal Impurity of Lightning,4496.699999999999,7001,2890,942,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",899.3399999999998
+Power Charge On Critical Support,Power Charge On Critical Support,11153.400000000001,16566,4602,1658,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2230.6800000000003
+Infernal Blow,Infernal Blow,9331.550000000001,14527,4172,1423,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1866.3100000000002
+Earthquake,Earthquake,8862.3,14619,3853,1381,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1772.4599999999998
+Chance to Flee Support,Chance to Flee Support,5298.700000000001,7975,2729,876,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1059.7400000000002
+Icicle Mine,Icicle Mine,10316.45,16969,3689,1593,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2063.29
+Flame Wall,Flame Wall,7909.85,14516,5219,1442,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1581.97
+Bane,Bane,7848.0,13128,3533,1213,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1569.6
+Dominating Blow,Dominating Blow,8811.400000000001,13562,3365,1244,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1762.2800000000002
+Phase Run,Phase Run,11385.6,17259,4163,1649,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",2846.4
+Minion Life Support,Minion Life Support,9782.199999999999,14276,3793,1357,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1956.4399999999998
+Pyroclast Mine,Pyroclast Mine,9379.2,15805,4154,1521,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1875.8400000000001
+Manabond,Manabond,5300.0,9969,3730,1176,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1060.0
+Ambush,Ambush,5099.95,9910,3614,995,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1019.99
+Battlemage's Cry,Battlemage's Cry,5994.200000000001,11721,4171,1157,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1198.8400000000001
+Flame Link,Flame Link,4495.05,8695,3450,864,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",899.01
+Galvanic Field,Galvanic Field,4515.1,9007,3806,950,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",903.0200000000001
+Lightning Conduit,Lightning Conduit,4784.15,9377,3638,1096,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",956.8299999999999
+Hex Bloom Support,Hex Bloom Support,2863.8,5652,2123,567,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",715.95
+Lightning Warp,Lightning Warp,10275.250000000005,15693,4646,1597,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2055.050000000001
+Bladestorm,Bladestorm,7225.8,12788,3830,1158,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1445.16
+Vitality,Vitality,13686.450000000003,21175,5394,2309,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2737.2900000000004
+Flicker Strike,Flicker Strike,11384.7,18479,4202,1582,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2276.94
+Ice Trap,Ice Trap,7557.949999999999,12337,3343,1199,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1511.5899999999997
+Herald of Agony,Herald of Agony,9801.35,14237,2929,1633,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1960.27
+Herald of Ash,Herald of Ash,16219.400000000005,23258,6237,2005,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3243.880000000001
+Empower Support,Empower Support,40192.850000000006,57119,10995,3227,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",8038.5700000000015
+Blood and Sand,Blood and Sand,7092.700000000001,11876,5615,1303,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1418.5400000000002
+Herald of Thunder,Herald of Thunder,12935.200000000003,18417,5395,1723,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2587.0400000000004
+Wrath,Wrath,14805.75,23115,3882,2110,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2961.15
+Close Combat Support,Close Combat Support,6920.700000000002,11826,3292,1246,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1384.1400000000003
+Impale Support,Impale Support,8897.300000000001,13074,2261,1205,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",2224.3250000000003
+Greater Volley Support,Greater Volley Support,4123.950000000002,7157,2053,927,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",824.7900000000003
+Fork Support,Fork Support,6834.8,10057,3145,917,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",1708.7
+Sunder,Sunder,11317.5,18557,5252,1611,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2263.5
+Sweep,Sweep,8901.850000000002,14059,3883,1313,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1780.3700000000003
+Freezing Pulse,Freezing Pulse,12203.85,17883,5977,1624,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2440.77
+Blade Flurry,Blade Flurry,8787.800000000001,13553,3527,1274,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1757.5600000000002
+Storm Burst,Storm Burst,7791.750000000001,12944,3803,1271,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1558.3500000000001
+Arcanist Brand,Arcanist Brand,7768.750000000001,14018,4628,1519,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1553.7500000000002
+Inspiration Support,Inspiration Support,19566.600000000002,30634,6322,2793,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3913.3200000000006
+Vaal Ground Slam,Vaal Ground Slam,8512.45,13263,5406,1164,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1702.4900000000002
+Enhance Support,Enhance Support,26578.350000000002,40133,9038,2836,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",5315.67
+Added Cold Damage Support,Added Cold Damage Support,17333.200000000004,25341,7824,1853,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3466.640000000001
+Immortal Call,Immortal Call,17079.850000000002,24824,8648,2019,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3415.9700000000003
+Power Siphon,Power Siphon,10260.05,16913,4101,1623,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2052.0099999999998
+Vaal Impurity of Fire,Vaal Impurity of Fire,5834.0,9731,3002,1146,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1166.8
+Additional Accuracy Support,Additional Accuracy Support,7105.5,10459,3444,1149,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1421.1
+Fire Penetration Support,Fire Penetration Support,8807.4,12588,3921,1283,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1761.48
+Incinerate,Incinerate,8767.45,13596,3624,1282,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1753.4900000000002
+Bone Offering,Bone Offering,10729.449999999999,16565,3949,1596,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2145.89
+Dual Strike,Dual Strike,9082.749999999998,13914,4056,1391,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1816.5499999999997
+Conversion Trap,Conversion Trap,8494.35,13423,3632,1358,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1698.8700000000001
+Cold Penetration Support,Cold Penetration Support,8696.5,12423,4169,1098,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1739.3
+Increased Critical Damage Support,Increased Critical Damage Support,16283.200000000004,25092,4948,2196,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3256.640000000001
+Shrapnel Ballista,Shrapnel Ballista,7142.05,12408,4542,1311,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1428.41
+Soul Link,Soul Link,4647.200000000001,9063,3603,959,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",929.4400000000002
+Alchemist's Mark,Alchemist's Mark,4970.5,10060,3750,1084,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",994.1
+Vaal Rejuvenation Totem,Vaal Rejuvenation Totem,1946.7,3860,2495,598,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",389.34000000000003
+Soulrend,Soulrend,7915.950000000001,13194,3804,1336,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1583.19
+Damage on Full Life Support,Damage on Full Life Support,10933.400000000001,15838,4019,1522,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2186.6800000000003
+Summon Chaos Golem,Summon Chaos Golem,14882.350000000006,22680,4624,2012,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2976.470000000001
+Momentum Support,Momentum Support,11659.650000000001,19024,6245,1778,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2331.9300000000003
+Tectonic Slam,Tectonic Slam,7447.599999999999,12420,3749,1366,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1489.52
+Purity of Elements,Purity of Elements,15236.699999999999,25802,4519,2273,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3047.3399999999997
+Arrogance Support,Arrogance Support,15528.5,23664,5412,2260,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3105.7
+Iron Grip Support,Iron Grip Support,5584.55,8384,2616,740,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1116.91
+Ancestral Call Support,Ancestral Call Support,8764.0,13476,4079,1383,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1752.8
+Enduring Cry,Enduring Cry,15584.350000000002,24804,6447,2001,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3116.8700000000003
+Hatred,Hatred,18779.649999999998,26622,5663,2349,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3755.9299999999994
+Unbound Ailments Support,Unbound Ailments Support,8261.0,13669,3695,1351,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1652.2
+Concentrated Effect Support,Concentrated Effect Support,16426.6,22175,6623,1955,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3285.3199999999997
+Boneshatter,Boneshatter,5778.9,10751,3551,1130,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1155.78
+Energy Leech Support,Energy Leech Support,8056.399999999999,14293,3466,1397,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1611.2799999999997
+Lancing Steel,Lancing Steel,6596.200000000001,11281,3677,1180,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1319.2400000000002
+Chain Support,Chain Support,8609.75,12416,3497,1125,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1721.95
+Cast on Melee Kill Support,Cast on Melee Kill Support,5604.200000000001,8526,2667,738,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1120.8400000000001
+Ice Crash,Ice Crash,8232.2,13133,3719,1266,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1646.44
+Advanced Traps Support,Advanced Traps Support,5398.299999999999,8403,2001,810,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1079.6599999999999
+Explosive Concoction,Explosive Concoction,5525.400000000001,10363,3678,1189,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1105.0800000000002
+Blood Rage,Blood Rage,18859.200000000004,28682,6504,2353,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3771.840000000001
+Grace,Grace,14329.849999999997,23786,4423,2333,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2865.9699999999993
+Wintertide Brand,Wintertide Brand,6357.45,11326,3903,1276,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1271.49
+Splitting Steel,Splitting Steel,6941.75,12671,4581,1486,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1388.35
+Blastchain Mine Support,Blastchain Mine Support,6851.800000000001,10430,2999,1150,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1370.3600000000001
+Volley Support,Volley Support,8030.099999999999,12982,4323,1367,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1606.02
+Multistrike Support,Multistrike Support,17333.050000000003,27925,5302,2280,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3466.6100000000006
+Vaal Reap,Vaal Reap,2995.0,6142,4444,677,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",599.0
+Flesh Offering,Flesh Offering,12629.35,18991,4361,1837,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2525.87
+Lightning Tendrils,Lightning Tendrils,9024.25,13998,3949,1414,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1804.85
+Infused Channelling Support,Infused Channelling Support,9458.3,13786,3119,1463,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1891.6599999999999
+Discharge,Discharge,9533.4,14435,3655,1381,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1906.6799999999998
+Precision,Precision,17097.199999999997,27172,6450,2687,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3419.4399999999996
+Vaal Impurity of Ice,Vaal Impurity of Ice,4839.950000000001,7407,2894,944,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",967.9900000000001
+Temporal Rift,Temporal Rift,5082.099999999999,9571,3599,1019,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore'}",1270.5249999999999
+Scourge Arrow,Scourge Arrow,7936.750000000001,13058,3614,1331,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1587.3500000000001
+Ground Slam,Ground Slam,11076.800000000001,17562,4953,1618,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2215.36
+Volcanic Fissure,Volcanic Fissure,5531.95,11081,4276,1186,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1106.3899999999999
+Added Fire Damage Support,Added Fire Damage Support,15932.900000000003,22605,7923,1726,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3186.580000000001
+Ignite Proliferation Support,Ignite Proliferation Support,5297.3,8701,2368,925,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1059.46
+Elemental Hit,Elemental Hit,11787.3,17849,4255,1631,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2357.46
+Reap,Reap,5537.5,10178,3542,994,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1107.5
+Chance to Poison Support,Chance to Poison Support,8132.550000000002,13344,4687,1394,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1626.5100000000004
+Vaal Firestorm,Vaal Firestorm,3278.95,6643,4409,770,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",655.79
+Vaal Volcanic Fissure,Vaal Volcanic Fissure,4293.950000000001,8432,5249,790,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",858.7900000000002
+Vaal Burning Arrow,Vaal Burning Arrow,7723.900000000001,11921,4944,1145,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1544.7800000000002
+Vaal Reave,Vaal Reave,7905.700000000001,12171,5043,1127,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1581.14
+Overexertion Support,Overexertion Support,2740.9500000000003,6504,2472,589,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",548.19
+Faster Attacks Support,Faster Attacks Support,29064.600000000006,41955,12198,2553,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",5812.920000000001
+Fortify Support,Fortify Support,17254.350000000002,23804,5622,1955,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3450.8700000000003
+Less Duration Support,Less Duration Support,8832.5,13124,3855,1217,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1766.5
+Wave of Conviction,Wave of Conviction,10132.399999999998,16705,5131,1716,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2026.4799999999996
+Herald of Ice,Herald of Ice,17087.85,24780,5519,2160,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3417.5699999999997
+Elemental Proliferation Support,Elemental Proliferation Support,12236.850000000002,18823,5912,1626,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2447.3700000000003
+Vaal Storm Call,Vaal Storm Call,7861.550000000001,12016,4839,1097,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1572.3100000000002
+Increased Area of Effect Support,Increased Area of Effect Support,16975.600000000002,23480,7032,1984,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3395.1200000000003
+Warlord's Mark,Warlord's Mark,12067.6,18208,5603,1659,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2413.52
+Innervate Support,Innervate Support,6551.400000000001,9808,2620,912,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1310.2800000000002
+Frenzy,Frenzy,11901.050000000003,18370,4882,1853,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2380.2100000000005
+Portal,Portal,27831.149999999998,45926,26765,1212,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",5566.23
+Ruthless Support,Ruthless Support,12312.95,19166,5647,1649,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2462.59
+Melee Splash Support,Melee Splash Support,11836.75,17019,5733,1473,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2367.35
+Lifetap Support,Lifetap Support,12270.95,22154,7227,2622,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2454.19
+Galvanic Arrow,Galvanic Arrow,8627.800000000003,13850,4237,1479,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1725.5600000000006
+Bear Trap,Bear Trap,9739.550000000003,15490,4146,1624,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1947.9100000000005
+Vaal Clarity,Vaal Clarity,5498.250000000001,8003,2543,1078,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1099.65
+Summon Phantasm Support,Summon Phantasm Support,8707.600000000002,13727,4306,1441,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1741.5200000000004
+Molten Strike,Molten Strike,11985.799999999997,18369,5066,1696,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2397.1599999999994
+Frostbolt,Frostbolt,9868.3,16029,4210,1549,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1973.6599999999999
+Vaal Earthquake,Vaal Earthquake,6933.75,11169,5061,1120,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1386.75
+Vaal Lightning Trap,Vaal Lightning Trap,8254.65,12440,4880,1152,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1650.9299999999998
+Vaal Spark,Vaal Spark,7664.15,12786,5387,1253,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1532.83
+Vaal Flameblast,Vaal Flameblast,6314.100000000001,9827,4530,1081,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1262.8200000000002
+Meat Shield Support,Meat Shield Support,6141.7,10127,2579,988,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1228.34
+Vaal Righteous Fire,Vaal Righteous Fire,11701.65,17656,5666,1591,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2340.33
+Maim Support,Maim Support,12108.95,17442,4106,1706,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2421.79
+Life Gain on Hit Support,Life Gain on Hit Support,8865.549999999997,12781,4658,1334,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1773.1099999999994
+Holy Flame Totem,Holy Flame Totem,12513.499999999998,19548,5827,1748,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2502.7
+Crackling Lance,Crackling Lance,5911.1,10440,3415,1106,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1182.22
+Vaal Rain of Arrows,Vaal Rain of Arrows,8290.65,12890,5383,1141,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1658.1299999999999
+Vaal Arc,Vaal Arc,9271.4,13824,4950,1238,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1854.28
+Vaal Blight,Vaal Blight,7351.700000000001,11425,4780,1157,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1470.3400000000001
+Vaal Ice Nova,Vaal Ice Nova,10253.350000000002,16468,5365,1363,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2050.6700000000005
+Vaal Cold Snap,Vaal Cold Snap,9676.45,15734,5057,1493,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1935.2900000000002
+Increased Critical Strikes Support,Increased Critical Strikes Support,17267.9,24474,6879,1969,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3453.5800000000004
+Combustion Support,Combustion Support,12639.400000000001,19231,5422,1746,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2527.88
+Punishment,Punishment,10205.45,16808,4500,1694,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2041.0900000000001
+Elemental Army Support,Elemental Army Support,7947.5,11573,3118,1108,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1589.5
+Vaal Flicker Strike,Vaal Flicker Strike,5027.85,10103,5482,875,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1005.57
+Vaal Detonate Dead,Vaal Detonate Dead,8791.95,13925,5732,1183,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1758.39
+Vaal Molten Shell,Vaal Molten Shell,7139.500000000002,10931,2916,1300,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1427.9000000000003
+Double Strike,Double Strike,11204.9,17435,5195,1549,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2240.98
+Rain of Arrows,Rain of Arrows,9995.350000000002,15715,4590,1576,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1999.0700000000004
+Leap Slam,Leap Slam,15870.7,24063,6754,2099,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3174.1400000000003
+Chance to Bleed Support,Chance to Bleed Support,11497.950000000003,18317,5978,1568,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2299.5900000000006
+Fireball,Fireball,11472.300000000001,17343,5863,1566,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2294.46
+Vaal Cyclone,Vaal Cyclone,8282.75,12556,4754,1290,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1656.55
+Ice Bite Support,Ice Bite Support,11473.250000000002,18585,3747,1345,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2294.6500000000005
+Vaal Double Strike,Vaal Double Strike,8137.1500000000015,12675,5279,1142,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1627.4300000000003
+Vaal Domination,Vaal Domination,4261.25,8579,5576,843,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",852.25
+Vaal Fireball,Vaal Fireball,7627.45,11756,4854,1136,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1525.49
+Vaal Cleave,Vaal Cleave,4031.6000000000004,7983,5141,756,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",806.32
+Cleave,Cleave,9998.550000000001,15111,4723,1507,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1999.7100000000003
+Hextouch Support,Hextouch Support,12208.3,16359,5267,1503,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2441.66
+Molten Shell,Molten Shell,15140.549999999997,23289,6287,2029,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3028.1099999999997
+Vaal Venom Gyre,Vaal Venom Gyre,3999.0,7873,5010,725,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",799.8
+Vaal Haste,Vaal Haste,8158.550000000003,11166,2970,1313,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1631.7100000000005
+Steelskin,Steelskin,12767.95,21136,6115,2059,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2553.59
+Cold Snap,Cold Snap,9468.55,14607,4086,1509,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1893.7099999999998
+Cast when Damage Taken Support,Cast when Damage Taken Support,20575.150000000005,28151,11118,2319,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",4115.030000000001
+Shield Charge,Shield Charge,16354.650000000001,26821,7788,1974,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3270.9300000000003
+Cyclone,Cyclone,17496.6,25086,5538,2217,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",3499.3199999999997
+Decoy Totem,Decoy Totem,11013.250000000004,16627,5187,1507,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2202.6500000000005
+Conductivity,Conductivity,11464.949999999999,18165,4580,1768,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2292.99
+Vaal Blade Vortex,Vaal Blade Vortex,8851.95,13551,4907,1309,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",1770.39
+Vaal Summon Skeletons,Vaal Summon Skeletons,13010.25,19470,4298,1797,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",2602.05
+Vaal Arctic Armour,Vaal Arctic Armour,2226.25,4514,2163,666,"{'Hardcore Mercenaries', 'Hardcore', 'Standard', 'Settlers', 'Mercenaries'}",445.25
+Awakened Deadly Ailments Support,Awakened Deadly Ailments Support,5794.95,9310,3900,893,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1448.7375
+Awakened Burning Damage Support,Awakened Burning Damage Support,4719.75,7499,3099,747,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1179.9375
+Divine Retribution,Divine Retribution,3719.6000000000004,8595,4118,921,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",929.9000000000001
+Spellblade Support,Spellblade Support,2772.3,5988,2108,530,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",693.075
+Impending Doom Support,Impending Doom Support,4040.900000000001,7271,2156,726,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1010.2250000000003
+Snipe,Snipe,3942.050000000001,8334,3464,869,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",985.5125000000003
+Rupture Support,Rupture Support,1920.4499999999998,4469,2100,444,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",480.11249999999995
+Automation,Automation,7007.4,15703,5885,1632,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1751.85
+Archmage Support,Archmage Support,7519.85,14670,3422,1076,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1879.9625
+Volatility Support,Volatility Support,7296.2,16206,5889,1209,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1824.05
+Sacrifice Support,Sacrifice Support,2645.6000000000004,5510,2145,590,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",661.4000000000001
+Focused Channelling Support,Focused Channelling Support,144.45,239,192,239,"{'Standard', 'Mercenaries', 'Hardcore Mercenaries'}",48.15
+Expert Retaliation Support,Expert Retaliation Support,2472.3,5814,2526,540,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",618.075
+Decay Support,Decay Support,5062.500000000001,7923,1912,696,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1265.6250000000002
+Blade Trap,Blade Trap,5102.500000000001,9630,3435,1035,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1275.6250000000002
+Corrupting Cry Support,Corrupting Cry Support,2488.4,5215,2189,566,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",622.1
+Spellslinger,Spellslinger,7221.0,12310,3810,1304,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1805.25
+Trauma Support,Trauma Support,2578.2000000000003,5341,2112,547,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",644.5500000000001
+Frigid Bond Support,Frigid Bond Support,2146.7,4485,1839,483,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",536.675
+Protective Link,Protective Link,4406.45,8536,3474,865,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1101.6125
+Pinpoint Support,Pinpoint Support,4184.6,7363,2275,742,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1046.15
+Stormbind,Stormbind,5742.5,10293,3592,1019,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1435.625
+Autoexertion,Autoexertion,5701.2,12692,5281,1211,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1425.3
+Fresh Meat Support,Fresh Meat Support,2758.4,5926,2382,650,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",689.6
+Guardian's Blessing Support,Guardian's Blessing Support,4121.3,9049,2768,862,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1030.325
+Eviscerate,Eviscerate,4058.6500000000005,9586,4004,861,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1014.6625000000001
+Unleash Support,Unleash Support,6146.100000000001,10267,3105,1211,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1536.5250000000003
+Sadism Support,Sadism Support,2398.3,5051,2222,528,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",599.575
+Frozen Legion,Frozen Legion,4323.95,8641,3500,971,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1080.9875
+Wild Strike,Wild Strike,7705.9,12378,3794,999,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1926.475
+Shockwave Support,Shockwave Support,5273.350000000001,9188,2477,896,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1318.3375000000003
+Venom Gyre,Venom Gyre,6990.4,12188,3981,1268,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1747.6
+Hexblast,Hexblast,8945.15,18945,4388,1603,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",2236.2875
+Voltaxic Burst,Voltaxic Burst,5451.050000000001,10341,3927,1039,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1362.7625000000003
+Destructive Link,Destructive Link,4518.9,8591,3374,934,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1129.725
+Eternal Blessing Support,Eternal Blessing Support,5488.15,10949,2848,1027,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1372.0375
+Controlled Blaze Support,Controlled Blaze Support,2419.95,5026,2039,566,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",604.9875
+Vaal Blade Flurry,Vaal Blade Flurry,3311.0,6590,4392,768,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",827.75
+Vaal Absolution,Vaal Absolution,3932.9500000000003,7887,5076,757,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",983.2375000000001
+Sacred Wisps Support,Sacred Wisps Support,2774.2000000000003,6219,2543,669,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",693.5500000000001
+Poisonous Concoction,Poisonous Concoction,7174.5,13203,4089,1357,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1793.625
+Tornado,Tornado,5873.650000000001,11501,4438,1235,"{'Standard', 'Mercenaries', 'Settlers', 'Hardcore Mercenaries'}",1468.4125000000001
+Item Quantity Support,Item Quantity Support,2050.2,2278,708,216,{'Standard'},2050.2
+Awakened Empower Support,Awakened Empower Support,81.2,113,36,26,"{'Standard', 'Settlers'}",40.6
+Awakened Enlighten Support,Awakened Enlighten Support,89.30000000000001,117,32,28,"{'Standard', 'Settlers'}",44.650000000000006
+Awakened Enhance Support,Awakened Enhance Support,112.90000000000002,156,38,36,"{'Standard', 'Settlers'}",56.45000000000001
+Awakened Multistrike Support,Awakened Multistrike Support,1078.2,1357,289,279,"{'Standard', 'Mercenaries', 'Settlers'}",359.40000000000003
+Awakened Greater Multiple Projectiles Support,Awakened Greater Multiple Projectiles Support,1203.3,1625,254,284,"{'Standard', 'Mercenaries', 'Settlers'}",401.09999999999997
+Awakened Spell Echo Support,Awakened Spell Echo Support,1223.3999999999999,1571,287,245,"{'Standard', 'Mercenaries', 'Settlers'}",407.79999999999995
+Awakened Increased Area of Effect Support,Awakened Increased Area of Effect Support,2072.8999999999996,2825,581,325,"{'Standard', 'Mercenaries', 'Settlers'}",690.9666666666666
+Awakened Fork Support,Awakened Fork Support,1680.6,2348,383,323,"{'Standard', 'Mercenaries', 'Settlers'}",560.1999999999999
+Elemental Penetration Support,Elemental Penetration Support,840.3999999999999,1356,187,142,"{'Standard', 'Settlers'}",420.19999999999993
+Awakened Cast On Critical Strike Support,Awakened Cast On Critical Strike Support,2811.1,4059,887,425,"{'Standard', 'Mercenaries', 'Settlers'}",937.0333333333333
+Awakened Elemental Damage with Attacks Support,Awakened Elemental Damage with Attacks Support,4473.900000000001,6699,1278,949,"{'Standard', 'Mercenaries', 'Settlers'}",1491.3000000000002
+Awakened Unleash Support,Awakened Unleash Support,1449.1,2112,555,242,"{'Standard', 'Mercenaries', 'Settlers'}",483.0333333333333
+Awakened Lightning Penetration Support,Awakened Lightning Penetration Support,5049.799999999999,7814,2493,876,"{'Standard', 'Mercenaries', 'Settlers'}",1683.2666666666664
+Awakened Brutality Support,Awakened Brutality Support,6256.9,10334,4674,931,"{'Standard', 'Mercenaries', 'Settlers'}",2085.633333333333
+Awakened Melee Physical Damage Support,Awakened Melee Physical Damage Support,5832.699999999999,9307,3591,819,"{'Standard', 'Mercenaries', 'Settlers'}",1944.233333333333
+Awakened Unbound Ailments Support,Awakened Unbound Ailments Support,5168.1,8041,3030,739,"{'Standard', 'Mercenaries', 'Settlers'}",1722.7
+Awakened Added Cold Damage Support,Awakened Added Cold Damage Support,6052.6,9719,4034,878,"{'Standard', 'Mercenaries', 'Settlers'}",2017.5333333333335
+Awakened Void Manipulation Support,Awakened Void Manipulation Support,5134.799999999999,8061,2710,807,"{'Standard', 'Mercenaries', 'Settlers'}",1711.5999999999997
+Awakened Minion Damage Support,Awakened Minion Damage Support,6197.0,9767,4013,927,"{'Standard', 'Mercenaries', 'Settlers'}",2065.6666666666665
+Awakened Elemental Focus Support,Awakened Elemental Focus Support,4899.2,7304,2035,846,"{'Standard', 'Mercenaries', 'Settlers'}",1633.0666666666666
+Awakened Arrow Nova Support,Awakened Arrow Nova Support,1432.8000000000002,2045,707,208,"{'Standard', 'Mercenaries', 'Settlers'}",477.6000000000001
+Awakened Added Lightning Damage Support,Awakened Added Lightning Damage Support,5362.500000000001,8363,3124,890,"{'Standard', 'Mercenaries', 'Settlers'}",1787.5000000000002
+Awakened Generosity Support,Awakened Generosity Support,2500.0,3504,865,363,"{'Standard', 'Mercenaries', 'Settlers'}",833.3333333333334
+Awakened Swift Affliction Support,Awakened Swift Affliction Support,5075.300000000001,7743,2581,841,"{'Standard', 'Mercenaries', 'Settlers'}",1691.766666666667
+Awakened Fire Penetration Support,Awakened Fire Penetration Support,5919.0,9537,4180,804,"{'Standard', 'Mercenaries', 'Settlers'}",1973.0
+Awakened Cast While Channelling Support,Awakened Cast While Channelling Support,2252.2999999999997,3315,1051,332,"{'Standard', 'Mercenaries', 'Settlers'}",750.7666666666665
+Awakened Hextouch Support,Awakened Hextouch Support,2679.4999999999995,3833,1114,363,"{'Standard', 'Mercenaries', 'Settlers'}",893.1666666666665
+Awakened Blasphemy Support,Awakened Blasphemy Support,2305.3,3274,1054,371,"{'Standard', 'Mercenaries', 'Settlers'}",768.4333333333334
+Awakened Spell Cascade Support,Awakened Spell Cascade Support,1299.5000000000002,1960,451,215,"{'Standard', 'Mercenaries', 'Settlers'}",433.16666666666674
+Awakened Melee Splash Support,Awakened Melee Splash Support,6073.299999999999,9746,4041,906,"{'Standard', 'Mercenaries', 'Settlers'}",2024.4333333333332
+Awakened Controlled Destruction Support,Awakened Controlled Destruction Support,6948.900000000001,10773,4394,1022,"{'Standard', 'Mercenaries', 'Settlers'}",2316.3
+Block Chance Reduction Support,Block Chance Reduction Support,728.9,1063,135,109,"{'Standard', 'Mercenaries', 'Settlers'}",242.96666666666667
+Awakened Added Chaos Damage Support,Awakened Added Chaos Damage Support,5688.4,9183,4001,841,"{'Standard', 'Mercenaries', 'Settlers'}",1896.1333333333332
+Bloodthirst Support,Bloodthirst Support,3475.2999999999997,6344,2016,638,"{'Standard', 'Mercenaries', 'Settlers'}",1158.4333333333332
+Cursed Ground Support,Cursed Ground Support,2652.2000000000003,5265,2013,517,"{'Standard', 'Mercenaries', 'Settlers'}",884.0666666666667
+Vaal Breach,Vaal Breach,1270.5,2030,1113,208,"{'Standard', 'Settlers'}",635.25

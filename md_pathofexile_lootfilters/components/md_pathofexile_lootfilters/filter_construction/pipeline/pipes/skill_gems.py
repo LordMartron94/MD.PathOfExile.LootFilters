@@ -97,9 +97,11 @@ class AddSkillGems(IPipe):
         econ = data.skill_gems_data.copy()
         # unify BaseType key
         econ = econ.rename(columns={"Base Type": "BaseType", "Rarity": "econ_rarity"})
-        econ["econ_rarity"] = econ["econ_rarity"].astype(float)
+        econ["econ_rarity"] = econ["econ_rarity"].astype(int)
         # linear scale from [1,12] into [1,6]
         econ["scaled_rarity__1_6"] = ((econ["econ_rarity"] - 1) * (5.0 / 11.0)) + 1.0
+        # round to nearest integer and cast to int
+        econ["scaled_rarity__1_6"] = econ["scaled_rarity__1_6"].round().astype(int)
         econ["usefulness__1_6_econ"] = pd.NA
         return econ[["BaseType", "econ_rarity", "scaled_rarity__1_6", "usefulness__1_6_econ"]]
 

@@ -2,3 +2,5 @@ pandas
 pydantic
 requests
 lupa
+scikit-learn
+numpy
