@@ -6,14 +6,14 @@ from md_pathofexile_lootfilters.components.md_common_python.py_common.logging im
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.constants import CONFIG_DIR, CURRENT_LEAGUE
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.filter_construction.filter_constructor import \
     FilterConstructor
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.unique_extraction.ninja_client import \
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.ninja_client import \
     PoeNinjaClient
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.unique_extraction.rarity_calculation.log_scaled_rarity_calculator import \
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.rarity_calculation.log_scaled_rarity_calculator import \
     LogScaledRarityCalculator
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.unique_extraction.unique_item_exporter import \
-    UniqueItemExporter
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.unique_extraction.unique_item_repository import \
-    UniqueItemRepository
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.game_item_exporter import \
+    GameItemExporter
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.game_item_repository import \
+    GameItemRepository
 
 
 class App:
@@ -41,28 +41,37 @@ class App:
             time.sleep(1)
             return self.run()
 
-    def _build_filter(self, update_uniques: bool = False) -> None:
-        if update_uniques:
-            self._extract_uniques()
+    def _build_filter(self, update_economy_items: bool = False) -> None:
+        if update_economy_items:
+            self._extract_items()
 
         self._filter_constructor.construct_filter()
 
     def _initialize_commands(self) -> None:
         self._cli.add_command(["build_filter", "bf"], description="Builds the filter.", action=self._build_filter)
-        self._cli.add_command(["build_filter-update", "bf-u"], description="Builds the filter but first updates the uniques for proper tiering.", action=self._build_filter, arguments=[True])
-        self._cli.add_command(["extract_uniques", "eu"], description="Extracts uniques and assigns rarities based on the current league's economy.", action=self._extract_uniques)
+        self._cli.add_command(["build_filter-update", "bf-u"], description="Builds the filter but first updates the economy-based items for proper tiering.", action=self._build_filter, arguments=[True])
+        self._cli.add_command(["extract_items", "ei"], description="Extracts game items and assigns rarities based on the current league's economy.", action=self._extract_items)
         self._logger.debug("Successfully initialized CLI commands.", separator=self._separator)
 
-    def _extract_uniques(self) -> None:
-        output_path = CONFIG_DIR / "uniques.csv"
-
+    def _extract_items(self) -> None:
         client = PoeNinjaClient()
-        repo = UniqueItemRepository(client, league=CURRENT_LEAGUE)
+        repo = GameItemRepository(client, league=CURRENT_LEAGUE, item_types=
+        {
+            CONFIG_DIR / "uniques.csv":
+            [
+                "UniqueArmour", "UniqueWeapon", "UniqueAccessory",
+                "UniqueJewel", "UniqueFlask", "UniqueMap", "UniqueRelic"
+            ],
+            CONFIG_DIR / "skill_gems.csv":
+            [
+                "SkillGem"
+            ]
+        })
         calculator = LogScaledRarityCalculator()
-        exporter = UniqueItemExporter(self._logger, repo, calculator)
-        exporter.export(output_path)
+        exporter = GameItemExporter(self._logger, repo, calculator)
+        exporter.export()
 
-        self._logger.info(f"Successfully extracted unique items to {output_path}.", separator=self._separator)
+        self._logger.info(f"Successfully extracted game items.", separator=self._separator)
 
     def _exit(self) -> None:
         self._logger.save()

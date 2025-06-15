@@ -1,7 +1,7 @@
 from typing import List
 
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.unique_extraction.model.unique_item import \
-    UniqueItem
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.model.game_item import \
+    GameItem
 
 
 class PercentileRarityCalculator:
@@ -9,7 +9,7 @@ class PercentileRarityCalculator:
     Divides the distribution of listing counts into 12 bands:
     1 = ultra common, 12 = ultra rare.
     """
-    def calculate(self, items: List[UniqueItem]) -> None:
+    def calculate(self, items: List[GameItem]) -> None:
         if not items:
             return
         counts = [item.listing_count for item in items]

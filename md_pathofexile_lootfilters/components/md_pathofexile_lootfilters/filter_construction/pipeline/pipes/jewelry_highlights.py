@@ -48,7 +48,7 @@ class AddJewelryHighlights(IPipe):
         self._condition_factory = condition_factory
         self._rule_factory = rule_factory
         self._tier_mapping_sorter = tier_mapping_sorter
-        self._tier_rule_applier = TierRuleApplier(rule_factory, condition_factory, tier_mapping_sorter)
+        self._tier_rule_applier = TierRuleApplier(logger, rule_factory, condition_factory, tier_mapping_sorter)
 
         self._section_heading = section_heading
         self._section_description = (

@@ -42,7 +42,7 @@ class AddMiscCurrenciesTiering(IPipe):
         self._condition_factory = condition_factory
         self._rule_factory = rule_factory
         self._tier_mapping_sorter = tier_mapping_sorter
-        self._tier_rule_applier = TierRuleApplier(rule_factory, condition_factory, tier_mapping_sorter)
+        self._tier_rule_applier = TierRuleApplier(logger, rule_factory, condition_factory, tier_mapping_sorter)
 
         self._section_heading = section_heading
         self._section_description = (
@@ -80,7 +80,7 @@ class AddMiscCurrenciesTiering(IPipe):
                 item_base_type_category,
                 tier_counts,
                 rules,
-                mapping_strategy=RawRarityAndUsefulnessMappingStrategy(),
+                mapping_strategy=RawRarityAndUsefulnessMappingStrategy(self._logger),
                 appender_strategy=SingleTierBaseTypesAppendingStrategy(self._rule_factory, self._condition_factory),
                 base_type_accessor="basetype",
                 accessors={

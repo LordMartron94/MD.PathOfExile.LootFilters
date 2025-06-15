@@ -1,8 +1,8 @@
 import math
 from typing import List
 
-from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.unique_extraction.model.unique_item import \
-    UniqueItem
+from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.game_item_extraction.model.game_item import \
+    GameItem
 
 
 class LogScaledRarityCalculator:
@@ -10,7 +10,7 @@ class LogScaledRarityCalculator:
     Assigns rarity tiers based on logarithmically scaled listing counts:
     1 = ultra common (highest counts), 12 = ultra rare (lowest counts).
     """
-    def calculate(self, items: List[UniqueItem]) -> None:
+    def calculate(self, items: List[GameItem]) -> None:
         if not items:
             return
 

@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 
 @dataclass
-class UniqueItem:
+class GameItem:
     name: str
     base_type: str
     listing_count: int

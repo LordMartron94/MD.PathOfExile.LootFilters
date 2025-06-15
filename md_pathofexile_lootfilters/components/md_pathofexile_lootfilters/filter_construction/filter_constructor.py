@@ -44,10 +44,15 @@ class FilterConstructor:
             CONFIG_DIR / "uniques.csv"
         )
 
+        skill_gems_data = pandas.read_csv(
+            CONFIG_DIR / "skill_gems.csv"
+        )
+
         self._pipeline_context = FilterConstructionPipelineContext(
             style_preset_registry=_style_preset_registry,
             base_type_data=base_type_data,
-            uniques_data = uniques_data
+            uniques_data = uniques_data,
+            skill_gems_data=skill_gems_data
         )
 
         self._logger.debug(f"Dataframe:\n{pprint.pformat(self._pipeline_context.base_type_data)}", separator=self._separator)

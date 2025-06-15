@@ -13,6 +13,7 @@ class FilterConstructionPipelineContext(pydantic.BaseModel):
     style_preset_registry: StylePresetRegistry
     base_type_data: pd.DataFrame
     uniques_data: pd.DataFrame
+    skill_gems_data: pd.DataFrame
 
     generated_rules: List[RuleSection] = []
 

@@ -1,5 +1,6 @@
 from typing import Dict, Tuple, List, Optional
 
+from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.block_type import RuleType
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
@@ -76,9 +77,22 @@ def get_tier_unique(
     tier = get_tier_from_rarity(rarity)
     return tier
 
-def get_tier(row: Tuple, rarity_accessor: str | None = None, usefulness_accessor: str | None = None) -> ItemTier:
+def get_tier(
+        logger: HoornLogger,
+        log_separator: str,
+        row: Tuple,
+        rarity_accessor: str | None = None,
+        usefulness_accessor: str | None = None,
+        base_type_accessor: str | None = None,
+) -> ItemTier:
     rarity = getattr(row, "rarity__1_6" if not rarity_accessor else rarity_accessor)
     usefulness = getattr(row, "usefulness__1_6" if not usefulness_accessor else usefulness_accessor)
+    base_type = getattr(row, "basetype" if not base_type_accessor else base_type_accessor)
+
+    if usefulness is None:
+        logger.warning(f"No usefulness, using simple rarity scaling! (base={base_type})", separator=log_separator)
+        return get_tier_from_rarity(rarity)
+
     return get_tier_from_rarity_and_use(rarity, usefulness)
 
 # noinspection PyUnresolvedReferences

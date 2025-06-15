@@ -3,6 +3,7 @@ from typing import Dict, List, Optional
 
 import pandas as pd
 
+from md_pathofexile_lootfilters.components.md_common_python.py_common.logging import HoornLogger
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.block_factory import RuleFactory
 from md_pathofexile_lootfilters.components.md_pathofexile_lootfilters.compiler.factory.condition_factory import \
     ConditionFactory
@@ -30,10 +31,12 @@ class TierRuleApplier:
 
     def __init__(
             self,
+            logger: HoornLogger,
             rule_factory: RuleFactory,
             condition_factory: ConditionFactory,
             tier_mapping_sorter: TierMappingSorter,
     ):
+        self._logger = logger
         self._rule_factory = rule_factory
         self._condition_factory = condition_factory
         self._sorter = tier_mapping_sorter
@@ -46,10 +49,12 @@ class TierRuleApplier:
             tier_counts: Dict[str, int],
             rules: List[Rule],
             base_type_accessor: Optional[str] = None,
-            mapping_strategy: TierMapConstructor = RawRarityAndUsefulnessMappingStrategy(),
+            mapping_strategy: TierMapConstructor | None = None,
             appender_strategy: Appender | None = None,
             accessors: Optional[Dict[str, str]] = None,
     ) -> None:
+        mapping_strategy = mapping_strategy or RawRarityAndUsefulnessMappingStrategy(self._logger)
+
         appender_strategy = appender_strategy or SingleTierBaseTypesAppendingStrategy(
             rule_factory=self._rule_factory,
             condition_factory=self._condition_factory,
@@ -57,6 +62,7 @@ class TierRuleApplier:
 
         sanitized = sanitize_data_columns(dataframe)
         mapping: Dict[ItemTier, List] = defaultdict(list)
+        accessors["basetype_accessor"] = base_type_accessor
         mapping_strategy.construct(sanitized, mapping, accessors)
 
         for tier, rows_data in self._sorter.sort(mapping):
