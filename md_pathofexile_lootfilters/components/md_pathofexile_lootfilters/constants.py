@@ -18,7 +18,7 @@ OUTPUT_DIRECTORIES: List[Path] = [
     Path(r"C:\Users\LordMartron\Documents\My Games\Path of Exile")
 ]
 
-CURRENT_LEAGUE: str = "Mercenaries"
+CURRENT_LEAGUE: str = "Hardcore Mercenaries" # -- IMPORTANT for Economy Data retrieval
 
 # ---- Automatic ----
 ROOT: Path = Path(__file__).parent.parent.parent.parent

@@ -1,28 +1,28 @@
 Base Type,total_count,rarity_score
-Abyssal Axe,418,4.8904306220095695
-Agate Amulet,1419,2.3472463768115945
-Amber Amulet,812,2.896067961165049
-Ambush Mitts,415,3.528452088452089
-Ambusher,836,3.2451345755693586
-Amethyst Flask,63,7.693333333333333
-Amethyst Ring,1330,4.461481116685647
+Abyssal Axe,416,4.880769230769232
+Agate Amulet,1422,2.3481730769230773
+Amber Amulet,810,2.888146341463415
+Ambush Mitts,416,3.3540196078431377
+Ambusher,838,3.247384977249502
+Amethyst Flask,69,7.688695652173912
+Amethyst Ring,1342,4.48465387823186
 Ancient Gauntlets,401,5.134663341645886
 Ancient Greaves,798,2.74
 Ancient Spirit Shield,399,3.0
-Antique Gauntlets,3,11.0
-Antique Greaves,399,2.0
+Antique Gauntlets,2,11.0
+Antique Greaves,399,1.0
 Antique Rapier,399,2.0
-Arcanist Gloves,445,4.610247191011236
-Arcanist Slippers,433,4.771916859122403
-Archon Kite Shield,585,5.599173276805252
-Archon Kite Shield Piece,22,10.0
-Assassin Bow,586,4.210996836190207
-Assassin's Boots,41,8.68561403508772
+Arcanist Gloves,449,4.620311804008908
+Arcanist Slippers,442,4.602579185520363
+Archon Kite Shield,632,5.580185830429733
+Archon Kite Shield Piece,27,10.0
+Assassin Bow,587,4.207985970999189
+Assassin's Boots,54,8.257931034482759
 Assassin's Garb,400,4.0
-Assassin's Mitts,968,3.9213781804334165
-Astral Plate,809,3.3718170580964153
-Astrolabe Amulet,276,5.0
-Atoll Map,173,6.0
+Assassin's Mitts,981,3.954997857337645
+Astral Plate,810,3.371555555555556
+Astrolabe Amulet,277,5.0
+Atoll Map,179,6.0
 Auric Mace,399,3.0
 Aventail Helmet,399,1.0
 Awl,399,2.0
@@ -33,15 +33,15 @@ Bastard Sword,402,2.0
 Bismuth Flask,401,5.134663341645886
 Black Maw Talisman,399,2.0
 Blazing Arrow Quiver,399,2.0
-Blood Raiment,49,8.624680851063829
-Blood Sceptre,37,8.0
-Blue Pearl Amulet,168,6.0
+Blood Raiment,55,7.941886792452831
+Blood Sceptre,38,8.0
+Blue Pearl Amulet,171,6.0
 Blunt Arrow Quiver,399,2.0
-Blunt Arrow Quiver Piece,18,10.0
-Bone Armour,404,2.0
-Bone Circlet,53,7.0
-Bone Crypt Map,178,6.0
-Bone Helmet,410,4.0276097560975614
+Blunt Arrow Quiver Piece,25,9.620000000000001
+Bone Armour,406,2.0
+Bone Circlet,66,7.831818181818182
+Bone Crypt Map,181,6.0
+Bone Helmet,408,4.015588235294118
 Boot Blade,399,2.0
 Boot Knife,418,3.074545454545455
 Branded Kite Shield,399,3.0
@@ -53,172 +53,173 @@ Bronze Sceptre,399,1.0
 Bronzescale Boots,444,3.0128378378378384
 Bronzescale Gauntlets,798,2.1100000000000003
 Buckskin Tunic,404,2.0
-Butcher Axe,32,8.0
+Butcher Axe,34,8.0
+Cabalist Regalia,2,11.0
 Callous Mask,399,2.0
-Callous Mask Piece,10,10.714285714285715
-Candlestick Relic,8,10.0
-Cardinal Round Shield,259,5.0
-Carnal Armour,552,4.504303065355697
-Carnal Boots,152,6.976578947368422
+Callous Mask Piece,12,10.1475
+Candlestick Relic,9,9.0
+Cardinal Round Shield,281,5.0
+Carnal Armour,571,4.514341840910783
+Carnal Boots,157,6.826751592356689
 Carnal Mitts,805,3.45075015124017
-Carnal Sceptre,399,3.0
-Carved Wand,713,3.0348948106591864
+Carnal Sceptre,399,2.0
+Carved Wand,709,3.0309167842031033
 Cedar Tower Shield,399,2.0
-Cemetery Map,117,6.0
-Censer Relic,265,6.0
+Cemetery Map,116,6.0
+Censer Relic,257,6.0
 Chain Belt,1621,2.4159712230215833
 Chain Gloves,399,2.0
-Champion Kite Shield,39,8.0
-Charan's Sword,8,10.0
-Chiming Spirit Shield,645,2.960558139534884
-Citadel Bow,499,4.715903614457831
-Citrine Amulet,1568,3.012571050267178
+Champion Kite Shield,47,7.0
+Charan's Sword,9,9.0
+Chiming Spirit Shield,655,2.9724580152671756
+Citadel Bow,500,4.720238076152304
+Citrine Amulet,1566,3.0076271980764924
 Clasped Boots,399,1.0
 Clasped Mitts,798,2.0
 Cleaver,399,1.0
 Close Helmet,399,2.0
-Cloth Belt,3488,4.23421686746988
-Cloth Belt Piece,23,9.0
+Cloth Belt,3495,4.240950495049505
+Cloth Belt Piece,24,9.0
 Clutching Talisman,399,2.0
-Cobalt Jewel,3220,5.4
-Coffer Relic,174,6.0
+Cobalt Jewel,3323,5.4
+Coffer Relic,185,6.0
 Coiled Staff,399,2.0
 Colossal Tower Shield,798,2.37
-Colosseum Plate,36,8.0
+Colosseum Plate,42,7.0
 Compound Spiked Shield,399,2.0
 Conjurer Boots,399,4.0
 Conjurer Gloves,399,2.0
-Conquest Chainmail,406,3.0
-Copper Plate,419,2.0
+Conquest Chainmail,408,2.0
+Copper Plate,423,2.0
 Coral Amulet,1995,2.4000000000000004
 Coral Ring,1197,1.4500000000000002
 Corrugated Buckler,399,2.0
 Corsair Sword,399,3.0
-Courtyard Map,18,9.0
-Crimson Jewel,2232,4.875
+Courtyard Map,20,8.0
+Crimson Jewel,2261,4.905172413793103
 Crimson Round Shield,28,8.0
 Crude Bow,805,1.7394782608695654
-Crusader Boots,41,8.0
-Crusader Chainmail,497,2.95774647887324
-Crusader Gloves,506,5.088356148446891
-Crusader Plate,679,3.6503092783505156
-Crystal Belt,447,4.615302013422819
+Crusader Boots,40,8.0
+Crusader Chainmail,506,2.98197628458498
+Crusader Gloves,537,4.887621316543295
+Crusader Plate,692,3.6598843930635843
+Crystal Belt,446,4.612780269058296
 Crystal Sceptre,798,4.0
-Cursed Crypt Map,44,7.0
-Cutlass,14,9.0
-Cutthroat's Garb,411,2.0
-Death Bow,865,3.639292383557214
+Cursed Crypt Map,45,7.0
+Cutlass,12,9.0
+Cutthroat's Garb,417,2.0
+Death Bow,863,3.639281635301752
 Decimation Bow,431,3.117865429234339
 Decorative Axe,399,2.0
 Deerskin Boots,399,1.0
 Deerskin Gloves,399,4.0
-Deicide Mask,152,6.0
-Demon Dagger,270,5.0
-Desert Brigandine,426,4.0
+Deicide Mask,149,6.0
+Demon Dagger,276,5.0
+Desert Brigandine,422,4.0
 Despot Axe,430,3.8927906976744193
 Destiny Leather,402,3.0
 Destroyer Regalia,402,2.0
-Devout Chainmail,202,5.0
+Devout Chainmail,206,5.0
 Diamond Flask,399,2.0
 Diamond Ring,1197,1.1500000000000001
 Dragonscale Boots,399,2.0
-Dragonscale Gauntlets,399,3.0
+Dragonscale Gauntlets,399,2.0
 Dread Maul,401,3.0
 Dream Mace,399,2.0
 Driftwood Wand,399,1.0
-Dunes Map,182,6.549230769230769
-Dusk Blade,227,5.0
-Ebony Tower Shield,474,3.5483660130718957
+Dunes Map,187,6.5473796791443855
+Dusk Blade,232,5.0
+Ebony Tower Shield,486,3.656687898089172
 Eelskin Boots,399,2.0
 Eelskin Gloves,399,3.0
 Elder Sword,433,3.157875288683603
-Elegant Ringmail,446,4.034943566591423
-Elegant Round Shield,410,4.0276097560975614
-Elegant Sword,402,3.468208955223881
+Elegant Ringmail,450,4.0554260089686105
+Elegant Round Shield,411,4.033576642335767
+Elegant Sword,403,3.3133498759305215
 Embroidered Gloves,399,4.0
 Enameled Buckler,399,4.0
 Engraved Greatsword,17,9.0
-Engraved Wand,821,2.739620853080569
+Engraved Wand,822,2.7404255319148936
 Estoc,399,2.0
-Etched Greatsword,406,2.0
+Etched Greatsword,407,2.0
 Eternal Burgonet,399,4.0
-Eternal Sword,1026,5.027491066063692
-Exquisite Leather,942,4.4430573248407645
-Ezomyte Axe,855,3.1192131480704237
+Eternal Sword,1057,5.049189147206545
+Exquisite Leather,979,4.436690500510726
+Ezomyte Axe,859,3.123130377668309
 Ezomyte Blade,400,3.0
-Ezomyte Burgonet,944,4.554747899159665
-Ezomyte Dagger,449,4.620311804008908
-Ezomyte Spiked Shield,73,7.0
-Ezomyte Staff,840,3.625968109339408
-Ezomyte Tower Shield,16,9.55875
+Ezomyte Burgonet,943,4.55367088607595
+Ezomyte Dagger,450,4.622800000000001
+Ezomyte Spiked Shield,82,7.0
+Ezomyte Staff,842,3.6274376417233567
+Ezomyte Tower Shield,14,9.57
 Feathered Arrow Quiver,798,2.0
-Festival Mask,468,3.1096153846153847
-Fiend Dagger,443,3.0085778781038375
-Fingerless Silk Gloves,373,5.0
-Fishing Rod,13,9.0
+Festival Mask,470,3.117234042553192
+Fiend Dagger,456,3.0625
+Fingerless Silk Gloves,388,5.0
+Fishing Rod,15,9.0
 Flaying Knife,399,2.0
-Fluted Bascinet,17,9.0
+Fluted Bascinet,22,8.0
 Fright Claw,399,2.0
 Fugitive Boots,399,3.0
 Full Dragonscale,401,4.0
 Full Wyrmscale,403,4.0
-Gavel,442,4.279090909090909
-Gemstone Sword,18,9.55
-Ghastly Eye Jewel,21,8.0
+Gavel,443,4.031473922902495
+Gemstone Sword,22,8.716363636363637
+Ghastly Eye Jewel,20,8.0
 Gilded Sallet,399,4.0
-Girded Tower Shield,8,10.0
-Gladiator Plate,93,6.0
+Girded Tower Shield,7,10.0
+Gladiator Plate,92,6.0
 Gladius,423,3.919148936170213
-Glorious Plate,245,6.255000000000001
-Gnarled Branch,836,2.835131264916468
+Glorious Plate,253,6.270872483221478
+Gnarled Branch,837,2.837129186602871
 Goat's Horn,399,2.0
-Goathide Boots,541,3.080961182994455
+Goathide Boots,551,3.103448275862069
 Goathide Gloves,399,1.0
-Gold Amulet,1287,2.6360801781737195
-Gold Flask,12,9.0
+Gold Amulet,1289,2.6400890868596885
+Gold Flask,13,9.0
 Gold Ring,1197,2.1
 Golden Buckler,3,11.0
 Golden Mask,798,1.0
-Golden Plate,417,3.4671942446043174
+Golden Plate,420,3.3120000000000003
 Goliath Gauntlets,399,2.0
 Goliath Greaves,5,11.0
 Graceful Sword,48,7.0
-Grand Mana Flask,76,7.0
-Granite Flask,618,5.25
-Great Crown,662,3.848471104435601
-Great Helmet,451,3.0421286031042127
-Great Mallet,771,4.211910755148741
+Grand Mana Flask,80,7.0
+Granite Flask,636,5.267356948228883
+Great Crown,683,3.907489006436811
+Great Helmet,450,3.0380000000000003
+Great Mallet,778,4.226905098039215
 Greater Mana Flask,399,2.0
 Greatwolf Talisman,51,7.0
-Grinning Fetish,447,3.0255033557046977
+Grinning Fetish,446,3.0213004484304937
 Gut Ripper,831,2.7475000000000005
 Hallowed Hybrid Flask,399,3.0
 Harbinger Bow,806,3.370521091811415
-Harbinger Map,112,6.982500000000001
-Harlequin Mask,416,4.062980769230769
+Harbinger Map,107,6.983551401869159
+Harlequin Mask,417,4.068776978417267
 Harmonic Spirit Shield,399,2.0
-Headsman Axe,404,2.0
+Headsman Axe,405,2.0
 Heavy Arrow Quiver,399,3.0
-Heavy Belt,2770,3.3713230311960807
-Hellion's Paw,31,9.0
-Highborn Staff,126,6.6000000000000005
+Heavy Belt,2783,3.3973934837092736
+Hellion's Paw,29,9.0
+Highborn Staff,132,6.604090909090909
 Highland Blade,405,2.0
 Holy Chainmail,399,4.0
-Hubris Circlet,1210,4.415776699029127
-Hydrascale Boots,20,9.0
-Hydrascale Gauntlets,131,7.129117647058824
-Hypnotic Eye Jewel,20,8.0
+Hubris Circlet,1213,4.419277108433736
+Hydrascale Boots,22,9.0
+Hydrascale Gauntlets,126,7.6
+Hypnotic Eye Jewel,18,9.0
 Imbued Wand,1197,2.1500000000000004
-Imperial Bow,205,6.80180942408377
-Imperial Claw,494,4.0555375253549695
-Imperial Maul,136,6.0
-Imperial Skean,419,3.0802863961813847
+Imperial Bow,209,6.779717425431711
+Imperial Claw,498,4.075050301810865
+Imperial Maul,140,6.0
+Imperial Skean,422,3.0973459715639815
 Imperial Staff,1607,3.0
-Imperial Staff Piece,26,9.249230769230769
+Imperial Staff Piece,28,9.258666666666667
 Infernal Axe,399,3.0
-Infernal Sword,443,3.5580373831775702
-Iron Circlet,604,2.907649006622517
-Iron Flask,120,7.834951456310679
+Infernal Sword,448,3.624166666666667
+Iron Circlet,608,2.913125
+Iron Flask,127,7.31764705882353
 Iron Gauntlets,399,1.0
 Iron Hat,399,1.0
 Iron Mask,399,2.0
@@ -227,302 +228,302 @@ Iron Staff,1205,2.0
 Ironscale Boots,399,1.0
 Ironscale Gauntlets,399,2.0
 Ironwood Buckler,399,3.0
-Jade Amulet,1777,3.3113197278911564
+Jade Amulet,1777,3.3099767711962835
 Jade Hatchet,399,1.0
 Jagged Foil,399,2.0
 Jagged Maul,404,2.0
-Jasper Chopper,446,3.1464573991031397
-Jewelled Foil,208,5.0
-Jingling Spirit Shield,78,7.0
-Judgement Staff,853,4.986362877796418
-Karui Chopper,416,3.0
+Jasper Chopper,447,3.1573154362416114
+Jewelled Foil,215,5.0
+Jingling Spirit Shield,80,7.0
+Judgement Staff,865,5.000373032373032
+Karui Chopper,415,3.0
 Karui Maul,34,8.0
-Karui Sceptre,482,3.9292946058091287
-Lacquered Buckler,796,4.964232869373671
-Lacquered Garb,632,2.922594936708861
-Lacquered Helmet,472,3.1247881355932208
-Laminated Kite Shield,444,3.0128378378378384
-Lapis Amulet,2013,3.247871477254287
-Large Cluster Jewel,10,9.0
+Karui Sceptre,494,3.7223076923076923
+Lacquered Buckler,839,4.872668584579977
+Lacquered Garb,646,2.9383591331269354
+Lacquered Helmet,528,2.313068181818182
+Laminated Kite Shield,435,3.168551724137931
+Lapis Amulet,2015,3.2443926044227522
+Large Cluster Jewel,8,10.0
 Large Hybrid Flask,399,4.0
 Lathi,399,4.0
-Latticed Ringmail,405,2.0
-Leather Belt,2703,2.7515398886827462
+Latticed Ringmail,406,2.0
+Leather Belt,2714,2.781818181818182
 Leather Cap,399,1.0
-Leather Hood,341,5.485043988269795
+Leather Hood,361,5.487534626038782
 Legion Boots,798,2.74
-Legion Gloves,492,2.9575609756097565
+Legion Gloves,500,2.9793600000000002
 Legion Sword,399,3.0
-Legion Sword Piece,22,9.600000000000001
-Lich's Circlet,194,6.0
+Legion Sword Piece,23,9.576470588235296
+Lich's Circlet,226,5.0
 Lion Pelt,399,4.0
-Lion Sword,313,5.0
+Lion Sword,316,5.0
 Long Bow,411,2.0
 Lunaris Circlet,399,2.0
-Maelström Staff,424,4.880763723150358
-Magistrate Crown,12,9.530000000000001
+Maelström Staff,425,4.893971291866029
+Magistrate Crown,15,10.108846153846153
 Majestic Plate,271,5.0
-Maple Round Shield,41,8.0
+Maple Round Shield,43,7.0
 Marble Amulet,399,3.0
-Martyr Gloves,122,6.0
-Maze Map,28,8.0
-Meatgrinder,208,5.0
-Medium Cluster Jewel,37,8.0
+Martyr Gloves,126,6.0
+Maze Map,29,8.0
+Meatgrinder,225,5.0
+Medium Cluster Jewel,41,8.0
 Mesh Boots,399,1.0
 Mesh Gloves,798,2.1100000000000003
-Midnight Blade,1025,3.855541649651285
-Military Staff,399,4.0
+Midnight Blade,1041,3.8645147916520273
+Military Staff,400,4.0
 Mind Cage,800,4.84209476309227
-Mirrored Spiked Shield,422,4.731563981042655
-Moon Temple Map,42,7.0
-Moonstone Ring,1845,2.641563055062167
+Mirrored Spiked Shield,428,4.7538317757009345
+Moon Temple Map,40,8.0
+Moonstone Ring,1848,2.6451336898395725
 Mosaic Kite Shield,399,3.0
-Murder Boots,574,5.596007351622736
-Murder Mitts,218,6.446721342742705
+Murder Boots,641,5.601893592067385
+Murder Mitts,234,6.4910934550031465
 Murderous Eye Jewel,21,8.0
-Museum Map,52,7.0
-Nailed Fist,440,3.1948181818181816
-Nameless Ring,318,6.0
-Necromancer Circlet,437,4.979811320754718
-Necromancer Silks,449,3.8233407572383076
+Museum Map,50,7.0
+Nailed Fist,442,3.0042986425339366
+Nameless Ring,323,6.0
+Necromancer Circlet,440,5.014018691588785
+Necromancer Silks,445,3.0123595505617984
 Necropolis Map,68,7.0
 Nightmare Bascinet,798,2.74
-Nightmare Mace,48,7.0
+Nightmare Mace,53,7.0
 Nubuck Boots,399,2.0
 Nubuck Gloves,399,2.0
-Occultist's Vestment,180,6.0
-Omen Wand,399,5.0
-Onyx Amulet,2375,3.980451127819549
-Opal Ring,560,4.898519388954172
+Occultist's Vestment,198,5.0
+Omen Wand,399,4.0
+Onyx Amulet,2385,3.990476190476191
+Opal Ring,558,4.959114407241794
 Opal Sceptre,399,2.0
-Opal Wand,114,6.460000000000001
-Ornate Mace,441,3.8000000000000003
-Ornate Quiver,239,5.611799163179917
+Opal Wand,117,6.657586206896553
+Ornate Mace,443,3.8068623024830703
+Ornate Quiver,250,5.62112
 Ornate Ringmail,407,2.0
 Ornate Sword,401,2.0
-Overgrown Shrine Map,115,6.0
+Overgrown Shrine Map,121,6.0
 Pagan Wand,155,6.0
 Painted Buckler,399,2.0
 Painted Tower Shield,399,4.0
 Papyrus Relic,3,11.0
-Paua Amulet,595,3.602984777993586
-Paua Ring,1679,2.4551545892931896
+Paua Amulet,605,3.6596986817325794
+Paua Ring,1679,2.3463910318094587
 Penetrating Arrow Quiver,399,2.0
 Pig-Faced Bascinet,1,12.0
 Pine Buckler,399,2.0
-Pinnacle Tower Shield,410,4.856341463414634
+Pinnacle Tower Shield,409,4.851344743276284
 Plague Mask,399,2.0
-Plank Kite Shield,399,2.0
-Plate Vest,411,2.0
-Plated Greaves,399,2.0
+Plank Kite Shield,399,1.0
+Plate Vest,413,2.0
+Plated Greaves,399,1.0
 Platinum Kris,399,2.0
 Platinum Sceptre,399,2.0
 Poleaxe,403,2.0
 Polished Spiked Shield,399,2.0
-Praetor Crown,1034,4.159932670659701
-Primal Arrow Quiver,427,3.9377049180327877
+Praetor Crown,1046,4.204583030156035
+Primal Arrow Quiver,432,3.960416666666667
 Primordial Fragment,3,11.3
 Primordial Staff,401,4.296758104738155
-Prismatic Jewel,453,5.13614849187935
-Prismatic Ring,1004,1.8360194174757292
-Processional Relic,70,7.428000000000001
+Prismatic Jewel,445,5.067358490566038
+Prismatic Ring,982,1.9788659793814436
+Processional Relic,74,7.433513513513514
 Promenade Map,102,6.0
-Prophecy Wand,31,8.0
-Prophet Crown,926,3.534610778443114
+Prophecy Wand,38,8.0
+Prophet Crown,928,3.53676
 Quarterstaff,8,10.0
-Quartz Flask,478,3.9176569037656908
+Quartz Flask,480,3.9235000000000007
 Quicksilver Flask,399,2.0
-Ranger Bow,387,5.613488372093024
-Raven Mask,272,5.0
-Rawhide Boots,25,8.0
+Ranger Bow,394,5.413807106598985
+Raven Mask,284,5.0
+Rawhide Boots,16,9.0
 Rawhide Tower Shield,399,3.0
 Reaver Helmet,399,4.0
-Reaver Sword,801,3.0
+Reaver Sword,803,3.0
 Recurve Bow,402,2.0
-Regicide Mask,908,3.9210710469690926
+Regicide Mask,911,3.9231259790100252
 Reinforced Greaves,399,3.0
 Reinforced Tower Shield,399,2.0
-Ring,30,8.0
+Ring,32,8.0
 Ritual Sceptre,399,4.0
-Riveted Boots,58,7.0
+Riveted Boots,71,7.0
 Riveted Gloves,1,12.0
 Rock Breaker,399,2.0
 Rotfeather Talisman,399,2.0
 Rotted Round Shield,399,2.0
 Royal Axe,399,4.0
-Royal Bow,400,4.0
-Royal Burgonet,14,9.5
+Royal Bow,401,4.0
+Royal Burgonet,19,9.452631578947368
 Royal Sceptre,399,4.0
 Royal Skean,412,3.2127669902912626
 Royal Staff,403,2.0
-Ruby Flask,46,8.251304347826087
-Ruby Ring,1722,3.8488126424658935
-Runic Crown,4,10.0
-Runic Gages,286,5.0
-Runic Gauntlets,112,6.0
-Runic Helm,72,7.0
-Runic Sabatons,56,7.0
-Runic Sollerets,65,7.0
+Ruby Flask,41,8.272682926829269
+Ruby Ring,1732,3.8843938353679297
+Runic Crown,2,11.0
+Runic Gages,316,5.0
+Runic Gauntlets,119,6.0
+Runic Helm,78,7.0
+Runic Sabatons,61,7.0
+Runic Sollerets,71,7.0
 Rusted Sword,399,2.0
-Rustic Sash,1409,2.0840534670008353
+Rustic Sash,1413,2.0913918128654974
 Sabre,399,2.0
-Sacrificial Garb,9,9.0
-Sadist Garb,468,4.888521739130435
-Sage Wand,547,3.6596985653645695
-Sage's Robe,444,3.17
-Saint's Hauberk,487,4.929873949579832
-Saintly Chainmail,773,4.363208279430789
-Samite Gloves,441,3.0
+Sacrificial Garb,11,9.0
+Sadist Garb,485,4.9745911949685535
+Sage Wand,552,3.685237266504235
+Sage's Robe,447,3.1855033557046983
+Saint's Hauberk,495,4.943941908713693
+Saintly Chainmail,787,4.366531130876748
+Samite Gloves,445,3.017078651685393
 Samnite Helmet,399,2.0
 Sanctified Life Flask,399,3.0
-Sanctified Mana Flask,455,3.846769230769231
-Sapphire Flask,171,6.0
-Sapphire Ring,2075,4.321014799154335
-Satin Gloves,891,3.555916009536035
+Sanctified Mana Flask,456,3.85
+Sapphire Flask,168,6.0
+Sapphire Ring,2079,4.189453781512605
+Satin Gloves,903,3.570263157894737
 Satin Slippers,399,4.0
-Savant's Robe,14,10.0
+Savant's Robe,16,9.34375
 Scholar Boots,399,2.0
-Scholar's Robe,426,4.0
-Seaglass Amulet,217,5.0
-Searching Eye Jewel,13,9.0
+Scholar's Robe,431,4.0
+Seaglass Amulet,223,5.0
+Searching Eye Jewel,17,9.0
 Secutor Helm,399,2.0
-Sentinel Jacket,448,3.2184375000000003
-Serpentine Staff,458,3.070524017467249
+Sentinel Jacket,451,3.066164079822617
+Serpentine Staff,462,3.086363636363637
 Serpentscale Boots,399,4.0
 Serpentscale Gauntlets,399,4.0
 Serrated Arrow Quiver,399,2.0
 Shackled Boots,399,2.0
 Shadow Axe,411,2.0
-Shadow Sceptre,462,5.589019607843138
-Shagreen Boots,455,3.6335307517084283
+Shadow Sceptre,468,5.611354838709678
+Shagreen Boots,461,3.414446952595937
 Shagreen Gloves,399,3.0
 Sharkskin Boots,399,4.0
 Sharkskin Tunic,409,4.0
 Sharktooth Arrow Quiver,798,1.37
-Shore Map,146,6.0
-Short Bow,464,2.2532758620689655
-Siege Axe,7,10.0
-Silk Gloves,291,5.0
+Shore Map,147,6.0
+Short Bow,466,2.2574248927038623
+Siege Axe,6,10.0
+Silk Gloves,309,5.0
 Silk Slippers,438,2.3817808219178085
-Silken Hood,461,3.4631004366812226
-Silken Vest,414,1.0
-Silver Flask,479,3.1507306889352824
-Simple Robe,812,4.324533108413705
-Sinner Tricorne,664,5.122725223774873
+Silken Hood,466,3.5069264069264072
+Silken Vest,412,1.0
+Silver Flask,480,3.154375
+Simple Robe,814,4.20418006332968
+Sinner Tricorne,689,4.277182821524562
 Skinning Knife,399,2.0
-Slaughter Knife,23,8.0
+Slaughter Knife,22,8.0
 Sledgehammer,402,2.0
-Slink Boots,59,8.351428571428572
-Slink Gloves,177,6.0
-Small Cluster Jewel,320,7.200000000000001
-Solaris Circlet,942,5.869463796477495
-Soldier Boots,431,3.1470997679814388
-Soldier Gloves,401,3.458852867830424
+Slink Boots,70,8.363428571428571
+Slink Gloves,189,6.0
+Small Cluster Jewel,330,7.200000000000001
+Solaris Circlet,980,5.181864735462472
+Soldier Boots,436,3.173853211009174
+Soldier Gloves,402,3.468208955223881
 Soldier Helmet,399,1.0
-Sorcerer Boots,432,5.111566265060241
+Sorcerer Boots,438,4.936133651551312
 Sovereign Spiked Shield,27,8.0
-Spidersilk Robe,484,3.5452747252747256
-Spike-Point Arrow Quiver,434,3.9693548387096773
+Spidersilk Robe,477,3.5122767857142856
+Spike-Point Arrow Quiver,432,3.960416666666667
 Spiked Club,399,2.0
-Spiked Gloves,149,6.0
-Spine Bow,412,4.856067961165049
+Spiked Gloves,159,6.0
+Spine Bow,414,4.865942028985508
 Spiraled Wand,798,3.11
-Stealth Boots,431,3.1470997679814388
-Steel Circlet,571,4.573029772329248
+Stealth Boots,435,3.168551724137931
+Steel Circlet,580,4.582137931034483
 Steel Gauntlets,399,4.0
-Steel Kite Shield,191,6.821989528795813
-Steel Ring,503,4.493677932405567
+Steel Kite Shield,202,5.984950495049505
+Steel Ring,505,4.496316831683169
 Steelhead,402,3.0
-Steelscale Gauntlets,619,4.309273021001616
-Steelwood Bow,49,7.0
-Stibnite Flask,478,5.709278911564626
-Stiletto,425,3.114164705882353
-Strand Map,142,6.0
+Steelscale Gauntlets,641,4.318564742589704
+Steelwood Bow,51,7.0
+Stibnite Flask,501,5.720589626933576
+Stiletto,426,3.119718309859155
+Strand Map,145,6.0
 Strapped Boots,399,1.0
 Strapped Mitts,399,1.0
-Studded Belt,267,6.0
+Studded Belt,265,6.0
 Studded Round Shield,399,2.0
-Stygian Vise,183,6.0
-Sulphur Flask,913,3.2304503804242213
-Sun Leather,408,2.0
+Stygian Vise,184,6.0
+Sulphur Flask,918,3.239910943366321
+Sun Leather,403,2.0
 Supreme Spiked Shield,399,3.0
-Synthesised Map,577,6.155368421052632
-Tarnished Spirit Shield,798,3.11
+Synthesised Map,584,6.1514772727272735
+Tarnished Spirit Shield,798,2.74
 Teak Round Shield,399,3.0
-Temple Map,118,6.5761016949152555
-Terror Claw,657,3.6498630136986305
+Temple Map,119,6.5858823529411765
+Terror Claw,663,3.65447963800905
 Terror Maul,409,4.015452322738387
 Thresher Claw,399,2.0
 Throat Stabber,399,2.0
-Tiger Sword,400,2.0
-Timeless Jewel,1675,4.567140600315955
+Tiger Sword,401,2.0
+Timeless Jewel,1742,4.625628140703517
 Timeworn Claw,399,2.0
-Titan Gauntlets,805,3.8472413793103453
-Titan Greaves,477,5.333333333333333
-Titanium Spirit Shield,60,7.627000000000001
+Titan Gauntlets,805,3.45075015124017
+Titan Greaves,484,5.033870967741936
+Titanium Spirit Shield,63,7.506666666666668
 Tomahawk,399,2.0
-Tome Relic,108,7.276666666666667
-Topaz Flask,2,11.0
-Topaz Ring,1727,2.6416216216216215
-Tornado Wand,65,7.0
-Torturer Garb,359,5.0
+Tome Relic,117,7.274871794871796
+Topaz Flask,3,11.0
+Topaz Ring,1732,2.6461950286806886
+Tornado Wand,71,7.0
+Torturer Garb,391,5.0
 Trapper Boots,399,4.0
 Tribal Circlet,399,2.0
 Tricorne,399,3.0
-Triumphant Lamellar,430,4.173617021276596
-Turquoise Amulet,1974,2.666338797814208
+Triumphant Lamellar,431,4.178541176470588
+Turquoise Amulet,1995,2.6737305699481864
 Twilight Blade,399,3.0
-Two-Point Arrow Quiver,444,3.0128378378378384
-Two-Stone Ring,1940,2.982067686038785
-Two-Toned Boots,204,5.0
+Two-Point Arrow Quiver,446,3.0213004484304937
+Two-Stone Ring,1919,2.967167919799499
+Two-Toned Boots,220,5.0
 Tyrant's Sekhem,399,2.0
 Underground River Map,67,7.0
-Underground Sea Map,105,6.0
-Unset Ring,4032,4.4
-Urn Relic,165,6.0
+Underground Sea Map,108,6.0
+Unset Ring,4040,4.4
+Urn Relic,168,6.0
 Ursine Pelt,399,2.0
-Vaal Aspect,61,7.983793103448276
-Vaal Axe,414,5.744525547445257
+Vaal Aspect,64,7.9590163934426235
+Vaal Axe,419,5.791346153846154
 Vaal Blade,422,4.731563981042655
 Vaal Buckler,399,3.0
-Vaal Claw,481,3.545372460496614
-Vaal Gauntlets,199,6.6642857142857155
+Vaal Claw,476,3.5157657657657664
+Vaal Gauntlets,207,6.670392156862745
 Vaal Greaves,399,3.0
 Vaal Hatchet,399,4.0
 Vaal Mask,414,4.876086956521739
-Vaal Pyramid Map,22,8.0
-Vaal Rapier,232,6.0
-Vaal Regalia,419,4.050214797136038
-Vaal Sceptre,303,5.806622516556291
-Vaal Spirit Shield,29,9.0
+Vaal Pyramid Map,17,9.0
+Vaal Rapier,225,6.0
+Vaal Regalia,420,4.062
+Vaal Sceptre,319,5.798238993710692
+Vaal Spirit Shield,33,8.312727272727273
 Vanguard Belt,506,2.9952569169960475
-Varnished Coat,410,4.9845853658536585
+Varnished Coat,415,4.9964337349397585
 Velvet Gloves,399,1.0
 Velvet Slippers,399,1.0
-Vermillion Ring,99,6.0
-Vile Arrow Quiver,443,3.8068623024830703
-Vile Staff,371,5.0
+Vermillion Ring,100,6.0
+Vile Arrow Quiver,447,3.0255033557046977
+Vile Staff,381,5.0
 Vine Circlet,399,2.0
-Viridian Jewel,1840,6.200000000000001
-Visored Sallet,29,8.0
-Void Axe,121,6.0
-Void Sceptre,661,5.401207547169811
+Viridian Jewel,1912,5.462465753424658
+Visored Sallet,32,8.0
+Void Axe,125,6.0
+Void Sceptre,676,5.476704805491991
 War Buckler,399,2.0
 War Hammer,798,2.0
-War Sword,440,3.1948181818181816
-Waxed Garb,61,7.0
+War Sword,441,3.0
+Waxed Garb,65,7.0
 Wereclaw Talisman,399,4.0
 Whalebone Rapier,399,2.0
-Widowsilk Robe,500,5.76154478060509
-Wild Leather,413,2.0
+Widowsilk Robe,522,5.756622662011884
+Wild Leather,414,1.0
 Wolf Pelt,399,1.0
-Woodsplitter,408,1.0
+Woodsplitter,409,1.0
 Wool Gloves,399,2.0
 Wool Shoes,399,1.0
 Wrapped Mitts,399,1.0
-Wyrmscale Boots,42,7.0
-Wyrmscale Doublet,66,7.0
+Wyrmscale Boots,37,8.0
+Wyrmscale Doublet,70,7.0
 Wyrmscale Gauntlets,798,2.0
-Zealot Gloves,665,4.771603773584906
-Zealot Helmet,402,3.468208955223881
-Zodiac Leather,240,7.059762578616352
+Zealot Gloves,694,4.780364741641337
+Zealot Helmet,403,3.3133498759305215
+Zodiac Leather,277,7.077898059387422
